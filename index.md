@@ -13,5 +13,4 @@ The Cava laboratory is part of the [Computational Health Informatics Program](ht
 ### Join the Team!
 
 We're new, and growing. 
-If you're excited to do a post-doc or graduate studies at the intersection of interpretability, fairness, and health informatics, please contact {{ site.email }}. 
-
+If you're looking to do a post-doc, graduate studies, or undergraduate research at the intersection of interpretability, fairness, and health informatics, please contact {{ site.email }}. 
