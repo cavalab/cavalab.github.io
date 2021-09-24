@@ -1,0 +1,12 @@
+---
+---
+
+@import "minima/skins/{{ site.minima.skin | default: 'classic' }}";
+@import "minima/initialize";
+
+img.resize {
+    width: auto;
+    height: auto;
+    max-width:100%; /* you can use % */
+    max-height:100%; /* you can use % */
+}

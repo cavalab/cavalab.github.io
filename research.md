@@ -17,3 +17,18 @@ Our research focuses on addressing these challenges by developing flexible searc
 Our long-term interests are to incorporate the manual tasks of today's data scientists, including steps like data cleaning, feature engineering, code writing, and result generation, into a robust learning framework. 
 Automating these time-intensive aspects of data science would allow domain experts to go quickly from data collection to knowledge discovery. 
 The biomedical sciences are particularly suited to these advances, since there are many experts in highly specialized disciplines who are eager to shed light on the processes they study by leveraging large data collections.
+
+### Projects
+
+[**Intelligible Predictive Health Models**](interpretable-ml)
+
+[![aTRH model](/docs/assets/aTRH_model.svg)](interpretable-ml){: width="250"}
+
+[**Fair Machine Learning for Health Care**](fair-ml)
+
+[![pareto_front](/docs/assets/pareto_adult.png)](fair-ml){: width="250"}
+
+[**Automating Digital Health**](automl)
+
+[![PennAI](/docs/assets/pennai_overview_r2.png)](autml){: width="250"}
+

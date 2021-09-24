@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Papers
-permalink: /papers/
+title: Publications
+permalink: /publications/
 ---
 
 La Cava, W., Orzechowski, P., Burlacu, B., França, F. O. de, Virgolin, M., Jin, Y., Kommenda, M., & Moore, J. H. (2021). 

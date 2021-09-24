@@ -19,3 +19,4 @@ Prior to joining CHIP, he was a post-doctoral fellow and research associate in t
 
 We're new, and growing. 
 If you're looking to do a post-doc, graduate studies, or undergraduate research at the intersection of interpretability, fairness, and health informatics, please contact {{ site.email }}. 
+More information on opportunities is [here](/join). 

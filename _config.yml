@@ -66,6 +66,8 @@ kramdown:
 #   - vendor/ruby/
 #
 header_pages:
+  - join.md
   - members.md
   - research.md
-  - papers.md
+  - publications.md
+
