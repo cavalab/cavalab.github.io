@@ -22,13 +22,18 @@ The biomedical sciences are particularly suited to these advances, since there a
 
 [**Intelligible Predictive Health Models**](interpretable-ml)
 
-[![aTRH model](/docs/assets/aTRH_model.svg)](interpretable-ml){: width="250"}
+<a href="interpretable-ml">
+<img src="/docs/assets/aTRH_model.svg" alt="aTRH model" width="50%">
+</a>
 
 [**Fair Machine Learning for Health Care**](fair-ml)
 
-[![pareto_front](/docs/assets/pareto_adult.png)](fair-ml){: width="250"}
+<a href="fair-ml">
+<img src="/docs/assets/pareto_adult.png" alt="fair-ml" width="50%">
+</a>
 
 [**Automating Digital Health**](automl)
 
-[![PennAI](/docs/assets/pennai_overview_r2.png)](autml){: width="250"}
-
+<a href="automl">
+<img src="/docs/assets/pennai_overview_r2.png" alt="autoML" width="50%">
+</a>
