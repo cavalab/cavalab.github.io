@@ -10,9 +10,9 @@ William La Cava directs the Cava laboratory and is a new faculty member in the C
 He received his PhD from UMass Amherst in 2016, with a focus on interpretable modeling of dynamical systems. 
 Prior to joining CHIP, he was a post-doctoral fellow and research associate in the [Institute for Biomedical Informatics](upibi.org) at the University of Pennsylvania. 
 
-- [personal website](williamlacava.com)
-- [@lacava](github.com/lacava) on github
-- [@w_la_cava](twitter.com/w_la_cava) on twitter
+- [personal website](www.williamlacava.com)
+- [@lacava](https://github.com/lacava) on github
+- [@w_la_cava](https://twitter.com/w_la_cava) on twitter
 
 
 ## Join the Team!
