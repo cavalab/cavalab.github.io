@@ -13,7 +13,7 @@ Doing will accelerate the analysis of complex data in the biomedical and health 
 
 *Accessible, Automatic Data Science*: [github.com/EpistasisLab/pennai](https://github.com/EpistasisLab/pennai/)
 
-See my [post](/research/pennai-paper) talking about our Bioinformatics paper [1]. 
+See my [post](http://williamlacava.com/research/pennai-paper) talking about our Bioinformatics paper [1]. 
 
 1. La Cava, W., Williams, H., Fu, W., & Moore, J. H. (2020). 
    Evaluating recommender systems for AI-driven biomedical informatics. 
