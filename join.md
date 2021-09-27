@@ -9,15 +9,18 @@ Our goals are to cultivate an environment for critical thinking, research creati
 In addition, this lab is a good fit for those who wish to gain expertise in biomedical informatics and machine learning, especially when interpretability and fairness are central concerns. 
 
 Check out the opportunities below to get involved with the lab. 
-For general inquiries, please contact {{ site.email }}. 
+For general inquires, contact {{ site.email }} with a description of your research, a CV, a sample publication (if applicable), and two reference contacts. 
 
-## Post-doctorate Studies
+## Post-doctorate Fellowship
 
-Please contact {{ site.email }} with a description of your research, a CV and two reference contacts. In addition, if you are a US citizen or resident, please apply to this CHIP program: [Postdoctoral Training in Informatics, Genomics, Machine Learning, Artificial Intelligence, Biomedical Data Science](http://www.chip.org/training/postdoctoral-training-informatics-genomics-machine-learning-artificial-intelligence). Please indicate in your letter that you would like to work with me. 
+Current Opportunities:
+
+- [**Postdoctoral Research Fellowship in Interpretable and Fair Machine Learning for Clinical Decision Support**](postdoctoral_fellow)
+
+- If you are a US citizen or resident, you may apply to this CHIP program: [Postdoctoral Training in Informatics, Genomics, Machine Learning, Artificial Intelligence, Biomedical Data Science](http://www.chip.org/training/postdoctoral-training-informatics-genomics-machine-learning-artificial-intelligence). It is best to contact me beforehand to discuss. 
 
 
 ## Graduate Students
-
 
 Current Harvard/MIT students: contact {{ site.email }} with a description of your research, a CV and two reference contacts.
 
@@ -31,4 +34,4 @@ Prospective students: consider these programs:
 
 **Harvard undergraduates**: please apply through the [CHIP AI/ML internship program](http://www.chip.org/internship/chip-ai-internship).
 I welcome students from other Boston colleges as well. 
-Please contact {{ site.email }} with a description of your research goals, a CV and two reference contacts.
+If you would like to work with me, please indicate so on your cover letter.
