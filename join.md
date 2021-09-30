@@ -13,8 +13,6 @@ For general inquires, contact {{ site.email }} with a description of your resear
 
 ## Post-doctorate Fellowship
 
-Current Opportunities:
-
 - [**Postdoctoral Research Fellowship in Interpretable and Fair Machine Learning for Clinical Decision Support**](postdoctoral_fellow)
 
 - If you are a US citizen or resident, you may apply to this CHIP program: [Postdoctoral Training in Informatics, Genomics, Machine Learning, Artificial Intelligence, Biomedical Data Science](http://www.chip.org/training/postdoctoral-training-informatics-genomics-machine-learning-artificial-intelligence). It is best to contact me beforehand to discuss. 
@@ -30,7 +28,7 @@ Prospective students: consider these programs:
 - <https://hst.mit.edu/>
 
 
-## Undergradates
+## Undergraduates
 
 **Harvard undergraduates**: please apply through the [CHIP AI/ML internship program](http://www.chip.org/internship/chip-ai-internship).
 I welcome students from other Boston colleges as well. 
