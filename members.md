@@ -15,6 +15,15 @@ Prior to joining CHIP, he was a post-doctoral fellow and research associate in t
 - [@w_la_cava](https://twitter.com/w_la_cava) on twitter
 
 
+## Sid Bharthulwar 
+<img style="float: left; padding: 0px 10px 0px 0px;" width="150" height="150" src="/docs/assets/sid.jpg" alt="pic of Sid"/>
+Sid Bharthulwar is a current undergraduate at Harvard College, likely concentrating in computer science with an economics secondary. 
+Prior to interning at Boston Children's Hospital, Sid conducted machine learning research at the University of Pennsylvania's Medical School and the University of Colorado, as well as working as a software engineer at an early-stage machine learning startup. 
+
+- [personal website](https://bharthulwar.com)
+- [siddharthbharthulwar](https://github.com/siddharthbharthulwar) on github
+- [linkedin](https://www.linkedin.com/in/sbharthulwar/) 
+
 ## Join the Team!
 
 We're new, and growing. 
