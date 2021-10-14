@@ -6,11 +6,9 @@ title: Members
 
 ## William La Cava, PhD 
 
-<a href="http://williamlacava.com" title="personal site">
-<img style="float: left; padding: 0px 10px 0px 0px;" width="150" height="150" src="/docs/assets/profile_pic_small.JPG" alt="pic of William La Cava"/>
-</a>
+<img style="float: left; padding: 0px 20px 0px 0px;" width="150" height="150" src="/docs/assets/profile_pic_small.JPG" alt="pic of William La Cava"/>
 
-William La Cava directs the Cava laboratory and is a new faculty member in the Computational Health Informatics Program [(CHIP)](chip.org) at Boston Children's Hospital and Harvard Medical School. 
+[William La Cava](http://williamlacava.com) directs the Cava laboratory and is a new faculty member in the Computational Health Informatics Program [(CHIP)](chip.org) at Boston Children's Hospital and Harvard Medical School. 
 He received his PhD from UMass Amherst with a focus on interpretable modeling of dynamical systems. 
 Prior to joining CHIP, he was a post-doctoral fellow and research associate in the [Institute for Biomedical Informatics](https://upibi.org) at the University of Pennsylvania. 
 
@@ -22,12 +20,9 @@ Prior to joining CHIP, he was a post-doctoral fellow and research associate in t
 
 
 ## Sid Bharthulwar 
-<a href="https://bharthulwar.com" title="personal site">
-<img style="float: left; padding: 0px 10px 0px 0px;" width="150" height="150" src="/docs/assets/sid.jpg" alt="pic of Sid"/>
-</a>
-Sid Bharthulwar is a current undergraduate at Harvard College, likely concentrating in computer science with an economics secondary. 
+<img style="float: left; padding: 0px 20px 0px 0px;" width="150" height="150" src="/docs/assets/sid.jpg" alt="pic of Sid"/>
+[Sid Bharthulwar](https://bharthulwar.com) is a current undergraduate at Harvard College, likely concentrating in computer science with an economics secondary. 
 Prior to interning at Boston Children's Hospital, Sid conducted machine learning research at the University of Pennsylvania's Medical School and the University of Colorado, as well as working as a software engineer at an early-stage machine learning startup. 
-
 
 <a href="https://github.com/siddharthbharthulwar"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg></a>
 <a href="https://www.linkedin.com/in/sbharthulwar/"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#linkedin"></use></svg></a>
