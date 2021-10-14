@@ -38,7 +38,7 @@ plugins:
 
 jekyll_analytics: 
   GoogleAnalytics:          # Add, if you want to track with Google Analytics
-    id: G-8CVW0XBQDT          # Required - replace with your tracking id 
+    id: UA-49830993-2          # Required - replace with your tracking id 
 
 # auto-generate id's for headings
 markdown: kramdown
