@@ -32,13 +32,11 @@ github_username:  cavalab
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-analytics
   - jekyll-redirect-from
+  - jekyll-seo-tag
   # - jekyll-katex
 
-jekyll_analytics: 
-  GoogleAnalytics:          # Add, if you want to track with Google Analytics
-    id: UA-49830993-2          # Required - replace with your tracking id 
+google_analytics: UA-49830993-2          # Required - replace with your tracking id 
 
 # auto-generate id's for headings
 markdown: kramdown
