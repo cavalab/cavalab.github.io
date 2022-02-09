@@ -3,10 +3,15 @@ layout: page
 title: Publications
 permalink: /publications/
 ---
+Rodrigues, N. M., Batista, J. E., La Cava, W., Vanneschi, L., & Silva, S. (2020). SLUG: Feature Selection Using Genetic Algorithms and Genetic Programming. 
+*Lecture Notes in Computer Science*
+Springer. 
+To Appear. 
 
 La Cava, W., Orzechowski, P., Burlacu, B., França, F. O. de, Virgolin, M., Jin, Y., Kommenda, M., & Moore, J. H. (2021). 
 Contemporary Symbolic Regression Methods and their Relative Performance. 
-*Proceedings of the Neural Information Processing Systems Track on Datasets and Benchmarks* (Accepted).
+*Neurips Track on Datasets and Benchmarks*.
+[PMLR](https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/c0c7c76d30bd3dcaefc96f40275bdc0a-Abstract-round1.html),
 [arXiv](https://arxiv.org/abs/2107.14351),
 [repo](https://github.com/EpistasisLab/srbench)
 
