@@ -3,7 +3,7 @@ layout: page
 title: Postdoctoral Research Fellowship in Interpretable and Fair Machine Learning for Clinical Decision Support
 ---
 
-*Cross-posted from [Boston Children's Hospital](https://www.childrenshospital.org/research/research-administration/office-of-fellowship-training/research-fellowship-opportunities)*
+*Cross-posted from [Boston Children's Hospital](https://www.childrenshospital.org/research/research-administration/office-fellowship-training/research-fellowship-opportunities)*
 
 The Clarity- and Virtue-guided Algorithms (CAVA) Lab at Boston Children's Hospital / Harvard Medical School is seeking a post-doctoral research fellow to advance the interpretability and fairness of machine learning (ML) models deployed in critical healthcare settings.  The fellow will join a multi-disciplinary team of computer scientists, informaticists, clinicians, engineers and bioethicists to develop and assess clinical prediction algorithms and advance our understanding of the behavior of machine learning models deployed in health settings. The fellow will help us think critically about how machine learning methods affect clinical practice and outcomes; in particular, 1) the conditions under which ML provides or fails to provide insight into disease pathologies, and 2) the conditions under which ML exacerbates or mitigates treatment and outcome disparities between patient subgroups. 
 
