@@ -3,24 +3,26 @@ layout: page
 title: Join the Team!
 ---
 
+[email]:<mailto:{{ site.email | encode_email }}>
+
 We are a multi-disciplinary group, open to students in clinical and biomedical sciences, computer science, statistics, engineering, and related fields. 
 We seek clarity and fairness from complex problems that necessitate interdisciplinary approaches. 
 Our goals are to cultivate an environment for critical thinking, research creativity and open scientific collaboration. 
 In addition, this lab is a good fit for those who wish to gain expertise in biomedical informatics and machine learning, especially when interpretability and fairness are central concerns. 
 
 Check out the opportunities below to get involved with the lab. 
-For general inquires, contact {{ site.email }} with a description of your research, a CV, a sample publication (if applicable), and two reference contacts. 
+For general inquires, [email me][email] with a description of your research, a CV, a sample publication (if applicable), and two reference contacts. 
 
-## Post-doctorate Fellowship
+## Post-doctorate Fellowships
 
-- [**Postdoctoral Research Fellowship in Interpretable and Fair Machine Learning for Clinical Decision Support**](postdoctoral_fellow)
+1. I am recruiting post-docs directly. Apply here: [**Postdoctoral Research Fellowship in Interpretable and Fair Machine Learning for Clinical Decision Support**](postdoctoral_fellow)
 
-- If you are a US citizen or resident, you may apply to this CHIP program: [Postdoctoral Training in Informatics, Genomics, Machine Learning, Artificial Intelligence, Biomedical Data Science](http://www.chip.org/training/postdoctoral-training-informatics-genomics-machine-learning-artificial-intelligence). It is best to contact me beforehand to discuss. 
+2. If you are a US citizen or resident, you may apply to this CHIP program: [Postdoctoral Training in Informatics, Genomics, Machine Learning, Artificial Intelligence, Biomedical Data Science](http://www.chip.org/training/postdoctoral-training-informatics-genomics-machine-learning-artificial-intelligence). It is best to contact me beforehand to discuss. 
 
 
-## Graduate Students
+## PhD Students
 
-Current Harvard/MIT students: contact {{ site.email }} with a description of your research, a CV and two reference contacts.
+Current Harvard/MIT students: [email me][email] with a description of your research, a CV and two reference contacts.
 
 Prospective students: consider these programs:
 
@@ -28,8 +30,11 @@ Prospective students: consider these programs:
 - <https://hst.mit.edu/>
 
 
-## Undergraduates
+## Masters and Undergraduates
 
 **Harvard undergraduates**: please apply through the [CHIP AI/ML internship program](http://www.chip.org/internship/chip-ai-internship).
-I welcome students from other Boston colleges as well. 
 If you would like to work with me, please indicate so on your cover letter.
+
+I welcome students from other Boston colleges as well. 
+[Email me][email] describing your interest, and include a CV and two reference contacts.
+

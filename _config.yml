@@ -20,8 +20,9 @@
 
 title: Cava Lab
 email: william.lacava@childrens.harvard.edu
+# email: {% william.lacava@childrens.harvard.edu
 description: >- # this means to ignore newlines until "baseurl:"
-    Clarity- and Virtue-guided Algorithms Lab
+  Advancing interpretable and fair digital health
 domain: cavalab.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://cavalab.github.io" # the base hostname & protocol for your site, e.g. http://example.com
