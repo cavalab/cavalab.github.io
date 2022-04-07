@@ -53,6 +53,23 @@ He received his PhD from UMass Amherst with a focus on interpretable modeling of
 Prior to joining CHIP, he was a post-doctoral fellow and research associate in the [Institute for Biomedical Informatics](https://upibi.org) at the University of Pennsylvania. 
 
 <br>
+### Elle Lett, PhD, MA, MBiostat
+<div class="profile">
+<img src="/docs/assets/lett_elle.JPG" alt="pic of Elle Lett"/>
+<br>
+<a href="https://ellelett.com"><span style="color: grey;" class="material-icons">person</span></a> 
+<a href="https://scholar.google.com/citations?hl=en&authuser=1&user=Gua_MdkAAAAJ"><span style="color: grey; " class="material-icons">school</span></a> 
+<a href="http://twitter.com/ellelettmdphd"><svg class="my-svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg></a>
+
+</div>
+
+Elle Lett, PhD, MA, MBiostat is a Black, transgender woman, statistician-epidemiologist and physician-in training. 
+Through her work, she applies the theories and principles of Black Feminism to understanding the health impacts of systemic racism, transphobia, and other forms of discrimination on oppressed groups in the United States. 
+She holds a PhD in Epidemiology from the University of Pennsylvania, master’s degrees in Statistics and Biostatistics from The Wharton School and Duke University, respectively, and a bachelor’s degree in Molecular and Cellular Biology from Harvard College. 
+To date, her work has focused on intersectional approaches to transgender health and the health impacts of state-sanctioned violence and other forms of systemic racism. 
+Now, she is turning her focus to algorithmic fairness in clinical prediction models and mitigating systems of inequity in health services provision. 
+She is engaging in this new arm of research through a postdoctoral fellowship at the Boston Children’s Hospital  Computational Health Informatics Program (CHIP), before returning to finish her clinical training.
+<br>
 ### Sid Bharthulwar 
 <div class="profile">
 <img src="/docs/assets/sid.jpg" alt="pic of Sid"/>
@@ -78,4 +95,3 @@ Guangya Wan is a current masters student at Harvard Chan School of Public Health
 Before attending Harvard and joining CHIP, Guangya completed his B.S. in statistics at University of Illinois, Urbana Champaign, with a minor in computer science. 
 Guangya developed and applied innovative machine learning and statistics methods to solve health-related problems at the National Center for Supercomputing Application and the Fields Institude, University of Toronto. 
 He is actively looking for a data-science related internship in Summer 2022.
-
