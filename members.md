@@ -70,19 +70,6 @@ To date, her work has focused on intersectional approaches to transgender health
 Now, she is turning her focus to algorithmic fairness in clinical prediction models and mitigating systems of inequity in health services provision. 
 She is engaging in this new arm of research through a postdoctoral fellowship at the Boston Children’s Hospital  Computational Health Informatics Program (CHIP), before returning to finish her clinical training.
 <br>
-### Sid Bharthulwar 
-<div class="profile">
-<img src="/docs/assets/sid.jpg" alt="pic of Sid"/>
-<br>
-<a href="https://bharthulwar.com"><span style="color: grey;" class="material-icons">person</span></a> 
-<a href="https://github.com/siddharthbharthulwar"><svg class="my-svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg></a>
-<a href="https://www.linkedin.com/in/sbharthulwar/"><svg class="my-svg-icon"><use xlink:href="/assets/minima-social-icons.svg#linkedin"></use></svg></a>
-</div>
-
-Sid Bharthulwar is a current undergraduate at Harvard College, likely concentrating in computer science with an economics secondary. 
-Prior to interning at Boston Children's Hospital, Sid conducted machine learning research at the University of Pennsylvania's Medical School and the University of Colorado, as well as working as a software engineer at an early-stage machine learning startup. 
-
-<br>
 ### Guangya Wan
 <div class="profile">
 <img src="/docs/assets/wan_guangya.jpeg" alt="pic of Guangya"/>
