@@ -30,12 +30,16 @@ twitter_username: w_la_cava
 github_username:  cavalab
 
 # Build settings
-theme: minima
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+show_excerpts: true # set to true to show excerpts on the homepage
+# minimal_mistakes_skin: "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin:  "contrast" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
   - jekyll-seo-tag
   # - jekyll-katex
+  - jekyll-include-cache
 
 google_analytics: UA-49830993-2          # Required - replace with your tracking id 
 
@@ -44,29 +48,16 @@ markdown: kramdown
 kramdown:
     auto_ids: true
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-#
+defaults:
+  # _docs
+  - scope:
+      path: ""
+    values:
+      sidebar:
+        nav: "main"
+
 header_pages:
   - join.md
   - members.md
   - research.md
   - publications.md
-
