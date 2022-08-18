@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Intelligible Predictive Health Models
 permalink: /research/interpretable-ml/
 ---
@@ -14,7 +13,7 @@ Researchers often resort to using complex, black-box predictive models to overco
 
 Although black-box models are typically accurate, they are often bad at explaining _how_ they arrive at those predictions, and may also disagree with very similar models about which factors are driving their predictive ability [1].
 
-![EHR](/../docs/assets/RF_feature_permutation_clustermap_cutoff_1.jpg){: .center-image}
+![EHR](../assets/RF_feature_permutation_clustermap_cutoff_1.jpg){: .center-image}
 
 *Feature importance bi-clustering across diseases and predictors [3].* 
 
@@ -26,7 +25,7 @@ Symbolic regression methods jointly optimize structure of a model, as well as it
 However, intelligibility is complicated to define, and is both context- and user-dependent.
 In general, the intelligibility of a model depends heavily on its *representation*, i.e, how it defines its feature space.
 
-![Rep learning](/../docs/assets/rep_learning_demo_2d.svg){: .center-image}
+![Rep learning](../assets/rep_learning_demo_2d.svg){: .center-image}
 
 *An example representation from the [Feat docs.](https://lacava.github.io/feat/guide/overview/)*
 
@@ -44,7 +43,7 @@ However, very rarely is the nature of the trade-off actually characterized in a 
 
 In fact, [what we have found](https://arxiv.org/abs/2107.14351) is that for many tasks, symbolic regression approaches can perform as well as or better than state-of-the-art black-box approaches - and still produce simpler expressions. 
 
-![SRBench result](/../docs/assets/pairgrid-pointplot_r2_test_model_size_training-time-s.png){: .center-image}
+![SRBench result](../assets/pairgrid-pointplot_r2_test_model_size_training-time-s.png){: .center-image}
 
 *Symbolic regression algorithms (marked with asterisk) benchmarked against black-box ML on hundreds of regression problems. See more at <https://github.com/EpistasisLab/srbench>.*
 
@@ -53,7 +52,7 @@ In fact, [what we have found](https://arxiv.org/abs/2107.14351) is that for many
 Our preliminary work on symbolic regression approaches to patient phenotyping have shown success in producing accurate and interpretable models of [treatment resistant hypertension](https://www.medrxiv.org/content/10.1101/2020.12.12.20248005v2). 
 More work is needed to scale and study these algorithms in routine clinical care. 
 
-![A simple model of treatment resistant hypertension](/docs/assets/aTRH_model.svg){: .center-image}
+![A simple model of treatment resistant hypertension](/assets/aTRH_model.svg){: .center-image}
 
 *A symbolic regression model of treatment resistant hypertension [2].*
 {: .center}

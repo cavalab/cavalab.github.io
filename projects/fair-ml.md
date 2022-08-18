@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Fair Machine Learning for Health Care
 permalink: /research/fair-ml/
 ---
@@ -19,7 +18,7 @@ This research project focuses on addressing these challenges by developing flexi
 We are interested in understanding the intricacies of downstream impacts on healthcare that will arise as more and more models are deployed in the health system.
 Providing a *set* of models (e.g. above) varying in fairness and accuracy is one way to aid a decision maker in understanding how an algorithm will affect the people it interacts with when it is deployed. 
 
-[![pareto_front](/../docs/assets/pareto_adult.png)](https://arxiv.org/abs/2004.13282)
+[![pareto_front](../assets/pareto_adult.png)](https://arxiv.org/abs/2004.13282)
 
 *An example from [1] of different models and their trade-off between error and fairness on the adult dataset.* 
 

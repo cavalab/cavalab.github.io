@@ -1,0 +1,10 @@
+# main links
+main:
+  - title: "Join"
+    url: /join 
+  - title: "Members"
+    url: /members
+  - title: "Research"
+    url: /research
+  - title: "Publications"
+    url: /publications

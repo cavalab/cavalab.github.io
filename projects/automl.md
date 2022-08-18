@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Automating Digital Health
 permalink: /research/automl/
 ---
@@ -9,7 +8,7 @@ We believe that AI has matured to the point where it should be an accessible tec
 The ultimate goal of this research area is to develop AI systems that automate the entire computational workflows of today's data scientists. 
 Doing will accelerate the analysis of complex data in the biomedical and health care domains. 
 
-[![PennAI](/../docs/assets/pennai_overview_r2.png)](https://github.com/EpistasisLab/pennai/)
+[![PennAI](../assets/pennai_overview_r2.png)](https://github.com/EpistasisLab/pennai/)
 
 *Accessible, Automatic Data Science*: [github.com/EpistasisLab/pennai](https://github.com/EpistasisLab/pennai/)
 
