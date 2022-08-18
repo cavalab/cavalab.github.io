@@ -1,5 +1,5 @@
 ---
-title: William La Cava
+title: William La Cava, PhD
 header: 
     teaser:  "../assets/images/profile_pic_small.JPG"
 author: bill

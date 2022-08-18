@@ -1,6 +1,7 @@
 ---
 title: Publications
 permalink: /publications/
+classes: wide
 ---
 Rodrigues, N. M., Batista, J. E., La Cava, W., Vanneschi, L., & Silva, S. (2020). SLUG: Feature Selection Using Genetic Algorithms and Genetic Programming. 
 *Lecture Notes in Computer Science*

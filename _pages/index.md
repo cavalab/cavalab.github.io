@@ -1,8 +1,9 @@
 ---
 permalink: /
+layout: single
 ---
 
-<img style="float: left; padding: 0px 10px 0px 0px;" width="250" height="250" src="assets/images/Cava_Lab_logo.png " alt="CAVA Lab logo"/>
+<img style="float: left; padding: 0px 10px 0px 0px;" width="30%" src="assets/images/Cava_Lab_logo.png " alt="CAVA Lab logo"/>
 
 Welcome to the Cava lab!
 

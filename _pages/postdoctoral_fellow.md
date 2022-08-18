@@ -1,5 +1,6 @@
 ---
 title: Postdoctoral Research Fellowship in Interpretable and Fair Machine Learning for Clinical Decision Support
+classes: wide
 ---
 
 *Cross-posted from [Boston Children's Hospital](https://www.childrenshospital.org/research/research-administration/office-fellowship-training/research-fellowship-opportunities)*
