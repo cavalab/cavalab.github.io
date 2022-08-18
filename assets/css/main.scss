@@ -28,8 +28,8 @@ html {
 } 
 
 .archive__item-teaser {
-  // position: relative;
-  // border-radius: $border-radius;
+  position: relative;
+  border-radius: $border-radius;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -37,24 +37,7 @@ html {
   img {
       max-height: 110px;
       width: auto;
-      // width: 100%;
-      // width: auto;
       margin: auto;
       border-radius: 10%;
   }
-  // img {
-  //   // width: 100%;
-  //   max-width: 110px;
-  //   // height: 40px;
-  // }
-  // img {
-  //   // max-width: 110px;
-  //   border-radius: 50%;
-  //   margin: auto;
-
-  //   @include breakpoint($large) {
-  //     padding: 5px;
-  //     border: 1px solid $border-color;
-  //   }
-  // }
 }
