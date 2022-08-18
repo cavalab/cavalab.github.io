@@ -3,19 +3,20 @@ bill:
   avatar: "assets/images/profile_pic_small.JPG"
   bio: "Principal Investigator"
   links:
-    - label: Personal Website
+    - label: Website
+      icon: &personal "fas fa-user"
       url: "http://williamlacava.com"
     - label: Google Scholar
-      icon: "fas fa-graduation-cap"
+      icon: &scholar "fas fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=iZB7inEAAAAJ&hl=en"
     - label: Github
-      icon: "fab fa-fw fa-github"
+      icon: &github "fab fa-fw fa-github"
       url: "https://github.com/lacava"
     - label: Twitter
-      icon: "fab fa-twitter"
+      icon: &twitter "fab fa-twitter"
       url: "https://www.twitter.com/w_la_cava"
     - label: LinkedIn
-      icon: "fab fa-linkedin" 
+      icon: &linkedin "fab fa-linkedin" 
       url: "https://www.linkedin.com/in/williamlacava/"
 
 elle:
@@ -23,13 +24,14 @@ elle:
   bio: "Postdoctoral Fellow"
   avatar: "../assets/images/lett_elle.JPG"
   links:
-    - label: Personal Site
+    - label: Website
+      icon: *personal
       url: "https://ellelett.com"
     - label: Google Scholar
-      icon: "fas fa-graduation-cap"
+      icon: *scholar 
       url: "https://scholar.google.com/citations?hl=en&authuser=1&user=Gua_MdkAAAAJ"
     - label: Twitter
-      icon: "fab fa-twitter"
+      icon: *twitter
       url: "http://twitter.com/ellelettmdphd"
 
 guangya:
@@ -37,10 +39,11 @@ guangya:
   bio: Master's Student
   avatar: "../assets/images/wan_guangya.jpeg" 
   links:
-    - label: Personal Site
+    - label: Website
+      icon: *personal
       url: "http://wanguangya.com"
     - label: Github
-      icon: "fab fa-fw fa-github"
+      icon: *github
       url: "https://github.com/wan19990901"
 
 zongjun:
@@ -48,8 +51,6 @@ zongjun:
   bio: Master's Student
   avatar: "../assets/images/liu_zongjun.JPG" 
   links:
-    # - label: Personal Site
-    #   url: "http://wanguangya.com"
     - label: Github
-      icon: "fab fa-fw fa-github"
+      icon: *github
       url: "https://github.com/msnliu"
