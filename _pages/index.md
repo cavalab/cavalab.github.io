@@ -1,7 +1,6 @@
 ---
 permalink: /
 layout: single
-classes: wide
 ---
 
 <img 

@@ -1,6 +1,6 @@
 ---
-permalink: /join
 title: Join
+permalink: /join
 ---
 
 [email]:<mailto:{{ site.email | encode_email }}>

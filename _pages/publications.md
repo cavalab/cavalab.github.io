@@ -1,7 +1,6 @@
 ---
 title: Publications
 permalink: /publications/
-classes: wide
 ---
 
 Tan, A. L., Getzen, E. J., Hutch, M. R., Strasser, Z. H., Gutiérrez-Sacristán, A., Le, T. T., ... & Holmes, J. H. (2022). 

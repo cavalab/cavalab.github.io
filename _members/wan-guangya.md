@@ -3,6 +3,7 @@ title: Guangya Wan
 header: 
     teaser: "../assets/images/wan_guangya.jpeg" 
 author: guangya
+author_profile: true
 ---
 
 Guangya Wan is a current masters student at Harvard Chan School of Public Health, concentrating in biostatistics. 

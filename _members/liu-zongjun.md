@@ -3,6 +3,7 @@ title: Zongjun Liu
 header: 
     teaser: "../assets/images/liu_zongjun.JPG" 
 author: zongjun
+author_profile: true
 ---
 
 Zongjun Liu is a master student majored in health data science at Harvard School of Public Health. He obtained a Bachelor’s degree in Applied Math at University of California, Los Angeles. 

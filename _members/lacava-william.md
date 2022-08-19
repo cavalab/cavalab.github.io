@@ -3,6 +3,7 @@ title: William La Cava, PhD
 header: 
     teaser:  "../assets/images/profile_pic_small.JPG"
 author: bill
+author_profile: true
 ---
 
 William La Cava runs the Cava Lab and is an Assistant Professor the Computational Health Informatics Program [(CHIP)](chip.org) at Boston Children's Hospital and Harvard Medical School. 

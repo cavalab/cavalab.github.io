@@ -54,7 +54,7 @@ atom_feed:
 
 include: ["_pages"]
 
-# logo: "/assets/images/Cava_Lab_logo_w.png"
+logo: "/assets/images/Cava_Lab_background.png"
 # logo: "fas fa-microscope" 
 
 author:
@@ -123,5 +123,5 @@ defaults:
         # nav: "main"
       layout: single
       toc: false
-      author_profile: true
+      author_profile: false
       show_date: false

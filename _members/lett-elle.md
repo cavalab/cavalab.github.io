@@ -3,6 +3,7 @@ title: Elle Lett, PhD, MA, MBiostat
 header: 
     teaser:  "../assets/images/lett_elle.JPG"
 author: elle
+author_profile: true
 ---
 
 Elle Lett is a Black, transgender woman, statistician-epidemiologist and physician-in training. 

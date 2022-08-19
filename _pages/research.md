@@ -4,7 +4,6 @@ permalink: /research/
 layout: collection
 collection: research
 entries_layout: grid
-classes: wide
 feature_row:
   - image_path: "/assets/images/aTRH_model.svg"
     url: "interpretable-ml"
