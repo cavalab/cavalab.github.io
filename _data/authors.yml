@@ -3,6 +3,9 @@ bill:
   avatar: "assets/images/profile_pic_small.JPG"
   bio: "Principal Investigator"
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:william.lacava@childrens.harvard.edu"
     - label: Website
       icon: &personal "fas fa-user"
       url: "http://williamlacava.com"

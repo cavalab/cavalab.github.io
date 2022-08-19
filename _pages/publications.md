@@ -3,10 +3,32 @@ title: Publications
 permalink: /publications/
 classes: wide
 ---
+
+Tan, A. L., Getzen, E. J., Hutch, M. R., Strasser, Z. H., Gutiérrez-Sacristán, A., Le, T. T., ... & Holmes, J. H. (2022). 
+Informative Missingness: What can we learn from patterns in missing laboratory data in the electronic health record?
+[medRxiv](https://www.medrxiv.org/content/10.1101/2022.05.08.22274724.abstract)
+
+Romano, J. D., Le, T. T., La Cava, W., Gregg, J. T., Goldberg, D. J., Chakraborty, P., ... & Moore, J. H. (2022). 
+PMLB v1. 0: an open-source dataset collection for benchmarking machine learning methods. 
+*Bioinformatics*, 38(3), 878-880.
+[Oxford University Press (open access)](https://academic.oup.com/bioinformatics/article-abstract/38/3/878/6408434),
+[software](https://github.com/EpistasisLab/pmlb)
+
+Helmuth, T., Lengler, J., & La Cava, W. (2022). 
+Population Diversity Leads to Short Running Times of Lexicase Selection. 
+*Parallel Problem Solving from Nature (PPSN)*. 
+[arXiv](https://arxiv.org/abs/2204.06461) 
+
+Orzechowski, P., Renc, P., La Cava, W., Moore, J. H., Sitek, A., Wąs, J., & Wagenaar, J. (2022, July). 
+A Comparative Study of GP-based and State-of-the-art Classifiers on a Synthetic Machine Learning Benchmark. 
+*In Proceedings of the Genetic and Evolutionary Computation Conference Companion (pp. 276-279)*.
+[ACM](https://dl.acm.org/doi/abs/10.1145/3520304.3529056),
+[PDF](https://scholar.archive.org/work/epwlf5zf25aplmcbx6cu3dkn4q/access/wayback/https://dl.acm.org/doi/pdf/10.1145/3520304.3529056)
+
 Rodrigues, N. M., Batista, J. E., La Cava, W., Vanneschi, L., & Silva, S. (2022). SLUG: Feature Selection Using Genetic Algorithms and Genetic Programming. 
-*Lecture Notes in Computer Science*
-Springer. 
-To Appear. 
+*Lecture Notes in Computer Science*.
+European Conference on Genetic Programming.
+[Springer](https://link.springer.com/chapter/10.1007/978-3-031-02056-8_5) 
 
 La Cava, W., Orzechowski, P., Burlacu, B., França, F. O. de, Virgolin, M., Jin, Y., Kommenda, M., & Moore, J. H. (2021). 
 Contemporary Symbolic Regression Methods and their Relative Performance. 

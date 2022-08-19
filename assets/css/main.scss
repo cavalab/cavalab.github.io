@@ -5,27 +5,57 @@ search: false
 
 @charset "utf-8";
 
+$link-color: #2a7ae2;
+// $link-color: #1756a9;
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
 // custom CSS
 @import "minimal-mistakes";
 
+// html { font-size: 14px; }
+// html {
+//   font-size: $type-size-5; // change to whatever
+
+//   // @include breakpoint($medium) {
+//   //   font-size: 16px; // change to whatever
+//   // }
+
+//   // @include breakpoint($large) {
+//   //   font-size: 18px; // change to whatever
+//   // }
+
+//   // @include breakpoint($x-large) {
+//   //   font-size: 20px; // change to whatever
+//   // }
+// } 
+
 html {
-  font-size: 14px; // change to whatever
+  /* apply a natural box layout model to all elements */
+  box-sizing: border-box;
+  background-color: $background-color;
+  font-size: 16px;
+  // font-size: 14px;
 
   @include breakpoint($medium) {
-    font-size: 16px; // change to whatever
+    // font-size: 18px;
+    font-size: 16px;
   }
 
   @include breakpoint($large) {
-    font-size: 18px; // change to whatever
+    // font-size: 20px;
+    font-size: 18px;
   }
 
   @include breakpoint($x-large) {
-    font-size: 20px; // change to whatever
+    // font-size: 22px;
+    font-size: 20px;
   }
-} 
+
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
 
 .archive__item-teaser {
   position: relative;
@@ -35,9 +65,13 @@ html {
   align-items: center;
 
   img {
-      max-height: 110px;
+      max-height: 120px;
       width: auto;
       margin: auto;
-      border-radius: 10%;
+      border-radius: 50%;
+      border: 1px solid gray;
   }
 }
+
+// no link underline
+a { text-decoration: none; }

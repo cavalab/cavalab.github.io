@@ -54,37 +54,54 @@ atom_feed:
 
 include: ["_pages"]
 
-
-footer:
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/cavalab"
-    - label: "Twitter"
-      icon: "fab fa-twitter"
-      url: "https://twitter.com/w_la_cava"
+logo: "/assets/images/Cava_Lab_logo_w.png"
+# logo: "fas fa-microscope" 
 
 author:
   # avatar: "assets/images/Cava_Lab_logo_bw.png"
-  # bio: "A research group run by William La Cava"
-  avatar: "/assets/images/Cava_Lab_logo_square.png"
+  bio: "A research group run by William La Cava"
+  avatar: "/assets/images/Cava_Lab_logo.png"
+  location: "Boston, MA"
   links:
     - label: "CHIP"
-      icon: "fa fa-heartbeat"
+      icon: &chip "fa fa-heartbeat"
       url: "http://chip.org"
     - label: "Boston Children's Hospital"
-      icon: "fa fa-medkit"
+      icon: &bch "fa fa-medkit"
       url: "https://www.childrenshospital.org/"
     - label: "Harvard Medical School"
-      icon: "fa fa-university"
+      icon: &hms "fa fa-university"
       url: "https://hms.harvard.edu/"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: &gh "fab fa-fw fa-github"
       url: "https://github.com/cavalab"
     - label: "Twitter"
-      icon: "fab fa-twitter"
+      icon: &twitter "fab fa-twitter"
       url: "https://twitter.com/w_la_cava"
-  location: "Boston, MA"
+    - label: "Email"
+      icon: &email "fas fa-fw fa-envelope"
+      url: "mailto:william.lacava@childrens.harvard.edu"
+
+footer:
+  links:
+    - label: "CHIP"
+      icon: *chip
+      url: "http://chip.org"
+    - label: "Boston Children's Hospital"
+      icon: *bch
+      url: "https://www.childrenshospital.org/"
+    - label: "Harvard Medical School"
+      icon: *hms
+      url: "https://hms.harvard.edu/"
+    - label: "GitHub"
+      icon: *gh
+      url: "https://github.com/cavalab"
+    - label: "Twitter"
+      icon: *twitter
+      url: "https://twitter.com/w_la_cava"
+    - label: "Email"
+      icon: *email
+      url: "mailto:william.lacava@childrens.harvard.edu"
 
 atom_feed:
   hide: true
@@ -93,7 +110,7 @@ collections:
   members:
     output: true
     permalink: /:collection/:path/
-  projects:
+  research:
     output: true
     permalink: /:collection/:path/
 

@@ -2,7 +2,7 @@
 title: Research 
 permalink: /research/
 layout: collection
-collection: projects
+collection: research
 entries_layout: grid
 classes: wide
 feature_row:
