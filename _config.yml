@@ -54,24 +54,15 @@ atom_feed:
 
 include: ["_pages"]
 
-logo: "/assets/images/Cava_Lab_logo_w.png"
+# logo: "/assets/images/Cava_Lab_logo_w.png"
 # logo: "fas fa-microscope" 
 
 author:
-  # avatar: "assets/images/Cava_Lab_logo_bw.png"
-  bio: "A research group run by William La Cava"
-  avatar: "/assets/images/Cava_Lab_logo.png"
+  # name:
+  # bio: ""
+  avatar: "/assets/images/Cava_Lab_logo_square.png"
   location: "Boston, MA"
   links:
-    - label: "CHIP"
-      icon: &chip "fa fa-heartbeat"
-      url: "http://chip.org"
-    - label: "Boston Children's Hospital"
-      icon: &bch "fa fa-medkit"
-      url: "https://www.childrenshospital.org/"
-    - label: "Harvard Medical School"
-      icon: &hms "fa fa-university"
-      url: "https://hms.harvard.edu/"
     - label: "GitHub"
       icon: &gh "fab fa-fw fa-github"
       url: "https://github.com/cavalab"
@@ -81,18 +72,18 @@ author:
     - label: "Email"
       icon: &email "fas fa-fw fa-envelope"
       url: "mailto:william.lacava@childrens.harvard.edu"
+    - label: "CHIP"
+      icon: &chip "fa fa-heartbeat"
+      url: "http://chip.org"
+    - label: "Boston Children's Hospital"
+      icon: &bch "fa fa-medkit"
+      url: "https://www.childrenshospital.org/"
+    - label: "Harvard Medical School"
+      icon: &hms "fa fa-university"
+      url: "https://hms.harvard.edu/"
 
 footer:
   links:
-    - label: "CHIP"
-      icon: *chip
-      url: "http://chip.org"
-    - label: "Boston Children's Hospital"
-      icon: *bch
-      url: "https://www.childrenshospital.org/"
-    - label: "Harvard Medical School"
-      icon: *hms
-      url: "https://hms.harvard.edu/"
     - label: "GitHub"
       icon: *gh
       url: "https://github.com/cavalab"
@@ -102,6 +93,15 @@ footer:
     - label: "Email"
       icon: *email
       url: "mailto:william.lacava@childrens.harvard.edu"
+    - label: "CHIP"
+      icon: *chip
+      url: "http://chip.org"
+    - label: "Boston Children's Hospital"
+      icon: *bch
+      url: "https://www.childrenshospital.org/"
+    - label: "Harvard Medical School"
+      icon: *hms
+      url: "https://hms.harvard.edu/"
 
 atom_feed:
   hide: true

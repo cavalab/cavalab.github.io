@@ -5,7 +5,7 @@ search: false
 
 @charset "utf-8";
 
-$link-color: #2a7ae2;
+// $link-color: #2a7ae2;
 // $link-color: #1756a9;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
@@ -74,4 +74,4 @@ html {
 }
 
 // no link underline
-a { text-decoration: none; }
+// a { text-decoration: none; }
