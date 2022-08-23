@@ -85,7 +85,7 @@ Let's say they differ on $$\epsilon|\mathcal{C}|$$ cases.
 If we know this, then we know that the probability $$m$$ and $$n$$ differ on the next case is $$\epsilon|\mathcal{C}|/|\mathcal{C'}|$$. Why? $$m$$ and $$n$$ can only be in the selection pool if all of the cases on which they differ have yet to be visited; those cases are all in $$\mathcal{C'}$$. 
 
 The key to knowing when lexicase is expected to terminate is knowing the amount by which the selection pool is expected to shrink each iteration (as in drift analysis[^lengler]). 
-In this examplle, if $$m$$ and $$n$$ differ on the next case, we know the selection pool will shrink by at least one. 
+In this example, if $$m$$ and $$n$$ differ on the next case, we know the selection pool will shrink by at least one. 
 If we could similarly pair up all of the individuals in a selection pool/ the population, we could figure out how the selection pool changes as a whole.
 
 These observations lead us to the following $$\epsilon$$-Cluster Similarity score, for measuring population similarity. 
@@ -165,4 +165,4 @@ caption="Figure from our paper. How the new running time bounds compare to the w
 alt="A graph of running time bounds on several problems. 8 subplots, one for each problem. Each subplot has three lines showing how the bound changes for different values of epsilon. One line is the total, and the other two are the additive components of the bound. "
 %}
 
-Have a gander at our paper to learn more, including results for continous outputs and for $$\epsilon$$-lexicase selection.
+Have a gander at our paper to learn more, including results for continuous outputs and for $$\epsilon$$-lexicase selection.
