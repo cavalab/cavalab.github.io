@@ -111,7 +111,7 @@ Multidimensional genetic programming for multiclass classification.
 
 La Cava, W., Helmuth, T., Spector, L., & Moore, J. H. (2018). 
 A probabilistic and multi-objective analysis of lexicase selection and epsilon-lexicase selection. 
-Evolutionary Computation, 1–28. 
+Evolutionary Computation Journal, 1–28. 
 [MIT Press](https://doi.org/10.1162/evco_a_00224),
 [arXiv](https://arxiv.org/pdf/1709.05394),
 [experiments](https://github.com/lacava/epsilon_lexicase),

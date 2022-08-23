@@ -48,6 +48,7 @@ google_analytics: UA-49830993-2          # Required - replace with your tracking
 markdown: kramdown
 kramdown:
     auto_ids: true
+    math_engine: mathjax
 
 atom_feed:
   hide: true
@@ -115,7 +116,7 @@ collections:
     permalink: /:collection/:path/
 
 defaults:
-  # _docs
+  # everything
   - scope:
       path: ""
     values:
@@ -125,3 +126,14 @@ defaults:
       toc: false
       author_profile: false
       show_date: false
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
