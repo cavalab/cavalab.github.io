@@ -15,7 +15,7 @@ The Cava laboratory is a research group in the [Computational Health Informatics
 We are interested in improving the _interpretability_ and _fairness_ of predictive models deployed in healthcare settings.
 We create and study algorithms that can embed these notions when working with health data.
 
-# Join the Team!
-
+{: .notice--info}
+**Join the Team!**
 We're new, and growing. 
 If you're looking to do a post-doc, graduate studies, or undergraduate research at the intersection of interpretability, fairness, and health informatics, [see the opportunities here](/join). 
