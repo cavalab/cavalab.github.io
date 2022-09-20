@@ -17,5 +17,4 @@ We create and study algorithms that can embed these notions when working with he
 
 {: .notice--info}
 **Join the Team!**
-We're new, and growing. 
-If you're looking to do a post-doc, graduate studies, or undergraduate research at the intersection of interpretability, fairness, and health informatics, [see the opportunities here](/join). 
+If you're looking to do research in the areas of machine learning, interpretability, fairness, and health informatics, [see the opportunities here](/join). 
