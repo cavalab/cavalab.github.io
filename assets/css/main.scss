@@ -35,7 +35,7 @@ html {
   /* apply a natural box layout model to all elements */
   box-sizing: border-box;
   background-color: $background-color;
-  font-size: 12px; // originally 16px
+  font-size: 10px; // originally 16px
 
   @include breakpoint($medium) {
     // font-size: 18px;
@@ -54,6 +54,8 @@ html {
 
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
+
+  $right-sidebar-width-wide: 200px !default;
 }
 
 .archive__item-teaser {
@@ -84,3 +86,15 @@ html {
     font-size: $type-size-5;
   }
 }
+
+// increase page content
+// @media (min-width: 80em) {
+//   .sidebar__right {
+//       width: 200px;
+//       margin-right: -200px;
+//       float: right;
+//       position: sticky;
+//   }
+// }
+@media (min-width: 80em) { .archive { width: calc(100% - 200px); padding-right: 200px; } }
+@media (min-width: 80em) { .page { width: calc(100% - 200px); padding-right: 200px; } }
