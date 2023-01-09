@@ -55,7 +55,7 @@ html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 
-  $right-sidebar-width-wide: 200px !default;
+  // $right-sidebar-width-wide: 200px !default;
 }
 
 .archive__item-teaser {
@@ -96,5 +96,5 @@ html {
 //       position: sticky;
 //   }
 // }
-@media (min-width: 80em) { .archive { width: calc(100% - 200px); padding-right: 200px; } }
-@media (min-width: 80em) { .page { width: calc(100% - 200px); padding-right: 200px; } }
+// @media (min-width: 80em) { .archive { width: calc(100% - 200px); padding-right: 200px; } }
+// @media (min-width: 80em) { .page { width: calc(100% - 200px); padding-right: 200px; } }
