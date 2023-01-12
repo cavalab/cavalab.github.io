@@ -61,7 +61,7 @@ logo: "/assets/images/Cava_Lab_background.png"
 author:
   # name:
   # bio: ""
-  avatar: "/assets/images/Cava_Lab_logo_square.png"
+  # avatar: "/assets/images/Cava_Lab_logo_square.png"
   location: "Boston, MA"
   links:
     - label: "GitHub"
@@ -120,12 +120,13 @@ defaults:
   - scope:
       path: ""
     values:
-      sidebar: false
-        # nav: "main"
+      # sidebar: true
+      # nav: "main"
       layout: single
       toc: false
-      author_profile: false
+      author_profile: true
       show_date: false
+      classes: wide
   # _posts
   - scope:
       path: ""

@@ -4,6 +4,10 @@ date: 2022-08-23
 layout: posts
 author: bill
 excerpt: We consistently observe lexicase selection running times that are much lower than its worst-case bound of $$O(NC)$$. Why?
+tags: 
+    - Machine Learning
+header:
+    teaser: /assets/images/clique.png
 ---
 {:.notice--info}
 **Further Reading**

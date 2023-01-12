@@ -2,6 +2,7 @@
 title: Fair Machine Learning for Health Care
 header:
     teaser: /assets/images/pareto_adult.png
+tags: Fairness
 ---
 
 {% include figure 

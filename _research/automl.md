@@ -2,6 +2,8 @@
 title: Automating Digital Health
 header:
     teaser: "/assets/images/pennai_overview_r2.png"
+tags: 
+    - Machine Learning for Health
 ---
 
 While artificial intelligence (AI) has become widespread, many commercial AI systems are not yet accessible to individual researchers nor the general public due to the deep knowledge of the systems required to use them. 

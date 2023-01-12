@@ -1,6 +1,7 @@
 ---
 permalink: /
 layout: home
+classes: standard
 ---
 
 <img 

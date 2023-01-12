@@ -3,6 +3,8 @@ title: Publications
 permalink: /publications/
 ---
 
+[Google Scholar]("https://scholar.google.com/citations?user=iZB7inEAAAAJ&hl=en")
+
 Tan, A. L., Getzen, E. J., Hutch, M. R., Strasser, Z. H., Gutiérrez-Sacristán, A., Le, T. T., ... & Holmes, J. H. (2022). 
 Informative Missingness: What can we learn from patterns in missing laboratory data in the electronic health record?
 [medRxiv](https://www.medrxiv.org/content/10.1101/2022.05.08.22274724.abstract)

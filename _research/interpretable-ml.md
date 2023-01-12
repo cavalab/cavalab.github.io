@@ -2,7 +2,11 @@
 title: Intelligible Predictive Health Models
 header:
     teaser: ../assets/images/RF_feature_permutation_clustermap_cutoff_1.jpg
+type: post
 toc: true
+classes: standard
+tags: 
+    - Interpretability
 ---
 
 We study both black-box and glass-box ML methods to improve the intelligibility and/or explainability of models that are trained for clinical prediction tasks using electronic health record (EHR) data.

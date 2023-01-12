@@ -58,19 +58,26 @@ html {
   // $right-sidebar-width-wide: 200px !default;
 }
 
+// .archive__item-teaser {
+//     overflow: visible;
+
+//   // img {
+//       // height: 100%;
+//       // margin: auto;
+//       // border-radius: 50%;
+//       // border: 1px solid gray;
+//   // }
+// }
 .archive__item-teaser {
-  position: relative;
-  border-radius: $border-radius;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
 
   img {
-      max-height: 120px;
-      width: auto;
-      // margin: auto;
-      border-radius: 50%;
-      border: 1px solid gray;
+    max-width: 110px;
+    border-radius: 50%;
+
+    @include breakpoint($large) {
+      padding: 5px;
+      border: 1px solid $border-color;
+    }
   }
 }
 
