@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Cava Lab
-subtitle: Advancing interpretable and fair digital health
+# subtitle: Advancing interpretable and fair digital health
 email: william.lacava@childrens.harvard.edu
 # email: {% william.lacava@childrens.harvard.edu
 description: >- # this means to ignore newlines until "baseurl:"
@@ -32,7 +32,7 @@ github_username:  cavalab
 
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-show_excerpts: true # set to true to show excerpts on the homepage
+show_excerpts: false # set to true to show excerpts on the homepage
 # minimal_mistakes_skin: "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 minimal_mistakes_skin:  "default" #"contrast" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 plugins:
@@ -64,11 +64,11 @@ logo: "/assets/images/Cava_Lab_background.png"
 # logo: "fas fa-microscope" 
 
 author:
-  # name:
-  # bio: ""
+  # name: Cava Lab
+  bio: "Interpretable and fair machine learning for digital health"
   # avatar: "/assets/images/Cava_Lab_logo_square.png"
   location: "Boston, MA"
-  links:
+  links: &links
     - label: "GitHub"
       icon: &gh "fab fa-fw fa-github"
       url: "https://github.com/cavalab"
@@ -78,6 +78,9 @@ author:
     - label: "Email"
       icon: &email "fas fa-fw fa-envelope"
       url: "mailto:william.lacava@childrens.harvard.edu"
+    - label: "Harvard Catalyst"
+      icon: &catalyst "fas fa-project-diagram" 
+      url: "https://connects.catalyst.harvard.edu/Profiles/display/Person/200560"
     - label: "CHIP"
       icon: &chip "fa fa-heartbeat"
       url: "http://chip.org"
@@ -89,25 +92,7 @@ author:
       url: "https://hms.harvard.edu/"
 
 footer:
-  links:
-    - label: "GitHub"
-      icon: *gh
-      url: "https://github.com/cavalab"
-    - label: "Twitter"
-      icon: *twitter
-      url: "https://twitter.com/w_la_cava"
-    - label: "Email"
-      icon: *email
-      url: "mailto:william.lacava@childrens.harvard.edu"
-    - label: "CHIP"
-      icon: *chip
-      url: "http://chip.org"
-    - label: "Boston Children's Hospital"
-      icon: *bch
-      url: "https://www.childrenshospital.org/"
-    - label: "Harvard Medical School"
-      icon: *hms
-      url: "https://hms.harvard.edu/"
+  links: *links
 
 atom_feed:
   hide: true
@@ -131,7 +116,7 @@ defaults:
       toc: false
       author_profile: true
       show_date: false
-      classes: wide
+      # classes: wide
   # _posts
   - scope:
       path: ""

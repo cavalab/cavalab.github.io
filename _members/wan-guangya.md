@@ -1,7 +1,7 @@
 ---
 title: Guangya Wan
 header: 
-    teaser: "../assets/images/wan_guangya.jpeg" 
+    teaser: "../assets/images/wan_guangya.png" 
 author: guangya
 author_profile: true
 ---

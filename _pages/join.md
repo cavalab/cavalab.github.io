@@ -32,9 +32,10 @@ Prospective students: consider these programs:
 
 ## Masters and Undergraduates
 
-**Harvard undergraduates**: please apply through the [CHIP AI/ML internship program](http://www.chip.org/internship/chip-ai-internship).
+- Harvard students: please apply through the [CHIP AI/ML internship program](http://www.chip.org/internship/chip-ai-internship).
 If you would like to work with me, please indicate so on your cover letter.
 
-I welcome students from other Boston colleges as well. 
-[Email me][email] describing your interest, and include a CV and two reference contacts.
+- Check [Harvard Catalyst](https://connects.catalyst.harvard.edu/Profiles/display/Person/200560) for additional project descriptions. 
+
+- Otherwise, [Email me][email] describing your interest, and include a CV and two reference contacts.
 

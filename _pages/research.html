@@ -3,8 +3,27 @@ layout: archive
 collection: research
 title: Research 
 permalink: /research/
-entries_layout: grid
+entries_layout: list
 toc: true
+feature_row:
+  - title: "PMCBoost"
+    image_path: /assets/images/PMC.jpg
+    alt: "PMC illustration"
+    excerpt: "A post-processing method that fairly calibrates a given classifier"
+    url: https://github.com/cavalab/pmcboost
+    btn_class: "btn--inverse"
+  - title: "SRBench"
+    image_path: /assets/images/srbench.png
+    alt: "SRBench Pareto plot"
+    excerpt: "A living benchmark resource for symbolic regression"
+    url: https://cavalab.org/srbench
+    btn_class: "btn--inverse"
+  - title: "FEAT"
+    image_path: /assets/images/feat.jpg
+    alt: "Feature Engineering Automation Tool"
+    excerpt: "Feature Engineering Automation Tool"
+    url: https://cavalab.org/feat
+    btn_class: "btn--inverse"
 ---
 
 Our research focuses on developing multi-objective learning methods and using them to explain the principles underlying complex, biomedical processes.
@@ -30,24 +49,10 @@ Our long-term goals are to positively impact human health by developing methods 
 <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
 </section>
 
-<!-- {% for collection in site.collections %} -->
-<!--   {% if collection.label == "research" and collection.output == true %} -->
-<!--     {% assign tags = collection.docs | map: 'tags' | uniq %} -->
-<!--     {% for tag in tags %} -->
-<!--     <section class="taxonomy__section"> -->
-<!--         <h2 id="{{ tag | slugify }}" class="archive__subtitle">{{ tag }}</h2> -->
-<!--             <div class="entries-{{ entries_layout }}"> -->
-<!--                 {% for post in collection.docs %} -->
-<!--                     {% if post.tags contains tag %} -->
-<!--                         {% include archive-single.html type=entries_layout %} -->
-<!--                     {% endif %} -->
-<!--                 {% endfor %} -->
-<!--             </div> -->
-<!--       <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a> -->
-<!--     </section> -->
-<!--     {% endfor %} -->
-<!--   {% endif %} -->
-<!-- {% endfor %} -->
+<h2 id="{{ label | slugify }}" class="archive__subtitle">Project Pages</h2>
+
+{% include feature_row type="left" %}
+<!-- {% include gallery %} -->
 
 <h2 id="{{ label | slugify }}" class="archive__subtitle">Posts by Topic</h2>
  <section class="taxonomy__section">
@@ -60,11 +65,7 @@ Our long-term goals are to positively impact human health by developing methods 
       <div class="entries-{{ entries_layout }}">
 {% for post in posts %}
   {% if post.tags contains t %}
-  <!-- <li> -->
-  <!--   <a href="{{ post.url }}">{{ post.title }}</a> -->
-  <!--   <span class="date">{{ post.date | date: "%B %-d, %Y"  }}</span> -->
-  <!-- </li> -->
-          {% include archive-single.html type=entries_layout %}
+        {% include archive-single.html type="left" %}
   {% endif %}
 {% endfor %}
       </div>

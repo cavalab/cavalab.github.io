@@ -1,7 +1,7 @@
 ---
 title: Zongjun Liu
 header: 
-    teaser: "../assets/images/liu_zongjun.JPG" 
+    teaser: "../assets/images/liu_zongjun_cropped.png" 
 author: zongjun
 author_profile: true
 ---

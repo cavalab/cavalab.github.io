@@ -1,7 +1,7 @@
 ---
 title: Elle Lett, PhD, MA, MBiostat
 header: 
-    teaser:  "../assets/images/lett_elle.JPG"
+    teaser:  "../assets/images/lett_elle_cropped.png"
 author: elle
 author_profile: true
 ---
