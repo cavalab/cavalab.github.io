@@ -72,7 +72,7 @@ La Cava, W. & Moore, J.H. (2020).
 Learning feature spaces for regression with genetic programming.
 *Genetic Programming and Evolvable Machines (GPEM)*. 
 [Springer](https://link.springer.com/article/10.1007/s10710-020-09383-4),
-[PDF](../pubs/feat_gpem.pdf),
+[PDF](/assets/papers/La%C2%A0Cava%20and%20Moore%20-%202020%20-%20Learning%20feature%20spaces%20for%20regression%20with%20geneti.pdf),
 [software](https://github.com/lacava/feat),
 [experiments](https://github.com/lacava/gpem_2019)
 
@@ -101,13 +101,13 @@ Wojcieszynski Jr, A. P., La Cava, W., Baumann, B. C., Lukens, J. N., Fotouhi Ghi
 Machine Learning to Predict Toxicity in Head and Neck Cancer Patients Treated with Definitive Chemoradiation. 
 *International Journal of Radiation Oncology • Biology • Physics.*
 [ASTRO](https://www.redjournal.org/article/S0360-3016(19)33017-2/abstract).
-[PDF](/pubs/rad_onc_ml.pdf)
+[PDF](/assets/papers/Wojcieszynski%20et%20al.%20-%202019%20-%20Machine%20Learning%20to%20Predict%20Toxicity%20in%20Head%20and%20N.pdf)
 
 La Cava, W., Silva, S., Danai, K., Spector, L., Vanneschi, L., & Moore, J. H. (2019). 
 Multidimensional genetic programming for multiclass classification. 
 *Swarm and Evolutionary Computation*. 
 [ScienceDirect](https://doi.org/10.1016/j.swevo.2018.03.015),
-[PDF](../pubs/Multiclass_GP_journal_preprint.pdf),
+[PDF](/assets/papers/La%20Cava%20et%20al.%20-%202018%20-%20Multidimensional%20genetic%20programming%20for%20multiclas.pdf),
 [software](https://github.com/EpistasisLab/ellyn)
 
 
@@ -149,7 +149,7 @@ La Cava, W., & Moore, J. H. (2017).
 A general feature engineering wrapper for machine learning using ϵ-lexicase survival. 
 European Conference on Genetic Programming, 80–95. 
 [Springer](https://doi.org/10.1007/978-3-319-55696-3_6),
-[PDF](../pubs/evostar_few_lacava.pdf),
+[PDF](/assets/papers/La%20Cava%20and%20Moore%20-%202017%20-%20A%20General%20Feature%20Engineering%20Wrapper%20for%20Machine%20.pdf),
 [software](https://github.com/lacava/few)
 
 
@@ -164,13 +164,13 @@ La Cava, W., Sahare, K., & Danai, K. (2017).
 Restructuring Controllers to Accommodate Plant Nonlinearities. 
 *Journal of Dynamic Systems, Measurement, and Control*, 139(8), 081004–081004–10. 
 https://doi.org/10.1115/1.4035870.
-[PDF](../pubs/La_Cava_restructuring_2017.pdf)
+[PDF](/assets/papers/La%20Cava%20et%20al.%20-%202017%20-%20Restructuring%20Controllers%20to%20Accommodate%20Plant%20Non.pdf)
 
 La Cava, W., Silva, S., Vanneschi, L., Spector, L., & Moore, J. (2017). 
 Genetic Programming Representations for Multi-dimensional Feature Learning in Biomedical Classification. 
 *EvoStar Applications of Evolutionary Computation*, 10199, 158–173. 
 [Springer](https://doi.org/10.1007/978-3-319-55849-3_11),
-[PDF](../pubs/evobio_m4gp_lacava.pdf)
+[PDF](/assets/papers/La%20Cava%20et%20al.%20-%202017%20-%20Genetic%20Programming%20Representations%20for%20Multi-dime.pdf)
 
 Olson, R. S., La Cava, W., Orzechowski, P., Urbanowicz, R. J., & Moore, J. H. (2017). 
 PMLB: A Large Benchmark Suite for Machine Learning Evaluation and Comparison. 
@@ -189,7 +189,7 @@ La Cava, W., Danai, K., & Spector, L. (2016).
 Inference of compact nonlinear dynamic models by epigenetic local search. 
 *Engineering Applications of Artificial Intelligence*, 55, 292–306. 
 https://doi.org/10.1016/j.engappai.2016.07.004.
-[PDF](../pubs/inference_elgp_2015_lacava.pdf)
+[PDF](/assets/papers/La%20Cava%20et%20al.%20-%202016%20-%20Inference%20of%20compact%20nonlinear%20dynamic%20models%20by%20e.pdf)
 
 La Cava, W., Spector, L., & Danai, K. (2016). 
 Epsilon-Lexicase Selection for Regression. 
