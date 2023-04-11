@@ -57,3 +57,30 @@ zongjun:
     - label: Github
       icon: *github
       url: "https://github.com/msnliu"
+
+guilherme:
+  name: Guilherme Aldeia
+  bio: PhD Student
+  avatar: "../assets/images/aldeia.jpeg" 
+  links:
+    - label: Github
+      icon: *github
+      url: "https://github.com/gAldeia"
+    - label: LinkedIn
+      icon: *linkedin
+      url: "https://www.linkedin.com/in/guilherme-aldeia-0a8a0b21b/"
+
+shakiba:
+  name: Shakiba Shahbandegan
+  bio: PhD Student
+  avatar: "../assets/images/shahbandegan.jpg" 
+  links:
+    - label: Github
+      icon: *github
+      url: "https://github.com/shakiba-shb"
+    - label: Twitter
+      icon: *twitter
+      url: "https://twitter.com/shakiba_shb"
+    - label: LinkedIn
+      icon: *linkedin
+      url: "https://www.linkedin.com/in/shakibashahbandegan/"
