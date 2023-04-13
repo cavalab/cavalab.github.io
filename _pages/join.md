@@ -11,7 +11,7 @@ Our goals are to cultivate an environment for critical thinking, research creati
 In addition, this lab is a good fit for those who wish to gain expertise in biomedical informatics and machine learning, especially when interpretability and fairness are central concerns. 
 
 Check out the opportunities below to get involved with the lab. 
-For general inquires, [email me][email] with a description of your research, a CV, a sample publication (if applicable), and two reference contacts. 
+**For general inquires, [email me][email] with a description of your research, a CV, a sample publication (if applicable), and two reference contacts.**
 
 ## Post-doctorate Fellowships
 
