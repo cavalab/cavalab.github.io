@@ -1,13 +1,38 @@
 ---
 title: Publications
 permalink: /publications/
+classes: wide
 ---
 
 [Google Scholar](https://scholar.google.com/citations?user=iZB7inEAAAAJ&hl=en)
 
+Lett, E., & La Cava, W. G. (2023). 
+Translating intersectionality to fair machine learning in health sciences. 
+*Nature Machine Intelligence*. 
+[doi](https://doi.org/10.1038/s42256-023-00651-3)
+, [preprint (PDF)](https://osf.io/download/63fd1bd940cecd079876f20c/)
+
+La Cava, W. G. (2023). 
+Optimizing fairness tradeoffs in machine learning with multiobjective meta-models. 
+*Proceedings of GECCO '23*. 
+[arXiv](http://arxiv.org/abs/2304.12190)
+, [software](https://github.com/cavalab/fomo)
+, [experiments](https://github.com/cavalab/fomo-gecco23)
+
+La Cava, W., Lett, E., & Wan, G. (2023).
+Fair admission risk prediction with proportional multicalibration. 
+*Conference on Health, Inference, and Learning*
+Proceedings of Machine Learning Research. 
+[arXiv](https://doi.org/10.48550/arXiv.2209.14613)
+, [software](https://github.com/cavalab/pmcboost)
+, [experiments](https://github.com/cavalab/proportional-multicalibration)
+
+
 Tan, A. L., Getzen, E. J., Hutch, M. R., Strasser, Z. H., Gutiérrez-Sacristán, A., Le, T. T., ... & Holmes, J. H. (2022). 
 Informative Missingness: What can we learn from patterns in missing laboratory data in the electronic health record?
-[medRxiv](https://www.medrxiv.org/content/10.1101/2022.05.08.22274724.abstract)
+*Journal of Biomedical Informatics*. 
+[doi](https://doi.org/10.1016/j.jbi.2023.104306)
+, [medRxiv](https://www.medrxiv.org/content/10.1101/2022.05.08.22274724.abstract)
 
 Romano, J. D., Le, T. T., La Cava, W., Gregg, J. T., Goldberg, D. J., Chakraborty, P., ... & Moore, J. H. (2022). 
 PMLB v1. 0: an open-source dataset collection for benchmarking machine learning methods. 
