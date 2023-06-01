@@ -6,6 +6,12 @@ classes: wide
 
 [Google Scholar](https://scholar.google.com/citations?user=iZB7inEAAAAJ&hl=en)
 
+
+Xie, W., Li, R., La Cava, W., Duan, R., Chen, Y. (2023). 
+Boosting Pre-Trained Polygenic Risk Score with Adaptively Transformed Genetic Predictors
+*2023 Joint Statistical Meetings.*
+[abstract](https://ww2.aievolution.com/JSMAnnual/index.cfm?do=ev.viewEv&ev=4225)
+
 Lett, E., & La Cava, W. G. (2023). 
 Translating intersectionality to fair machine learning in health sciences. 
 *Nature Machine Intelligence*. 
