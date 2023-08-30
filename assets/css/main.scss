@@ -79,9 +79,13 @@ html {
   font-weight: bold;
 }
 
-.pubauthors, .pubinfo {
-  font-size: 80%;
+.pubauthors, .pubinfo, .pubjournal {
+  font-size: 90%;
   margin-bottom: .75em;
+}
+
+.pubjournal {
+  font-style:italic;
 }
 
 .pubteaser {

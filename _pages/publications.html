@@ -7,7 +7,7 @@ layout: archive
 
 
 <!-- <h1 class="archive__title">Publications</h1> -->
-<a href="https://scholar.google.com/citations?user=iZB7inEAAAAJ&hl=en"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
+<a href="https://scholar.google.com/citations?user=iZB7inEAAAAJ&hl=en"></i> Google Scholar</a>
 
 <!-- {% assign publications = site.publications | sort: "year" | sort: "month" | reverse %} -->
 {% assign pubyears = site.publications | group_by: "year" | sort: "name" | reverse %}
@@ -24,11 +24,11 @@ layout: archive
         {{ pub.title }}
       </div>
       <div class="pubauthors">
-        {{ pub.authors }}
+        {{ pub.authors }} ({{ pub.year }})
       </div>
       {% if pub.publication %}
-        <div class="pubinfo">
-          {{pub.publication}}, {{ pub.year }}
+        <div class="pubjournal">
+          {{pub.publication}}
           &ensp; <a href="{{pub.link}}"><i class="fas fa-external-link-alt"></i></a>
         </div>
         {% if pub.series %}
@@ -37,9 +37,8 @@ layout: archive
           </div>
         {% endif %}
       {% endif %}
-      <!-- <div class="pubinfo">
-        {{ pub.year }}
-      </div> -->
+      <!-- {% unless pub.series %}
+      {% endunless %} -->
       {% if pub.award %}
           <div class="pubinfo">
             <i class="fas fa-trophy"></i>
@@ -57,11 +56,11 @@ layout: archive
         {% if pub.preprint %}
           {% assign first = false %}
 
-
-          {% if pub.preprint | downcase contains "arxiv" %}
+          {% assign preprint = pub.preprint | downcase %}
+          {% if preprint contains "arxiv" %}
             <a href="{{pub.preprint}}">arXiv</a>
-          {% elsif pub.preprint | downcase contains "medrxiv" %}
-            <a href="{{pub.preprint}}">medrXiv</a>
+          {% elsif preprint contains "medrxiv" %}
+            <a href="{{pub.preprint}}">medrxiv</a>
           {% else %}
             <a href="{{pub.preprint}}">preprint</a>
           {% endif %}
@@ -71,7 +70,7 @@ layout: archive
         {% if pub.pdf %}
           {% unless first %} - {% endunless %}
           {% assign first = false %}
-          <a href="{{pub.pdf}}">PDF</a>
+          <a href="{{pub.pdf}}">pdf</a>
         {% endif %}
         
         {% if pub.experiments %}
