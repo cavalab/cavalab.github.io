@@ -15,47 +15,49 @@ layout: archive
   {% assign pubyearsmonths = pubyear.items | sort: "month" | reverse %}
   {% for pub in pubyearsmonths %}
     <div class="pubitem">
-      <!-- <div class="pubteaser">
-        <a href="{{pub.url}}">
-          <img src="/images/{{ pub.slug }}_small.png" alt="{{pub.slug}} publication teaser"/>
-        </a>
-      </div> -->
       <div class="pubtitle">
         {{ pub.title }}
       </div>
       <div class="pubauthors">
         {{ pub.authors }} ({{ pub.year }})
       </div>
+
       {% if pub.publication %}
         <div class="pubjournal">
           {{pub.publication}}
-          &ensp; <a href="{{pub.link}}"><i class="fas fa-external-link-alt"></i></a>
         </div>
         {% if pub.series %}
           <div class="pubinfo">
               {{ pub.series }}
           </div>
         {% endif %}
+      {% else %}
+        <div class="pubinfo">
+          Preprint
+        </div>
+
       {% endif %}
-      <!-- {% unless pub.series %}
-      {% endunless %} -->
+
       {% if pub.award %}
           <div class="pubinfo">
             <i class="fas fa-trophy"></i>
-            <!-- <i class="far fa-file-pdf"></i> -->
+            {{ pub.award }}
             {% if pub.awardlink %}
-              <a href="{{pub.awardlink}}"> {{ pub.award }}</a>
-            {% else %}
-              {{ pub.award }}
+              &nbsp;<a href="{{pub.link}}"><i class="fas fa-external-link-alt"></i> </a>
             {% endif %}
           </div>
       {% endif %}
       <div class="publinks">
-        <!-- <a href="/download/{{ pub.slug}}.pdf"><i class="far fa-file-pdf"></i> PDF</a>&nbsp;&nbsp; -->
         {% assign first = true %}
-        {% if pub.preprint %}
-          {% assign first = false %}
 
+        {% if pub.publication %}
+          {% assign first = false %}
+          {% assign linkname = pub.link | split: "/" | slice: 2 %}
+          <a href="{{pub.link}}"><i class="fas fa-external-link-alt"></i> {{ linkname }} </a>
+        {% endif %}
+
+        {% if pub.preprint %}
+          {% unless first %}&nbsp;|&nbsp;{% endunless %} {% assign first = false %}
           {% assign preprint = pub.preprint | downcase %}
           {% if preprint contains "arxiv" %}
             <a href="{{pub.preprint}}">arXiv</a>
@@ -68,26 +70,25 @@ layout: archive
         {% endif %}
 
         {% if pub.pdf %}
-          {% unless first %} - {% endunless %}
-          {% assign first = false %}
+          {% unless first %}&nbsp;|&nbsp;{% endunless %} {% assign first = false %}
           <a href="{{pub.pdf}}">pdf</a>
         {% endif %}
         
         {% if pub.experiments %}
-          {% unless first %} - {% endunless %}
-          {% assign first = false %}
+          <!-- {% unless first %} - {% endunless %} {% assign first = false %} -->
+          {% unless first %}&nbsp;|&nbsp;{% endunless %} {% assign first = false %}
           <a href="{{pub.experiments}}">experiments</a>
         {% endif %}
 
         {% if pub.software %}
-          {% unless first %} - {% endunless %}
-          {% assign first = false %}
+          <!-- {% unless first %} - {% endunless %} {% assign first = false %} -->
+          {% unless first %}&nbsp;|&nbsp;{% endunless %} {% assign first = false %}
           <a href="{{pub.software}}">software</a>
         {% endif %}
 
         {% if pub.projectpage %}
-          {% unless first %} - {% endunless %}
-          {% assign first = false %}
+          <!-- {% unless first %} - {% endunless %} {% assign first = false %} -->
+          {% unless first %}&nbsp;|&nbsp;{% endunless %} {% assign first = false %}
           <a href="{{pub.projectpage}}">project page</a>
         {% endif %}
       </div>
