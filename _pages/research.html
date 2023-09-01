@@ -36,7 +36,7 @@ Our research focuses on developing machine learning methods and using them to ex
 We use these methods to learn predictive models from electronic health records (EHRs) that are both *interpretable* to clinicians and *fair* to the population on which they are deployed. 
 Our long-term goals are to positively impact human health by developing methods that are flexible enough to automate entire computational workflows underlying scientific discovery and medicine.
 
-<h2 id="{{ label | slugify }}" class="archive__subtitle">Overviews</h2>
+<h2 id="{{ label | slugify }}" class="archive__title">Overview</h2>
  <section class="taxonomy__section">
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 {% for collection in site.collections %}
@@ -52,22 +52,22 @@ Our long-term goals are to positively impact human health by developing methods 
       </div>
   {% endif %}
 {% endfor %}
-<a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+<!-- <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a> -->
 </section>
 
-<h2 id="{{ label | slugify }}" class="archive__subtitle">Projects</h2>
+<h2 id="{{ label | slugify }}" class="archive__title">Projects</h2>
 
 {% include feature_row type="left" %}
 <!-- {% include gallery %} -->
 
-<h2 id="{{ label | slugify }}" class="archive__subtitle">Posts by Topic</h2>
+<h2 id="{{ label | slugify }}" class="archive__title">Posts by Topic</h2>
  <section class="taxonomy__section">
 
 {% for tag in site.tags %}
   {% assign t = tag | first %}
   {% assign posts = tag | last %}
 
-    <h3 id="{{ t | slugify }}" class="archive__subtitle">{{ t }}</h3>
+    <h3 id="{{ t | slugify }}" class="archive__title">{{ t }}</h3>
       <div class="entries-{{ entries_layout }}">
 {% for post in posts %}
   {% if post.tags contains t %}
