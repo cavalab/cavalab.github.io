@@ -22,9 +22,21 @@ alt="A Pareto front of different models and their trade-off between error and fa
 caption="An example of different models and their trade-off between error and fairness on the adult dataset."
 %}
 
-Providing a *set* of models (e.g. above) varying in fairness and accuracy is one way to aid a decision maker in understanding how an algorithm will affect the people it interacts with when it is deployed[^1]. 
+Providing a *set* of models (e.g. above) varying in fairness and accuracy is one way to aid a decision maker in understanding how an algorithm will affect the people it interacts with when it is deployed ([La Cava 2023](#2023LaCavaOptimizingfairnesstradeoffs), [La Cava et al. 2020](#2020LaCavaGeneticprogrammingapproaches)). 
 Once a model is deployed, we are interested in understanding the intricacies of downstream impacts on healthcare that will arise[^2].
 
-
+<!-- 
 [^1]:  La Cava, W. & Moore, Jason H. (2020).  Genetic programming approaches to learning fair classifiers.  GECCO 2020.  **Best Paper Award**.  [ACM](https://dl.acm.org/doi/abs/10.1145/3377930.3390157).  [arXiv](https://arxiv.org/abs/2004.13282)
-[^2]: Lett, E. (2022). Algorithmic Fairness: Mitigating Bias in Healthcare AI. *MedScape*. [link](https://www.medscape.com/viewarticle/977622), [PDF](https://www.ellelett.com/media_files/1435)
+[^2]: Lett, E. (2022). Algorithmic Fairness: Mitigating Bias in Healthcare AI. *MedScape*. [link](https://www.medscape.com/viewarticle/977622), [PDF](https://www.ellelett.com/media_files/1435) -->
+
+
+<h3 class="archive__subtitle">Related Publications</h3>
+
+<div class="entries-{{ entries_layout }}">
+{% assign pubs = site.publications | reverse %}
+{% for pub in pubs %}
+    {% if pub.tags contains "fairness" %}
+        {% include pub-single.html %}
+    {% endif %}
+{% endfor %}
+</div>

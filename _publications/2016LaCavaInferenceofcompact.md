@@ -1,7 +1,8 @@
 ---
-layout: posts
+layout: publication
 authors: "La Cava, W., Danai, K., and Spector, L. "
-year: 2016
+date: 2016
+date: 2016-10-1
 title: "Inference of compact nonlinear dynamic models by epigenetic local search"
 publication: Engineering Applications of Artificial Intelligence
 link: https://doi.org/10.1016/j.engappai.2016.07.004

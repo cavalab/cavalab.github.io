@@ -1,7 +1,7 @@
 ---
-layout: posts
+layout: publication
 authors: "Tan, A. L., Getzen, E. J., Hutch, M. R., Strasser, Z. H., Gutiérrez-Sacristán, A., Le, T. T., ... and Holmes, J. H. "
-year: 2022
+date: 2022-03-01
 title: "Informative Missingness: What can we learn from patterns in missing laboratory data in the electronic health record?"
 publication: Journal of Biomedical Informatics
 link: https://doi.org/10.1016/j.jbi.2023.104306

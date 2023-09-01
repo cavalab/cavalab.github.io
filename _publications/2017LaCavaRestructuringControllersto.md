@@ -1,7 +1,7 @@
 ---
-layout: posts
+layout: publication
 authors: "La Cava, W., Sahare, K., and Danai, K. "
-year: 2017
+date: 2017-8-1
 title: "Restructuring Controllers to Accommodate Plant Nonlinearities"
 publication: Journal of Dynamic Systems, Measurement, and Control
 link: https://doi.org/10.1115/1.4035870

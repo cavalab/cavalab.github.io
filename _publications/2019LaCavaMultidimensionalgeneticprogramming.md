@@ -1,7 +1,7 @@
 ---
-layout: posts
+layout: publication
 authors: "La Cava, W., Silva, S., Danai, K., Spector, L., Vanneschi, L., and Moore, J. H. "
-year: 2019
+date: 2019-02-01
 title: "Multidimensional genetic programming for multiclass classification"
 publication: Swarm and Evolutionary Computation
 link: https://doi.org/10.1016/j.swevo.2018.03.015

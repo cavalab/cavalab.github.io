@@ -1,7 +1,7 @@
 ---
-layout: posts
+layout: publication
 authors: "La Cava, W., Silva, S., Vanneschi, L., Spector, L., and Moore, J. "
-year: 2017
+date: 2017-04-01
 title: "Genetic Programming Representations for Multi-dimensional Feature Learning in Biomedical Classification"
 publication: "Evo*: European Conference on the Applications of Evolutionary Computation"
 series: Lecture Notes in Computer Science

@@ -1,7 +1,7 @@
 ---
-layout: posts
+layout: publication
 authors: "La Cava, W., and Moore, J. H. "
-year: 2019
+date: 2019-03-25
 title: "Learning concise representations for regression by evolving networks of trees"
 publication: International Conference on Learning Representations (ICLR) 
 link: https://openreview.net/forum?id=Hke-JhA9Y7

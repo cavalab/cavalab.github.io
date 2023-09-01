@@ -1,7 +1,7 @@
 ---
-layout: posts
+layout: publication
 authors: "La Cava, W., and Moore, J. H. "
-year: 2019
+date: 2019-07-13
 title: "Semantic variation operators for multidimensional genetic programming"
 publication: Genetic and Evolutionary Computation Conference (GECCO)
 link: https://doi.org/10.1145/3321707.3321776

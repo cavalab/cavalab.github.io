@@ -1,7 +1,7 @@
 ---
-layout: posts
+layout: publication
 authors: "La Cava, W., Helmuth, T., Spector, L., and Moore, J. H. "
-year: 2018
+date: 2019-09-01
 title: "A probabilistic and multi-objective analysis of lexicase selection and epsilon-lexicase selection"
 publication: Evolutionary Computation Journal
 link: https://doi.org/10.1162/evco_a_00224

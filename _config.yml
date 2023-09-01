@@ -19,11 +19,10 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Cava Lab
-# subtitle: Advancing interpretable and fair digital health
+subtitle: &subtitle Advancing interpretable and fair digital health
 email: william.lacava@childrens.harvard.edu
 # email: {% william.lacava@childrens.harvard.edu
-description: >- # this means to ignore newlines until "baseurl:"
-  Advancing interpretable and fair digital health
+description: *subtitle
 domain: cavalab.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://cavalab.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -41,6 +40,8 @@ plugins:
   - jekyll-seo-tag
   # - jekyll-katex
   - jekyll-include-cache
+
+breadcrumbs: true
 
 # Analytics
 analytics:
@@ -94,9 +95,6 @@ author:
 footer:
   links: *links
 
-atom_feed:
-  hide: true
-
 collections:
   members:
     output: true
@@ -105,7 +103,7 @@ collections:
     output: true
     permalink: /:collection/:path/
   publications:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 defaults:
