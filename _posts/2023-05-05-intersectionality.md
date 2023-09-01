@@ -12,11 +12,7 @@ header:
 ---
 {:.notice--info}
 **Further Reading**
-Lett, E., & La Cava, W. G. (2023). 
-Translating intersectionality to fair machine learning in health sciences. 
-*Nature Machine Intelligence*. 
-[doi](https://doi.org/10.1038/s42256-023-00651-3)
-, [preprint (PDF)](https://osf.io/download/63fd1bd940cecd079876f20c/)
+{% include citation.html pubid="2023LettTranslatingintersectionalityto" %}
 
 [^paper]: Lett, E., & La Cava, W. G. (2023).  Translating intersectionality to fair machine learning in health sciences.  *Nature Machine Intelligence*. [doi](https://doi.org/10.1038/s42256-023-00651-3), [preprint (PDF)](https://osf.io/download/63fd1bd940cecd079876f20c/)
 [^collins]: Collins, P. H. & Bilge, S. Intersectionality (John Wiley & Sons, 2020). 
