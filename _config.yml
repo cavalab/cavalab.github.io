@@ -65,7 +65,7 @@ logo: "/assets/images/Cava_Lab_background.png"
 
 author:
   # name: Cava Lab
-  bio: "Interpretable and fair machine learning for digital health"
+  # bio: "Interpretable and fair machine learning for digital health"
   # avatar: "/assets/images/Cava_Lab_logo_square.png"
   location: "Boston, MA"
   links: &links

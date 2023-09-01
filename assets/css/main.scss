@@ -16,7 +16,7 @@ search: false
 
 // html { font-size: $type-size-1; }
 // html {
-//   font-size: $type-size-5; // change to whatever
+//   font-size: $type-size-3; // change to whatever
 
 //   // @include breakpoint($medium) {
 //   //   font-size: 16px; // change to whatever
@@ -35,21 +35,21 @@ html {
   /* apply a natural box layout model to all elements */
   box-sizing: border-box;
   background-color: $background-color;
-  font-size: 12px; // originally 16px
+  font-size: 11px; // originally 16px
 
   @include breakpoint($medium) {
     // font-size: 18px;
-    font-size: 13px;
+    font-size: 12px;
   }
 
   @include breakpoint($large) {
     // font-size: 20px;
-    font-size: 16px;
+    font-size: 13px;
   }
 
   @include breakpoint($x-large) {
     // font-size: 22px;
-    font-size: 18px;
+    font-size: 15px;
   }
 
   // -webkit-text-size-adjust: 100%;
@@ -88,36 +88,6 @@ html {
   font-style:italic;
 }
 
-.pubteaser {
-  clear: both;
-}
-
-.pubteaser a {
-  float: left;
-  margin-right: 2em;
-}
-
-.pubteaser img {
-  width: 100px;
-  border: 1px solid black;
-}
-
 .publinks {
   font-size: 80%;
-}
-
-.publication-authors {
-  margin: 0.5rem 0;
-}
-
-.publication-info {
-  margin: 0.5rem 0;
-}
-
-.publication-teaser {
-  margin: 2em;
-}
-
-.publication-teaser img {
-  border: none;
 }
