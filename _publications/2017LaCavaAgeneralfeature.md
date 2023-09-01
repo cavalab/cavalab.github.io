@@ -1,7 +1,6 @@
 ---
 layout: publication
 authors: "La Cava, W., and Moore, J. H. "
-date: 2017
 date: 2017-3-15
 title: "A general feature engineering wrapper for machine learning using ϵ-lexicase survival"
 publication: European Conference on Genetic Programming (EuroGP)

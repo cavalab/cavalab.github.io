@@ -17,9 +17,9 @@ Researchers often resort to using complex, black-box predictive models to overco
 
 ### Can't we just explain black-box models?
 
-Although black-box models are typically accurate, they are often bad at explaining _how_ they arrive at those predictions, and [may also disagree with very similar models about which factors are driving their predictive ability](#2019LaCavaInterpretationofmachine).
+Although black-box models are typically accurate, they are often bad at explaining _how_ they arrive at those predictions, and [may also disagree with very similar models about which factors are driving their predictive ability](/publications/#2019LaCavaInterpretationofmachine).
 
-{% include figure image_path="../assets/images/RF_feature_permutation_clustermap_cutoff_1.png" caption="Feature importance bi-clustering across diseases and predictors [3]." alt="Feature importance bi-clustering across diseases and predictors [3]."
+{% include figure image_path="../assets/images/RF_feature_permutation_clustermap_cutoff_1.png" caption="Feature importance bi-clustering across diseases and predictors [/publications/#2019LaCavaInterpretationofmachine]." alt="Feature importance bi-clustering across diseases and predictors."
 %}
 
 ### Symbolic Regression for Interpretable Machine Learning 
@@ -44,7 +44,7 @@ Many of our research projects center around these three motivations when designi
 Researchers often see the _complexity_ of a model as a trade-off with its _error_: more complex models should give better predictions than simple ones. 
 However, very rarely is the nature of the trade-off actually characterized in a robust way. 
 
-In fact, [what we have found](#2021LaCavaContemporarySymbolicRegression) is that for many tasks, symbolic regression approaches can perform as well as or better than state-of-the-art black-box approaches - and still produce simpler expressions. 
+In fact, [what we have found](/publications/#2021LaCavaContemporarySymbolicRegression) is that for many tasks, symbolic regression approaches can perform as well as or better than state-of-the-art black-box approaches - and still produce simpler expressions. 
 
 {% include figure
 image_path="/assets/images/pairgrid-pointplot_r2_test_model_size_training-time-s.png"
@@ -53,7 +53,7 @@ caption= "Symbolic regression algorithms (marked with asterisk) benchmarked agai
 
 ### Do they work in clinical care? 
 
-Our preliminary work on symbolic regression approaches to patient phenotyping have shown success in producing accurate and [interpretable models of treatment resistant hypertension](#2023LaCavaAFlexibleSymbolic.md). 
+Our preliminary work on symbolic regression approaches to patient phenotyping have shown success in producing accurate and [interpretable models of treatment resistant hypertension](/publications/#2023LaCavaAFlexibleSymbolic). 
 More work is needed to scale and study these algorithms in routine clinical care. 
 
 {% include figure image_path="/assets/images/aTRH_model.svg" caption="A symbolic regression model of treatment resistant hypertension." alt="A symbolic regression model of treatment resistant hypertension." %}

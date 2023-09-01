@@ -7,4 +7,7 @@ publication: Pacific Symposium on Biocomputing (PSB)
 link: https://www.worldscientific.com/doi/abs/10.1142/9789813235533_0018
 preprint: http://arxiv.org/abs/1708.05070
 experiments: https://github.com/lacava/sklearn-benchmarks
+tags:
+    - ml
+    - automl 
 ---
