@@ -24,7 +24,7 @@ Our long-term goals are to positively impact human health by developing methods 
 <h2 class="archive__subtitle">Recent Publications</h2>
 <div class="entries-{{ entries_layout }}">
 {% assign pubs = site.publications | reverse %}
-{% for pub in pubs limit: 4 %}
+{% for pub in pubs limit: 3 %}
   {% include pub-single.html %}
 {% endfor %}
 </div>

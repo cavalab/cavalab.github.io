@@ -33,7 +33,7 @@ github_username:  cavalab
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 show_excerpts: false # set to true to show excerpts on the homepage
 # minimal_mistakes_skin: "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-minimal_mistakes_skin:  "default" #"contrast" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin:  "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise" "default" 
 plugins:
   - jekyll-feed
   - jekyll-redirect-from

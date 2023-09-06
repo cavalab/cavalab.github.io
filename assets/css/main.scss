@@ -48,6 +48,8 @@ search: false
 // $h-size-4: 1.0625em !default;
 // $h-size-5: 1.03125em !default;
 // $h-size-6: 1em !default;
+$monospace: Monaco, Consolas, "Lucida Console", monospace !default;
+$caption-font-family: $monospace !default;
 
 // custom CSS
 @import "minimal-mistakes";
@@ -76,18 +78,6 @@ html {
 
 .archive__subtitle {
   font-size: 1.25em;
-}
-.archive__item-excerpt {
-  margin-top: 0;
-  font-size: $type-size-6;
-
-  & + p {
-    text-indent: 0;
-  }
-
-  a {
-    position: relative;
-  }
 }
 
 /*
@@ -128,7 +118,7 @@ https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa4773
 }
 
 .pubauthors, .pubinfo, .pubjournal {
-  // font-size: 90%;
+  font-size: 80%;
   margin-bottom: .75em;
 }
 
@@ -138,4 +128,45 @@ https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa4773
 
 .publinks {
   font-size: 80%;
+}
+
+// remove underline from links
+a:link {
+      text-decoration: none;
+}
+
+a:visited {
+      text-decoration: none;
+}
+
+a:hover {
+      text-decoration: underline;
+}
+
+a:active {
+      text-decoration: none;
+}
+
+.grid__item {
+
+  @include breakpoint($medium) {
+    margin-left: 0; /* override margin*/
+    margin-right: 0; /* override margin*/
+    width: span(4 of 12);
+
+    &:nth-child(2n + 1) {
+      clear: none;
+    }
+
+    &:nth-child(3n + 1) {
+      clear: both;
+    }
+
+    &:nth-child(3n + 2) {
+      clear: none;
+      margin-left: gutter(1 of 12);
+    }
+
+  }
+
 }

@@ -23,7 +23,7 @@ layout: archive
 
 <div class="entries-{{ entries_layout }}">
 {% assign pubs = site.publications | reverse %}
-{% for pub in pubs limit: 4 %}
+{% for pub in pubs limit: 3 %}
   {% include pub-single.html %}
 {% endfor %}
 </div>
