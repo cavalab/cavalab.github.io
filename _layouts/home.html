@@ -4,7 +4,7 @@ layout: archive
 
 {{ content }}
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+<h2 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h2>
 
 {% if paginator %}
   {% assign posts = paginator.posts %}
@@ -19,7 +19,7 @@ layout: archive
   {% endfor %}
 </div>
 
-<h3 class="archive__subtitle">Recent Publications</h3>
+<h2 class="archive__subtitle">Recent Publications</h2>
 
 <div class="entries-{{ entries_layout }}">
 {% assign pubs = site.publications | reverse %}

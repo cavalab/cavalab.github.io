@@ -7,7 +7,7 @@ entries_layout: grid
 ---
 
 
-### Prior Members and Trainees
+## Prior Members and Trainees
 
 - Zongjun Liu, MS candidate, Havard School of Public Health
 - Sid Barthulwar, BS candidate, Harvard University 

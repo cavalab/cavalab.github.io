@@ -1,4 +1,4 @@
 {% assign searchid = "/publications/" | append: include.pubid %}
 {% assign pub = site.publications | where: "id", searchid | first %}
-{% assign year = pub.date | date: "%Y" %}
-{{include.n}}. {{ pub.authors }} ({{ year }}).  {{ pub.title }}.  {{ pub.publication }} <a href="/publications/#{{include.pubid}}"><i class="fas fa-external-link-alt"></i> </a> 
+{% assign year = pub.date | date: "%Y" -%}
+{{include.prefix}} {{- pub.authors -}} ({{- year -}}). <a href="/publications/#{{include.pubid}}">{{ pub.title }}.</a> {{ pub.publication }} 

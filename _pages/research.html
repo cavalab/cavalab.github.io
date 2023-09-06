@@ -4,60 +4,28 @@ collection: research
 title: Research 
 permalink: /research/
 entries_layout: list
-toc: true
-feature_row:
-  - title: "FOMO"
-    image_path: /assets/images/fomo.jpg
-    alt: "FOMO illustration"
-    excerpt: "Fairness-oriented Multiobjective Optimization"
-    url: https://github.com/cavalab/fomo
-    btn_class: "btn--inverse"
-  - title: "PMCBoost"
-    image_path: /assets/images/PMC.jpg
-    alt: "PMC illustration"
-    excerpt: "A post-processing method that fairly calibrates a given classifier"
-    url: https://github.com/cavalab/pmcboost
-    btn_class: "btn--inverse"
-  - title: "SRBench"
-    image_path: /assets/images/srbench.png
-    alt: "SRBench Pareto plot"
-    excerpt: "A living benchmark resource for symbolic regression"
-    url: https://cavalab.org/srbench
-    btn_class: "btn--inverse"
-  - title: "FEAT"
-    image_path: /assets/images/feat.jpg
-    alt: "Feature Engineering Automation Tool"
-    excerpt: "Feature Engineering Automation Tool"
-    url: https://cavalab.org/feat
-    btn_class: "btn--inverse"
 ---
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
-
-<section class="taxonomy__section">
 
 Our research focuses on developing machine learning methods and using them to explain the principles underlying complex, biomedical processes.
 We use these methods to learn predictive models from electronic health records (EHRs) that are both <i>interpretable</i> to clinicians and <i>fair</i> to the population on which they are deployed. 
 Our long-term goals are to positively impact human health by developing methods that are flexible enough to automate entire computational workflows underlying scientific discovery and medicine.
 
-</section>
 
-<section class="taxonomy__section">
-<h1 id="{{ label | slugify }}" class="archive__subtitle">Overviews</h1>
+<h2 class="archive__subtitle">Overviews</h2>
   <div class="entries-{{ entries_layout }}">
     {% for post in site.research %}
-        {% include archive-single.html type=entries_layout %}
+        {% include archive-single.html type='grid' %}
     {% endfor %}
   </div>
-</section>
+<div class="back-to-top"></div>
 
-<section class="taxonomy__section">
-<h1 class="archive__subtitle">Recent Publications</h1>
+<h2 class="archive__subtitle">Recent Publications</h2>
 <div class="entries-{{ entries_layout }}">
 {% assign pubs = site.publications | reverse %}
 {% for pub in pubs limit: 4 %}
   {% include pub-single.html %}
 {% endfor %}
 </div>
-<a href="/publications">See all</a>
-</section>
+<a href="/publications" class="back-to-top">See all publications</a>

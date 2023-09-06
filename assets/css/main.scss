@@ -9,33 +9,54 @@ search: false
 // $link-color: #1756a9;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
+
+// default type scale from 
+// https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_variables.scss
+// $type-size-1: 2.441em !default; // ~39.056px
+// $type-size-2: 1.953em !default; // ~31.248px
+// $type-size-3: 1.563em !default; // ~25.008px
+// $type-size-4: 1.25em !default; // ~20px
+// $type-size-5: 1em !default; // ~16px
+// $type-size-6: 0.75em !default; // ~12px
+// $type-size-7: 0.6875em !default; // ~11px
+// $type-size-8: 0.625em !default; // ~10px
+
+// /* headline scale */
+// $h-size-1: 1.563em !default; // ~25.008px
+// $h-size-2: 1.25em !default; // ~20px
+// $h-size-3: 1.125em !default; // ~18px
+// $h-size-4: 1.0625em !default; // ~17px
+// $h-size-5: 1.03125em !default; // ~16.5px
+// $h-size-6: 1em !default; // ~16px
+// https://github.com/mmistakes/minimal-mistakes/discussions/1352
+
+/* type scale */
+// $type-size-0: 2.441em !default;
+// $type-size-1: 1.7em !default;
+// $type-size-2: 1.5em !default;
+// $type-size-3: 1.3em !default;
+// $type-size-4: 1.1em !default;
+// $type-size-5: 1.0em !default;
+// $type-size-6: 0.8em !default;
+// $type-size-7: 0.65em !default;
+// $type-size-8: 0.55em !default;
+
+// /* headline scale */
+// $h-size-1: 1.563em !default;
+// $h-size-2: 1.25em !default;
+// $h-size-3: 1.125em !default;
+// $h-size-4: 1.0625em !default;
+// $h-size-5: 1.03125em !default;
+// $h-size-6: 1em !default;
 
 // custom CSS
 @import "minimal-mistakes";
-
-// html { font-size: $type-size-1; }
-// html {
-//   font-size: $type-size-3; // change to whatever
-
-//   // @include breakpoint($medium) {
-//   //   font-size: 16px; // change to whatever
-//   // }
-
-//   // @include breakpoint($large) {
-//   //   font-size: 18px; // change to whatever
-//   // }
-
-//   // @include breakpoint($x-large) {
-//   //   font-size: 20px; // change to whatever
-//   // }
-// } 
 
 html {
   /* apply a natural box layout model to all elements */
   box-sizing: border-box;
   background-color: $background-color;
-  font-size: 11px; // originally 16px
+  font-size: 12px; // originally 16px
 
   @include breakpoint($medium) {
     // font-size: 18px;
@@ -44,21 +65,46 @@ html {
 
   @include breakpoint($large) {
     // font-size: 20px;
-    font-size: 13px;
+    font-size: 14px;
   }
 
   @include breakpoint($x-large) {
     // font-size: 22px;
-    font-size: 15px;
+    font-size: 14px;
+  }
+}
+
+.archive__subtitle {
+  font-size: 1.25em;
+}
+.archive__item-excerpt {
+  margin-top: 0;
+  font-size: $type-size-6;
+
+  & + p {
+    text-indent: 0;
   }
 
-  // -webkit-text-size-adjust: 100%;
-  // -ms-text-size-adjust: 100%;
+  a {
+    position: relative;
+  }
+}
 
+/*
+   Footnotes
+   ========================================================================== 
+https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_utilities.scss#L522
+   */
+
+.footnote {
+  // color: mix(#fff, $gray, 25%);
+  color: black;
+  text-decoration: none;
 }
 
 .footnotes {
-  color: mix(#fff, $gray, 25%);
+  // color: mix(#fff, $gray, 25%);
+  color: black;
 
   ol,
   li,
@@ -67,6 +113,8 @@ html {
     font-size: $type-size-5;
   }
 }
+
+/* Publication formatting */
 
 .pubitem {
   margin: 2em 0;
@@ -80,7 +128,7 @@ html {
 }
 
 .pubauthors, .pubinfo, .pubjournal {
-  font-size: 90%;
+  // font-size: 90%;
   margin-bottom: .75em;
 }
 

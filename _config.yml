@@ -40,6 +40,7 @@ plugins:
   - jekyll-seo-tag
   # - jekyll-katex
   - jekyll-include-cache
+  - jekyll-target-blank
 
 # Analytics
 analytics:
