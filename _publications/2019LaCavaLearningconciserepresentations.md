@@ -10,4 +10,6 @@ software: https://github.com/lacava/feat
 experiments: https://github.com/lacava/iclr_2019
 tags:
     - interpretability
+    - symbolic regression
+    - methods
 ---

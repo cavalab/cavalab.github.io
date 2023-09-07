@@ -8,4 +8,6 @@ link: https://doi.org/10.1162/evco_a_00224
 preprint: https://arxiv.org/pdf/1709.05394
 experiments: https://github.com/lacava/epsilon_lexicase
 software: https://github.com/EpistasisLab/ellyn
+tags:
+    - theory
 ---

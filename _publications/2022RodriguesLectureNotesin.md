@@ -7,5 +7,5 @@ publication: European Conference on Genetic Programming (EuroGP)
 series: "Lecture Notes in Computer Science"
 link: https://link.springer.com/chapter/10.1007/978-3-031-02056-8_5
 tags:
-    - ml
+    - methods
 ---

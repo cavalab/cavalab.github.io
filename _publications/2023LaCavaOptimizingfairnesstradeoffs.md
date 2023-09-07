@@ -10,4 +10,6 @@ software: https://github.com/cavalab/fomo
 experiments: https://github.com/cavalab/fomo-gecco23
 tags:
     - fairness
+    - optimization
+    - methods
 ---

@@ -5,7 +5,9 @@ classes: wide
 layout: archive
 ---
 
-<a href="https://scholar.google.com/citations?user=iZB7inEAAAAJ&hl=en"></i> Google Scholar</a>
+[Google Scholar](https://scholar.google.com/citations?user=iZB7inEAAAAJ&hl=en)
+|
+[Sort by topic](/publications-by-topic)
 
 {% assign pubs = site.publications | reverse %}
 {% for pub in pubs %}

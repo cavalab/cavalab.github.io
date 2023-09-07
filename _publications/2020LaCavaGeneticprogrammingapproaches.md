@@ -11,4 +11,5 @@ experiments: https://github.com/lacava/fair_gp
 award: Best Paper Award
 tags:
     - fairness
+    - methods
 ---

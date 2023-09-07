@@ -9,5 +9,5 @@ pdf: /assets/papers/La%C2%A0Cava%20and%20Moore%20-%202020%20-%20Learning%20featu
 software: https://github.com/lacava/feat
 experiments: https://github.com/lacava/gpem_2019
 tags:
-    - ml
+    - methods
 ---

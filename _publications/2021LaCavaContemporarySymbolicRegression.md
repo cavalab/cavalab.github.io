@@ -9,4 +9,6 @@ preprint: https://arxiv.org/abs/2107.14351
 projectpage: https://cavalab.org/srbench
 tags:
     - interpretability
+    - benchmarking
+    - symbolic regression
 ---

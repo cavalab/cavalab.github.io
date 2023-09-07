@@ -9,4 +9,6 @@ preprint: https://arxiv.org/abs/1903.12074
 experiments: https://github.com/EpistasisLab/interpret_ehr
 tags:
     - interpretability
+    - applications
+    - biomedical informatics
 ---

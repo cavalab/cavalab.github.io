@@ -7,4 +7,7 @@ publication: Genetic and Evolutionary Computation Conference (GECCO)
 link: https://doi.org/10.1145/3205651.3205656
 preprint: http://www.cmap.polytechnique.fr/~nikolaus.hansen/proceedings/2018/GECCO/companion/companion_files/pos239s1-file1.pdf 
 experiments: https://github.com/lacava/emo-lex
+tags:
+    - optimization
+    - benchmarking
 ---

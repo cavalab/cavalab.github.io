@@ -13,4 +13,8 @@ experiments: https://github.com/cavalab/proportional-multicalibration
 award: Best Paper Award
 tags:
     - fairness
+    - methods
+    - theory
+    - applications
+    - biomedical informatics
 ---

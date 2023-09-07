@@ -7,4 +7,6 @@ publication: Bioinformatics
 link: https://academic.oup.com/bioinformatics/article-abstract/38/3/878/6408434
 software: https://github.com/EpistasisLab/pmlb
 preprint: https://arxiv.org/abs/2012.00058v1
+tags:
+    - benchmarking
 ---

@@ -7,4 +7,7 @@ publication: Genetic and Evolutionary Computation Conference (GECCO)
 link: https://doi.org/10.1145/3205455.3205539
 preprint: http://arxiv.org/abs/1804.09331
 software: https://cavalab.org/srbench
+tags:
+    - benchmarking
+    - symbolic regression
 ---

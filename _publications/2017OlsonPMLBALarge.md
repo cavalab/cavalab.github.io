@@ -7,4 +7,7 @@ publication: BioData Mining
 link: https://biodatamining.biomedcentral.com/articles/10.1186/s13040-017-0154-4
 preprint: https://arxiv.org/abs/1703.00512
 software: https://github.com/EpistasisLab/pmlb
+tags:
+    - benchmarking
+    - biomedical informatics
 ---

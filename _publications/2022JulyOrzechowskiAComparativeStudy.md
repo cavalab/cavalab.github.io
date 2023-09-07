@@ -7,5 +7,5 @@ publication: Genetic and Evolutionary Computation Conference (GECCO)
 link: https://dl.acm.org/doi/abs/10.1145/3520304.3529056
 pdf: https://scholar.archive.org/work/epwlf5zf25aplmcbx6cu3dkn4q/access/wayback/https://dl.acm.org/doi/pdf/10.1145/3520304.3529056
 tags:
-    - ml
+    - benchmarking
 ---

@@ -7,4 +7,7 @@ preprint: https://arxiv.org/abs/2304.01117
 projectpage: https://cavalab.org/srbench/competition-2022/
 tags:
     - interpretability
+    - symbolic regression
+    - benchmarking
 ---
+

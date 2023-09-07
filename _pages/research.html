@@ -29,3 +29,19 @@ Our long-term goals are to positively impact human health by developing methods 
 {% endfor %}
 </div>
 <a href="/publications" class="back-to-top">See all publications</a>
+
+<h2 class="archive__subtitle">Posts by Topic</h2>
+{% for tag in site.tags %}
+  {% assign t = tag | first %}
+  {% assign posts = tag | last %}
+
+  <h3 id="{{ t | slugify }}" class="archive__title">{{ t }}</h3>
+  <div class="entries-{{ entries_layout }}">
+    {% for post in posts %}
+      {% if post.tags contains t %}
+            {% include archive-single.html type="left" %}
+      {% endif %}
+    {% endfor %}
+  </div>
+
+{% endfor %}
