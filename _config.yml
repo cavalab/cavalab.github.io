@@ -119,7 +119,7 @@ defaults:
       # classes: wide
   # _posts
   - scope:
-      path: ""
+      path: "_posts"
       type: posts
     values:
       layout: single
@@ -128,3 +128,4 @@ defaults:
       comments: true
       share: true
       related: true
+      show_date: true

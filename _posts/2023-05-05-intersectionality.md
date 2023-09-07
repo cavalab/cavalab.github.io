@@ -13,11 +13,9 @@ header:
 
 The field of fair machine learning has sought to make many social concepts as concrete as possible, so that they can be reflected in the socio-technical artifacts we are building in the world. In a new commentary led by [Dr. Elle Lett](https://cavalab.org/members/lett-elle/), we argue that the social theory of *intersectionality* has more to offer fair ML beyond the reporting of model metrics over intersectional subgroups. 
 
-{% assign pub = site.publications 
-    | where_exp:"pub", "pub.title == 'Translating intersectionality to fair machine learning in health sciences'" 
-    | first %}
-{% include pub-single.html %}
-{:.notice--info}
+{% include pub-single.html 
+    pubtitle='Translating intersectionality to fair machine learning in health sciences'%}
+{:.notice}
 
 In this piece, we review the six concepts for intersectionality theory articulated by Collins and Bilge in their textbook, *Intersectionality*[^collins]. These core concepts pertain to many parts of the ML pipeline beyond model training, including data collection/generation, interpretability, transportability between sites, and post-deployment impact studies.  
 

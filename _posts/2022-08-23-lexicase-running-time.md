@@ -9,12 +9,9 @@ tags:
 header:
     teaser: /assets/images/clique.png
 ---
-{:.notice--info}
-**Further Reading**
-Helmuth, T., Lengler, J., & La Cava, W. (2022). 
-Population Diversity Leads to Short Running Times of Lexicase Selection. 
-*Parallel Problem Solving from Nature (PPSN)*. 
-[arXiv](https://arxiv.org/abs/2204.06461) 
+
+{% include pub-single.html pubid="2022HelmuthPopulationDiversityLeads" %}
+{:.notice}
 
 [^paper]: Helmuth, Lengler, La Cava. Population Diversity Leads to Short Running Times of Lexicase Selection. [arXiv](https://arxiv.org/abs/2204.06461)
 [^ecj]: La Cava, W., Helmuth, T., Spector, L., & Moore, J. H. (2018).  A probabilistic and multi-objective analysis of lexicase selection and epsilon-lexicase selection.  Evolutionary Computation Journal, 1–28.  [MIT Press](https://doi.org/10.1162/evco_a_00224), [arXiv](https://arxiv.org/pdf/1709.05394), [experiments](https://github.com/lacava/epsilon_lexicase), [software](https://github.com/EpistasisLab/ellyn)

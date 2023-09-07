@@ -10,6 +10,7 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 
+////////////////////////////////////////////////////////////////////////////////
 // default type scale from 
 // https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_variables.scss
 // $type-size-1: 2.441em !default; // ~39.056px
@@ -29,6 +30,7 @@ search: false
 // $h-size-5: 1.03125em !default; // ~16.5px
 // $h-size-6: 1em !default; // ~16px
 // https://github.com/mmistakes/minimal-mistakes/discussions/1352
+////////////////////////////////////////////////////////////////////////////////
 
 /* type scale */
 // $type-size-0: 2.441em !default;
@@ -51,6 +53,14 @@ search: false
 $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
 $caption-font-family: $monospace !default;
 
+// $info-color: #3b9cba !default; // original
+$info-color: #3b65ba !default;
+// $info-color: #0070E0 !default; // chrome default color
+// $link-color: mix(#000, $info-color, 10%) !default;
+// $link-color: $info-color !default;
+// $link-color: #0070E0 !default; // chrome default color
+$link-color: $info-color !default; // chrome default color
+
 // custom CSS
 @import "minimal-mistakes";
 
@@ -58,7 +68,7 @@ html {
   /* apply a natural box layout model to all elements */
   box-sizing: border-box;
   background-color: $background-color;
-  font-size: 11px; // originally 16px
+  font-size: 12px; // originally 16px
 
   @include breakpoint($medium) {
     // font-size: 18px;
@@ -131,22 +141,23 @@ https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa4773
 }
 
 // remove underline from links
-a:link {
-      text-decoration: none;
-}
+// a:link {
+//       text-decoration: none;
+// }
 
-a:visited {
-      text-decoration: none;
-}
+// a:visited {
+//       text-decoration: none;
+// }
 
-a:hover {
-      text-decoration: underline;
-}
+// a:hover {
+//       text-decoration: underline;
+// }
 
-a:active {
-      text-decoration: none;
-}
+// a:active {
+//       text-decoration: none;
+// }
 
+// make the grid items 3 across instead of 4
 .grid__item {
 
   @include breakpoint($medium) {
@@ -169,4 +180,9 @@ a:active {
 
   }
 
+}
+
+// make notices a little bigger
+.notice {
+  font-size: $type-size-5 !important;
 }

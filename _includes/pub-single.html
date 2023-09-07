@@ -1,3 +1,11 @@
+{% if include.pubid %}
+    {% assign searchid = "/publications/" | append: include.pubid %}
+    {% assign pub = site.publications | where: "id", searchid | first %}
+{% endif %}
+{% if include.pubtitle %}
+    {% assign pub = site.publications | where: "title", include.pubtitle | first %}
+{% endif %}
+
 {% assign pubid = pub.id | split: '/' | slice: -1 %}
 <div class="pubitem">
     <div class="pubtitle" id="{{ pubid }}">
