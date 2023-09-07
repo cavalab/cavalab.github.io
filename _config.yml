@@ -69,15 +69,15 @@ author:
   avatar: "/assets/images/space_bot3.jpg" 
   location: "Boston, MA"
   links: &links
-    - label: "GitHub"
-      icon: &gh "fab fa-fw fa-github"
-      url: "https://github.com/cavalab"
-    - label: "Twitter"
-      icon: &twitter "fab fa-twitter"
-      url: "https://twitter.com/w_la_cava"
     - label: "Email"
       icon: &email "fas fa-fw fa-envelope"
       url: "mailto:william.lacava@childrens.harvard.edu"
+    - label: "GitHub"
+      icon: &gh "fab fa-fw fa-github"
+      url: "https://github.com/cavalab"
+    - label: Google Scholar
+      icon: &scholar "fas fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=iZB7inEAAAAJ&hl=en"
     - label: "Harvard Catalyst"
       icon: &catalyst "fas fa-project-diagram" 
       url: "https://connects.catalyst.harvard.edu/Profiles/display/Person/200560"
@@ -90,6 +90,10 @@ author:
     - label: "Harvard Medical School"
       icon: &hms "fa fa-university"
       url: "https://hms.harvard.edu/"
+    - label: "Twitter"
+      icon: &twitter "fab fa-twitter"
+      style: "color: #000000;" 
+      url: "https://twitter.com/w_la_cava"
 
 footer:
   links: *links

@@ -5,6 +5,5 @@ date: 2020-07-07
 title: "Benchmarking in Optimization: Best Practice and Open Issues"
 preprint: http://arxiv.org/abs/2007.03488
 tags:
-    - optimization
     - benchmarking
 ---

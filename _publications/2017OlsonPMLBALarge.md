@@ -9,5 +9,5 @@ preprint: https://arxiv.org/abs/1703.00512
 software: https://github.com/EpistasisLab/pmlb
 tags:
     - benchmarking
-    - biomedical informatics
+    - health informatics
 ---

@@ -8,8 +8,8 @@ link: https://doi.org/10.1093/bioinformatics/btaa698
 software: https://github.com/EpistasisLab/pennai
 experiments: https://github.com/EpistasisLab/pennai-bioinformatics
 tags:
-    - automl
+    - autoML
     - methods
     - applications
-    - biomedical informatics
+    - health informatics
 ---

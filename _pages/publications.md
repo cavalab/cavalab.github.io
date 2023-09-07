@@ -5,9 +5,7 @@ classes: wide
 layout: archive
 ---
 
-[Google Scholar](https://scholar.google.com/citations?user=iZB7inEAAAAJ&hl=en)
-|
-[Sort by topic](/publications-by-topic)
+[By topic](/publications-by-topic)
 
 {% assign pubs = site.publications | reverse %}
 {% for pub in pubs %}

@@ -6,9 +6,7 @@ toc: true
 toc_label: "Topics"
 ---
 
-[Google Scholar](https://scholar.google.com/citations?user=iZB7inEAAAAJ&hl=en)
-|
-[Sort by date](/publications)
+[By date](/publications)
 
 {% assign tags = site.publications | map: 'tags' | uniq | sort %}
 {% assign pubs = site.publications | reverse %}
@@ -18,7 +16,7 @@ toc_label: "Topics"
 {% endfor %}
 
 {% for tag in tags %}
-  <h2 id="{{ tag | slugify }}" class="archive__subtitle">{{ tag | capitalize }}</h2>
+  <h2 id="{{ tag | slugify }}" class="archive__subtitle">{{ tag }}</h2>
 
   <div class="entries-{{ entries_layout }}">
     {% for pub in pubs %}

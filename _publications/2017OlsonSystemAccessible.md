@@ -8,5 +8,5 @@ date: 2017-12-01
 link: https://link.springer.com/chapter/10.1007/978-3-319-90512-9_8
 preprint: https://arxiv.org/abs/1705.00594
 tags:
-    - automl
+    - autoML
 ---

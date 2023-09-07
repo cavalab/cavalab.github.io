@@ -10,5 +10,5 @@ experiments: https://github.com/EpistasisLab/interpret_ehr
 tags:
     - interpretability
     - applications
-    - biomedical informatics
+    - health informatics
 ---

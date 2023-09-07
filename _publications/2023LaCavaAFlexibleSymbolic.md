@@ -11,5 +11,5 @@ award: HUMIES Silver Award
 tags:
     - interpretability
     - applications
-    - biomedical informatics
+    - health informatics
 ---

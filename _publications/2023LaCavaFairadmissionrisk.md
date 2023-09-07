@@ -16,5 +16,5 @@ tags:
     - methods
     - theory
     - applications
-    - biomedical informatics
+    - health informatics
 ---

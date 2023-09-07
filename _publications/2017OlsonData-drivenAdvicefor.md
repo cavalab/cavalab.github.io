@@ -9,5 +9,5 @@ preprint: http://arxiv.org/abs/1708.05070
 experiments: https://github.com/lacava/sklearn-benchmarks
 tags:
     - benchmarking
-    - automl 
+    - autoML 
 ---
