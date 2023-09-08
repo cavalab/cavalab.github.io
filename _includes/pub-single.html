@@ -17,73 +17,72 @@
     </div>
 
     {% if pub.publication %}
-    <div class="pubjournal">
-        {{pub.publication}}
-    </div>
-    {% if pub.series %}
-        <div class="pubinfo">
-            {{ pub.series }}
+        <div class="pubjournal">
+            {{pub.publication}}
         </div>
-    {% endif %}
+        {% if pub.series %}
+            <div class="pubinfo">
+                {{ pub.series }}
+            </div>
+        {% endif %}
     {% else %}
-    <div class="pubinfo">
-        Preprint
-    </div>
-
-    {% endif %}
-
-    {% if pub.award %}
         <div class="pubinfo">
-        <i class="fas fa-trophy"></i>
-        {{ pub.award }}
-        {% if pub.awardlink %}
-            &nbsp;<a href="{{pub.link}}"><i class="fas fa-external-link-alt"></i> </a>
-        {% endif %}
+            Preprint
         </div>
     {% endif %}
+
     <div class="publinks">
-    {% assign first = true %}
+        {% assign first = true %}
 
-    {% if pub.publication %}
-        {% assign first = false %}
-        {% assign linkname = pub.link | split: "/" | slice: 2 %}
-        <a href="{{pub.link}}"><i class="fas fa-external-link-alt"></i> {{ linkname }} </a>
-    {% endif %}
 
-    {% if pub.preprint %}
-        {% unless first %}&nbsp;|&nbsp;{% endunless %} {% assign first = false %}
-        {% assign preprint = pub.preprint | downcase %}
-        {% if preprint contains "arxiv" %}
-        <a href="{{pub.preprint}}">arXiv</a>
-        {% elsif preprint contains "medrxiv" %}
-        <a href="{{pub.preprint}}">medrxiv</a>
-        {% else %}
-        <a href="{{pub.preprint}}">preprint</a>
+        {% if pub.publication %}
+            {% assign first = false %}
+            {% assign linkname = pub.link | split: "/" | slice: 2 %}
+            <a href="{{pub.link}}"><i class="fas fa-external-link-alt"></i> {{ linkname }} </a>
         {% endif %}
 
-    {% endif %}
+        {% if pub.preprint %}
+            {% unless first %}&nbsp;|&nbsp;{% endunless %} {% assign first = false %}
+            {% assign preprint = pub.preprint | downcase %}
+            {% if preprint contains "arxiv" %}
+            <a href="{{pub.preprint}}">arXiv</a>
+            {% elsif preprint contains "medrxiv" %}
+            <a href="{{pub.preprint}}">medrxiv</a>
+            {% else %}
+            <a href="{{pub.preprint}}">preprint</a>
+            {% endif %}
 
-    {% if pub.pdf %}
-        {% unless first %}&nbsp;|&nbsp;{% endunless %} {% assign first = false %}
-        <a href="{{pub.pdf}}">pdf</a>
-    {% endif %}
-    
-    {% if pub.experiments %}
-        <!-- {% unless first %} - {% endunless %} {% assign first = false %} -->
-        {% unless first %}&nbsp;|&nbsp;{% endunless %} {% assign first = false %}
-        <a href="{{pub.experiments}}">experiments</a>
-    {% endif %}
+        {% endif %}
 
-    {% if pub.software %}
-        <!-- {% unless first %} - {% endunless %} {% assign first = false %} -->
-        {% unless first %}&nbsp;|&nbsp;{% endunless %} {% assign first = false %}
-        <a href="{{pub.software}}">software</a>
-    {% endif %}
+        {% if pub.pdf %}
+            {% unless first %}&nbsp;|&nbsp;{% endunless %} {% assign first = false %}
+            <a href="{{pub.pdf}}">pdf</a>
+        {% endif %}
+        
+        {% if pub.experiments %}
+            <!-- {% unless first %} - {% endunless %} {% assign first = false %} -->
+            {% unless first %}&nbsp;|&nbsp;{% endunless %} {% assign first = false %}
+            <a href="{{pub.experiments}}">experiments</a>
+        {% endif %}
 
-    {% if pub.projectpage %}
-        <!-- {% unless first %} - {% endunless %} {% assign first = false %} -->
-        {% unless first %}&nbsp;|&nbsp;{% endunless %} {% assign first = false %}
-        <a href="{{pub.projectpage}}">project page</a>
-    {% endif %}
+        {% if pub.software %}
+            <!-- {% unless first %} - {% endunless %} {% assign first = false %} -->
+            {% unless first %}&nbsp;|&nbsp;{% endunless %} {% assign first = false %}
+            <a href="{{pub.software}}">software</a>
+        {% endif %}
+
+        {% if pub.projectpage %}
+            <!-- {% unless first %} - {% endunless %} {% assign first = false %} -->
+            {% unless first %}&nbsp;|&nbsp;{% endunless %} {% assign first = false %}
+            <a href="{{pub.projectpage}}">project page</a>
+        {% endif %}
+        {% if pub.award %}
+            {% unless first %}&nbsp;|&nbsp;{% endunless %} {% assign first = false %}
+            <i class="fas fa-trophy"></i>
+            {{ pub.award }}
+            {% if pub.awardlink %}
+                &nbsp;<a href="{{pub.link}}"><i class="fas fa-external-link-alt"></i> </a>
+            {% endif %}
+        {% endif %}
     </div>
 </div>

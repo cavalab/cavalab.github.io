@@ -1,6 +1,6 @@
 ---
 layout: publication
-authors: "Lett, E., and La Cava, W. G. "
+authors: "Lett, E. and La Cava, W. G. "
 date: 2023-04-28
 title: "Translating intersectionality to fair machine learning in health sciences"
 publication: Nature Machine Intelligence

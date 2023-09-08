@@ -7,6 +7,8 @@ toc_label: "Topics"
 ---
 
 [By date](/publications)
+|
+By topic
 
 {% assign tags = site.publications | map: 'tags' | uniq | sort %}
 {% assign pubs = site.publications | reverse %}
@@ -26,5 +28,5 @@ toc_label: "Topics"
     {% endfor %}
   </div>
 
-  <a href="#{{ page.title | slugify }}" class="back-to-top">Back to Top &uarr;</a>
+  <a href="#page-title" class="back-to-top">Back to Top &uarr;</a>
 {% endfor %}

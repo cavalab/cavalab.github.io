@@ -14,34 +14,25 @@ Our long-term goals are to positively impact human health by developing methods 
 
 
 <h2 class="archive__subtitle">Overviews</h2>
-  <div class="entries-{{ entries_layout }}">
-    {% for post in site.research %}
-        {% include archive-single.html type='grid' %}
-    {% endfor %}
-  </div>
+<div class="entries-grid">
+  {% for post in site.research %}
+      {% include archive-single.html type='grid' %}
+  {% endfor %}
+</div>
 <div class="back-to-top"></div>
 
 <h2 class="archive__subtitle">Recent Publications</h2>
 <div class="entries-{{ entries_layout }}">
-{% assign pubs = site.publications | reverse %}
-{% for pub in pubs limit: 3 %}
-  {% include pub-single.html %}
-{% endfor %}
+  {% assign pubs = site.publications | reverse %}
+  {% for pub in pubs limit: 3 %}
+    {% include pub-single.html %}
+  {% endfor %}
 </div>
 <a href="/publications" class="back-to-top">See all publications</a>
 
-<h2 class="archive__subtitle">Posts by Topic</h2>
-{% for tag in site.tags %}
-  {% assign t = tag | first %}
-  {% assign posts = tag | last %}
-
-  <h3 id="{{ t | slugify }}" class="archive__title">{{ t }}</h3>
-  <div class="entries-{{ entries_layout }}">
-    {% for post in posts %}
-      {% if post.tags contains t %}
-            {% include archive-single.html type="left" %}
-      {% endif %}
-    {% endfor %}
-  </div>
-
-{% endfor %}
+<h2 class="archive__subtitle">Posts</h2>
+<div class="entries-{{ entries_layout }}">
+  {% for post in site.posts %}
+    {% include archive-single.html type='grid' %}
+  {% endfor %}
+</div>
