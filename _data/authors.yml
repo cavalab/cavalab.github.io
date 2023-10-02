@@ -84,3 +84,12 @@ shakiba:
     - label: LinkedIn
       icon: *linkedin
       url: "https://www.linkedin.com/in/shakibashahbandegan/"
+
+platon:
+  name: Platon Lukyanenko
+  bio: Postdoctoral Fellow
+  avatar: "../assets/images/lukyanenko_profile.png" 
+  links:
+    - label: Github
+      icon: *github
+      url: "https://github.com/pxl282"
