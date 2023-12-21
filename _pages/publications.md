@@ -5,10 +5,6 @@ classes: wide
 layout: archive
 ---
 
-By date
-| 
-[By topic](/publications-by-topic)
-
 {% assign pubs = site.publications | reverse %}
 {% for pub in pubs %}
   {% include pub-single.html %}

@@ -1,6 +1,6 @@
 ---
 layout: publication
-authors: "Tonia Poteat, Elle Lett, Ashleigh J Rich, Huijun Jiang, Andrea L. Wirtz, Asa Radix, Sari L. Reisner, Alexander B. Harris, Jowanna Malone, William G. La Cava, Catherine R Lesko, Kenneth H. Mayer, Carl G. Streed, Jr."
+authors: "Poteat, T., Lett, E., Rich, A. J., Jiang, H., Wirtz, A. L., Radix, A., Reisner, S. L., Harris, A. B., Malone, J., La Cava, W. G., Lesko, C. R., Mayer, K. H., & Streed, C. G."
 date: 2023-11-30
 publication: Health Equity
 title: "Effects of Race and Gender Classifications on Atherosclerotic Cardiovascular Disease Risk Estimates for Clinical Decision-Making in a Cohort of Black Transgender Women"
