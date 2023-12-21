@@ -5,6 +5,7 @@ date: 2023-11-30
 publication: Health Equity
 title: "Effects of Race and Gender Classifications on Atherosclerotic Cardiovascular Disease Risk Estimates for Clinical Decision-Making in a Cohort of Black Transgender Women"
 link: https://doi.org/10.1089/heq.2023.0066
+pdf: https://www.liebertpub.com/doi/pdf/10.1089/heq.2023.0066?download=true
 tags:
     - fairness
 ---
