@@ -1,5 +1,13 @@
+zhanzhan:
+  name: "Zhanzhan Zhao, PhD"
+  avatar: "assets/images/zhao-zhanzhan_profile.png"
+  bio: "Postdoctoral Fellow"
+  links:
+    - label: Website
+      icon: &personal "fas fa-user"
+      url: "https://sites.gatech.edu/zhanzhanzhao/"
 bill:
-  name: "William La Cava"
+  name: "William La Cava, PhD"
   avatar: "assets/images/profile_pic_small.JPG"
   bio: "Principal Investigator"
   links:
@@ -86,7 +94,7 @@ shakiba:
       url: "https://www.linkedin.com/in/shakibashahbandegan/"
 
 platon:
-  name: Platon Lukyanenko
+  name: Platon Lukyanenko, PhD
   bio: Postdoctoral Fellow
   avatar: "../assets/images/lukyanenko_profile.png" 
   links:
