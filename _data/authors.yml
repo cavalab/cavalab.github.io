@@ -52,7 +52,7 @@ guangya:
   links:
     - label: Website
       icon: *personal
-      url: "http://wanguangya.com"
+      url: "https://datascience.virginia.edu/people/guangya-wan"
     - label: Github
       icon: *github
       url: "https://github.com/wan19990901"

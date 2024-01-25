@@ -15,12 +15,13 @@ entries_layout: grid
 
 ## Prior Members and Trainees
 
-- Zongjun Liu, MS candidate, Havard School of Public Health
+- [Guangya Wan](https://datascience.virginia.edu/people/guangya-wan), MS HSPH &#8594; UVA Data Science PhD program
+- Zongjun Liu, MS HSPH &#8594; Kaiser Permanente
 - Sid Barthulwar, BS candidate, Harvard University 
-- Tilak Raj Singh, M.S. SEAS, UPenn / Microsoft
-- James Taggart, B.S. CIS, UPenn / Google
-- Srinivas Suri, M.S. SEAS, UPenn / Microsoft
-- Max Roling, B.S. Wharton, UPenn / Morgan Stanley
-- Saurav Bose, M.S. SEAS, UPenn / Foursquare 
-- Nupur Baghel, M.S. SEAS, UPenn / Meta
-- Rishabh Gupta, M.S. EMBS, UPenn / Meta
+- Tilak Raj Singh, M.S. SEAS, UPenn &#8594; Microsoft
+- James Taggart, B.S. CIS, UPenn &#8594; Google
+- Srinivas Suri, M.S. SEAS, UPenn &#8594; Microsoft
+- Max Roling, B.S. Wharton, UPenn &#8594; Morgan Stanley
+- Saurav Bose, M.S. SEAS, UPenn &#8594; Foursquare 
+- Nupur Baghel, M.S. SEAS, UPenn &#8594; Meta
+- Rishabh Gupta, M.S. EMBS, UPenn &#8594; Meta
