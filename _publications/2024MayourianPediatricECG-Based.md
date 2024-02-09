@@ -11,7 +11,3 @@ tags:
     - interpretability
     - autoML
 ---
-
-https://www.ahajournals.org/doi/abs/10.1161/CIRCULATIONAHA.123.067750
-Mayourian, J., La Cava, W. G., Vaid, A., Nadkarni, G. N., Ghelani, S. J., Mannix, R., Geva, T., Dionne, A., Alexander, M. E., Duong, S. Q., & Triedman, J. K. (n.d.). 
-Pediatric ECG-Based Deep Learning to Predict Left Ventricular Dysfunction and Remodeling. Circulation, 0(0). https://doi.org/10.1161/CIRCULATIONAHA.123.067750

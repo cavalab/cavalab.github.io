@@ -1,6 +1,6 @@
 ---
 layout: publication
-authors: "Rodrigues, N. M., Batista, J. E., Cava, W. L., Vanneschi, L., & Silva, S."
+authors: "Rodrigues, N. M., Batista, J. E., La Cava, W.G., Vanneschi, L., & Silva, S."
 date: 2023-12-12
 publication: SN Computer Science
 title: "Exploring SLUG: Feature Selection Using Genetic Algorithms and Genetic Programming"
