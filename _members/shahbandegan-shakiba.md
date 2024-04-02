@@ -1,7 +1,7 @@
 ---
 title: Shakiba Shahbandegan
 header: 
-    teaser:  "../assets/images/shahbandegan.png"
+    teaser:  "../assets/images/shahbandegan.jpg"
 author: shakiba
 author_profile: true
 ---

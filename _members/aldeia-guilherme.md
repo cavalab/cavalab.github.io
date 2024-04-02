@@ -1,7 +1,7 @@
 ---
 title: Guilherme Aldeia
 header: 
-    teaser:  "../assets/images/aldeia.png"
+    teaser:  "../assets/images/aldeia.jpeg"
 author: guilherme
 author_profile: true
 ---

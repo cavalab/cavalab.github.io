@@ -1,7 +1,7 @@
 ---
 title: Platon Lukyanenko 
 header: 
-    teaser: "../assets/images/lukyanenko.png" 
+    teaser: "../assets/images/lukyanenko_profile.png" 
 author: platon
 author_profile: true
 ---

@@ -1,7 +1,7 @@
 ---
 title: Elle Lett
 header: 
-    teaser:  "../assets/images/lett_elle_cropped.png"
+    teaser:  "../assets/images/lett_elle.JPG"
 author: elle
 author_profile: true
 ---

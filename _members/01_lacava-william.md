@@ -1,7 +1,7 @@
 ---
 title: William La Cava
 header: 
-    teaser:  "../assets/images/lacava.png"
+    teaser:  "../assets/images/profile_pic_small.JPG"
 author: bill
 author_profile: true
 ---
