@@ -1,6 +1,6 @@
 # Cava lab website
 
-This is the code for the (cavalab.org) website. 
+This is the code for the https://cavalab.org website. 
 
 # How to add yourself
 
@@ -11,28 +11,28 @@ This is the code for the (cavalab.org) website.
 
 ```yaml
 bill:
-  name: "William La Cava, PhD"
-  avatar: "assets/images/profile_pic_small.JPG"
-  bio: "Principal Investigator"
+  name: "My Name, PhD"
+  avatar: "assets/images/last-name-first-name.png"
+  bio: "Postdoctoral Fellow"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:william.lacava@childrens.harvard.edu"
+      url: "mailto:my.email@childrens.harvard.edu"
     - label: Website
       icon: &personal "fas fa-user"
-      url: "http://williamlacava.com"
+      url: "http://personal-website.com"
     - label: Google Scholar
       icon: &scholar "fas fa-graduation-cap"
-      url: "https://scholar.google.com/citations?user=iZB7inEAAAAJ&hl=en"
+      url: "https://scholar.google.com/citations?user=me&hl=en"
     - label: Github
       icon: &github "fab fa-fw fa-github"
-      url: "https://github.com/lacava"
+      url: "https://github.com/me"
     - label: Twitter
       icon: &twitter "fab fa-twitter"
-      url: "https://www.twitter.com/w_la_cava"
+      url: "https://www.twitter.com/me"
     - label: LinkedIn
       icon: &linkedin "fab fa-linkedin" 
-      url: "https://www.linkedin.com/in/williamlacava/"
+      url: "https://www.linkedin.com/in/me/"
 ```
 
 For the links, you just have to change the `url` field. 
