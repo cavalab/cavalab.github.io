@@ -8,7 +8,7 @@ zhanzhan:
       url: "https://sites.gatech.edu/zhanzhanzhao/"
 bill:
   name: "William La Cava, PhD"
-  avatar: "assets/images/profile_pic_small.JPG"
+  avatar: "assets/images/lacava_profile.JPG"
   bio: "Principal Investigator"
   links:
     - label: "Email"
@@ -56,15 +56,6 @@ guangya:
     - label: Github
       icon: *github
       url: "https://github.com/wan19990901"
-
-zongjun:
-  name: Zongjun Liu
-  bio: Master's Student
-  avatar: "../assets/images/liu_zongjun.JPG" 
-  links:
-    - label: Github
-      icon: *github
-      url: "https://github.com/msnliu"
 
 guilherme:
   name: Guilherme Aldeia
