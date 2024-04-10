@@ -2,7 +2,7 @@
 title: Mingxuan Liu
 header: 
     teaser: "../assets/images/mingxuan_liu.png" 
-author: zhanzhan
+author: mingxuan
 author_profile: true
 ---
 
