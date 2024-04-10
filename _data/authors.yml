@@ -92,3 +92,15 @@ platon:
     - label: Github
       icon: *github
       url: "https://github.com/pxl282"
+
+mingxuan:
+  name: Mingxuan Liu
+  avatar: "assets/images/mingxuan_liu.png"
+  bio: PhD student
+  links:
+    - label: Website
+      icon: &personal "fas fa-user"
+      url: "https://michellemingxuan.github.io/"
+    - label: Google Scholar
+      icon: &scholar "fas fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=CZpuMC8AAAAJ&hl=en"
