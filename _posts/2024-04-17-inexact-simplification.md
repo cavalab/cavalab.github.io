@@ -14,3 +14,9 @@ toc: true
 ---
 
 Hello world!
+
+{% assign pub = site.publications 
+    | where_exp:"pub", "pub.title == 'Inexact Simplification of Symbolic Regression Expressions with Locality-sensitive Hashing'" 
+    | first %}
+{% include pub-single.html %}
+{:.notice}
