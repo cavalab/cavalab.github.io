@@ -2,7 +2,7 @@
 title: "Simplifying symbolic regression models without simplification rules"
 date: 2024-04-14
 layout: posts
-author: galdeia
+author: guilherme
 excerpt: Relaxing the definition of equivalent mathematical expressions to get more simpler and interpretable models
 tags: 
     - Symbolic Regression
@@ -13,11 +13,18 @@ header:
 toc: true
 ---
 
+{% assign pub = site.publications 
+    | where_exp:"pub", "pub.title == 'Inexact Simplification of Symbolic Regression Expressions with Locality-sensitive Hashing'" 
+    | first %}
+{% include pub-single.html %}
+{:.notice}
+
 Symbolic regression (SR) is a non-parametric technique for finding models that present a good balance between predictive power and model simplicity, and it is usually done with evolutionary algorithms[^srbench].
+Symbolic regression creates models by using trees to compose a mathematical expression, like so:
 
 {% include figure 
 image_path="/assets/images/inexact-simplification-sr-model.svg" 
-caption="Symbolic regression creates models by using trees to compose a mathematical expression. In this figure, on side of each node, there is the equivalent mathematical expression. From bottom-up, we can see how a cool expression is created using this representation." 
+caption="A symbolic expression tree. The equivalent mathematical expression is shown besides each node. From bottom-up, we can see how an expression is created using this representation." 
 alt="A symbolic regression model"
 %}
 
@@ -25,17 +32,12 @@ SR is suitable when the user wants the final model to be interpretable, but thes
 
 {% include figure 
 image_path="/assets/images/inexact-simplification-isomorphic.svg" 
-caption="They are all the same. Despite being very different in depth or number of nodes, all these models evaluate to the same (or almost the same) prediction vector. Our inexact simplification method learned all these equivalences during the execution of the algorithm, and without being explicitly programmed to catch any specific simplification pattern." 
+caption="Despite being very different in depth or number of nodes, all of these models evaluate to the same (or almost the same) prediction vector. Our inexact simplification method learned all these equivalences during the execution of the algorithm, and without being explicitly programmed to catch any specific simplification pattern." 
 alt="Several models that have the same behavior on training data, but very different trees."
 %}
 
-Our recent work (reference below) explores a simplification approach based on memoization. By mapping similar expressions to the same hash, we create a table that stores similar expressions in increasing order of size, allowing us to quickly identify simpler and approximately equivalent substitute symbols:
-
-{% assign pub = site.publications 
-    | where_exp:"pub", "pub.title == 'Inexact Simplification of Symbolic Regression Expressions with Locality-sensitive Hashing'" 
-    | first %}
-{% include pub-single.html %}
-{:.notice}
+Our recent work[^inexactsimp] explores a simplification approach based on memoization. 
+By mapping similar expressions to the same hash, we create a table that stores similar expressions in increasing order of size, allowing us to quickly identify simpler and approximately equivalent substitute symbols.
 
 In this post, I will discuss the main idea and then analyze its effects in a case study, focusing on the benefits of memorization as a strategy to learn to simplify.
 
