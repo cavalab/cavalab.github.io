@@ -12,8 +12,6 @@ Our research focuses on developing machine learning methods and using them to ex
 We use these methods to learn predictive models from electronic health records (EHRs) that are both <i>interpretable</i> to clinicians and <i>fair</i> to the population on which they are deployed. 
 Our long-term goals are to positively impact human health by developing methods that are flexible enough to automate entire computational workflows underlying scientific discovery and medicine.
 
-<br> </br>
-See our <a href="/publications">list of publications.</a>
 
 <h2 class="archive__subtitle">Overviews</h2>
 <div class="entries-grid">
@@ -23,19 +21,6 @@ See our <a href="/publications">list of publications.</a>
 </div>
 <div class="back-to-top"></div>
 
-<h2 class="archive__subtitle">Posts</h2>
-<div class="entries-{{ entries_layout }}">
-  {% for post in site.posts %}
-    {% include archive-single.html type='grid' %}
-  {% endfor %}
-</div>
-<div class="back-to-top"></div>
 
-<h2 class="archive__subtitle">Recent Publications</h2>
-<div class="entries-{{ entries_layout }}">
-  {% assign pubs = site.publications | reverse %}
-  {% for pub in pubs limit: 3 %}
-    {% include pub-single.html %}
-  {% endfor %}
-</div>
-<a href="/publications" class="back-to-top">See all</a>
+<br> </br>
+See our <a href="/publications">publications</a> and <a href="/posts">posts</a> about them.

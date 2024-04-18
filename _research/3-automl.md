@@ -17,7 +17,7 @@ caption="*Accessible, Automatic Data Science*: [github.com/EpistasisLab/Aliro](h
 %}
 
 
-See my [post](http://williamlacava.com/research/pennai-paper) talking about our Bioinformatics paper[^3]. 
+See my [post](http://williamlacava.com/research/pennai-paper) talking about our [Bioinformatics paper](#2020LaCavaEvaluatingrecommendersystems). 
 
 
 <h3 class="archive__subtitle">Related Publications</h3>
