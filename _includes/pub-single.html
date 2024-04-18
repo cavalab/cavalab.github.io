@@ -35,7 +35,7 @@
         {% assign first = true %}
 
 
-        {% if pub.publication %}
+        {% if pub.publication and pub.link %}
             {% assign first = false %}
             {% assign linkname = pub.link | split: "/" | slice: 2 %}
             <a href="{{pub.link}}"><i class="fas fa-external-link-alt"></i> {{ linkname }} </a>
