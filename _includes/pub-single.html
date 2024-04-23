@@ -48,6 +48,8 @@
             <a href="{{pub.preprint}}">arXiv</a>
             {% elsif preprint contains "medrxiv" %}
             <a href="{{pub.preprint}}">medrxiv</a>
+            {% elsif preprint contains "pubmed" %}
+            <a href="{{pub.preprint}}">pubmed</a>
             {% else %}
             <a href="{{pub.preprint}}">preprint</a>
             {% endif %}
