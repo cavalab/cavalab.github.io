@@ -140,4 +140,38 @@ references:
   type: article-journal
   URL: https://linkinghub.elsevier.com/retrieve/pii/S0002937823010694
   volume: '230'
+
+- id: mccoyIntrapartumElectronicFetal2024a
+  accessed:
+    - year: 2024
+      month: 4
+      day: 30
+  author:
+    - family: Mccoy
+      given: Jennifer A.
+    - family: Levine
+      given: Lisa D.
+    - family: Wan
+      given: Guangya
+    - family: Chivers
+      given: Corey
+    - family: Teel
+      given: Joseph
+    - family: La cava
+      given: William G.
+  citation-key: mccoyIntrapartumElectronicFetal2024a
+  container-title: American Journal of Obstetrics and Gynecology
+  container-title-short: American Journal of Obstetrics and Gynecology
+  DOI: 10.1016/j.ajog.2024.04.022
+  ISSN: 0002-9378
+  issued:
+    - year: 2024
+      month: 4
+      day: 24
+  source: ScienceDirect
+  title: >-
+    Intrapartum electronic fetal heart rate monitoring to predict acidemia at
+    birth with the use of deep learning
+  type: article-journal
+  URL: https://www.sciencedirect.com/science/article/pii/S0002937824005283
 ...
