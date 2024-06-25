@@ -703,6 +703,8 @@ references:
   volume: '55'
 
 - id: lacavaInterpretationMachineLearning2019a
+  archive: arXiv
+  archive_location: https://arxiv.org/abs/1903.12074
   author:
     - family: La Cava
       given: William
@@ -714,6 +716,7 @@ references:
       given: Sarah A.
   citation-key: lacavaInterpretationMachineLearning2019a
   collection-title: AMIA 2019 Annual Symposium
+  event-title: AMIA Annual Symposium
   issued:
     - year: 2019
   note: 'Backup Publisher: AMIA 2019 Annual Symposium'
@@ -722,7 +725,7 @@ references:
     Interpretation of machine learning predictions for patient outcomes in
     electronic health records
   type: paper-conference
-  URL: https://arxiv.org/abs/1903.12074
+  URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7153071/
 
 - id: lacavaLearningConciseRepresentations2019
   accessed:
@@ -1337,6 +1340,7 @@ references:
   source: Google Scholar
   title: Relaxations of lexicase parent selection
   type: chapter
+  URL: https://link.springer.com/chapter/10.1007/978-3-319-90512-9_7
 
 - id: tanInformativeMissingnessWhat2023
   accessed:

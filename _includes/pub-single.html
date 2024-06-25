@@ -24,7 +24,7 @@
     {% assign venueclass = "pubjournal" %}
     {% if pub.container-title %}
         {% assign venue = pub.container-title %}
-    {% elsif pub.event-title}
+    {% elsif pub.event-title %}
         {% assign venue = pub.event-title %}
     {% elsif pub.type == "thesis" %}
         {% assign venue = "Thesis" %}
