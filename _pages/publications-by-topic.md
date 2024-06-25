@@ -10,8 +10,8 @@ toc_label: "Topics"
 |
 By topic
 
-{% assign tags = site.publications | map: 'tags' | uniq | sort %}
-{% assign pubs = site.publications | reverse %}
+{% assign tags = site.data.publications.references | map: 'tags' | uniq | sort %}
+{% assign pubs = site.data.publications.references | reverse %}
 
 {% for tag in tags %}
   <a href="#{{ tag | slugify }}"></a>

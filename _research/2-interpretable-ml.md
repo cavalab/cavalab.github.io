@@ -61,8 +61,8 @@ More work is needed to scale and study these algorithms in routine clinical care
 <h3 class="archive__subtitle">Related Publications</h3>
 
 <div class="entries-{{ entries_layout }}">
-{% assign pubs = site.publications | reverse %}
-{% for pub in pubs %}
+{% assign pubs = site.data.publications.references | reverse %}
+{% for pub in pubs.items %}
     {% if pub.tags contains "interpretability" %}
         {% include pub-single.html %}
     {% endif %}

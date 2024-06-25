@@ -23,8 +23,8 @@ See my [post](http://williamlacava.com/research/pennai-paper) talking about our 
 <h3 class="archive__subtitle">Related Publications</h3>
 
 <div class="entries-{{ entries_layout }}">
-{% assign pubs = site.publications | reverse %}
-{% for pub in pubs %}
+{% assign pubs = site.data.publications.references | reverse %}
+{% for pub in pubs.items %}
     {% if pub.tags contains "autoML" %}
         {% include pub-single.html %}
     {% endif %}

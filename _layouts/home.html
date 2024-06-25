@@ -22,9 +22,12 @@ layout: archive
 <h2 class="archive__subtitle">Recent Publications</h2>
 
 <div class="entries-{{ entries_layout }}">
-{% assign pubs = site.publications | reverse %}
-{% for pub in pubs limit: 3 %}
-  {% include pub-single.html %}
+{% include pubs_by_date.html %}
+
+{% for pubs in pubs_by_date limit: 3%}
+  {% for pub in pubs.items %}
+    {% include pub-single.html %}
+  {% endfor %}
 {% endfor %}
 </div>
 

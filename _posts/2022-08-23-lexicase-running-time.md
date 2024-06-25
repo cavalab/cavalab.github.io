@@ -10,7 +10,7 @@ header:
     teaser: /assets/images/clique.png
 ---
 
-{% include pub-single.html pubid="2022HelmuthPopulationDiversityLeads" %}
+{% include pub-single.html pubid="helmuthPopulationDiversityLeads2022" %}
 {:.notice}
 
 [^paper]: Helmuth, Lengler, La Cava. Population Diversity Leads to Short Running Times of Lexicase Selection. [arXiv](https://arxiv.org/abs/2204.06461)

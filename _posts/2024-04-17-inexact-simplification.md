@@ -13,7 +13,7 @@ header:
 toc: true
 ---
 
-{% assign pub = site.publications 
+{% assign pub = site.data.publications 
     | where_exp:"pub", "pub.title == 'Inexact Simplification of Symbolic Regression Expressions with Locality-sensitive Hashing'" 
     | first %}
 {% include pub-single.html %}

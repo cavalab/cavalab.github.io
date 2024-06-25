@@ -1,90 +1,88 @@
 {% if include.pubid %}
-    {% assign searchid = "/publications/" | append: include.pubid %}
-    {% assign pub = site.publications | where: "id", searchid | first %}
+    {% assign pub = site.data.publications.references | where: "id", include.pubid | first %}
 {% endif %}
 {% if include.pubtitle %}
-    {% assign pub = site.publications | where: "title", include.pubtitle | first %}
+    {% assign pub = site.data.publications.references | where: "title", include.pubtitle | first %}
 {% endif %}
 
-{% assign pubid = pub.id | split: '/' | slice: -1 %}
 <div class="pubitem">
-    <div class="pubtitle" id="{{ pubid }}">
+    <div class="pubtitle" id="{{ pub.id }}">
     {{ pub.title }}
     </div>
     <div class="pubauthors">
-    {% assign year = pub.date | date: "%Y" %}
-    {{ pub.authors }} ({{ year }})
+        {% assign year = pub.issued.first.year%}
+        {% for author in pub.author %}
+            {% if forloop.index < pub.author.size - 1 %}
+                {{ author.given }} {{ author.family}},
+            {% else %}
+                {{ author.given }} {{ author.family}}
+            {% endif %}
+        {% endfor %}
+        ({{ year }})
     </div>
 
-    {% if pub.publication %}
-        <div class="pubjournal">
-            {{pub.publication}}
-        </div>
-        {% if pub.series %}
-            <div class="pubinfo">
-                {{ pub.series }}
-            </div>
-        {% endif %}
+    {% assign venueclass = "pubjournal" %}
+    {% if pub.container-title %}
+        {% assign venue = pub.container-title %}
+    {% elsif pub.event-title}
+        {% assign venue = pub.event-title %}
+    {% elsif pub.type == "thesis" %}
+        {% assign venue = "Thesis" %}
     {% else %}
-        <div class="pubinfo">
-            Preprint
-        </div>
+        {% assign venue = "Preprint" %}
+        {% assign venueclass = "pubinfo" %}
     {% endif %}
+
+    <div class={{ venueclass}}>
+        {{venue}}
+    </div>
 
     <div class="publinks">
         {% assign first = true %}
 
-
-        {% if pub.publication and pub.link %}
+        {% if venue and pub.URL %}
             {% assign first = false %}
-            {% assign linkname = pub.link | split: "/" | slice: 2 %}
-            <a href="{{pub.link}}"><i class="fas fa-external-link-alt"></i> {{ linkname }} </a>
+            {% assign linkname = pub.URL | remove_first: "www." | split: "/" | slice: 2  %}
+            <a href="{{pub.URL}}"><i class="fas fa-external-link-alt"></i> {{ linkname }} </a>
         {% endif %}
 
-        {% if pub.preprint %}
+        {% if pub.archive %}
             {% unless first %}&nbsp;|&nbsp;{% endunless %} {% assign first = false %}
-            {% assign preprint = pub.preprint | downcase %}
-            {% if preprint contains "arxiv" %}
-            <a href="{{pub.preprint}}">arXiv</a>
-            {% elsif preprint contains "medrxiv" %}
-            <a href="{{pub.preprint}}">medrxiv</a>
-            {% elsif preprint contains "pubmed" %}
-            <a href="{{pub.preprint}}">pubmed</a>
-            {% else %}
-            <a href="{{pub.preprint}}">preprint</a>
-            {% endif %}
-
+            <a href="{{pub.archive_location}}">{{pub.archive}}</a>
         {% endif %}
 
-        {% if pub.pdf %}
-            {% unless first %}&nbsp;|&nbsp;{% endunless %} {% assign first = false %}
-            <a href="{{pub.pdf}}">pdf</a>
+        {% if pub.author.size > 2 %}
+            {% assign pdfauth = pub.author[0].family | append: " et al."%}
+        {% elsif pub.author.size > 1 %}
+            {% assign pdfauth = pub.author[0].family | append : " and " | append: pub.author[1].family %}
+        {% else %}
+            {% assign pdfauth = pub.author[0].family %}
         {% endif %}
+        {% assign pdftitle = pub.title | truncate: 54, ".pdf" %}
+        {% assign pdflink = pdfauth | append: " - " | append: year | append: " - " | append: pdftitle %}
+        {% unless first %}&nbsp;|&nbsp;{% endunless %} {% assign first = false %}
+        {% assign pdfpath = "/assets/papers" %}
+        <a href="{{pdfpath}}/{{pdflink}}">pdf</a>
         
-        {% if pub.experiments %}
-            <!-- {% unless first %} - {% endunless %} {% assign first = false %} -->
-            {% unless first %}&nbsp;|&nbsp;{% endunless %} {% assign first = false %}
-            <a href="{{pub.experiments}}">experiments</a>
-        {% endif %}
-
-        {% if pub.software %}
-            <!-- {% unless first %} - {% endunless %} {% assign first = false %} -->
-            {% unless first %}&nbsp;|&nbsp;{% endunless %} {% assign first = false %}
-            <a href="{{pub.software}}">software</a>
-        {% endif %}
-
-        {% if pub.projectpage %}
-            <!-- {% unless first %} - {% endunless %} {% assign first = false %} -->
-            {% unless first %}&nbsp;|&nbsp;{% endunless %} {% assign first = false %}
-            <a href="{{pub.projectpage}}">project page</a>
-        {% endif %}
-        {% if pub.award %}
-            {% unless first %}&nbsp;|&nbsp;{% endunless %} {% assign first = false %}
-            <i class="fas fa-trophy"></i>
-            {{ pub.award }}
-            {% if pub.awardlink %}
-                &nbsp;<a href="{{pub.link}}"><i class="fas fa-external-link-alt"></i> </a>
-            {% endif %}
+        {% if pub.note %}
+            {% assign items = pub.note | split: ", " %}
+            {% for item in items %}
+                {% assign keyval = item | split: "=" %}
+                {% assign key = keyval[0] %}
+                {% assign val = keyval[1] %}
+                {% case key %}
+                    {% when "code", "post" %}
+                        {% unless first %}&nbsp;|&nbsp;{% endunless %} {% assign first = false %}
+                        <a href="{{ val }}">{{ key }}</a>
+                    {% when "award" %}
+                        {% unless first %}&nbsp;|&nbsp;{% endunless %} {% assign first = false %}
+                        <i class="fas fa-trophy"></i>
+                        {{ val }}
+                    {% when "awardlink" %}
+                        &nbsp;<a href="{{ val }}"><i class="fas fa-external-link-alt"></i> </a>
+                    {% else %}
+                {% endcase %}
+            {% endfor %}
         {% endif %}
     </div>
 </div>

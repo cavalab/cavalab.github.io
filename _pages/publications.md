@@ -5,8 +5,9 @@ classes: wide
 layout: archive
 ---
 
-{% assign pubs = site.publications | reverse %}
-{% for pub in pubs %}
-  {% include pub-single.html %}
-  <div class="back-to-top"></div>
+{% include pubs_by_date.html %}
+{% for pubs in pubs_by_date %}
+  {% for pub in pubs.items %}
+    {% include pub-single.html %}
+  {% endfor %}
 {% endfor %}
