@@ -7,8 +7,8 @@ tags:
 ---
 
 While artificial intelligence (AI) has become widespread, many commercial AI systems are not yet accessible to individual researchers nor the general public due to the deep knowledge of the systems required to use them. 
-We believe that AI has matured to the point where it should be an [accessible technology for everyone](#2017OlsonSystemAccessible)[^1]. 
-The ultimate goal of this research area is to develop AI systems that [automate the entire computational workflows](#2020LaCavaEvaluatingrecommendersystems) of today's data scientists. 
+We believe that AI has matured to the point where it should be an [accessible technology for everyone](/publications/#olsonSystemAccessibleArtificial2017)[^1]. 
+The ultimate goal of this research area is to develop AI systems that [automate the entire computational workflows](/publications/#lacavaEvaluatingRecommenderSystems202) of today's data scientists. 
 Doing will accelerate the analysis of complex data in the biomedical and health care domains. 
 
 {% include figure 
@@ -17,19 +17,8 @@ caption="*Accessible, Automatic Data Science*: [github.com/EpistasisLab/Aliro](h
 %}
 
 
-See my [post](http://williamlacava.com/research/pennai-paper) talking about our [Bioinformatics paper](#2020LaCavaEvaluatingrecommendersystems). 
+See my [post](http://williamlacava.com/research/pennai-paper) talking about our [Bioinformatics paper](/publications/#lacavaEvaluatingRecommenderSystems2023). 
 
-
-<h3 class="archive__subtitle">Related Publications</h3>
-
-<div class="entries-{{ entries_layout }}">
-{% assign pubs = site.data.publications.references | reverse %}
-{% for pub in pubs.items %}
-    {% if pub.tags contains "autoML" %}
-        {% include pub-single.html %}
-    {% endif %}
-{% endfor %}
-</div>
 
 <h3 class="archive__subtitle">Footnotes</h3>
 

@@ -44,7 +44,7 @@ Many of our research projects center around these three motivations when designi
 Researchers often see the _complexity_ of a model as a trade-off with its _error_: more complex models should give better predictions than simple ones. 
 However, very rarely is the nature of the trade-off actually characterized in a robust way. 
 
-In fact, [what we have found](#2021LaCavaContemporarySymbolicRegression) is that for many tasks, symbolic regression approaches can perform as well as or better than state-of-the-art black-box approaches - and still produce simpler expressions. 
+In fact, [what we have found](/publications/#lacavaContemporarySymbolicRegression2021) is that for many tasks, symbolic regression approaches can perform as well as or better than state-of-the-art black-box approaches - and still produce simpler expressions. 
 
 {% include figure
 image_path="/assets/images/pairgrid-pointplot_r2_test_model_size_training-time-s.png"
@@ -53,12 +53,10 @@ caption= "Symbolic regression algorithms (marked with asterisk) benchmarked agai
 
 ### Do they work in clinical care? 
 
-Our preliminary work on symbolic regression approaches to patient phenotyping have shown success in producing accurate and [interpretable models of treatment resistant hypertension](#2023LaCavaAFlexibleSymbolic). 
+Our preliminary work on symbolic regression approaches to patient phenotyping have shown success in producing accurate and [interpretable models of treatment resistant hypertension](/publications/#lacavaAFlexibleSymbolic2023). 
 More work is needed to scale and study these algorithms in routine clinical care. 
 
 {% include figure image_path="/assets/images/aTRH_model.svg" caption="A symbolic regression model of treatment resistant hypertension." alt="A symbolic regression model of treatment resistant hypertension." %}
-
-<h3 class="archive__subtitle">Related Publications</h3>
 
 <div class="entries-{{ entries_layout }}">
 {% assign pubs = site.data.publications.references | reverse %}

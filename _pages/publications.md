@@ -6,8 +6,6 @@ layout: archive
 ---
 
 {% include pubs_by_date.html %}
-{% for pubs in pubs_by_date %}
-  {% for pub in pubs.items %}
+{% for pub in pubs_by_date %}
     {% include pub-single.html %}
-  {% endfor %}
 {% endfor %}
