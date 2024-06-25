@@ -8,7 +8,7 @@ tags:
 
 While artificial intelligence (AI) has become widespread, many commercial AI systems are not yet accessible to individual researchers nor the general public due to the deep knowledge of the systems required to use them. 
 We believe that AI has matured to the point where it should be an [accessible technology for everyone](/publications/#olsonSystemAccessibleArtificial2017)[^1]. 
-The ultimate goal of this research area is to develop AI systems that [automate the entire computational workflows](/publications/#lacavaEvaluatingRecommenderSystems202) of today's data scientists. 
+The ultimate goal of this research area is to develop AI systems that [automate the entire computational workflows](/publications/#lacavaEvaluatingRecommenderSystems2020) of today's data scientists. 
 Doing will accelerate the analysis of complex data in the biomedical and health care domains. 
 
 {% include figure 
