@@ -1,3 +1,4 @@
+name: members
 on:
   push:
     branches:
