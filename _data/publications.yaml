@@ -961,6 +961,36 @@ references:
   type: article-journal
   URL: https://www.nature.com/articles/s42256-023-00651-3
 
+- id: lukyanenkoBenchmarkingMortalityRisk2024
+  accessed:
+    - year: 2024
+      month: 6
+      day: 26
+  author:
+    - family: Lukyanenko
+      given: Platon
+    - family: Mayourian
+      given: Joshua
+    - family: Liua
+      given: Mingxuan
+    - family: Triedman
+      given: John K.
+    - family: Ghelani
+      given: Sunil J.
+    - family: La Cava
+      given: William G.
+  citation-key: lukyanenkoBenchmarkingMortalityRisk2024
+  issued:
+    - year: 2024
+      month: 6
+      day: 24
+  number: arXiv:2406.17002
+  publisher: arXiv
+  source: arXiv.org
+  title: Benchmarking mortality risk prediction from electrocardiograms
+  type: article
+  URL: http://arxiv.org/abs/2406.17002
+
 - id: mayourianDeepLearningbasedElectrocardiogram2024
   accessed:
     - year: 2024
