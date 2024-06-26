@@ -10,9 +10,8 @@ os.makedirs('_members',exist_ok=True)
 for author, v in authors.items():
     given_name = v['name'].split(' ')[0]
     family_name = v['name'][len(given_name):]
-    title = v['name']
-    if 'degrees' in v: 
-        title += v['degrees']
+    title = v['name'].split(',')[0]
+
     page = '\n'.join([
         "---",
         f"title: {title}",

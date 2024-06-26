@@ -1,6 +1,5 @@
 zhanzhan:
-  name: "Zhanzhan Zhao"
-  degrees: "PhD"
+  name: "Zhanzhan Zhao, PhD"
   avatar: "assets/images/zhao-zhanzhan_profile.png"
   bio: "Postdoctoral Fellow"
   links:
@@ -13,8 +12,7 @@ zhanzhan:
     Prior to CHIP, she was a postdoctoral fellow in the Algorithms, Fairness, and Equity Program at the [Mathematical Sciences Research Institute](https://www.slmath.org/our-mission) in Berkeley.
 
 bill:
-  name: "William La Cava"
-  degrees: PhD
+  name: "William La Cava, PhD"
   avatar: "assets/images/lacava_profile.JPG"
   bio: "Principal Investigator"
   about: |
@@ -42,8 +40,7 @@ bill:
       url: "https://www.linkedin.com/in/williamlacava/"
 
 elle:
-  name: "Elle Lett"
-  degrees: PhD, MA, MBiostat
+  name: "Elle Lett, PhD, MA, MBiostat"
   bio: "Postdoctoral Fellow"
   avatar: "../assets/images/lett_elle.JPG"
   links:
@@ -99,8 +96,7 @@ shakiba:
     She is doing an internship at the Cava Lab where she is excited to apply her previous research experience to practical work.
 
 platon:
-  name: Platon Lukyanenko
-  degrees: PhD
+  name: Platon Lukyanenko, PhD
   bio: Postdoctoral Fellow
   avatar: "../assets/images/lukyanenko_profile.png" 
   links:
