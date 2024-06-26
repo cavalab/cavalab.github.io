@@ -18,6 +18,9 @@ layout: archive
     {% include archive-single.html type=entries_layout %}
   {% endfor %}
 </div>
+<div style="text-align: right;">
+<a href="/posts/" >See All Posts</a>
+</div>
 
 <h2 class="archive__subtitle">Recent Papers</h2>
 
@@ -26,6 +29,10 @@ layout: archive
   {% for pub in pubs_by_date limit: 3 %}
       {% include pub-single.html %}
   {% endfor %}
+</div>
+
+<div style="text-align: right;">
+<a href="/papers/" >See All Papers</a>
 </div>
 
 {% include paginator.html %}
