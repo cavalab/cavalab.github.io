@@ -1,7 +1,7 @@
 ---
 title: Marium Raza
 header:
-  teaser: "assets/images/RazaMarium.heic"
+  teaser: "assets/images/RazaMarium.jpg"
 author: marium
 given_name: Marium
 family_name:  Raza
