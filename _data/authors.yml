@@ -122,3 +122,24 @@ mingxuan:
       url: "https://scholar.google.com/citations?user=CZpuMC8AAAAJ&hl=en"
   about: | 
     Mingxuan is a PhD student majoring in biostatistics and health data science at Duke-NUS Medical School, National University of Singapore. She obtained a Master degree in Statistics and a Bachelor degree in Mathematics. Her research interests primarily focus on AI fairness in healthcare and interpretable machine learning.
+
+marium:
+  name: Marium Raza
+  degrees: MD Candidate, BA BS
+  avatar: "assets/images/RazaMarium.heic"
+  bio: Medical Student
+  links:
+    - label: Google Scholar
+      icon: &scholar "fas fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=JltXyzMAAAAJ&hl=en"
+    - label: LinkedIn
+      icon: &linkedin "fab fa-linkedin" 
+      url: "https://www.linkedin.com/in/razamarium"
+    - label: Github
+      icon: &github "fab fa-fw fa-github"
+      url: "https://github.com/mraza99"
+  about: |
+    Marium is a fourth year medical student at Harvard Medical School interested in orthopedic surgery. 
+    Her research interests include health tech, AI/ML applications in medicine and surgery. 
+    Before medical school, Marium received a BS in Biochemistry and a BA in Comparative History from the University of Washington, Seattle.
+    In her free time Marium loves watching movies, hiking, and cooking (especially Pakistani food). 
