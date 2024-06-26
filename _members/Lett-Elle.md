@@ -1,5 +1,5 @@
 ---
-title: Elle LettPhD, MA, MBiostat
+title: Elle Lett
 header:
   teaser: "../assets/images/lett_elle.JPG"
 author: elle

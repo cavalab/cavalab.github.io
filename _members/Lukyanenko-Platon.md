@@ -1,5 +1,5 @@
 ---
-title: Platon LukyanenkoPhD
+title: Platon Lukyanenko
 header:
   teaser: "../assets/images/lukyanenko_profile.png"
 author: platon

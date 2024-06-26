@@ -1,5 +1,5 @@
 ---
-title: Zhanzhan ZhaoPhD
+title: Zhanzhan Zhao
 header:
   teaser: "assets/images/zhao-zhanzhan_profile.png"
 author: zhanzhan

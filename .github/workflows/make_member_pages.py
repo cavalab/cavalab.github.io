@@ -8,13 +8,13 @@ with open('_data/authors.yml') as f:
 os.makedirs('_members',exist_ok=True)
 
 for author, v in authors.items():
-    given_name = v['name'].split(' ')[0]
-    family_name = v['name'][len(given_name):]
-    title = v['name'].split(',')[0]
+    name = v['name'].split(',')[0]
+    given_name = name.split(' ')[0]
+    family_name = name[len(given_name):]
 
     page = '\n'.join([
         "---",
-        f"title: {title}",
+        f"title: {name}",
         f"header:\n  teaser: \"{v['avatar']}\"",
         f"author: {author}",
         f"given_name: {given_name}",
