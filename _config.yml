@@ -24,6 +24,7 @@ email: william.lacava@childrens.harvard.edu
 # email: {% william.lacava@childrens.harvard.edu
 description: *subtitle
 domain: cavalab.github.io
+repository: cavalab/cavalab.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://cavalab.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: w_la_cava
