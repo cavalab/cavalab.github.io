@@ -4,7 +4,7 @@ This is the code for the https://cavalab.org website.
 
 # How to add yourself
 
-1. [Fork this repo](https://github.com/cavalab/cavalab.github.io/fork) and make a new branch.
+1. [Fork this repo](https://github.com/cavalab/cavalab.github.io/fork).
 2. Add a **square** profile picture **less than 200 KB** to `assets/images/` named something like `last-name-first-name.png`.
 3. edit `_data/authors.yml` to add an entry for yourself, for example:
 
