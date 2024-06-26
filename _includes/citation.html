@@ -1,12 +1,15 @@
-{% assign searchid = "/publications/" | append: include.pubid %}
-{% assign pub = site.data.publications.references | where: "id", include.pubid | first %}
-{% assign year = pub.issued.first.year | date: "%Y" -%}
-{% assign authors = '' %}
-{% for author in pub.author %}
-    {% if forloop.index < pub.author.size - 1 %}
-        {% assign authors = authors | append:  {{ author.given }} {{ author.family}}, %}
-    {% else %}
-        {% assign authors = authors | append:  {{ author.given }} {{ author.family}} %}
-    {% endif %}
-{% endfor %}
-{{include.prefix}} {{- authors -}} ({{- year -}}). <a href="/publications/#{{include.pubid}}">{{ pub.title }}.</a> {{ pub.container-title }} 
+{% assign pub = site.data.publications.references 
+    | where: "id", include.pubid | first %}
+{% assign prefix = include.prefix | slice: 1, -0 | append: "fn:" %}
+{% assign year = pub.issued.first.year %}
+{% capture authors %}{% include get_pub_authors.html pubid=include.pubid %}{% endcapture %}
+{% if pub.container-title %}
+    {% assign venue = pub.container-title %}
+{% elsif pub.event-title %}
+    {% assign venue = pub.event-title %}
+{% elsif pub.type == "thesis" %}
+    {% assign venue = "Thesis" %}
+{% else %}
+    {% assign venue = "Preprint" %}
+{% endif %}
+{{ include.prefix }} {{ authors }} ({{ year }}). <a href="/papers/#{{include.pubid}}">{{ pub.title }}.</a> {{ venue }} 

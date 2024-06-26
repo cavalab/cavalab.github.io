@@ -80,6 +80,8 @@
                         {{ val }}
                     {% when "awardlink" %}
                         &nbsp;<a href="{{ val }}"><i class="fas fa-external-link-alt"></i> </a>
+                    {% when "note" %}
+                        &nbsp;|&nbsp;{{ val }}
                     {% else %}
                 {% endcase %}
             {% endfor %}

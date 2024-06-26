@@ -13,7 +13,7 @@ header:
 toc: true
 ---
 
-{% assign pub = site.data.publications 
+{% assign pub = site.data.publications.references
     | where_exp:"pub", "pub.title == 'Inexact Simplification of Symbolic Regression Expressions with Locality-sensitive Hashing'" 
     | first %}
 {% include pub-single.html %}
@@ -101,10 +101,9 @@ It is possible to eliminate the task of defining ways to simplify expressions at
 
 # References
 
-{% include citation.html pubid="2024AldeiaInexactSimplification" prefix = "[^inexactsimp]:" %}
+{% include citation.html pubid="aldeiaInexactSimplificationSymbolic2024" prefix = "[^inexactsimp]:" %}
 
-
-[^srbench]: William La Cava, Patryk Orzechowski, Bogdan Burlacu, Fabricio de França, Marco Virgolin, Ying Jin, Michael Kommenda, and Jason Moore. 2021. Contemporary Symbolic Regression Methods and their Relative Performance. In Proceedings of the Neural Information Processing Systems Track on Datasets and Benchmarks, J. Vanschoren and S. Yeung (Eds.), Vol. 1. Curran.
+{% include citation.html pubid="lacavaContemporarySymbolicRegression2021" prefix = "[^srbench]:" %}
 
 [^lsh]:  Aristides Gionis, Piotr Indyk, and Rajeev Motwani. [n. d.]. Similarity Search in High Dimensions via Hashing. ([n. d.]).
 

@@ -19,6 +19,9 @@ references:
     - year: 2024
       month: 4
       day: 8
+  note: >-
+    code= https://github.com/gAldeia/hashing-symbolic-expressions, note=To
+    appear at GECCO 2024
   source: arXiv.org
   title: >-
     Inexact Simplification of Symbolic Regression Expressions with
@@ -47,6 +50,7 @@ references:
     - year: 2024
       month: 4
       day: 8
+  note: code=http://arxiv.org/abs/2404.05909, note=To appear at GECCO 2024
   source: arXiv.org
   title: Minimum variance threshold for epsilon-lexicase selection
   type: article

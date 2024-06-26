@@ -13,11 +13,13 @@ header:
 {% include pub-single.html pubid="helmuthPopulationDiversityLeads2022" %}
 {:.notice}
 
-[^paper]: Helmuth, Lengler, La Cava. Population Diversity Leads to Short Running Times of Lexicase Selection. [arXiv](https://arxiv.org/abs/2204.06461)
-[^ecj]: La Cava, W., Helmuth, T., Spector, L., & Moore, J. H. (2018).  A probabilistic and multi-objective analysis of lexicase selection and epsilon-lexicase selection.  Evolutionary Computation Journal, 1–28.  [MIT Press](https://doi.org/10.1162/evco_a_00224), [arXiv](https://arxiv.org/pdf/1709.05394), [experiments](https://github.com/lacava/epsilon_lexicase), [software](https://github.com/EpistasisLab/ellyn)
+{% include citation.html pubid="helmuthPopulationDiversityLeads2022" prefix="[^paper]:" %}
+
+{% include citation.html pubid="lacavaProbabilisticMultiobjectiveAnalysis2019" prefix="[^ecj]:" %}
+
 [^lengler]: Lengler, J. (2018). Drift Analysis. [arXiv](http://arxiv.org/abs/1712.00964)
 [^psb]: Helmuth, T., & Spector, L. (2015). General Program Synthesis Benchmark Suite. 1039–1046. https://doi.org/10.1145/2739480.2754769
-[^eplex]: La Cava, W., Spector, L., & Danai, K. (2016). Epsilon-Lexicase Selection for Regression. Proceedings of the Genetic and Evolutionary Computation Conference 2016, 741–748. https://doi.org/10.1145/2908812.2908898
+{% include citation.html pubid="lacavaEpsilonLexicaseSelectionRegression2016" prefix = "[^eplex]:" %}
 [^helmuth]: Helmuth, T., Spector, L., & Matheson, J. (2015). Solving uncompromising problems with lexicase selection. IEEE Transactions on Evolutionary Computation, 19(5), 630–643. https://doi.org/10.1109/TEVC.2014.2362729
 [^spector]: Spector, L. (2012). Assessment of problem modality by differential performance of lexicase selection in genetic programming: A preliminary report. Proceedings of the Fourteenth International Conference on Genetic and Evolutionary Computation Conference Companion, 401–408. http://dl.acm.org/citation.cfm?id=2330846
 
