@@ -20,6 +20,6 @@ jobs:
       run: |
         git config --global user.name 'GitHub Action'
         git config --global user.email 'action@github.com'
-        git add _members/*.md
-        git commit -am "Update member pages"
+        git add _members/*.md  || echo "Nothing to add"
+        git commit -am "Update member pages" || echo "Nothing to add"
         git push
