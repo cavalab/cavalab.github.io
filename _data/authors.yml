@@ -1,16 +1,23 @@
 zhanzhan:
-  name: "Zhanzhan Zhao, PhD"
+  name: "Zhanzhan Zhao"
+  degrees: "PhD"
   avatar: "assets/images/zhao-zhanzhan_profile.png"
   bio: "Postdoctoral Fellow"
   links:
     - label: Website
       icon: &personal "fas fa-user"
       url: "https://sites.gatech.edu/zhanzhanzhao/"
+  about: |
+    Zhanzhan Zhao serves as a postdoctoral research fellow in the Computational Health Informatics Program (CHIP) at Boston Children's Hospital and Harvard Medical School, mentored by Drs. William La Cava and [Maia Majumder](https://lab.maimunamajumder.com/). 
+    She earned her Ph.D. in [Machine Learning](https://ml.gatech.edu/phd) from the Georgia Institute of Technology, where her research focused on unraveling and mitigating biases within algorithms, data, and societal structures. 
+    Prior to CHIP, she was a postdoctoral fellow in the Algorithms, Fairness, and Equity Program at the [Mathematical Sciences Research Institute](https://www.slmath.org/our-mission) in Berkeley.
+
 bill:
-  name: "William La Cava, PhD"
+  name: "William La Cava"
+  degrees: PhD
   avatar: "assets/images/lacava_profile.JPG"
   bio: "Principal Investigator"
-  summary: |
+  about: |
       William La Cava runs the Cava Lab and is an Assistant Professor the Computational Health Informatics Program [(CHIP)](chip.org) at Boston Children's Hospital and Harvard Medical School. 
       He received his PhD from UMass Amherst with a focus on interpretable modeling of dynamical systems. 
       Prior to joining CHIP, he was a post-doctoral fellow and research associate in the [Institute for Biomedical Informatics](https://ibi.med.upenn.edu/) at the University of Pennsylvania. 
@@ -35,7 +42,8 @@ bill:
       url: "https://www.linkedin.com/in/williamlacava/"
 
 elle:
-  name: "Elle Lett, PhD, MA, MBiostat"
+  name: "Elle Lett"
+  degrees: PhD, MA, MBiostat
   bio: "Postdoctoral Fellow"
   avatar: "../assets/images/lett_elle.JPG"
   links:
@@ -48,18 +56,13 @@ elle:
     - label: Twitter
       icon: *twitter
       url: "http://twitter.com/ellelettmdphd"
-
-guangya:
-  name: Guangya Wan
-  bio: Master's Student
-  avatar: "../assets/images/wan_guangya.jpeg" 
-  links:
-    - label: Website
-      icon: *personal
-      url: "https://datascience.virginia.edu/people/guangya-wan"
-    - label: Github
-      icon: *github
-      url: "https://github.com/wan19990901"
+  about: | 
+      Elle Lett is a Black, transgender woman, statistician-epidemiologist and physician-in training. 
+      Through her work, she applies the theories and principles of Black Feminism to understanding the health impacts of systemic racism, transphobia, and other forms of discrimination on oppressed groups in the United States. 
+      She holds a PhD in Epidemiology from the University of Pennsylvania, master’s degrees in Statistics and Biostatistics from The Wharton School and Duke University, respectively, and a bachelor’s degree in Molecular and Cellular Biology from Harvard College. 
+      To date, her work has focused on intersectional approaches to transgender health and the health impacts of state-sanctioned violence and other forms of systemic racism. 
+      Now, she is turning her focus to algorithmic fairness in clinical prediction models and mitigating systems of inequity in health services provision. 
+      She is engaging in this new arm of research through a postdoctoral fellowship at the Boston Children’s Hospital  Computational Health Informatics Program (CHIP), before returning to finish her clinical training.
 
 guilherme:
   name: Guilherme Aldeia
@@ -72,6 +75,8 @@ guilherme:
     - label: LinkedIn
       icon: *linkedin
       url: "https://www.linkedin.com/in/guilherme-aldeia-0a8a0b21b/"
+  about: | 
+    Guilherme Aldeia is a Ph.D. student in the field of Computer Science at the Universidade Federal do ABC. He graduated in Computer Science and Neuroscience, obtained a Master's degree in Computer Science, and is interested in symbolic regression, interpretability, heuristics, and computational models. His past works focused on interpretability in symbolic regression, the usage of fMRI data in machine learning, and computational neural models. In 2017, he decided to pursue an academic career, aiming to become a researcher and professor. 
 
 shakiba:
   name: Shakiba Shahbandegan
@@ -87,15 +92,26 @@ shakiba:
     - label: LinkedIn
       icon: *linkedin
       url: "https://www.linkedin.com/in/shakibashahbandegan/"
+  about: | 
+    Shakiba is a PhD student in "Computer Science" and "Ecology, Evolution and Behavior" at Michigan State University. 
+    Her research is mainly focused on exploring techniques that can help advance evolutionary computation such as development of predictive theories that can facilitate the selection of suitable algorithms for specific problems, as well as development of new and sophisticated algorithms. 
+    She is interested in employing these techniques in machine learning and artificial intelligence and their potential applications in engineering. 
+    She is doing an internship at the Cava Lab where she is excited to apply her previous research experience to practical work.
 
 platon:
-  name: Platon Lukyanenko, PhD
+  name: Platon Lukyanenko
+  degrees: PhD
   bio: Postdoctoral Fellow
   avatar: "../assets/images/lukyanenko_profile.png" 
   links:
     - label: Github
       icon: *github
       url: "https://github.com/pxl282"
+  about: | 
+    Platon Lukyanenko is a Postdoctoral researcher investigating transformer architectures for interpreting continuous-time signals. 
+    Before joining CHIP, he worked on computer vision with the AFRL. 
+    His PhD focused on human motor control decoding for prosthetic hands at Case Western Reserve University. 
+    He holds B.S. degrees in Mathematics and Electrical Engineering from the University of Maryland, College Park.
 
 mingxuan:
   name: Mingxuan Liu
@@ -108,3 +124,5 @@ mingxuan:
     - label: Google Scholar
       icon: &scholar "fas fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=CZpuMC8AAAAJ&hl=en"
+  about: | 
+    Mingxuan is a PhD student majoring in biostatistics and health data science at Duke-NUS Medical School, National University of Singapore. She obtained a Master degree in Statistics and a Bachelor degree in Mathematics. Her research interests primarily focus on AI fairness in healthcare and interpretable machine learning.

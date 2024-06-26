@@ -1,0 +1,23 @@
+on:
+  push:
+    branches:
+      - gh-pages
+jobs:
+  make-member-pages:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+    - name: Make member pages
+      run: |
+        pip install pyyaml
+        python .github/workflows/make_member_pages.py
+    - name: Commit changes
+      run: |
+        git config --global user.name 'GitHub Action'
+        git config --global user.email 'action@github.com'
+        git commit -am "Update member pages"
+        git push
