@@ -19,8 +19,8 @@ For example, one might care more about [fairly prioritizing patients in patient 
 Furthermore, it is computationally challenging to audit and improve model fairness when considering a large set of intersecting patient attributes including gender, race, ethnicity, age, socioeconomic status, among others[^gerryfair]; yet, preventing worst-case performance for minoritized groups is often a central ethical prerogative. 
 Thus, it is critical for investigators to consider not only fairness by *what measure*, but also fairness *for whom*, and *with what tradeoffs* to other measures of model performance and fairness. 
 
-[Providing a *set* of models](/publications/#lacavaOptimizingFairnessTradeoffs2023) by jointly optimizing for fairness and accuracy is one way to aid a decision maker in understanding how an algorithm will affect the people it interacts with when it is deployed. 
-As we describe in a [perspective on intersectionality in machine learning](/publications/#lettTranslatingIntersectionalityFair2023), achieving fairness also requires an broader ethical analysis to extend beyond the model development process (data collection, preprocessing, training, deployment) to the wider context of an algorithm’s use as a socio-technical artifact, for example by eliciting community participation in defining project goals and establishing criteria for monitoring downstream outcomes of the model’s use throughout its complete lifecycle. 
+[Providing a *set* of models](/papers/#lacavaOptimizingFairnessTradeoffs2023) by jointly optimizing for fairness and accuracy is one way to aid a decision maker in understanding how an algorithm will affect the people it interacts with when it is deployed. 
+As we describe in a [perspective on intersectionality in machine learning](/papers/#lettTranslatingIntersectionalityFair2023), achieving fairness also requires an broader ethical analysis to extend beyond the model development process (data collection, preprocessing, training, deployment) to the wider context of an algorithm’s use as a socio-technical artifact, for example by eliciting community participation in defining project goals and establishing criteria for monitoring downstream outcomes of the model’s use throughout its complete lifecycle. 
 
 <!-- {% include figure 
 image_path="../assets/images/pareto_adult.png" 
@@ -28,18 +28,6 @@ alt="A Pareto front of different models and their trade-off between error and fa
 caption="An example of different models and their trade-off between error and fairness on the adult dataset."
 %} -->
 
-
-
-<h3 class="archive__subtitle">Related Publications</h3>
-
-<div class="entries-{{ entries_layout }}">
-{% assign pubs = site.data.publications.references | reverse %}
-{% for pub in pubs.items %}
-    {% if pub.tags contains "fairness" %}
-        {% include pub-single.html %}
-    {% endif %}
-{% endfor %}
-</div>
 
 
 <h3 class="archive__subtitle">Footnotes</h3>
