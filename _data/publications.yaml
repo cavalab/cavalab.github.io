@@ -961,6 +961,46 @@ references:
   type: article-journal
   URL: https://www.nature.com/articles/s42256-023-00651-3
 
+- id: mayourianDeepLearningbasedElectrocardiogram2024
+  accessed:
+    - year: 2024
+      month: 6
+      day: 26
+  author:
+    - family: Mayourian
+      given: Joshua
+    - family: Gearhart
+      given: Addison
+    - family: La Cava
+      given: William G
+    - family: Triedman
+      given: John K.
+    - family: Powell
+      given: Andrew J.
+    - family: Valente
+      given: Anne Marie
+    - family: Geva
+      given: Tal
+    - family: Ghelani
+      given: Sunil J.
+  citation-key: mayourianDeepLearningbasedElectrocardiogram2024
+  container-title: Journal of the American College of Cardiology
+  DOI: 10.1016/S0735-1097(24)03587-3
+  issue: 13_Supplement
+  issued:
+    - year: 2024
+      month: 4
+      day: 2
+  page: 1597-1597
+  publisher: American College of Cardiology Foundation
+  source: jacc.org (Atypon)
+  title: >-
+    Deep learning-based electrocardiogram analysis to predict biventricular
+    dysfunction and dilation in congenital heart disease
+  type: article-journal
+  URL: https://www.jacc.org/doi/full/10.1016/S0735-1097%2824%2903587-3
+  volume: '83'
+
 - id: mayourianPediatricECGBasedDeep2024
   accessed:
     - year: 2024
