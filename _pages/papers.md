@@ -1,6 +1,8 @@
 ---
 title: Papers
-permalink: /publications/
+permalink: /papers/
+redirect_from:
+    - /publications/
 classes: wide
 layout: archive
 ---
