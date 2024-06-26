@@ -6,12 +6,13 @@ This is the code for the https://cavalab.org website.
 
 1. [Fork this repo](https://github.com/cavalab/cavalab.github.io/fork).
 2. Add a **square** profile picture **less than 200 KB** to `assets/images/` named something like `last-name-first-name.png`.
-3. edit `_data/authors.yml` to add an entry for yourself, for example:
+3. edit `_data/authors.yml` to add an entry for yourself. 
+For the links, you just have to change the `url` field. 
+You can also remove any you don't want.  for example:
 
 ```yaml
 myname:
-  name: "My Name"
-  degrees: "MD PhD"
+  name: "My Name, MD PhD"
   avatar: "assets/images/last-name-first-name.png"
   bio: "Postdoctoral Fellow"
   links:
@@ -38,7 +39,5 @@ myname:
     They receieved their MD from such and such school yada yada yada. 
 ```
 
-For the links, you just have to change the `url` field. 
-You can also remove any you don't want. 
 
 5. Commit your changes, push to your fork, and [open a PR on this repo](https://github.com/cavalab/cavalab.github.io/compare).
