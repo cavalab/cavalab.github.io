@@ -1,10 +1,12 @@
 from ruamel.yaml import YAML
 yaml=YAML(typ='safe', pure=True) 
 import os
+import shutil
 
 with open('_data/authors.yml') as f:
     authors = yaml.load(f)
 
+shutil.rmtree('_members')
 os.makedirs('_members',exist_ok=True)
 
 for author, v in authors.items():
