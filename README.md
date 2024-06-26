@@ -6,12 +6,12 @@ This is the code for the https://cavalab.org website.
 
 1. Fork this repo and make a new branch.
 2. Add a **square** profile picture **less than 200 KB** to `assets/images/` named something like `last-name-first-name.png`.
-3. Make a new file named `last-name-first-name.md` in the `_members` folder with a header and bio following [this example](https://raw.githubusercontent.com/cavalab/cavalab.github.io/gh-pages/_members/01_lacava-william.md)
-4. edit `_data/authors.yml` to add an entry for yourself, for example:
+3. edit `_data/authors.yml` to add an entry for yourself, for example:
 
 ```yaml
-bill:
-  name: "My Name, PhD"
+myname:
+  name: "My Name"
+  degrees: "MD PhD"
   avatar: "assets/images/last-name-first-name.png"
   bio: "Postdoctoral Fellow"
   links:
@@ -33,6 +33,9 @@ bill:
     - label: LinkedIn
       icon: &linkedin "fab fa-linkedin" 
       url: "https://www.linkedin.com/in/me/"
+  about: |
+    My Name is a Postdoctoral Fellow interested in improving the world.
+    They receieved their MD from such and such school yada yada yada. 
 ```
 
 For the links, you just have to change the `url` field. 
