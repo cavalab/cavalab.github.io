@@ -5,6 +5,8 @@ import os
 with open('_data/authors.yml') as f:
     authors = yaml.load(f)
 
+os.makedirs('_members',exist_ok=True)
+
 for author, v in authors.items():
     given_name = v['name'].split(' ')[0]
     family_name = v['name'][len(given_name):]
