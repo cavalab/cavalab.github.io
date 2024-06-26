@@ -7,3 +7,4 @@ _drafts
 vendor
 Gemfile.lock
 .obsidian
+*.xcf

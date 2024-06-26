@@ -496,7 +496,7 @@ references:
   type: article-journal
   URL: https://doi.org/10.1093/bioinformatics/btaa698
 
-- id: lacavaFairAdmissionRisk2023a
+- id: lacavaFairAdmissionRisk2023
   accessed:
     - year: 2023
       month: 6
@@ -508,7 +508,7 @@ references:
       given: Elle
     - family: Wan
       given: Guangya
-  citation-key: lacavaFairAdmissionRisk2023a
+  citation-key: lacavaFairAdmissionRisk2023
   container-title: Proceedings of the Conference on Health, Inference, and Learning
   event-title: Conference on Health, Inference, and Learning
   issued:
@@ -516,7 +516,7 @@ references:
       month: 6
       day: 13
   language: en
-  note: code=https://github.com/cavalab/pmcboostaward, award=Best Paper Award
+  note: code=https://github.com/cavalab/pmcboost, award=Best Paper Award
   page: 350-378
   publisher: PMLR
   source: proceedings.mlr.press
