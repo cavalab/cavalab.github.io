@@ -556,6 +556,9 @@ references:
       day: 5
   language: en
   license: 2023 The Author(s)
+  note: >-
+    code=https://github.com/cavalab/feat, award=HUMIES Silver Medal,
+    awardlink=https://www.human-competitive.org/awards
   page: 1-14
   source: www.nature.com
   title: >-
@@ -984,6 +987,7 @@ references:
     - year: 2024
       month: 6
       day: 24
+  note: code=https://github.com/cavalab/ecg-survival-benchmark
   number: arXiv:2406.17002
   publisher: arXiv
   source: arXiv.org

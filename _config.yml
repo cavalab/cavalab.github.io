@@ -106,9 +106,6 @@ collections:
   research:
     output: true
     permalink: /:collection/:path/
-  publications:
-    output: false
-    permalink: /:collection/:path/
 
 defaults:
   # everything

@@ -6,7 +6,7 @@ main:
     url: /members
   - title: "Research"
     url: /research
-  - title: "Publications"
+  - title: "Papers"
     url: /publications
   - title: "Posts"
     url: /posts
