@@ -13,7 +13,7 @@ jobs:
         python-version: '3.x'
     - name: Make member pages
       run: |
-        pip install pyyaml
+        pip install ruamel_yaml
         python .github/workflows/make_member_pages.py
     - name: Commit changes
       run: |
