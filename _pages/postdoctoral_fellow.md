@@ -31,5 +31,5 @@ The position is available immediately and is renewable annually.
 
 ### How to apply
 
-Interested candidates should email a CV, three letters of reference, and a sample publication to
+Interested candidates should email a CV, contact info for three references, and a sample publication to
 Dr. William La Cava: {{ site.email }}. 
