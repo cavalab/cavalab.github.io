@@ -32,6 +32,7 @@ Prospective students: consider these programs:
 
 - <https://hst.mit.edu/>
 - <https://gsas.harvard.edu/admissions/apply>
+- <https://dbmi.hms.harvard.edu/education/phd-program/ai-medicine-phd-track>
 
 
 ## Masters and Undergraduates
