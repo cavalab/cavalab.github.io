@@ -1209,6 +1209,39 @@ references:
   URL: https://www.ahajournals.org/doi/full/10.1161/CIRCULATIONAHA.123.067750
   volume: '149'
 
+- id: mayourianPediatricElectrocardiogramBasedDeep2024
+  accessed:
+    - year: 2024
+      month: 7
+      day: 6
+  author:
+    - family: Mayourian
+      given: Joshua
+    - family: Geggel
+      given: Robert
+    - family: La Cava
+      given: William G.
+    - family: Ghelani
+      given: Sunil J.
+    - family: Triedman
+      given: John K.
+  citation-key: mayourianPediatricElectrocardiogramBasedDeep2024
+  container-title: Pediatric Cardiology
+  container-title-short: Pediatr Cardiol
+  DOI: 10.1007/s00246-024-03540-7
+  ISSN: 1432-1971
+  issued:
+    - year: 2024
+      month: 7
+      day: 2
+  language: en
+  source: Springer Link
+  title: >-
+    Pediatric Electrocardiogram-Based Deep Learning to Predict Secundum Atrial
+    Septal Defects
+  type: article-journal
+  URL: https://doi.org/10.1007/s00246-024-03540-7
+
 - id: mccoyAccuracyDeepLearning2024
   accessed:
     - year: 2024
