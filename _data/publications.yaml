@@ -209,6 +209,78 @@ references:
   type: article
   URL: http://arxiv.org/abs/2304.01117
 
+- id: defrancaSRBenchPrincipledBenchmarking2024
+  accessed:
+    - year: 2024
+      month: 7
+      day: 6
+  archive: arXiv
+  author:
+    - family: Franca
+      given: F. O.
+      non-dropping-particle: de
+    - family: Virgolin
+      given: M.
+    - family: Kommenda
+      given: M.
+    - family: Majumder
+      given: M. S.
+    - family: Cranmer
+      given: M.
+    - family: Espada
+      given: G.
+    - family: Ingelse
+      given: L.
+    - family: Fonseca
+      given: A.
+    - family: Landajuela
+      given: M.
+    - family: Petersen
+      given: B.
+    - family: Glatt
+      given: R.
+    - family: Mundhenk
+      given: N.
+    - family: Lee
+      given: C. S.
+    - family: Hochhalter
+      given: J. D.
+    - family: Randall
+      given: D. L.
+    - family: Kamienny
+      given: P.
+    - family: Zhang
+      given: H.
+    - family: Dick
+      given: G.
+    - family: Simon
+      given: A.
+    - family: Burlacu
+      given: B.
+    - family: Kasak
+      given: Jaan
+    - family: Machado
+      given: Meera
+    - family: Wilstrup
+      given: Casper
+    - family: La Cava
+      given: W. G.
+  citation-key: defrancaSRBenchPrincipledBenchmarking2024
+  container-title: IEEE Transactions on Evolutionary Computation
+  DOI: 10.1109/TEVC.2024.3423681
+  ISSN: 1941-0026
+  issued:
+    - year: 2024
+  note: code=https://cavalab.org/srbench
+  page: 1-1
+  source: IEEE Xplore
+  title: >-
+    SRBench++: Principled Benchmarking of Symbolic Regression With Domain-Expert
+    Interpretation
+  title-short: SRBench++
+  type: article-journal
+  URL: https://ieeexplore.ieee.org/document/10586218/?arnumber=10586218
+
 - id: helmuthLexicaseSelection2021
   accessed:
     - year: 2021
