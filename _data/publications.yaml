@@ -111,6 +111,58 @@ references:
   type: article
   URL: http://arxiv.org/abs/2007.03488
 
+- id: chenCrossCareAssessingHealthcare2024
+  accessed:
+    - year: 2024
+      month: 7
+      day: 6
+  author:
+    - family: Chen
+      given: Shan
+    - family: Gallifant
+      given: Jack
+    - family: Gao
+      given: Mingye
+    - family: Moreira
+      given: Pedro
+    - family: Munch
+      given: Nikolaj
+    - family: Muthukkumar
+      given: Ajay
+    - family: Rajan
+      given: Arvind
+    - family: Kolluri
+      given: Jaya
+    - family: Fiske
+      given: Amelia
+    - family: Hastings
+      given: Janna
+    - family: Aerts
+      given: Hugo
+    - family: Anthony
+      given: Brian
+    - family: Celi
+      given: Leo Anthony
+    - family: La Cava
+      given: William G.
+    - family: Bitterman
+      given: Danielle S.
+  citation-key: chenCrossCareAssessingHealthcare2024
+  DOI: 10.48550/arXiv.2405.05506
+  issued:
+    - year: 2024
+      month: 6
+      day: 24
+  number: arXiv:2405.05506
+  publisher: arXiv
+  source: arXiv.org
+  title: >-
+    Cross-Care: Assessing the Healthcare Implications of Pre-training Data on
+    Language Model Bias
+  title-short: Cross-Care
+  type: article
+  URL: http://arxiv.org/abs/2405.05506
+
 - id: danaiControllerDesignSymbolic2021
   accessed:
     - year: 2020

@@ -5,8 +5,7 @@
 {% for paper in pubs_by_date %}
   {% assign include_paper = false %}
   {% for author in paper.author %}
-    {% assign given = author.given | split: ' ' | first %}
-    {% if given == include.given and author.family == include.family %}
+    {% if author.given[0] == include.given[0] and author.family == include.family %}
       {% assign include_paper = true %}
     {% endif %}
   {% endfor %}
