@@ -190,83 +190,13 @@ references:
   URL: http://www.sciencedirect.com/science/article/pii/S0888327020307342
   volume: '151'
 
-- id: defrancaInterpretableSymbolicRegression2023a
-  accessed:
-    - year: 2024
-      month: 6
-      day: 25
-  author:
-    - family: Franca
-      given: F. O.
-      non-dropping-particle: de
-    - family: Virgolin
-      given: M.
-    - family: Kommenda
-      given: M.
-    - family: Majumder
-      given: M. S.
-    - family: Cranmer
-      given: M.
-    - family: Espada
-      given: G.
-    - family: Ingelse
-      given: L.
-    - family: Fonseca
-      given: A.
-    - family: Landajuela
-      given: M.
-    - family: Petersen
-      given: B.
-    - family: Glatt
-      given: R.
-    - family: Mundhenk
-      given: N.
-    - family: Lee
-      given: C. S.
-    - family: Hochhalter
-      given: J. D.
-    - family: Randall
-      given: D. L.
-    - family: Kamienny
-      given: P.
-    - family: Zhang
-      given: H.
-    - family: Dick
-      given: G.
-    - family: Simon
-      given: A.
-    - family: Burlacu
-      given: B.
-    - family: Kasak
-      given: Jaan
-    - family: Machado
-      given: Meera
-    - family: Wilstrup
-      given: Casper
-    - family: La Cava
-      given: W. G.
-  citation-key: defrancaInterpretableSymbolicRegression2023a
-  DOI: 10.48550/arXiv.2304.01117
-  issued:
-    - year: 2023
-      month: 7
-      day: 3
-  number: arXiv:2304.01117
-  publisher: arXiv
-  source: arXiv.org
-  title: >-
-    Interpretable Symbolic Regression for Data Science: Analysis of the 2022
-    Competition
-  title-short: Interpretable Symbolic Regression for Data Science
-  type: article
-  URL: http://arxiv.org/abs/2304.01117
-
 - id: defrancaSRBenchPrincipledBenchmarking2024
   accessed:
     - year: 2024
       month: 7
       day: 6
   archive: arXiv
+  archive_location: https://arxiv.org/abs/2304.01117
   author:
     - family: Franca
       given: F. O.
@@ -1396,6 +1326,47 @@ references:
   type: chapter
   URL: https://link.springer.com/chapter/10.1007/978-3-319-90512-9_8
 
+- id: orzechowskiComparativeStudyGPbased2022
+  accessed:
+    - year: 2024
+      month: 7
+      day: 8
+  author:
+    - family: Orzechowski
+      given: Patryk
+    - family: Renc
+      given: Paweł
+    - family: La Cava
+      given: William
+    - family: Moore
+      given: Jason H.
+    - family: Sitek
+      given: Arkadiusz
+    - family: Wąs
+      given: Jaroslaw
+    - family: Wagenaar
+      given: Joost
+  citation-key: orzechowskiComparativeStudyGPbased2022
+  container-title: Proceedings of the Genetic and Evolutionary Computation Conference Companion
+  DOI: 10.1145/3520304.3529056
+  event-place: Boston Massachusetts
+  event-title: 'GECCO ''22: Genetic and Evolutionary Computation Conference'
+  ISBN: 978-1-4503-9268-6
+  issued:
+    - year: 2022
+      month: 7
+      day: 9
+  language: en
+  page: 276-279
+  publisher: ACM
+  publisher-place: Boston Massachusetts
+  source: DOI.org (Crossref)
+  title: >-
+    A comparative study of GP-based and state-of-the-art classifiers on a
+    synthetic machine learning benchmark
+  type: paper-conference
+  URL: https://dl.acm.org/doi/10.1145/3520304.3529056
+
 - id: orzechowskiWhereAreWe2018b
   archive: arXiv
   archive_location: http://arxiv.org/abs/1804.09331
@@ -1480,8 +1451,8 @@ references:
       given: Nuno M.
     - family: Batista
       given: João E.
-    - family: Cava
-      given: William La
+    - family: La Cava
+      given: William G
     - family: Vanneschi
       given: Leonardo
     - family: Silva
@@ -1506,6 +1477,47 @@ references:
   type: article-journal
   URL: https://doi.org/10.1007/s42979-023-02106-3
   volume: '5'
+
+- id: rodriguesSLUGFeatureSelection2022
+  accessed:
+    - year: 2024
+      month: 7
+      day: 8
+  author:
+    - family: Rodrigues
+      given: Nuno M.
+    - family: Batista
+      given: João E.
+    - family: La Cava
+      given: William
+    - family: Vanneschi
+      given: Leonardo
+    - family: Silva
+      given: Sara
+  citation-key: rodriguesSLUGFeatureSelection2022
+  container-title: Genetic Programming
+  DOI: 10.1007/978-3-031-02056-8_5
+  editor:
+    - family: Medvet
+      given: Eric
+    - family: Pappa
+      given: Gisele
+    - family: Xue
+      given: Bing
+  event-place: Cham
+  ISBN: 978-3-031-02055-1 978-3-031-02056-8
+  issued:
+    - year: 2022
+  language: en
+  page: 68-84
+  publisher: Springer International Publishing
+  publisher-place: Cham
+  source: DOI.org (Crossref)
+  title: 'SLUG: Feature Selection Using Genetic Algorithms and Genetic Programming'
+  title-short: SLUG
+  type: chapter
+  URL: https://link.springer.com/10.1007/978-3-031-02056-8_5
+  volume: '13223'
 
 - id: romanoPMLBV1Opensource2022
   accessed:

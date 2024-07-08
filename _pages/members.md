@@ -20,7 +20,7 @@ entries_layout: grid
 
 ## Prior Members and Trainees
 
-- [Guangya Wan](https://datascience.virginia.edu/people/guangya-wan), MS HSPH &#8594; UVA Data Science PhD program
+- Guangya Wan, MS HSPH &#8594; UVA Data Science PhD program
 - Zongjun Liu, MS HSPH &#8594; Kaiser Permanente
 - Sid Barthulwar, BS candidate, Harvard University 
 - Tilak Raj Singh, M.S. SEAS, UPenn &#8594; Microsoft
