@@ -5,6 +5,8 @@ references:
     - year: 2024
       month: 6
       day: 25
+  archive: arXiv
+  archive_location: http://arxiv.org/abs/2404.05898
   author:
     - family: Aldeia
       given: Guilherme Seidyo Imai
@@ -14,47 +16,58 @@ references:
     - family: La Cava
       given: William G.
   citation-key: aldeiaInexactSimplificationSymbolic2024
+  container-title: Proceedings of the Genetic and Evolutionary Computation Conference
   DOI: 10.1145/3638529.3654147
+  event-place: Melbourne VIC Australia
+  event-title: 'GECCO ''24: Genetic and Evolutionary Computation Conference'
+  ISBN: '9798400704949'
   issued:
     - year: 2024
       month: 4
       day: 8
-  note: >-
-    code= https://github.com/gAldeia/hashing-symbolic-expressions, note=To
-    appear at GECCO 2024
+  note: code= https://github.com/gAldeia/hashing-symbolic-expressions
+  page: 896-904
+  publisher: ACM
+  publisher-place: Melbourne VIC Australia
   source: arXiv.org
   title: >-
     Inexact Simplification of Symbolic Regression Expressions with
     Locality-sensitive Hashing
-  type: article
-  URL: http://arxiv.org/abs/2404.05898
+  type: paper-conference
 
 - id: aldeiaMinimumVarianceThreshold2024
   accessed:
     - year: 2024
-      month: 4
-      day: 10
-  archive: arxiv
-  archive_location: http://arxiv.org/abs/2404.05909
+      month: 7
+      day: 11
+  archive: arXiv
+  archive_location: https://arxiv.org/abs/2404.05909
   author:
     - family: Aldeia
       given: Guilherme Seidyo Imai
-    - family: Franca
-      given: Fabricio Olivetti
-      non-dropping-particle: de
+    - family: De França
+      given: Fabrício Olivetti
     - family: La Cava
       given: William G.
   citation-key: aldeiaMinimumVarianceThreshold2024
+  container-title: Proceedings of the Genetic and Evolutionary Computation Conference
   DOI: 10.1145/3638529.3654149
+  event-place: Melbourne VIC Australia
+  event-title: 'GECCO ''24: Genetic and Evolutionary Computation Conference'
+  ISBN: '9798400704949'
   issued:
     - year: 2024
-      month: 4
-      day: 8
-  note: code=http://arxiv.org/abs/2404.05909, note=To appear at GECCO 2024
-  source: arXiv.org
+      month: 7
+      day: 14
+  language: en
+  note: code= https://github.com/gAldeia/srbench/tree/feat_split_benchmark
+  page: 905-913
+  publisher: ACM
+  publisher-place: Melbourne VIC Australia
+  source: DOI.org (Crossref)
   title: Minimum variance threshold for epsilon-lexicase selection
-  type: article
-  URL: http://arxiv.org/abs/2404.05909
+  type: paper-conference
+  URL: https://dl.acm.org/doi/10.1145/3638529.3654149
 
 - id: bartz-beielsteinBenchmarkingOptimizationBest2020
   accessed:
