@@ -1,3 +1,20 @@
+neha:
+  name: "Neha Dantuluri, BS BS"
+  avatar: "assets/images/dantuluri-neha.png"
+  bio: "MMSc-BMI Candidate"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "neha_dantuluri@hms.harvard.edu"
+    - label: "Github"
+      icon: &github "fab fa-fw fa-github"
+      url: "https://github.com/ndantuluri429"
+    - label: "LinkedIn"
+      icon: &linkedin "fab fa-linkedin" 
+      url: "https://www.linkedin.com/in/nehadantuluri/"
+  about: |
+    Neha is an MMSc candidate in Biomedical Informatics at Harvard Medical School. Her research focuses on using computational tools to improve maternal-fetal health outcomes. She graduated from the University of South Florida in 2024 with a B.S. in Biomedical Sciences and a B.S. in Information Sciences. After completing her graduate studies in Biomedical Informatics, she plans to attend medical school. Currently, Neha is working on an AI project involving electronic fetal monitoring, aiming to apply machine learning techniques for equitable and effective clinical deployment.
+
 zhanzhan:
   name: "Zhanzhan Zhao, PhD"
   avatar: "assets/images/zhao-zhanzhan_profile.png"
