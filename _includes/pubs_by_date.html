@@ -9,3 +9,10 @@
 {% for pubs in pubgroups %}
   {% assign pubs_by_date = pubs_by_date | concat: pubs.items %}
 {% endfor %}
+
+{% assign years = site.data.publications.references 
+  | group_by_exp: "item", "item.issued.first.year" 
+  | sort: "name" 
+  | reverse 
+  | map: 'name'
+%} 

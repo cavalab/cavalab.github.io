@@ -23,8 +23,8 @@ references:
   ISBN: '9798400704949'
   issued:
     - year: 2024
-      month: 4
-      day: 8
+      month: 7
+      day: 14
   note: code= https://github.com/gAldeia/hashing-symbolic-expressions
   page: 896-904
   publisher: ACM
@@ -266,6 +266,8 @@ references:
   ISSN: 1941-0026
   issued:
     - year: 2024
+      month: 7
+      day: 4
   note: code=https://cavalab.org/srbench
   page: 1-1
   source: IEEE Xplore
@@ -626,7 +628,6 @@ references:
       month: 6
       day: 5
   language: en
-  license: 2023 The Author(s)
   note: >-
     code=https://github.com/cavalab/feat, award=HUMIES Silver Medal,
     awardlink=https://www.human-competitive.org/awards
@@ -748,7 +749,7 @@ references:
   URL: http://www.tandfonline.com/doi/full/10.1080/00207721.2015.1069905
   volume: '47'
 
-- id: lacavaInferenceCompactNonlinear2016a
+- id: lacavaInferenceCompactNonlinear2016
   accessed:
     - year: 2016
       month: 12
@@ -760,7 +761,7 @@ references:
       given: Kourosh
     - family: Spector
       given: Lee
-  citation-key: lacavaInferenceCompactNonlinear2016a
+  citation-key: lacavaInferenceCompactNonlinear2016
   container-title: Engineering Applications of Artificial Intelligence
   container-title-short: Engineering Applications of Artificial Intelligence
   DOI: 10.1016/j.engappai.2016.07.004
@@ -977,7 +978,7 @@ references:
     https://asmedigitalcollection.asme.org/dynamicsystems/article/doi/10.1115/1.4035870/384813/Restructuring-Controllers-to-Accommodate-Plant
   volume: '139'
 
-- id: lacavaSemanticVariationOperators2019a
+- id: lacavaSemanticVariationOperators2019
   accessed:
     - year: 2024
       month: 6
@@ -989,7 +990,7 @@ references:
       given: William
     - family: Moore
       given: Jason H.
-  citation-key: lacavaSemanticVariationOperators2019a
+  citation-key: lacavaSemanticVariationOperators2019
   collection-title: GECCO '19
   container-title: Proceedings of the Genetic and Evolutionary Computation Conference
   DOI: 10.1145/3321707.3321776
@@ -1027,7 +1028,6 @@ references:
       month: 4
       day: 28
   language: en
-  license: 2023 Springer Nature Limited
   page: 1-4
   publisher: Nature Publishing Group
   source: www.nature.com
@@ -1066,7 +1066,56 @@ references:
   type: article
   URL: http://arxiv.org/abs/2406.17002
 
-- id: mayourianDeepLearningbasedElectrocardiogram2024
+- id: mayourianDeepLearningBasedElectrocardiogram2024
+  accessed:
+    - year: 2024
+      month: 10
+      day: 3
+  author:
+    - family: Mayourian
+      given: Joshua
+    - family: Gearhart
+      given: Addison
+    - family: La Cava
+      given: William G.
+    - family: Vaid
+      given: Akhil
+    - family: Nadkarni
+      given: Girish N.
+    - family: Triedman
+      given: John K.
+    - family: Powell
+      given: Andrew J.
+    - family: Wald
+      given: Rachel M.
+    - family: Valente
+      given: Anne Marie
+    - family: Geva
+      given: Tal
+    - family: Duong
+      given: Son Q.
+    - family: Ghelani
+      given: Sunil J.
+  citation-key: mayourianDeepLearningBasedElectrocardiogram2024
+  container-title: Journal of the American College of Cardiology
+  container-title-short: Journal of the American College of Cardiology
+  DOI: 10.1016/j.jacc.2024.05.062
+  ISSN: '07351097'
+  issue: '9'
+  issued:
+    - year: 2024
+      month: 8
+  language: en
+  page: 815-828
+  source: DOI.org (Crossref)
+  title: >-
+    Deep Learning-Based Electrocardiogram Analysis Predicts Biventricular
+    Dysfunction and Dilation in Congenital Heart Disease
+  type: article-journal
+  URL: https://linkinghub.elsevier.com/retrieve/pii/S0735109724076769
+  volume: '84'
+
+- id: mayourianDeepLearningbasedElectrocardiogram2024a
   accessed:
     - year: 2024
       month: 6
@@ -1088,7 +1137,7 @@ references:
       given: Tal
     - family: Ghelani
       given: Sunil J.
-  citation-key: mayourianDeepLearningbasedElectrocardiogram2024
+  citation-key: mayourianDeepLearningbasedElectrocardiogram2024a
   container-title: Journal of the American College of Cardiology
   DOI: 10.1016/S0735-1097(24)03587-3
   issue: 13_Supplement
@@ -1222,7 +1271,7 @@ references:
   URL: https://linkinghub.elsevier.com/retrieve/pii/S0002937823010694
   volume: '230'
 
-- id: mccoyIntrapartumElectronicFetal2024a
+- id: mccoyIntrapartumElectronicFetal2024
   accessed:
     - year: 2024
       month: 4
@@ -1242,7 +1291,7 @@ references:
       given: Joseph
     - family: La Cava
       given: William G.
-  citation-key: mccoyIntrapartumElectronicFetal2024a
+  citation-key: mccoyIntrapartumElectronicFetal2024
   container-title: American Journal of Obstetrics and Gynecology
   container-title-short: American Journal of Obstetrics and Gynecology
   DOI: 10.1016/j.ajog.2024.04.022
@@ -1532,7 +1581,7 @@ references:
   URL: https://link.springer.com/10.1007/978-3-031-02056-8_5
   volume: '13223'
 
-- id: romanoPMLBV1Opensource2022
+- id: romanoPMLBV10Opensource2022
   accessed:
     - year: 2024
       month: 6
@@ -1560,7 +1609,7 @@ references:
       given: Weixuan
     - family: Moore
       given: Jason H
-  citation-key: romanoPMLBV1Opensource2022
+  citation-key: romanoPMLBV10Opensource2022
   container-title: Bioinformatics
   container-title-short: Bioinformatics
   DOI: 10.1093/bioinformatics/btab727
@@ -1707,7 +1756,7 @@ references:
   URL: https://www.sciencedirect.com/science/article/pii/S1532046423000278
   volume: '139'
 
-- id: urbanowiczReliefbasedFeatureSelection2018a
+- id: urbanowiczReliefbasedFeatureSelection2018
   accessed:
     - year: 2023
       month: 4
@@ -1723,7 +1772,7 @@ references:
       given: Randal S.
     - family: Moore
       given: Jason H.
-  citation-key: urbanowiczReliefbasedFeatureSelection2018a
+  citation-key: urbanowiczReliefbasedFeatureSelection2018
   container-title: Journal of Biomedical Informatics
   container-title-short: Journal of Biomedical Informatics
   DOI: 10.1016/j.jbi.2018.07.014
