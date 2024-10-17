@@ -129,6 +129,8 @@ references:
     - year: 2024
       month: 7
       day: 6
+  archive: arXiv
+  archive_location: http://arxiv.org/abs/2405.05506
   author:
     - family: Chen
       given: Shan
@@ -161,20 +163,21 @@ references:
     - family: Bitterman
       given: Danielle S.
   citation-key: chenCrossCareAssessingHealthcare2024
+  container-title: >-
+    Proceedings of the Neural Information Processing Systems Track on Datasets
+    and Benchmarks
   DOI: 10.48550/arXiv.2405.05506
+  event-title: NeurIPS
   issued:
     - year: 2024
       month: 6
       day: 24
-  number: arXiv:2405.05506
-  publisher: arXiv
   source: arXiv.org
   title: >-
     Cross-Care: Assessing the Healthcare Implications of Pre-training Data on
     Language Model Bias
   title-short: Cross-Care
-  type: article
-  URL: http://arxiv.org/abs/2405.05506
+  type: paper-conference
 
 - id: danaiControllerDesignSymbolic2021
   accessed:
