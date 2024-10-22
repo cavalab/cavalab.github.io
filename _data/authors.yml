@@ -126,3 +126,26 @@ mingxuan:
       url: "https://scholar.google.com/citations?user=CZpuMC8AAAAJ&hl=en"
   about: | 
     Mingxuan is a PhD student majoring in biostatistics and health data science at Duke-NUS Medical School, National University of Singapore. She obtained a Master degree in Statistics and a Bachelor degree in Mathematics. Her research interests primarily focus on AI fairness in healthcare and interpretable machine learning.
+
+lorenzo:
+  name: "Lorenzo Peracchio, MS"
+  avatar: "assets/images/Peracchio_Lorenzo.JPG"
+  bio: "PhD Student"
+  about: |
+      Lorenzo Peracchio is a PhD student in Bioengineering, Bioinformatics, and Health Technologies at the University of Pavia, Italy, where he also obtained his 
+      Bachelor's and Master's degrees in Bioengineering. His research focuses on the development of methods for 
+      evaluating, ensuring, and maintaining the trustworthiness of AI systems, in alignment with the requirements outlined by the EU AI Act 
+      and other regulatory bodies. 
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:lorenzo.peracchio01@universitadipavia.it"
+    - label: Google Scholar
+      icon: &scholar "fas fa-graduation-cap"
+      url: "https://scholar.google.com/citations?hl=it&user=BMOmzxUAAAAJ"
+    - label: Github
+      icon: &github "fab fa-fw fa-github"
+      url: "https://github.com/LorenzoPeracchio"
+    - label: LinkedIn
+      icon: &linkedin "fab fa-linkedin" 
+      url: "https://www.linkedin.com/in/lorenzo-peracchio/" 
