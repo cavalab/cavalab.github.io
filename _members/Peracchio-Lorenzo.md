@@ -1,10 +1,10 @@
 ---
-title: Zhanzhan Zhao
+title: Lorenzo Peracchio
 header:
-  teaser: "assets/images/zhao-zhanzhan_profile.png"
-author: zhanzhan
-given_name: Zhanzhan
-family_name:  Zhao
+  teaser: "assets/images/Peracchio_Lorenzo.png"
+author: lorenzo
+given_name: Lorenzo
+family_name:  Peracchio
 author_profile: true
 ---
 
