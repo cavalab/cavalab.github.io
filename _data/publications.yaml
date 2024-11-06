@@ -1011,6 +1011,38 @@ references:
   type: paper-conference
   URL: https://doi.org/10.1145/3321707.3321776
 
+- id: lettIntersectionalConsequencesMarginal2024
+  accessed:
+    - year: 2024
+      month: 11
+      day: 6
+  archive: medRxiv
+  author:
+    - family: Lett
+      given: Elle
+    - family: Shahbandegan
+      given: Shakiba
+    - family: Barak-Corren
+      given: Yuval
+    - family: Fine
+      given: Andrew
+    - family: La Cava
+      given: William G
+  citation-key: lettIntersectionalConsequencesMarginal2024
+  DOI: 10.1101/2024.11.05.24316769
+  issued:
+    - year: 2024
+      month: 11
+      day: 5
+  language: en
+  note: code=https://github.com/cavalab/marginal-intersectional
+  source: Health Informatics
+  title: >-
+    Intersectional consequences for marginal fairness in prediction models of
+    emergency admissions
+  type: article
+  URL: http://medrxiv.org/lookup/doi/10.1101/2024.11.05.24316769
+
 - id: lettTranslatingIntersectionalityFair2023
   accessed:
     - year: 2023
