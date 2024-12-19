@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "Reducing health disparities in emergency decision support with fair machine learning"
+title: "Reducing health disparities in clinical decision support with fair machine learning"
 tag: fairness
 header:
     teaser: "/assets/images/health-it-figure-1.png"
