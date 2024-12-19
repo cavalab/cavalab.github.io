@@ -2,6 +2,7 @@
 layout: project
 title: "AI-EFM: Predicting Fetal Distress During Labor"
 permalink: /ai-efm/
+tag: ai
 header:
     teaser: "/assets/images/efm-diagram.png"
     teaser-caption: ""

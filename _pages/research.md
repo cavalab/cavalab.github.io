@@ -1,5 +1,4 @@
 ---
-layout: archive
 collection: research
 title: Research 
 permalink: /research/
@@ -12,20 +11,34 @@ Our long-term goals are to positively impact human health by developing methods 
 
 See our <a href="/publications">publications</a> and <a href="/posts">posts</a> about them.
 
-<h2 class="archive__subtitle">Themes</h2>
-<div class="entries-grid">
-  {% for post in site.research %}
-      {% include archive-single.html type="list" %}
-  {% endfor %}
-</div>
-<div class="back-to-top"></div>
+## Projects
 
-<h2 class="archive__subtitle">Projects</h2>
+### Fair Machine Learning for Health Care
 
 <div class="entries-grid">
-  {% for post in site.projects %}
+  {% assign posts = site.projects | where:"tag","fairness" %}
+  {% for post in posts %}
       {% include archive-single.html type=page.entries_layout %}
   {% endfor %}
 </div>
 <div class="back-to-top"></div>
 
+### Interpretable Machine Learning for Health Care
+
+<div class="entries-grid">
+  {% assign posts = site.projects | where:"tag","interpretability" %}
+  {% for post in posts %}
+      {% include archive-single.html type=page.entries_layout %}
+  {% endfor %}
+</div>
+<div class="back-to-top"></div>
+
+### Automating Digital Health
+
+<div class="entries-grid">
+  {% assign posts = site.projects | where:"tag","ai" %}
+  {% for post in posts %}
+      {% include archive-single.html type=page.entries_layout %}
+  {% endfor %}
+</div>
+<div class="back-to-top"></div>

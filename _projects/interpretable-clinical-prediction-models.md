@@ -2,6 +2,7 @@
 title: Interpretable Clinical Prediction Models
 permalink: /interpretable-phenotyping/
 layout: project
+tag: interpretability
 header:
     teaser: /assets/images/aTRH_model.png
     teaser-caption: "An interpretable model of treatment resistant hypertension from La Cava et al. *npj Digital Medicine* 2023"

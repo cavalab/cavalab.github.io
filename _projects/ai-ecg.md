@@ -4,7 +4,7 @@ permalink: /ai-for-ecg/
 header:
     teaser: /assets/images/ecg-saliency.png
     teaser-caption: "Interpreting AI-ECG models, from Mayourian et al. Circulation 2024"
-tags: AI
+tag: ai
 layout: project
 funding:
     - name: Kosten Innovation Fund

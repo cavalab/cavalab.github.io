@@ -1,6 +1,7 @@
 ---
 layout: project
 title: "FOMO: Fairness-Oriented Multi-objective Optimization"
+tag: fairness
 header:
     teaser: "/assets/images/FOMO.png"
     teaser-caption: "How FOMO works. From La Cava GECCO 2023"

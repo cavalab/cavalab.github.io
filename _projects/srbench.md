@@ -2,6 +2,7 @@
 layout: project
 title: "SRBench: Symbolic Regression Benchmarks"
 permalink: /symbolic-regression/
+tag: interpretability
 header:
     teaser: "/assets/images/pairgrid-pointplot_r2_test_model_size_training-time-s.png"
     teaser-caption: "Symbolic regression algorithms (marked with asterisk) benchmarked against black-box ML on hundreds of regression problems. La Cava et al. NeurIPS 2021"
