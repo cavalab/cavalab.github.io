@@ -4,11 +4,19 @@ permalink: /fairness/
 header:
     teaser: /assets/images/pareto_adult.png
 tags: Fairness
+layout: overview
+references:
+    - note: inter
+      pubid: lettTranslatingIntersectionalityFair2023
+    - note: fomo
+      pubid: lacavaOptimizingFairnessTradeoffs2023
+    - note: pmc
+      pubid: lacavaFairAdmissionRisk2023
+    - note: kleinberg
+      text: "Kleinberg, J., Mullainathan, S., & Raghavan, M. (2016). Inherent Trade-Offs in the Fair Determination of Risk Scores [Innovations in Theoretical Computer Science (ITCS)](https://doi.org/10.48550/arXiv.1609.05807)"
+    - note: gerryfair
+      text: "Kearns, M., Neel, S., Roth, A., & Wu, Z. S. (2018). Preventing Fairness Gerrymandering: Auditing and Learning for Subgroup Fairness. Proceedings of the 35th International Conference on Machine Learning, 2564–2572. [PMLR](https://proceedings.mlr.press/v80/kearns18a.html)"
 ---
-
-
-{: .notice--info}
-🎉 La Cava and Lett's fair ML tool, [Interfair](https://cavalab.org/interfair/), won first place ($250K) in the 2023 NIH Challenge, "[Bias Detection Tools for Clinical Decision Making](https://ncats.nih.gov/funding/challenges/winners/bias-detection)".  
 
 When deployed in healthcare settings, it's important that models are _fair_ - i.e., that they do not cause harm or unjustly benefit specific subgroups of a population. 
 Improving the fairness of computational models is a complex and nuanced challenge that requires decision makers to carefully reason about multiple, sometimes conflicting criteria. 
@@ -22,23 +30,14 @@ Thus, it is critical for investigators to consider not only fairness by *what me
 Providing a *set* of models[^fomo] by jointly optimizing for fairness and accuracy is one way to aid a decision maker in understanding how an algorithm will affect the people it interacts with when it is deployed. 
 As we describe in a perspective on intersectionality in machine learning[^inter], achieving fairness also requires an broader ethical analysis to extend beyond the model development process (data collection, preprocessing, training, deployment) to the wider context of an algorithm’s use as a socio-technical artifact, for example by eliciting community participation in defining project goals and establishing criteria for monitoring downstream outcomes of the model’s use throughout its complete lifecycle. 
 
-<!-- {% include figure 
-image_path="../assets/images/pareto_adult.png" 
-alt="A Pareto front of different models and their trade-off between error and fairness on the adult dataset."
-caption="An example of different models and their trade-off between error and fairness on the adult dataset."
-%} -->
-
-
-
-<h3 class="archive__subtitle">References</h3>
-
-{% include citation.html pubid="lettTranslatingIntersectionalityFair2023" prefix = "[^inter]:" %}
-
-{% include citation.html pubid="lacavaOptimizingFairnessTradeoffs2023" prefix = "[^fomo]:" %}
-
-{% include citation.html pubid="lacavaFairAdmissionRisk2023" prefix = "[^pmc]:" %}
-
-
-[^kleinberg]: Kleinberg, J., Mullainathan, S., & Raghavan, M. (2016). Inherent Trade-Offs in the Fair Determination of Risk Scores [arXiv:1609.05807](https://doi.org/10.48550/arXiv.1609.05807)
-
-[^gerryfair]: Kearns, M., Neel, S., Roth, A., & Wu, Z. S. (2018). Preventing Fairness Gerrymandering: Auditing and Learning for Subgroup Fairness. Proceedings of the 35th International Conference on Machine Learning, 2564–2572. [PMLR](https://proceedings.mlr.press/v80/kearns18a.html)
+{% if page.references %}
+## References
+{% for ref in page.references %}
+    {% assign pref = '[^' | append: ref.note | append: ']: ' %}
+    {% if ref.pubid %}
+        {% include citation.html pubid=ref.pubid prefix = pref %}
+    {% else if ref.text %}
+{{ pref }} {{ ref.text }}
+    {% endif %}
+{% endfor %}
+{% endif %}

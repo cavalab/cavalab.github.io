@@ -1,0 +1,57 @@
+---
+layout: single
+---
+{{ content }}
+
+{% if page.header.teaser %}
+    {% include figure 
+        image_path=page.header.teaser
+        alt=page.header.teaser-caption
+        caption=page.header.teaser-caption
+    %}
+{% endif %}
+
+{% if page.code %}
+    <h3 class="archive__subtitle">Code</h3>
+
+    {% for code in page.code %}
+        <li> <a href={{code.link}}>{{code.name}}</a> </li>
+    {% endfor %}
+{% endif %}
+
+{% if page.press %}
+    <h3 class="archive__subtitle">Press</h3>
+
+    {% for item in page.press %}
+        {{item.name | markdownify | liquify }}
+    {% endfor %}
+{% endif %}
+
+{% if page.funding %}
+    <h3 class="archive__subtitle">Funding</h3>
+
+    {% for funder in page.funding %}
+        {% if funder.link %}
+            <li> <a href={{funder.link}}>{{funder.name}}</a> </li>
+        {% else %}
+            <li> {{funder.name}} </li>
+        {% endif %}
+    {% endfor %}
+{% endif %}
+
+
+{% if page.pubids %}
+    <h3 class="archive__subtitle">Selected Papers</h3>
+    {% for pid in page.pubids %}
+        {% assign counter = forloop.index %}
+        {% include pub-single.html pubid=pid prefix = counter %}
+    {% endfor %}
+{% endif %}
+
+{% if page.references %}
+    <h3 class="archive__subtitle">References</h3> 
+    {% for ref in page.references %}
+        {% assign pref = '[^' | append: ref.footnote | append: ']: ' %}
+        {% include citation.html pubid=ref.pubid prefix = pref %}
+    {% endfor %}
+{% endif %}
