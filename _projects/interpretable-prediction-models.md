@@ -1,5 +1,5 @@
 ---
-title: Interpretable Clinical Prediction Models
+title: Interpretable Prediction Models
 permalink: /interpretable-phenotyping/
 layout: project
 tag: interpretability
@@ -9,6 +9,9 @@ header:
 tags: Fairness
 pubids:
     - lacavaFlexibleSymbolicRegression2023
+    - aldeiaInexactSimplificationSymbolic2024
+    - lacavaLearningConciseRepresentations2019
+    - lacavaInterpretationMachineLearning2019a
 funding:
     - name: PCORI
 code:
@@ -16,6 +19,9 @@ code:
       link: cavalab.org/feat
     - name: "Brush: an Interpretable Machine Learning Library"
       link: cavalab.org/brush
+posts:
+    - title: "Interpreting a glass-box clinical prediction model of resistant hypertension"
+    - title: "Simplifying symbolic regression models without simplification rules"
 ---
 
 Some AI models do not need to be explained; evidence of their reliability is enough. 

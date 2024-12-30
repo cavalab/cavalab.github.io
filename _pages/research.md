@@ -13,7 +13,7 @@ See our <a href="/publications">publications</a> and <a href="/posts">posts</a> 
 
 ## Projects
 
-### Fair Machine Learning for Health Care
+### Fair Machine Learning for Health
 
 <div class="entries-grid">
   {% assign posts = site.projects | where:"tag","fairness" %}
@@ -23,7 +23,7 @@ See our <a href="/publications">publications</a> and <a href="/posts">posts</a> 
 </div>
 <div class="back-to-top"></div>
 
-### Interpretable Machine Learning for Health Care
+### Interpretable Machine Learning for Health
 
 <div class="entries-grid">
   {% assign posts = site.projects | where:"tag","interpretability" %}

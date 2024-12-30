@@ -11,6 +11,7 @@ pubids:
     - lacavaContemporarySymbolicRegression2021
     - orzechowskiComparativeStudyGPbased2022
     - orzechowskiWhereAreWe2018b
+    - bartz-beielsteinBenchmarkingOptimizationBest2020
 funding:
     - name: NIH National Library of Medicine
 code:

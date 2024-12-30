@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: archive
 ---
 {{ content }}
 
@@ -21,7 +21,6 @@ layout: single
 
 {% if page.press %}
     <h3 class="archive__subtitle">Press</h3>
-
     {% for item in page.press %}
         {{item.name | markdownify | liquify }}
     {% endfor %}
@@ -39,6 +38,15 @@ layout: single
     {% endfor %}
 {% endif %}
 
+{% if page.posts %}
+    <h3 class="archive__subtitle">Related Posts</h3>
+    <div class="entries-list">
+    {% for item in page.posts %}
+        {% assign post = site.posts | where: "title",  item.title | first %}
+        {% include archive-single.html type="list" %} 
+    {% endfor %}
+    </div>
+{% endif %}
 
 {% if page.pubids %}
     <h3 class="archive__subtitle">Selected Papers</h3>

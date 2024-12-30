@@ -22,7 +22,6 @@ entries_layout: grid
 
 - Guangya Wan, MS HSPH &#8594; UVA Data Science PhD program
 - Zongjun Liu, MS HSPH &#8594; Kaiser Permanente
-- Sid Barthulwar, BS candidate, Harvard University 
 - Tilak Raj Singh, M.S. SEAS, UPenn &#8594; Microsoft
 - James Taggart, B.S. CIS, UPenn &#8594; Google
 - Srinivas Suri, M.S. SEAS, UPenn &#8594; Microsoft
