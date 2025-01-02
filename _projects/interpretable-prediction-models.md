@@ -12,6 +12,7 @@ pubids:
     - aldeiaInexactSimplificationSymbolic2024
     - lacavaLearningConciseRepresentations2019
     - lacavaInterpretationMachineLearning2019a
+    - lacavaEpsilonLexicaseSelectionRegression2016
 funding:
     - name: PCORI
 code:

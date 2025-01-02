@@ -3,7 +3,7 @@ title: "Simplifying symbolic regression models without simplification rules"
 date: 2024-04-14
 layout: posts
 author: guilherme
-excerpt: Relaxing the definition of equivalent mathematical expressions to get more simpler and interpretable models
+excerpt: Relaxing the definition of equivalent mathematical expressions to get simpler and more interpretable models
 tags: 
     - Symbolic Regression
     - Simplification
