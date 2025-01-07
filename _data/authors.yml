@@ -16,7 +16,7 @@ alexis:
       icon: &linkedin "fab fa-linkedin" 
       url: "https://www.linkedin.com/in/alexis-musaelyan-blackmon/"
   about: |
-    Alexis Musaelyan-Blackmon is a BS/MS candidate in Data Science and Biology at Northeastern University. Her research focuses on using machine learning to improve fairness and interpretability in clinical decision support systems. She has worked at Microsoft, the Department of Homeland Security, and the Naval Research Laboratory, applying AI to tackle challenges in cybersecurity, healthcare, and computational biology. After completing her graduate studies, Alexis plans to continue advancing AI for ethical and impactful applications in healthcare. Currently, she is working on AI-driven models to enhance equity in patient admissions and outcomes within emergency room settings. 
+    Alexis Musaelyan is a BS/MS candidate in Data Science and Biology at Northeastern University. Her research focuses on using machine learning to improve fairness and interpretability in clinical decision support systems. She has worked at Microsoft, the Department of Homeland Security, and the Naval Research Laboratory, applying AI to tackle challenges in cybersecurity, healthcare, and computational biology. After completing her graduate studies, Alexis plans to continue advancing AI for ethical and impactful applications in healthcare. Currently, she is working on AI-driven models to enhance equity in patient admissions and outcomes within emergency room settings. 
 
 neha:
   name: "Neha Dantuluri, BS BS"
