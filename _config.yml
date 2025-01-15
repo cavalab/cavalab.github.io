@@ -91,10 +91,10 @@ author:
     - label: "Harvard Medical School"
       icon: &hms "fa fa-university"
       url: "https://hms.harvard.edu/"
-    - label: "Twitter"
-      icon: &twitter "fab fa-twitter"
+    - label: "Bluesky"
+      icon: &twitter "far fa-comment"
       style: "color: #000000;" 
-      url: "https://twitter.com/w_la_cava"
+      url: "https://bsky.app/profile/lacava.bsky.social"
 
 footer:
   links: *links
