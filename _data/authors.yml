@@ -180,3 +180,17 @@ yuting:
       url: "https://scholar.google.com/citations?user=8DHqW_wAAAAJ"
   about: | 
     Yuting's research interests primarily focus on AI health and natural language processing.
+
+  helena:
+  name: Helena Coggan
+  avatar: "assets/images/coggan-helena.png"
+  bio: "Researcher"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:helena.coggan@childrens.harvard.edu"
+    - label: Google Scholar
+      icon: *scholar 
+      url: "https://scholar.google.com/citations?user=w2Knk_cAAAAJ&hl=en"
+  about: | 
+    Helena is a researcher focused on using machine learning to improve emergency pediatric care. She has recently submitted a PhD in computational cancer modelling at University College London. Previously, she receieved undergraduate and master's degrees in physics from the University of Cambridge.
