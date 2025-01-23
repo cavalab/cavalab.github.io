@@ -1,7 +1,7 @@
 ---
 title: Helena Coggan
 header:
-  teaser: "assets/images/coggan-helena.png"
+  teaser: "assets/images/coggan-helena-small.png"
 author: helena
 given_name: Helena
 family_name:  Coggan
