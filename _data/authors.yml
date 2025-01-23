@@ -183,7 +183,7 @@ yuting:
 
 helena:
   name: Helena Coggan
-  avatar: "assets/images/coggan-helena.png"
+  avatar: "assets/images/coggan-helena-small.png"
   bio: "Research Scientist"
   links:
     - label: "Email"
