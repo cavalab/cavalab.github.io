@@ -1835,6 +1835,46 @@ references:
   URL: https://www.sciencedirect.com/science/article/pii/S1532046423000278
   volume: '139'
 
+- id: teeleInvestigationNovelNoninvasive2025
+  accessed:
+    - year: 2025
+      month: 1
+      day: 24
+  author:
+    - family: Teele
+      given: Sarah A.
+    - family: Gazit
+      given: Avihu Z.
+    - family: Futterman
+      given: Craig
+    - family: La Cava
+      given: William G.
+    - family: Cooper
+      given: David S.
+    - family: Schwartz
+      given: Steven M.
+    - family: Salvin
+      given: Joshua W.
+  citation-key: teeleInvestigationNovelNoninvasive2025
+  container-title: Critical Care Explorations
+  DOI: 10.1097/CCE.0000000000001204
+  ISSN: 2639-8028
+  issue: '1'
+  issued:
+    - year: 2025
+      month: 1
+      day: 16
+  language: en
+  page: e1204
+  source: DOI.org (Crossref)
+  title: >-
+    Investigation of a Novel Noninvasive Risk Analytics Algorithm With
+    Laboratory Central Venous Oxygen Saturation Measurements in Critically Ill
+    Pediatric Patients
+  type: article-journal
+  URL: https://journals.lww.com/10.1097/CCE.0000000000001204
+  volume: '7'
+
 - id: urbanowiczReliefbasedFeatureSelection2018
   accessed:
     - year: 2023
