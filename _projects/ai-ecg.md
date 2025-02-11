@@ -6,8 +6,6 @@ header:
     teaser-caption: "Interpreting AI-ECG models, from Mayourian et al. Circulation 2024"
 tag: ai
 layout: project
-funding:
-    - name: Kosten Innovation Fund
 pubids:
     - lukyanenkoBenchmarkingMortalityRisk2024
     - mayourianDeepLearningBasedElectrocardiogram2024

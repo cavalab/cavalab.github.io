@@ -9,9 +9,6 @@ pubids:
     - lettIntersectionalConsequencesMarginal2024
     - lacavaFairAdmissionRisk2023
     - lettTranslatingIntersectionalityFair2023
-funding:
-    - name: NIH National Library of Medicine
-    - name: NCATS
 code:
     - name: "PMCBoost: Proportional Multicalibration Boosting"
       link: github.com/cavalab/pmcboost
