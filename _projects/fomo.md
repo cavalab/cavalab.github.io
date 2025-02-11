@@ -8,8 +8,6 @@ header:
 pubids:
     - lacavaOptimizingFairnessTradeoffs2023
     - lacavaGeneticProgrammingApproaches2020
-funding:
-    - name: NIH National Library of Medicine
 code:
     - name:  "FOMO: Fairness-Oriented Multi-objective Optimization"
       link: cavalab.org/fomo

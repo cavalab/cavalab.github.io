@@ -13,8 +13,6 @@ pubids:
     - lacavaLearningConciseRepresentations2019
     - lacavaInterpretationMachineLearning2019a
     - lacavaEpsilonLexicaseSelectionRegression2016
-funding:
-    - name: PCORI
 code:
     - name: Feature Engineering Automation Tool
       link: cavalab.org/feat

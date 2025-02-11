@@ -13,6 +13,16 @@ See our <a href="/publications">publications</a> and <a href="/posts">posts</a> 
 
 ## Projects
 
+### Automating Digital Health
+
+<div class="entries-grid">
+  {% assign posts = site.projects | where:"tag","ai" %}
+  {% for post in posts %}
+      {% include archive-single.html type=page.entries_layout %}
+  {% endfor %}
+</div>
+<div class="back-to-top"></div>
+
 ### Fair Machine Learning for Health
 
 <div class="entries-grid">
@@ -27,16 +37,6 @@ See our <a href="/publications">publications</a> and <a href="/posts">posts</a> 
 
 <div class="entries-grid">
   {% assign posts = site.projects | where:"tag","interpretability" %}
-  {% for post in posts %}
-      {% include archive-single.html type=page.entries_layout %}
-  {% endfor %}
-</div>
-<div class="back-to-top"></div>
-
-### Automating Digital Health
-
-<div class="entries-grid">
-  {% assign posts = site.projects | where:"tag","ai" %}
   {% for post in posts %}
       {% include archive-single.html type=page.entries_layout %}
   {% endfor %}
