@@ -10,7 +10,7 @@ header:
     teaser: /assets/images/ecg-survival-figure-1.png
 ---
 
-{% include pub-single.html pubid="lukyanenkoBenchmarkingMortalityRisk2024" %}
+{% include pub-single.html pubid="lukyanenkoCloserLookMortality2025" %}
 {:.notice}
 
 ## Background
@@ -74,7 +74,7 @@ Systematically sweeping model configurations suggests that deep survival approac
 
 For more details and open-source code for benchmarking AI-ECG models, see below:
 
-{% include pub-single.html pubid="lukyanenkoBenchmarkingMortalityRisk2024" %}
+{% include pub-single.html pubid="lukyanenkoCloserLookMortality2025" %}
 
 ## References
 
