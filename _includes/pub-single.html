@@ -91,6 +91,9 @@
                         &nbsp;<a href="{{ val }}"><i class="fas fa-external-link-alt"></i> </a>
                     {% when "note" %}
                         &nbsp;|&nbsp;{{ val }}
+                    {% when "blog" %}
+                        {% unless first %}&nbsp;|&nbsp;{% endunless %} {% assign first = false %}
+                        <a href="{{site.url}}/{{ val }}">{{ key }}</a>
                     {% else %}
                 {% endcase %}
             {% endfor %}

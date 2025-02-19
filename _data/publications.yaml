@@ -25,7 +25,9 @@ references:
     - year: 2024
       month: 7
       day: 14
-  note: code= https://github.com/gAldeia/hashing-symbolic-expressions
+  note: >-
+    code= https://github.com/gAldeia/hashing-symbolic-expressions,
+    blog=/2024/04/14/inexact-simplification.html
   page: 896-904
   publisher: ACM
   publisher-place: Melbourne VIC Australia
@@ -330,6 +332,7 @@ references:
     - year: 2022
       month: 4
       day: 13
+  note: blog=2022/08/23/lexicase-running-time.html
   title: Population Diversity Leads to Short Running Times of Lexicase Selection
   type: paper-conference
   URL: https://link.springer.com/chapter/10.1007/978-3-031-14721-0_34
@@ -633,7 +636,8 @@ references:
   language: en
   note: >-
     code=https://github.com/cavalab/feat, award=HUMIES Silver Medal,
-    awardlink=https://www.human-competitive.org/awards
+    awardlink=https://www.human-competitive.org/awards,
+    blog=2023/09/02/humies.html
   page: 1-14
   source: www.nature.com
   title: >-
@@ -1043,7 +1047,7 @@ references:
   type: article
   URL: http://medrxiv.org/lookup/doi/10.1101/2024.11.05.24316769
 
-- id: lettTranslatingIntersectionalityFair2023
+- id: lettTranslatingIntersectionalityFair2023a
   accessed:
     - year: 2023
       month: 4
@@ -1053,7 +1057,7 @@ references:
       given: Elle
     - family: La Cava
       given: William G.
-  citation-key: lettTranslatingIntersectionalityFair2023
+  citation-key: lettTranslatingIntersectionalityFair2023a
   container-title: Nature Machine Intelligence
   container-title-short: Nat Mach Intell
   DOI: 10.1038/s42256-023-00651-3
@@ -1063,18 +1067,18 @@ references:
       month: 4
       day: 28
   language: en
+  note: blog=2023/05/05/intersectionality.html
   page: 1-4
-  publisher: Nature Publishing Group
   source: www.nature.com
   title: Translating intersectionality to fair machine learning in health sciences
   type: article-journal
   URL: https://www.nature.com/articles/s42256-023-00651-3
 
-- id: lukyanenkoBenchmarkingMortalityRisk2024
+- id: lukyanenkoCloserLookMortality2025
   accessed:
-    - year: 2024
-      month: 6
-      day: 26
+    - year: 2025
+      month: 2
+      day: 19
   author:
     - family: Lukyanenko
       given: Platon
@@ -1086,18 +1090,21 @@ references:
       given: John K.
     - family: Ghelani
       given: Sunil J.
-    - family: La Cava
-      given: William G.
-  citation-key: lukyanenkoBenchmarkingMortalityRisk2024
+    - family: Cava
+      given: William G. La
+  citation-key: lukyanenkoCloserLookMortality2025
+  DOI: 10.48550/arXiv.2406.17002
   issued:
-    - year: 2024
-      month: 6
-      day: 24
-  note: code=https://github.com/cavalab/ecg-survival-benchmark
+    - year: 2025
+      month: 2
+      day: 18
+  note: >-
+    code=https://github.com/cavalab/ecg-survival-benchmark,
+    blog=2025/02/14/ecg-survival.html
   number: arXiv:2406.17002
   publisher: arXiv
   source: arXiv.org
-  title: Benchmarking mortality risk prediction from electrocardiograms
+  title: A Closer Look at Mortality Risk Prediction from Electrocardiograms
   type: article
   URL: http://arxiv.org/abs/2406.17002
 

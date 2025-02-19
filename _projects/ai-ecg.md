@@ -7,13 +7,13 @@ header:
 tag: ai
 layout: project
 pubids:
-    - lukyanenkoBenchmarkingMortalityRisk2024
+    - lukyanenkoCloserLookMortality2025
     - mayourianDeepLearningBasedElectrocardiogram2024
-    - mayourianDeepLearningbasedElectrocardiogram2024a
     - mayourianElectrocardiogrambasedDeepLearning2024
     - mayourianPediatricECGBasedDeep2024
     - mayourianPediatricElectrocardiogramBasedDeep2024
-    - mayourianPediatricElectrocardiogramBasedDeep2024
+posts:
+    - title: "Benchmarking mortality risk prediction from electrocardiograms"
 ---
 
 Electrocardiograms (ECGs) are a cheap and ubiquitous measure of the electrical activity of the heart. 
