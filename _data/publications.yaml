@@ -1021,6 +1021,7 @@ references:
       month: 11
       day: 6
   archive: medRxiv
+  archive_location: http://medrxiv.org/lookup/doi/10.1101/2024.11.05.24316769
   author:
     - family: Lett
       given: Elle
@@ -1241,6 +1242,94 @@ references:
   URL: >-
     https://academic.oup.com/eurheartj/advance-article/doi/10.1093/eurheartj/ehae651/7817716
 
+- id: mayourianElectrocardiogrambasedDeepLearning2025
+  accessed:
+    - year: 2025
+      month: 3
+      day: 28
+  archive: PubMed
+  archive_location: https://pubmed.ncbi.nlm.nih.gov/40148010/
+  author:
+    - family: Mayourian
+      given: Joshua
+    - family: Asztalos
+      given: Ivor B.
+    - family: El-Bokl
+      given: Amr
+    - family: Lukyanenko
+      given: Platon
+    - family: Kobayashi
+      given: Ryan L.
+    - family: Cava
+      given: William G. La
+    - family: Ghelani
+      given: Sunil J.
+    - family: Vetter
+      given: Victoria L.
+    - family: Triedman
+      given: John K.
+  citation-key: mayourianElectrocardiogrambasedDeepLearning2025
+  container-title: The Lancet Digital Health
+  container-title-short: The Lancet Digital Health
+  DOI: 10.1016/j.landig.2025.01.001
+  ISSN: 2589-7500
+  issue: '4'
+  issued:
+    - year: 2025
+      month: 4
+      day: 1
+  language: English
+  page: e264-e274
+  PMID: '40148010'
+  publisher: Elsevier
+  source: www.thelancet.com
+  title: >-
+    Electrocardiogram-based deep learning to predict left ventricular systolic
+    dysfunction in paediatric and adult congenital heart disease in the USA: a
+    multicentre modelling study
+  title-short: >-
+    Electrocardiogram-based deep learning to predict left ventricular systolic
+    dysfunction in paediatric and adult congenital heart disease in the USA
+  type: article-journal
+  URL: >-
+    https://www.thelancet.com/journals/landig/article/PIIS2589-7500(25)00001-9/fulltext
+  volume: '7'
+
+- id: mayourianExpertLevelAutomatedDiagnosis2025
+  accessed:
+    - year: 2025
+      month: 3
+      day: 17
+  author:
+    - family: Mayourian
+      given: Joshua
+    - family: La Cava
+      given: William G.
+    - family: Ferranti
+      given: Sarah D.
+      non-dropping-particle: de
+    - family: Mah
+      given: Douglas
+    - family: Alexander
+      given: Mark
+    - family: Walsh
+      given: Edward
+    - family: Triedman
+      given: John K.
+  citation-key: mayourianExpertLevelAutomatedDiagnosis2025
+  container-title: 'JACC: Clinical Electrophysiology'
+  container-title-short: 'JACC: Clinical Electrophysiology'
+  DOI: 10.1016/j.jacep.2025.02.003
+  ISSN: 2405-500X
+  issued:
+    - year: 2025
+      month: 3
+      day: 17
+  source: ScienceDirect
+  title: "Expert-Level Automated Diagnosis of the\_Pediatric ECG Using a Deep Neural\_Network"
+  type: article-journal
+  URL: https://www.sciencedirect.com/science/article/pii/S2405500X25000829
+
 - id: mayourianPediatricECGBasedDeep2024
   accessed:
     - year: 2024
@@ -1336,8 +1425,7 @@ references:
       given: Joseph
     - family: Holmes
       given: John
-    - family: La Cava
-      given: William G..
+    - literal: William G. La Cava
   citation-key: mccoyAccuracyDeepLearning2024
   container-title: American Journal of Obstetrics and Gynecology
   container-title-short: American Journal of Obstetrics and Gynecology

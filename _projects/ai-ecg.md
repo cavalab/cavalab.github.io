@@ -7,6 +7,8 @@ header:
 tag: ai
 layout: project
 pubids:
+    - mayourianElectrocardiogrambasedDeepLearning2025
+    - mayourianExpertLevelAutomatedDiagnosis2025
     - lukyanenkoCloserLookMortality2025
     - mayourianDeepLearningBasedElectrocardiogram2024
     - mayourianElectrocardiogrambasedDeepLearning2024

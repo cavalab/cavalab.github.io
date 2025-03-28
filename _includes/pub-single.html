@@ -63,8 +63,9 @@
             {% assign pdfauth = lastname %}
         {% endif %}
         {% assign pdftitle = pub.title 
+            | truncate: 50, '' 
+            | strip
             | append: '.pdf' 
-            | truncate: 54, '.pdf' 
             | remove: ":" 
             | remove: "?" 
         %}
