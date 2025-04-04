@@ -181,6 +181,41 @@ references:
   title-short: Cross-Care
   type: paper-conference
 
+- id: cogganDemographicFactorsAssociated2025
+  accessed:
+    - year: 2025
+      month: 4
+      day: 1
+  author:
+    - family: Coggan
+      given: Helena
+    - family: Chaudhari
+      given: Pradip
+    - family: Barak-Corren
+      given: Yuval
+    - family: Fine
+      given: Andrew M.
+    - family: Reis
+      given: Ben Y.
+    - family: Aysola
+      given: Jaya
+    - family: Cava
+      given: William G. La
+  citation-key: cogganDemographicFactorsAssociated2025
+  DOI: 10.48550/arXiv.2503.22781
+  issued:
+    - year: 2025
+      month: 3
+      day: 28
+  number: arXiv:2503.22781
+  publisher: arXiv
+  source: arXiv.org
+  title: >-
+    Demographic Factors Associated with Triage Acuity, Admission and Length of
+    Stay During Adult Emergency Department Visits
+  type: article
+  URL: http://arxiv.org/abs/2503.22781
+
 - id: danaiControllerDesignSymbolic2021
   accessed:
     - year: 2020
@@ -984,6 +1019,32 @@ references:
   URL: >-
     https://asmedigitalcollection.asme.org/dynamicsystems/article/doi/10.1115/1.4035870/384813/Restructuring-Controllers-to-Accommodate-Plant
   volume: '139'
+
+- id: lacavaReviewSymbolicRegression2025
+  accessed:
+    - year: 2025
+      month: 4
+      day: 1
+  author:
+    - family: La Cava
+      given: William G.
+  citation-key: lacavaReviewSymbolicRegression2025
+  container-title: Genetic Programming and Evolvable Machines
+  container-title-short: Genet Program Evolvable Mach
+  DOI: 10.1007/s10710-025-09513-w
+  ISSN: 1573-7632
+  issue: '1'
+  issued:
+    - year: 2025
+      month: 3
+      day: 29
+  language: en
+  page: '15'
+  source: Springer Link
+  title: "A review of “Symbolic Regression” by Gabriel Kronberger, Bogdan Burlacu, Michael Kommenda, Stephan M. Winkler, and Michael Affenzeller, ISBN\_978-1-138-05481-3, 2024, CRC\_Press."
+  type: article-journal
+  URL: https://doi.org/10.1007/s10710-025-09513-w
+  volume: '26'
 
 - id: lacavaSemanticVariationOperators2019
   accessed:
