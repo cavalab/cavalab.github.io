@@ -1076,7 +1076,7 @@ references:
   type: paper-conference
   URL: https://doi.org/10.1145/3321707.3321776
 
-- id: lettIntersectionalConsequencesMarginal2024
+- id: lettIntersectionalConsequencesMarginal2025
   accessed:
     - year: 2024
       month: 11
@@ -1094,19 +1094,21 @@ references:
       given: Andrew
     - family: La Cava
       given: William G
-  citation-key: lettIntersectionalConsequencesMarginal2024
+  citation-key: lettIntersectionalConsequencesMarginal2025
+  container-title: JAMA Network Open
   DOI: 10.1101/2024.11.05.24316769
+  issue: In Press
   issued:
-    - year: 2024
-      month: 11
-      day: 5
+    - year: 2025
+      month: 3
+      day: 24
   language: en
   note: code=https://github.com/cavalab/marginal-intersectional
   source: Health Informatics
   title: >-
     Intersectional consequences for marginal fairness in prediction models of
     emergency admissions
-  type: article
+  type: article-journal
   URL: http://medrxiv.org/lookup/doi/10.1101/2024.11.05.24316769
 
 - id: lettTranslatingIntersectionalityFair2023a
@@ -1261,48 +1263,6 @@ references:
   URL: https://www.jacc.org/doi/full/10.1016/S0735-1097%2824%2903587-3
   volume: '83'
 
-- id: mayourianElectrocardiogrambasedDeepLearning2024
-  accessed:
-    - year: 2024
-      month: 10
-      day: 11
-  archive: PubMed
-  archive_location: https://pubmed.ncbi.nlm.nih.gov/39297841/
-  author:
-    - family: Mayourian
-      given: Joshua
-    - family: El-Bokl
-      given: Amr
-    - family: Lukyanenko
-      given: Platon
-    - family: La Cava
-      given: William G
-    - family: Geva
-      given: Tal
-    - family: Valente
-      given: Anne Marie
-    - family: Triedman
-      given: John K
-    - family: Ghelani
-      given: Sunil J
-  citation-key: mayourianElectrocardiogrambasedDeepLearning2024
-  container-title: European Heart Journal
-  DOI: 10.1093/eurheartj/ehae651
-  ISSN: 0195-668X, 1522-9645
-  issued:
-    - year: 2024
-      month: 10
-      day: 10
-  language: en
-  page: ehae651
-  source: DOI.org (Crossref)
-  title: >-
-    Electrocardiogram-based deep learning to predict mortality in paediatric and
-    adult congenital heart disease
-  type: article-journal
-  URL: >-
-    https://academic.oup.com/eurheartj/advance-article/doi/10.1093/eurheartj/ehae651/7817716
-
 - id: mayourianElectrocardiogrambasedDeepLearning2025
   accessed:
     - year: 2025
@@ -1355,6 +1315,49 @@ references:
   URL: >-
     https://www.thelancet.com/journals/landig/article/PIIS2589-7500(25)00001-9/fulltext
   volume: '7'
+
+- id: mayourianElectrocardiogrambasedDeepLearning2025a
+  accessed:
+    - year: 2025
+      month: 4
+      day: 7
+  archive: PubMed
+  archive_location: https://pubmed.ncbi.nlm.nih.gov/39297841/
+  author:
+    - family: Mayourian
+      given: Joshua
+    - family: El-Bokl
+      given: Amr
+    - family: Lukyanenko
+      given: Platon
+    - family: La Cava
+      given: William G
+    - family: Geva
+      given: Tal
+    - family: Valente
+      given: Anne Marie
+    - family: Triedman
+      given: John K
+    - family: Ghelani
+      given: Sunil J
+  citation-key: mayourianElectrocardiogrambasedDeepLearning2025a
+  container-title: European Heart Journal
+  container-title-short: European Heart Journal
+  DOI: 10.1093/eurheartj/ehae651
+  ISSN: 0195-668X
+  issue: '9'
+  issued:
+    - year: 2025
+      month: 3
+      day: 1
+  page: 856-868
+  source: Silverchair
+  title: >-
+    Electrocardiogram-based deep learning to predict mortality in paediatric and
+    adult congenital heart disease
+  type: article-journal
+  URL: https://doi.org/10.1093/eurheartj/ehae651
+  volume: '46'
 
 - id: mayourianExpertLevelAutomatedDiagnosis2025
   accessed:

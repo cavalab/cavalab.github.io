@@ -20,6 +20,7 @@ entries_layout: grid
 
 ## Prior Members and Trainees
 
+- Elle Lett, PhD &#8594; University of Washington
 - Guangya Wan, MS HSPH &#8594; UVA Data Science PhD program
 - Zongjun Liu, MS HSPH &#8594; Kaiser Permanente
 - Tilak Raj Singh, M.S. SEAS, UPenn &#8594; Microsoft
