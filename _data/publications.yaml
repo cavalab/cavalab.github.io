@@ -1,5 +1,77 @@
 ---
 references:
+- id: aldeiaApplicationArtificialNeural2025
+  accessed:
+    - year: 2025
+      month: 5
+      day: 23
+  author:
+    - family: Aldeia
+      given: Guilherme
+    - family: Moon
+      given: Clara
+    - family: Shulman
+      given: Julie
+    - family: Sethna
+      given: Navil
+    - family: Smith
+      given: Allison
+    - family: Lebel
+      given: Alyssa
+    - family: La Cava
+      given: William
+    - family: Holmes
+      given: Scott
+  citation-key: aldeiaApplicationArtificialNeural2025
+  container-title: The Journal of Pain
+  issued:
+    - year: 2025
+  publisher: Elsevier
+  source: Google Scholar
+  title: >-
+    Application of Artificial Neural Networks and Functional Brain Connectivity
+    to Inform Pediatric Headache
+  type: article-journal
+  URL: https://www.jpain.org/article/S1526-5900(25)00366-9/abstract
+  volume: '29'
+
+- id: aldeiaCallActionNext2025
+  accessed:
+    - year: 2025
+      month: 5
+      day: 23
+  author:
+    - family: Aldeia
+      given: Guilherme S. Imai
+    - family: Zhang
+      given: Hengzhe
+    - family: Bomarito
+      given: Geoffrey
+    - family: Cranmer
+      given: Miles
+    - family: Fonseca
+      given: Alcides
+    - family: Burlacu
+      given: Bogdan
+    - family: Cava
+      given: William G. La
+    - family: França
+      given: Fabrício Olivetti
+      dropping-particle: de
+  citation-key: aldeiaCallActionNext2025
+  DOI: 10.1145/3712255.3734309
+  issued:
+    - year: 2025
+      month: 5
+      day: 6
+  source: arXiv.org
+  title: >-
+    Call for Action: towards the next generation of symbolic regression
+    benchmark
+  title-short: Call for Action
+  type: article
+  URL: http://arxiv.org/abs/2505.03977
+
 - id: aldeiaInexactSimplificationSymbolic2024
   accessed:
     - year: 2024
@@ -20,7 +92,7 @@ references:
   DOI: 10.1145/3638529.3654147
   event-place: Melbourne VIC Australia
   event-title: 'GECCO ''24: Genetic and Evolutionary Computation Conference'
-  ISBN: '9798400704949'
+  ISBN: 979-8-4007-0494-9
   issued:
     - year: 2024
       month: 7
@@ -56,7 +128,7 @@ references:
   DOI: 10.1145/3638529.3654149
   event-place: Melbourne VIC Australia
   event-title: 'GECCO ''24: Genetic and Evolutionary Computation Conference'
-  ISBN: '9798400704949'
+  ISBN: 979-8-4007-0494-9
   issued:
     - year: 2024
       month: 7
@@ -1076,11 +1148,11 @@ references:
   type: paper-conference
   URL: https://doi.org/10.1145/3321707.3321776
 
-- id: lettIntersectionalConsequencesMarginal2025
+- id: lettIntersectionalMarginalDebiasing2025a
   accessed:
-    - year: 2024
-      month: 11
-      day: 6
+    - year: 2025
+      month: 5
+      day: 29
   archive: medRxiv
   archive_location: http://medrxiv.org/lookup/doi/10.1101/2024.11.05.24316769
   author:
@@ -1091,25 +1163,28 @@ references:
     - family: Barak-Corren
       given: Yuval
     - family: Fine
-      given: Andrew
+      given: Andrew M.
     - family: La Cava
-      given: William G
-  citation-key: lettIntersectionalConsequencesMarginal2025
+      given: William G.
+  citation-key: lettIntersectionalMarginalDebiasing2025a
   container-title: JAMA Network Open
-  DOI: 10.1101/2024.11.05.24316769
-  issue: In Press
+  container-title-short: JAMA Network Open
+  DOI: 10.1001/jamanetworkopen.2025.12947
+  ISSN: 2574-3805
+  issue: '5'
   issued:
     - year: 2025
-      month: 3
-      day: 24
-  language: en
+      month: 5
+      day: 29
   note: code=https://github.com/cavalab/marginal-intersectional
-  source: Health Informatics
+  page: e2512947
+  source: Silverchair
   title: >-
-    Intersectional consequences for marginal fairness in prediction models of
-    emergency admissions
+    Intersectional and Marginal Debiasing in Prediction Models for Emergency
+    Admissions
   type: article-journal
-  URL: http://medrxiv.org/lookup/doi/10.1101/2024.11.05.24316769
+  URL: https://doi.org/10.1001/jamanetworkopen.2025.12947
+  volume: '8'
 
 - id: lettTranslatingIntersectionalityFair2023a
   accessed:
@@ -1625,6 +1700,53 @@ references:
   title: A System for Accessible Artificial Intelligence
   type: chapter
   URL: https://link.springer.com/chapter/10.1007/978-3-319-90512-9_8
+
+- id: omarSociodemographicBiasesMedical2025
+  accessed:
+    - year: 2025
+      month: 5
+      day: 23
+  author:
+    - family: Omar
+      given: Mahmud
+    - family: Soffer
+      given: Shelly
+    - family: Agbareia
+      given: Reem
+    - family: Bragazzi
+      given: Nicola Luigi
+    - family: Apakama
+      given: Donald U.
+    - family: Horowitz
+      given: Carol R.
+    - family: Charney
+      given: Alexander W.
+    - family: Freeman
+      given: Robert
+    - family: Kummer
+      given: Benjamin
+    - family: Glicksberg
+      given: Benjamin S.
+    - family: Nadkarni
+      given: Girish N.
+    - family: Klang
+      given: Eyal
+  citation-key: omarSociodemographicBiasesMedical2025
+  container-title: Nature Medicine
+  container-title-short: Nat Med
+  DOI: 10.1038/s41591-025-03626-6
+  ISSN: 1546-170X
+  issued:
+    - year: 2025
+      month: 4
+      day: 7
+  language: en
+  page: 1-9
+  publisher: Nature Publishing Group
+  source: www-nature-com.ezp-prod1.hul.harvard.edu
+  title: Sociodemographic biases in medical decision making by large language models
+  type: article-journal
+  URL: https://www.nature.com/articles/s41591-025-03626-6
 
 - id: orzechowskiComparativeStudyGPbased2022
   accessed:
