@@ -390,6 +390,46 @@ references:
   type: article-journal
   URL: https://ieeexplore.ieee.org/document/10586218/?arnumber=10586218
 
+- id: gallifantReliabilityLargeLanguage2024
+  accessed:
+    - year: 2025
+      month: 5
+      day: 30
+  author:
+    - family: Gallifant
+      given: Jack
+    - family: Chen
+      given: Shan
+    - family: Jain
+      given: Sandeep K.
+    - family: Moreira
+      given: Pedro
+    - family: Topaloglu
+      given: Umit
+    - family: Aerts
+      given: Hugo JWL
+    - family: Warner
+      given: Jeremy L.
+    - family: Cava
+      given: William G. La
+    - family: Bitterman
+      given: Danielle S.
+  citation-key: gallifantReliabilityLargeLanguage2024
+  DOI: 10.1101/2024.11.08.24316949
+  issued:
+    - year: 2024
+      month: 11
+      day: 8
+  language: en
+  page: 2024.11.08.24316949
+  publisher: medRxiv
+  source: medRxiv
+  title: >-
+    Reliability of large language model knowledge across brand and generic
+    cancer drug names
+  type: article
+  URL: https://www.medrxiv.org/content/10.1101/2024.11.08.24316949v1
+
 - id: helmuthLexicaseSelection2021
   accessed:
     - year: 2021
@@ -1700,53 +1740,6 @@ references:
   title: A System for Accessible Artificial Intelligence
   type: chapter
   URL: https://link.springer.com/chapter/10.1007/978-3-319-90512-9_8
-
-- id: omarSociodemographicBiasesMedical2025
-  accessed:
-    - year: 2025
-      month: 5
-      day: 23
-  author:
-    - family: Omar
-      given: Mahmud
-    - family: Soffer
-      given: Shelly
-    - family: Agbareia
-      given: Reem
-    - family: Bragazzi
-      given: Nicola Luigi
-    - family: Apakama
-      given: Donald U.
-    - family: Horowitz
-      given: Carol R.
-    - family: Charney
-      given: Alexander W.
-    - family: Freeman
-      given: Robert
-    - family: Kummer
-      given: Benjamin
-    - family: Glicksberg
-      given: Benjamin S.
-    - family: Nadkarni
-      given: Girish N.
-    - family: Klang
-      given: Eyal
-  citation-key: omarSociodemographicBiasesMedical2025
-  container-title: Nature Medicine
-  container-title-short: Nat Med
-  DOI: 10.1038/s41591-025-03626-6
-  ISSN: 1546-170X
-  issued:
-    - year: 2025
-      month: 4
-      day: 7
-  language: en
-  page: 1-9
-  publisher: Nature Publishing Group
-  source: www-nature-com.ezp-prod1.hul.harvard.edu
-  title: Sociodemographic biases in medical decision making by large language models
-  type: article-journal
-  URL: https://www.nature.com/articles/s41591-025-03626-6
 
 - id: orzechowskiComparativeStudyGPbased2022
   accessed:
