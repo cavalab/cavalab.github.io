@@ -1,14 +1,14 @@
 ---
 layout: project
-title: "Reducing health disparities in clinical decision support with fair machine learning"
+title: "Reducing health disparities in clinical decision support with machine learning"
 tag: fairness
 header:
     teaser: "/assets/images/real-time-fairness-monitoring.png"
     teaser-caption: ""
 pubids:
-    - lettIntersectionalConsequencesMarginal2024
+    - lettIntersectionalMarginalDebiasing2025a
     - lacavaFairAdmissionRisk2023
-    - lettTranslatingIntersectionalityFair2023
+    - lettTranslatingIntersectionalityFair2023a
 code:
     - name: "PMCBoost: Proportional Multicalibration Boosting"
       link: github.com/cavalab/pmcboost
@@ -20,5 +20,5 @@ posts:
     - title: "Translating Intersectionality to Fair Machine Learning"
 ---
 
-We are developing machine learning algorithms that can adapt to changing hospital environments in real time and make predictions that are equally accuracy among patient subpopulations. 
-We are studying these algorithms for patient admission risk predictions in emergency rooms. 
+We are developing algorithms that can adapt to changing hospital environments in real time and make predictions that are equally accurate among patient subpopulations. 
+We investigate these algorithms for clinical decision support in emergency medicine and other fields. 

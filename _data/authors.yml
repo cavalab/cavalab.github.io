@@ -149,7 +149,7 @@ lorenzo:
       url: "https://www.linkedin.com/in/lorenzo-peracchio/" 
 
 yuting:
-  name: Yuting Yang
+  name: Yuting Yang, PhD
   avatar: "assets/images/yuting-yang.png"
   bio: "Postdoctoral Fellow"
   links:
@@ -160,7 +160,7 @@ yuting:
     Yuting's research interests primarily focus on AI health and natural language processing.
 
 helena:
-  name: Helena Coggan
+  name: Helena Coggan, PhD
   avatar: "assets/images/coggan-helena-small.png"
   bio: "Research Scientist"
   links:
