@@ -114,7 +114,7 @@ platon:
 mingxuan:
   name: Mingxuan Liu
   avatar: "assets/images/mingxuan_liu.png"
-  bio: PhD student
+  Bio: PhD student
   links:
     - label: Website
       icon: &personal "fas fa-user"
@@ -189,4 +189,4 @@ blanca:
       url: "https://www.linkedin.com/in/blanca-romero-mila" 
 
   about: | 
-   Blanca Romero Mila is a PhD Intern in the CHIP Summer Internship in Computational Health Informatics and AI. This summer, she is investigating how implicit bias may influence Emergency Department admissions and Emergency Severity Index triage scores. Blanca is also a PhD candidate in Biomedical Engineering at the University of California, Irvine. She holds a Bachelor's degree in Biomedical Engineering from the University of Barcelona and a Master's Degree from UC Irvine. 
+    Blanca Romero Mila is a PhD Intern in the CHIP Summer Internship in Computational Health Informatics and AI. This summer, she is investigating how implicit bias may influence Emergency Department admissions and Emergency Severity Index triage scores. Blanca is also a PhD candidate in Biomedical Engineering at the University of California, Irvine. She holds a Bachelor's degree in Biomedical Engineering from the University of Barcelona and a Master's Degree from UC Irvine. 
