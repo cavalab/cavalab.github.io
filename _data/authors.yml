@@ -114,7 +114,7 @@ platon:
 mingxuan:
   name: Mingxuan Liu
   avatar: "assets/images/mingxuan_liu.png"
-  Bio: PhD student
+  bio: PhD student
   links:
     - label: Website
       icon: &personal "fas fa-user"
