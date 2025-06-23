@@ -171,4 +171,22 @@ helena:
       icon: *scholar 
       url: "https://scholar.google.com/citations?user=w2Knk_cAAAAJ&hl=en"
   about: | 
-    Helena is a researcher focused on using machine learning to improve emergency pediatric care. She has recently submitted a PhD in computational cancer modelling at University College London. Previously, she receieved undergraduate and master's degrees in physics from the University of Cambridge.
+    Helena is a researcher focused on using machine learning to improve emergency pediatric care. She has recently submitted a PhD in computational cancer modelling at University College London. Previously, she received undergraduate and master's degrees in physics from the University of Cambridge.
+
+blanca:
+  name: Blanca Romero Mila, MS
+  avatar: "assets/images/RomeroMila-Blanca.png"
+  bio: "PhD Intern"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:blanca.romeromila@childrens.harvard.edu"
+    - label: Google Scholar
+      icon: &scholar "fas fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=gCVQlhYAAAAJ&hl=en&oi=ao"
+    - label: LinkedIn
+      icon: &linkedin "fab fa-linkedin" 
+      url: "https://www.linkedin.com/in/blanca-romero-mila" 
+
+  about: | 
+   Blanca Romero Mila is a PhD Intern in the CHIP Summer Internship in Computational Health Informatics and AI. This summer, she is investigating how implicit bias may influence Emergency Department admissions and Emergency Severity Index triage scores. Blanca is also a PhD candidate in Biomedical Engineering at the University of California, Irvine. She holds a Bachelor's degree in Biomedical Engineering from the University of Barcelona and a Master's Degree from UC Irvine. 
