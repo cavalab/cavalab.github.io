@@ -430,6 +430,82 @@ references:
   type: article
   URL: https://www.medrxiv.org/content/10.1101/2024.11.08.24316949v1
 
+- id: gallifantReliabilityLargeLanguage2025
+  accessed:
+    - year: 2025
+      month: 6
+      day: 18
+  author:
+    - family: Gallifant
+      given: Jack
+    - family: Chen
+      given: Shan
+    - family: Jain
+      given: Sandeep K.
+    - family: Moreira
+      given: Pedro
+    - family: Topaloglu
+      given: Umit
+    - family: Aerts
+      given: Hugo J.W.L.
+    - family: Warner
+      given: Jeremy L.
+    - family: La Cava
+      given: William G.
+    - family: Bitterman
+      given: Danielle S.
+  citation-key: gallifantReliabilityLargeLanguage2025
+  container-title: JCO Clinical Cancer Informatics
+  container-title-short: JCO Clin Cancer Inform
+  DOI: 10.1200/CCI-24-00257
+  issue: '9'
+  issued:
+    - year: 2025
+      month: 6
+  page: e2400257
+  publisher: Wolters Kluwer
+  source: ascopubs-org.ezp-prod1.hul.harvard.edu (Atypon)
+  title: >-
+    Reliability of Large Language Model Knowledge Across Brand and Generic
+    Cancer Drug Names
+  type: article-journal
+  URL: https://ascopubs.org/doi/10.1200/CCI-24-00257
+
+- id: ghelaniArtificialIntelligenceEnabledECG2025
+  accessed:
+    - year: 2025
+      month: 6
+      day: 24
+  author:
+    - family: Ghelani
+      given: Sunil J.
+    - family: Thatte
+      given: Nikhil
+    - family: La Cava
+      given: William
+    - family: Triedman
+      given: John K.
+    - family: Mayourian
+      given: Joshua
+  citation-key: ghelaniArtificialIntelligenceEnabledECG2025
+  container-title: Pediatric Cardiology
+  container-title-short: Pediatr Cardiol
+  DOI: 10.1007/s00246-025-03916-3
+  ISSN: 1432-1971
+  issued:
+    - year: 2025
+      month: 6
+      day: 16
+  language: en
+  page: 1-7
+  publisher: Springer US
+  source: link-springer-com.ezp-prod1.hul.harvard.edu
+  title: >-
+    Artificial Intelligence-Enabled ECG to Detect Congenitally Corrected
+    Transposition of the Great Arteries
+  type: article-journal
+  URL: https://link.springer.com/article/10.1007/s00246-025-03916-3
+
 - id: helmuthLexicaseSelection2021
   accessed:
     - year: 2021
@@ -1188,7 +1264,7 @@ references:
   type: paper-conference
   URL: https://doi.org/10.1145/3321707.3321776
 
-- id: lettIntersectionalMarginalDebiasing2025a
+- id: lettIntersectionalMarginalDebiasing2025
   accessed:
     - year: 2025
       month: 5
@@ -1206,7 +1282,7 @@ references:
       given: Andrew M.
     - family: La Cava
       given: William G.
-  citation-key: lettIntersectionalMarginalDebiasing2025a
+  citation-key: lettIntersectionalMarginalDebiasing2025
   container-title: JAMA Network Open
   container-title-short: JAMA Network Open
   DOI: 10.1001/jamanetworkopen.2025.12947
