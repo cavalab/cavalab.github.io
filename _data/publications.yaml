@@ -26,6 +26,8 @@ references:
   container-title: The Journal of Pain
   issued:
     - year: 2025
+      month: 4
+      day: 1
   publisher: Elsevier
   source: Google Scholar
   title: >-
@@ -435,6 +437,8 @@ references:
     - year: 2025
       month: 6
       day: 18
+  archive: PubMed
+  archive_location: https://pubmed.ncbi.nlm.nih.gov/40523223/
   author:
     - family: Gallifant
       given: Jack
