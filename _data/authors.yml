@@ -77,26 +77,6 @@ guilherme:
   about: | 
     Guilherme Aldeia is a Ph.D. student in the field of Computer Science at the Universidade Federal do ABC. He graduated in Computer Science and Neuroscience, obtained a Master's degree in Computer Science, and is interested in symbolic regression, interpretability, heuristics, and computational models. His past works focused on interpretability in symbolic regression, the usage of fMRI data in machine learning, and computational neural models. In 2017, he decided to pursue an academic career, aiming to become a researcher and professor. 
 
-shakiba:
-  name: Shakiba Shahbandegan
-  bio: PhD Student
-  avatar: "../assets/images/shahbandegan.jpg" 
-  links:
-    - label: Github
-      icon: *github
-      url: "https://github.com/shakiba-shb"
-    - label: Twitter
-      icon: *twitter
-      url: "https://twitter.com/shakiba_shb"
-    - label: LinkedIn
-      icon: *linkedin
-      url: "https://www.linkedin.com/in/shakibashahbandegan/"
-  about: | 
-    Shakiba is a PhD student in "Computer Science" and "Ecology, Evolution and Behavior" at Michigan State University. 
-    Her research is mainly focused on exploring techniques that can help advance evolutionary computation such as development of predictive theories that can facilitate the selection of suitable algorithms for specific problems, as well as development of new and sophisticated algorithms. 
-    She is interested in employing these techniques in machine learning and artificial intelligence and their potential applications in engineering. 
-    She is doing an internship at the Cava Lab where she is excited to apply her previous research experience to practical work.
-
 platon:
   name: Platon Lukyanenko, PhD
   bio: Postdoctoral Fellow
@@ -110,20 +90,6 @@ platon:
     Before joining CHIP, he worked on computer vision with the AFRL. 
     His PhD focused on human motor control decoding for prosthetic hands at Case Western Reserve University. 
     He holds B.S. degrees in Mathematics and Electrical Engineering from the University of Maryland, College Park.
-
-mingxuan:
-  name: Mingxuan Liu
-  avatar: "assets/images/mingxuan_liu.png"
-  bio: PhD student
-  links:
-    - label: Website
-      icon: &personal "fas fa-user"
-      url: "https://michellemingxuan.github.io/"
-    - label: Google Scholar
-      icon: &scholar "fas fa-graduation-cap"
-      url: "https://scholar.google.com/citations?user=CZpuMC8AAAAJ&hl=en"
-  about: | 
-    Mingxuan is a PhD student majoring in biostatistics and health data science at Duke-NUS Medical School, National University of Singapore. She obtained a Master degree in Statistics and a Bachelor degree in Mathematics. Her research interests primarily focus on AI fairness in healthcare and interpretable machine learning.
 
 lorenzo:
   name: "Lorenzo Peracchio, MS"
@@ -174,7 +140,7 @@ helena:
     Helena is a researcher focused on using machine learning to improve emergency pediatric care. She has recently submitted a PhD in computational cancer modelling at University College London. Previously, she received undergraduate and master's degrees in physics from the University of Cambridge.
 
 blanca:
-  name: Blanca Romero Mila, MS
+  name: Blanca Romero Milà, MS
   avatar: "assets/images/RomeroMila-Blanca.png"
   bio: "PhD Intern"
   links:
@@ -189,4 +155,4 @@ blanca:
       url: "https://www.linkedin.com/in/blanca-romero-mila" 
 
   about: | 
-    Blanca Romero Mila is a PhD Intern in the CHIP Summer Internship in Computational Health Informatics and AI. This summer, she is investigating how implicit bias may influence Emergency Department admissions and Emergency Severity Index triage scores. Blanca is also a PhD candidate in Biomedical Engineering at the University of California, Irvine. She holds a Bachelor's degree in Biomedical Engineering from the University of Barcelona and a Master's Degree from UC Irvine. 
+    Blanca Romero Milà is a PhD Intern in the CHIP Summer Internship in Computational Health Informatics and AI. This summer, she is investigating how implicit bias may influence Emergency Department admissions and Emergency Severity Index triage scores. Blanca is also a PhD candidate in Biomedical Engineering at the University of California, Irvine. She holds a Bachelor's degree in Biomedical Engineering from the University of Barcelona and a Master's Degree from UC Irvine. 
