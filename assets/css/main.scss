@@ -124,12 +124,15 @@ https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa4773
 .pubtitle {
   margin-bottom: .6em;
   line-height: 1.1em;
-  font-weight: bold;
+  font-size: 100%;
+  // font-weight: bold;
+  font-weight: 500;
 }
 
 .pubauthors, .pubinfo, .pubjournal {
-  font-size: 82%;
+  font-size: 90%;
   margin-bottom: .6em;
+  // margin-left: 1em;
 }
 
 .pubjournal {
@@ -137,7 +140,8 @@ https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa4773
 }
 
 .publinks {
-  font-size: 82%;
+  font-size: 90%;
+  // margin-left: 1em;
 }
 
 // remove underline from links

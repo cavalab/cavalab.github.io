@@ -11,20 +11,22 @@
     </div>
     <div class="pubauthors">
         {% assign year = pub.issued.first.year%}
+        {% if pub.author.size == 2 %}
+            {% assign separator = " and" %}
+        {% else %}
+            {% assign separator = "," %}
+        {% endif %}
+
         {% for author in pub.author %}
-            {% if forloop.index < pub.author.size - 1 %}
-                {% if author.literal %}
-                    {{ author.literal }},
-                {% else %}
-                    {{ author.given }} {{ author.non-dropping-particle }} {{ author.family}},
-                {% endif %}
+            {% if author.literal %}
+                {% assign author_out = author.literal %}
             {% else %}
-                {% if author.literal %}
-                    {{ author.literal }}
-                {% else %}
-                    {{ author.given }} {{ author.non-dropping-particle }} {{ author.family}}
-                {% endif %}
+                {% capture author_out %}{{ author.given }} {{ author.non-dropping-particle }} {{ author.family }}{% endcapture %}
             {% endif %}
+            {% if forloop.index < pub.author.size - 1 %}
+                {% assign author_out = author_out | append: separator %}
+            {% endif %}
+            {{ author_out }}
         {% endfor %}
         ({{ year }})
     </div>
