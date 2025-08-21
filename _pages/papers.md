@@ -11,5 +11,14 @@ layout: archive
 
 {% include pubs_by_date.html %}
 {% for pub in pubs_by_date %}
-    {% include pub-single.html %}
+    {% assign pass = false %}
+    {% for author in pub.author %}
+        {% if author.family contains "Cava" or author.literal contains "Cava" %}
+            {% assign pass = true %}
+            {% break %}
+        {% endif %}
+    {% endfor %}
+    {% if pass %}
+        {% include pub-single.html %}
+    {% endif %}
 {% endfor %}

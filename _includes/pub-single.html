@@ -13,9 +13,17 @@
         {% assign year = pub.issued.first.year%}
         {% for author in pub.author %}
             {% if forloop.index < pub.author.size - 1 %}
-                {{ author.given }} {{ author.non-dropping-particle }} {{ author.family}},
+                {% if author.literal %}
+                    {{ author.literal }},
+                {% else %}
+                    {{ author.given }} {{ author.non-dropping-particle }} {{ author.family}},
+                {% endif %}
             {% else %}
-                {{ author.given }} {{ author.non-dropping-particle }} {{ author.family}}
+                {% if author.literal %}
+                    {{ author.literal }}
+                {% else %}
+                    {{ author.given }} {{ author.non-dropping-particle }} {{ author.family}}
+                {% endif %}
             {% endif %}
         {% endfor %}
         ({{ year }})
