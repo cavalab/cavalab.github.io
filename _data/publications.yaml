@@ -1966,6 +1966,29 @@ references:
   URL: https://www.liebertpub.com/doi/10.1089/heq.2023.0066
   volume: '7'
 
+- id: reisIntegratedAlignment2025
+  accessed:
+    - year: 2025
+      month: 8
+      day: 12
+  author:
+    - family: Reis
+      given: Ben Y.
+    - family: Cava
+      given: William La
+  citation-key: reisIntegratedAlignment2025
+  DOI: 10.48550/arXiv.2508.06592
+  issued:
+    - year: 2025
+      month: 8
+      day: 8
+  number: arXiv:2508.06592
+  publisher: arXiv
+  source: arXiv.org
+  title: Towards Integrated Alignment
+  type: article
+  URL: http://arxiv.org/abs/2508.06592
+
 - id: rodriguesExploringSLUGFeature2023
   accessed:
     - year: 2023
@@ -2292,41 +2315,4 @@ references:
   type: article-journal
   URL: https://www.sciencedirect.com/science/article/pii/S1532046418301400
   volume: '85'
-
-- id: wangEvaluatingFairnessMachine2025
-  accessed:
-    - year: 2025
-      month: 8
-      day: 11
-  author:
-    - family: Wang
-      given: Hao
-    - family: Sambamoorthi
-      given: Nethra
-    - family: Hoot
-      given: Nathan
-    - family: Bryant
-      given: David
-    - family: Sambamoorthi
-      given: Usha
-  citation-key: wangEvaluatingFairnessMachine2025
-  container-title: PLOS Digital Health
-  container-title-short: PLOS Digit Health
-  DOI: 10.1371/journal.pdig.0000751
-  ISSN: 2767-3170
-  issue: '3'
-  issued:
-    - year: 2025
-      month: 3
-      day: 20
-  page: e0000751
-  PMCID: PMC11925291
-  PMID: '40111994'
-  source: PubMed Central
-  title: >-
-    Evaluating fairness of machine learning prediction of prolonged wait times
-    in Emergency Department with Interpretable eXtreme gradient boosting
-  type: article-journal
-  URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11925291/
-  volume: '4'
 ...
