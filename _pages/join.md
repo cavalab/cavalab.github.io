@@ -9,7 +9,7 @@ We are a multi-disciplinary group, open to students in clinical and biomedical s
 We seek clarity and fairness from complex problems that necessitate interdisciplinary approaches. 
 Our goals are to cultivate an environment for critical thinking, research creativity and open scientific collaboration. 
 In addition, this lab is a good fit for those who wish to gain expertise in biomedical informatics and machine learning, especially when interpretability and fairness are central concerns. 
-*However, students are expected to already have some background in programming for data science, especially in R or Python*. 
+Importantly, students are expected to already have a strong foundation in programming for data science. 
 
 Check out the opportunities below to get involved with the lab. 
 

@@ -14,5 +14,4 @@ We create and study algorithms that can embed these notions when working with he
 The lab is part of the [Computational Health Informatics Program](http://www.chip.org) at Boston Children's Hospital, affiliated with Harvard Medical School.
 
 
-**Join the Team!**
 If you're looking to do research in the areas of machine learning, interpretability, fairness, and health informatics, [see the opportunities here](/join). 
