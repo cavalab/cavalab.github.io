@@ -86,8 +86,8 @@ platon:
       icon: *github
       url: "https://github.com/pxl282"
   about: | 
-    Platon Lukyanenko is a Postdoctoral researcher investigating transformer architectures for interpreting continuous-time signals. 
-    Before joining CHIP, he worked on computer vision with the AFRL. 
+    Platon Lukyanenko is a postdoctoral researcher investigating transformer architectures for interpreting continuous-time signals. 
+    Before joining CHIP, he worked on computer vision with the Air Force Research Laboratory. 
     His PhD focused on human motor control decoding for prosthetic hands at Case Western Reserve University. 
     He holds B.S. degrees in Mathematics and Electrical Engineering from the University of Maryland, College Park.
 
@@ -155,4 +155,4 @@ blanca:
       url: "https://www.linkedin.com/in/blanca-romero-mila" 
 
   about: | 
-    Blanca Romero Milà is a PhD Intern in the CHIP Summer Internship in Computational Health Informatics and AI. This summer, she is investigating how implicit bias may influence Emergency Department admissions and Emergency Severity Index triage scores. Blanca is also a PhD candidate in Biomedical Engineering at the University of California, Irvine. She holds a Bachelor's degree in Biomedical Engineering from the University of Barcelona and a Master's Degree from UC Irvine. 
+    Blanca Romero Milà is a PhD Intern in the CHIP Summer Internship in Computational Health Informatics and AI. This summer, she is investigating how implicit bias may influence emergency department admissions and Emergency Severity Index triage scores. Blanca is also a PhD candidate in Biomedical Engineering at the University of California, Irvine. She holds a Bachelor's degree in Biomedical Engineering from the University of Barcelona and a Master's Degree from UC Irvine. 

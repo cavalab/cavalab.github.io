@@ -37,43 +37,6 @@ references:
   URL: https://www.jpain.org/article/S1526-5900(25)00366-9/abstract
   volume: '29'
 
-- id: aldeiaCallActionNext2025
-  accessed:
-    - year: 2025
-      month: 5
-      day: 23
-  author:
-    - family: Aldeia
-      given: Guilherme S. Imai
-    - family: Zhang
-      given: Hengzhe
-    - family: Bomarito
-      given: Geoffrey
-    - family: Cranmer
-      given: Miles
-    - family: Fonseca
-      given: Alcides
-    - family: Burlacu
-      given: Bogdan
-    - family: Cava
-      given: William G. La
-    - family: França
-      given: Fabrício Olivetti
-      dropping-particle: de
-  citation-key: aldeiaCallActionNext2025
-  DOI: 10.1145/3712255.3734309
-  issued:
-    - year: 2025
-      month: 5
-      day: 6
-  source: arXiv.org
-  title: >-
-    Call for Action: towards the next generation of symbolic regression
-    benchmark
-  title-short: Call for Action
-  type: article
-  URL: http://arxiv.org/abs/2505.03977
-
 - id: aldeiaInexactSimplificationSymbolic2024
   accessed:
     - year: 2024
@@ -594,6 +557,52 @@ references:
   type: paper-conference
   URL: https://link.springer.com/chapter/10.1007/978-3-031-14721-0_34
 
+- id: imaialdeiaCallActionNext2025
+  accessed:
+    - year: 2025
+      month: 8
+      day: 25
+  archive: arXiv
+  archive_location: http://arxiv.org/abs/2505.03977
+  author:
+    - family: Imai Aldeia
+      given: Guilherme Seidyo
+    - family: Zhang
+      given: Hengzhe
+    - family: Bomarito
+      given: Geoffrey
+    - family: Cranmer
+      given: Miles
+    - family: Fonseca
+      given: Alcides
+    - family: Burlacu
+      given: Bogdan
+    - family: La Cava
+      given: William G.
+    - family: França
+      given: Fabrício Olivetti
+      non-dropping-particle: de
+  citation-key: imaialdeiaCallActionNext2025
+  collection-title: GECCO '25 Companion
+  container-title: Proceedings of the Genetic and Evolutionary Computation Conference Companion
+  DOI: 10.1145/3712255.3734309
+  event-place: New York, NY, USA
+  ISBN: 979-8-4007-1464-1
+  issued:
+    - year: 2025
+      month: 8
+      day: 11
+  page: 2529–2538
+  publisher: Association for Computing Machinery
+  publisher-place: New York, NY, USA
+  source: ACM Digital Library
+  title: >-
+    Call for Action: towards the next generation of symbolic regression
+    benchmark
+  title-short: Call for Action
+  type: paper-conference
+  URL: https://dl.acm.org/doi/10.1145/3712255.3734309
+
 - id: lacavaAnalysislexicaseSelection2018
   accessed:
     - year: 2021
@@ -933,7 +942,7 @@ references:
   type: paper-conference
   URL: https://link.springer.com/chapter/10.1007/978-3-319-55696-3_6
 
-- id: lacavaGeneticProgrammingApproaches2020
+- id: lacavaGeneticProgrammingApproaches2020a
   archive: arXiv
   archive_location: https://arxiv.org/abs/2004.13282
   author:
@@ -941,7 +950,7 @@ references:
       given: William
     - family: Moore
       given: Jason H.
-  citation-key: lacavaGeneticProgrammingApproaches2020
+  citation-key: lacavaGeneticProgrammingApproaches2020a
   collection-title: GECCO '20
   container-title: Proceedings of the 2020 Genetic and Evolutionary Computation Conference
   DOI: 10.1145/3377930.3390157
@@ -1155,7 +1164,7 @@ references:
   type: article-journal
   URL: http://www.sciencedirect.com/science/article/pii/S2210650217309136
 
-- id: lacavaOptimizingFairnessTradeoffs2023
+- id: lacavaOptimizingFairnessTradeoffs2023a
   accessed:
     - year: 2023
       month: 4
@@ -1165,7 +1174,7 @@ references:
   author:
     - family: La Cava
       given: William G.
-  citation-key: lacavaOptimizingFairnessTradeoffs2023
+  citation-key: lacavaOptimizingFairnessTradeoffs2023a
   container-title: >-
     Proceedings of the 2023 Genetic and Evolutionary Computation Conference
     (GECCO)
