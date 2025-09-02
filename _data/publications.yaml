@@ -193,11 +193,11 @@ references:
   type: article
   URL: http://arxiv.org/abs/2007.03488
 
-- id: chenCrossCareAssessingHealthcare2024
+- id: chenCrossCareAssessingHealthcare2024a
   accessed:
-    - year: 2024
-      month: 7
-      day: 6
+    - year: 2025
+      month: 8
+      day: 28
   archive: arXiv
   archive_location: http://arxiv.org/abs/2405.05506
   author:
@@ -226,27 +226,28 @@ references:
     - family: Anthony
       given: Brian
     - family: Celi
-      given: Leo Anthony
+      given: Leo A.
     - family: La Cava
       given: William G.
     - family: Bitterman
       given: Danielle S.
-  citation-key: chenCrossCareAssessingHealthcare2024
-  container-title: >-
-    Proceedings of the Neural Information Processing Systems Track on Datasets
-    and Benchmarks
-  DOI: 10.48550/arXiv.2405.05506
-  event-title: NeurIPS
+  citation-key: chenCrossCareAssessingHealthcare2024a
+  container-title: Advances in Neural Information Processing Systems
   issued:
     - year: 2024
-      month: 6
-      day: 24
-  source: arXiv.org
+      month: 12
+      day: 16
+  language: en
+  page: 23756-23795
+  source: proceedings.neurips.cc
   title: >-
     Cross-Care: Assessing the Healthcare Implications of Pre-training Data on
     Language Model Bias
   title-short: Cross-Care
-  type: paper-conference
+  type: article-journal
+  URL: >-
+    https://proceedings.neurips.cc/paper_files/paper/2024/hash/2a617efee5815f12b405d40569dea0a5-Abstract-Datasets_and_Benchmarks_Track.html
+  volume: '37'
 
 - id: cogganDemographicFactorsAssociated2025
   accessed:

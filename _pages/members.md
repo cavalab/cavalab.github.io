@@ -20,8 +20,8 @@ entries_layout: grid
 
 ## Prior Members and Trainees
 
-- Shakiba Shahbandegan, Visiting Researcher  &#8594; PhD Student, Michigan State University
-- Mingxuan Liu, Visiting Researcher &#8594; PhD Student, National University of Singapore / Duke University
+- Shakiba Shahbandegan, Visiting PhD Student, Michigan State University
+- Mingxuan Liu, Visiting PhD Student, National University of Singapore / Duke University
 - Elle Lett, PhD, Postdoctoral Fellow &#8594; Clinical Assistant Professor, University of Washington
 - Guangya Wan, MS HSPH, Research Assistant &#8594; University of Virginia Data Science PhD program
 - Zongjun Liu, MS HSPH, Research Assistant &#8594; Kaiser Permanente
