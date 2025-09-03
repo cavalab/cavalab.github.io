@@ -86,8 +86,8 @@ references:
       given: Guilherme Seidyo Imai
     - family: Herman
       given: Daniel S.
-    - family: Cava
-      given: William G. La
+    - family: La Cava
+      given: William G.
   citation-key: aldeiaIterativeLearningComputable2025
   collection-title: Proceedings of Machine Learning Research
   container-title: Machine Learning for Healthcare
@@ -97,12 +97,15 @@ references:
     - year: 2025
       month: 8
       day: 7
+  note: code=https://github.com/cavalab/htn-phenotyping-with-llms
+  page: 1-31
   source: arXiv.org
   title: >-
     Iterative Learning of Computable Phenotypes for Treatment Resistant
     Hypertension using Large Language Models
   type: article-journal
-  URL: http://arxiv.org/abs/2508.05581
+  URL: https://www.mlforhc.org/s/147_camera_ready-Guilherme-Aldeia.pdf
+  volume: '298'
 
 - id: aldeiaMinimumVarianceThreshold2024
   accessed:
