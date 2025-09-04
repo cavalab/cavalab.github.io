@@ -91,7 +91,7 @@ references:
   citation-key: aldeiaIterativeLearningComputable2025
   collection-title: Proceedings of Machine Learning Research
   container-title: Machine Learning for Healthcare
-  container-title-short: PMLR
+  container-title-short: MLHC
   DOI: 10.48550/arXiv.2508.05581
   issued:
     - year: 2025
@@ -196,7 +196,7 @@ references:
   type: article
   URL: http://arxiv.org/abs/2007.03488
 
-- id: chenCrossCareAssessingHealthcare2024a
+- id: chenCrossCareAssessingHealthcare2024
   accessed:
     - year: 2025
       month: 8
@@ -234,8 +234,9 @@ references:
       given: William G.
     - family: Bitterman
       given: Danielle S.
-  citation-key: chenCrossCareAssessingHealthcare2024a
+  citation-key: chenCrossCareAssessingHealthcare2024
   container-title: Advances in Neural Information Processing Systems
+  container-title-short: NeurIPS
   issued:
     - year: 2024
       month: 12
@@ -737,7 +738,7 @@ references:
   container-title: >-
     Proceedings of the Neural Information Processing Systems Track on Datasets
     and Benchmarks
-  container-title-short: Neurips
+  container-title-short: NeurIPS
   issued:
     - year: 2021
       month: 12
@@ -957,6 +958,7 @@ references:
   collection-title: GECCO '20
   container-title: Proceedings of the 2020 Genetic and Evolutionary Computation Conference
   DOI: 10.1145/3377930.3390157
+  event-title: GECCO '20
   issued:
     - year: 2020
   note: award=Best Paper Award
@@ -1097,8 +1099,8 @@ references:
     - family: Moore
       given: Jason H.
   citation-key: lacavaLearningConciseRepresentations2019
-  collection-title: ICLR
   container-title: International Conference on Learning Representations
+  container-title-short: ICLR
   issued:
     - year: 2019
   language: en
@@ -1106,7 +1108,7 @@ references:
   title: >-
     Learning concise representations for regression by evolving networks of
     trees
-  type: paper-conference
+  type: article-journal
   URL: https://arxiv.org/abs/1807.00981
 
 - id: lacavaLearningFeatureSpaces2020
@@ -1178,11 +1180,9 @@ references:
     - family: La Cava
       given: William G.
   citation-key: lacavaOptimizingFairnessTradeoffs2023a
-  container-title: >-
-    Proceedings of the 2023 Genetic and Evolutionary Computation Conference
-    (GECCO)
+  container-title: Proceedings of the 2023 Genetic and Evolutionary Computation Conference
   DOI: 10.1145/3583131.3590487
-  event-title: Genetic and Evolutionary Computation Conference (GECCO)
+  event-title: GECCO '23
   issued:
     - year: 2023
       month: 4
@@ -1297,6 +1297,7 @@ references:
   container-title: Proceedings of the Genetic and Evolutionary Computation Conference
   DOI: 10.1145/3321707.3321776
   event-place: New York, NY, USA
+  event-title: GECCO '19
   ISBN: 978-1-4503-6111-8
   issued:
     - year: 2019
@@ -1484,6 +1485,7 @@ references:
       given: Sunil J.
   citation-key: mayourianDeepLearningbasedElectrocardiogram2024a
   container-title: Journal of the American College of Cardiology
+  container-title-short: JACC
   DOI: 10.1016/S0735-1097(24)03587-3
   issue: 13_Supplement
   issued:
@@ -1768,7 +1770,7 @@ references:
       given: William G.
   citation-key: mccoyIntrapartumElectronicFetal2024
   container-title: American Journal of Obstetrics and Gynecology
-  container-title-short: American Journal of Obstetrics and Gynecology
+  container-title-short: AJOG
   DOI: 10.1016/j.ajog.2024.04.022
   ISSN: 0002-9378
   issued:
@@ -1918,6 +1920,7 @@ references:
   collection-title: GECCO '18
   container-title: Proceedings of the 2018 Genetic and Evolutionary Computation Conference
   DOI: 10.1145/3205455.3205539
+  event-title: GECCO '18
   issued:
     - year: 2018
       month: 4
@@ -2055,7 +2058,8 @@ references:
     - family: Silva
       given: Sara
   citation-key: rodriguesSLUGFeatureSelection2022
-  container-title: Genetic Programming
+  collection-title: Lecture Notes in Computer Science
+  container-title: European Conference on Genetic Programming (EuroGP)
   DOI: 10.1007/978-3-031-02056-8_5
   editor:
     - family: Medvet
