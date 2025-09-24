@@ -1,6 +1,6 @@
 ---
-title: Publications
-permalink: /publications-by-topic/
+title: Papers by Topic
+permalink: /papers-by-topic/
 layout: single
 toc: true
 toc_label: "Topics"
@@ -23,7 +23,16 @@ By topic
   <div class="entries-{{ entries_layout }}">
     {% for pub in pubs %}
       {% if pub.tags contains tag %}
-            {% include pub-single.html %}
+          {% assign pass = false %}
+          {% for author in pub.author %}
+              {% if author.family contains "Cava" or author.literal contains "Cava" %}
+                  {% assign pass = true %}
+                  {% break %}
+              {% endif %}
+          {% endfor %}
+          {% if pass %}
+              {% include pub-single.html %}
+          {% endif %}
       {% endif %}
     {% endfor %}
   </div>

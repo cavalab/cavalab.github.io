@@ -1,8 +1,6 @@
 ---
-title: Papers
-permalink: /papers/
-redirect_from:
-    - /publications/
+title: Papers by Year
+permalink: /papers-by-year/
 classes: wide
 layout: archive
 ---
@@ -19,7 +17,16 @@ layout: archive
   <div class="entries-{{ entries_layout }}">
     {% for pub in pubs_by_date %}
       {% if pub.issued.first.year == year %}
+        {% assign pass = false %}
+        {% for author in pub.author %}
+            {% if author.family contains "Cava" or author.literal contains "Cava" %}
+                {% assign pass = true %}
+                {% break %}
+            {% endif %}
+        {% endfor %}
+        {% if pass %}
             {% include pub-single.html %}
+        {% endif %}
       {% endif %}
     {% endfor %}
   </div>

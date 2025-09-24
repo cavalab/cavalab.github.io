@@ -1,6 +1,6 @@
 ---
 title: Papers
-permalink: /papers-no-year/
+permalink: /papers/
 classes: wide
 layout: archive
 ---
