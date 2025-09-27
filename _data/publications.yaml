@@ -2291,4 +2291,37 @@ references:
   type: article-journal
   URL: https://www.sciencedirect.com/science/article/pii/S1532046418301400
   volume: '85'
+
+- id: yangRobustAIECGPredicting2025
+  accessed:
+    - year: 2025
+      month: 9
+      day: 27
+  author:
+    - family: Yang
+      given: Yuting
+    - family: Peracchio
+      given: Lorenzo
+    - family: Mayourian
+      given: Joshua
+    - family: Triedman
+      given: John K.
+    - family: Miller
+      given: Timothy
+    - family: Cava
+      given: William G. La
+  citation-key: yangRobustAIECGPredicting2025
+  DOI: 10.48550/arXiv.2509.19564
+  issued:
+    - year: 2025
+      month: 9
+      day: 23
+  number: arXiv:2509.19564
+  publisher: arXiv
+  source: arXiv.org
+  title: >-
+    Robust AI-ECG for Predicting Left Ventricular Systolic Dysfunction in
+    Pediatric Congenital Heart Disease
+  type: article
+  URL: http://arxiv.org/abs/2509.19564
 ...
