@@ -253,6 +253,44 @@ references:
     https://proceedings.neurips.cc/paper_files/paper/2024/hash/2a617efee5815f12b405d40569dea0a5-Abstract-Datasets_and_Benchmarks_Track.html
   volume: '37'
 
+- id: cogganDecipheringInfluenceDemographic2025
+  accessed:
+    - year: 2025
+      month: 10
+      day: 6
+  author:
+    - family: Coggan
+      given: Helena
+    - family: Bischops
+      given: Anne
+    - family: Chaudhari
+      given: Pradip
+    - family: Barak-Corren
+      given: Yuval
+    - family: Fine
+      given: Andrew M.
+    - family: Reis
+      given: Ben Y.
+    - family: Aysola
+      given: Jaya
+    - family: Cava
+      given: William G. La
+  citation-key: cogganDecipheringInfluenceDemographic2025
+  DOI: 10.48550/arXiv.2510.02841
+  issued:
+    - year: 2025
+      month: 10
+      day: 3
+  note: code=https://github.com/hcoggan/BCH-ED
+  number: arXiv:2510.02841
+  publisher: arXiv
+  source: arXiv.org
+  title: >-
+    Deciphering the influence of demographic factors on the treatment of
+    pediatric patients in the emergency department
+  type: article
+  URL: http://arxiv.org/abs/2510.02841
+
 - id: cogganDemographicFactorsAssociated2025
   accessed:
     - year: 2025
