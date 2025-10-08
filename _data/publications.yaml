@@ -74,11 +74,11 @@ references:
     Locality-sensitive Hashing
   type: paper-conference
 
-- id: aldeiaIterativeLearningComputable2025
+- id: aldeiaIterativeLearningComputable2025a
   accessed:
     - year: 2025
-      month: 8
-      day: 11
+      month: 10
+      day: 8
   archive: arXiv
   archive_location: http://arxiv.org/abs/2508.05581
   author:
@@ -86,26 +86,24 @@ references:
       given: Guilherme Seidyo Imai
     - family: Herman
       given: Daniel S.
-    - family: La Cava
-      given: William G.
-  citation-key: aldeiaIterativeLearningComputable2025
-  collection-title: Proceedings of Machine Learning Research
-  container-title: Machine Learning for Healthcare
-  container-title-short: PMLR
-  DOI: 10.48550/arXiv.2508.05581
+    - family: Cava
+      given: William La
+  citation-key: aldeiaIterativeLearningComputable2025a
+  container-title: Proceedings of the 10th Machine Learning for Healthcare Conference
+  event-title: Machine Learning for Healthcare Conference
   issued:
     - year: 2025
-      month: 8
+      month: 10
       day: 7
+  language: en
   note: code=https://github.com/cavalab/htn-phenotyping-with-llms
-  page: 1-31
-  source: arXiv.org
+  publisher: PMLR
+  source: proceedings.mlr.press
   title: >-
     Iterative Learning of Computable Phenotypes for Treatment Resistant
     Hypertension using Large Language Models
-  type: article-journal
-  URL: https://www.mlforhc.org/s/147_camera_ready-Guilherme-Aldeia.pdf
-  volume: '298'
+  type: paper-conference
+  URL: https://proceedings.mlr.press/v298/aldeia25a.html
 
 - id: aldeiaMinimumVarianceThreshold2024
   accessed:
