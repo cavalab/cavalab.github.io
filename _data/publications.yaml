@@ -279,7 +279,9 @@ references:
     - year: 2025
       month: 10
       day: 3
-  note: code=https://github.com/hcoggan/BCH-ED
+  note: >-
+    code=https://github.com/hcoggan/BCH-ED, note=Accepted presentation at the
+    Pacific Symposium on Biocomputing 2026
   number: arXiv:2510.02841
   publisher: arXiv
   source: arXiv.org

@@ -78,7 +78,7 @@ For more details and open-source code for benchmarking AI-ECG models, see below:
 
 ## References
 
-{% include citation.html pubid="mayourianElectrocardiogrambasedDeepLearning2024" prefix="[^mayourian]:" %}
+{% include citation.html pubid="mayourianElectrocardiogrambasedDeepLearning2025a" prefix="[^mayourian]:" %}
 
 {% include citation.html pubid="mccoyAccuracyDeepLearning2024" prefix="[^mfm]:" %}
 
