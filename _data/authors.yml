@@ -2,6 +2,7 @@ alexis:
   name: "Alexis Musaelyan, BS/MS"
   avatar: "assets/images/musaelyan-alexis.png"
   bio: "MS Candidate"
+  home: "members/Musaelyan-Alexis/"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
@@ -22,6 +23,7 @@ neha:
   name: "Neha Dantuluri, BS BS"
   avatar: "assets/images/dantuluri-neha.png"
   bio: "MMSc-BMI Candidate"
+  home: "members/Dantuluri-Neha"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
@@ -39,6 +41,7 @@ bill:
   name: "William La Cava, PhD"
   avatar: "assets/images/lacava_profile.JPG"
   bio: "Principal Investigator"
+  home: "members/01_LaCava-William/"
   about: |
       William La Cava is an Assistant Professor at Harvard Medical School and a core faculty member of the Computational Health Informatics Program [(CHIP)](chip.org) at Boston Children's Hospital. 
       He received his PhD from UMass Amherst with a focus on interpretable modelling of dynamical systems. 
@@ -67,6 +70,7 @@ guilherme:
   name: Guilherme Aldeia
   bio: PhD Student
   avatar: "../assets/images/aldeia.jpeg" 
+  home: "members/Aldeia-Guilherme"
   links:
     - label: Github
       icon: *github
@@ -81,6 +85,7 @@ platon:
   name: Platon Lukyanenko, PhD
   bio: Postdoctoral Fellow
   avatar: "../assets/images/lukyanenko_profile.png" 
+  home: "members/Lukyanenko-Platon"
   links:
     - label: Github
       icon: *github
@@ -95,6 +100,7 @@ lorenzo:
   name: "Lorenzo Peracchio, MS"
   avatar: "assets/images/Peracchio_Lorenzo.png"
   bio: "PhD Student"
+  home: "members/Peracchio-Lorenzo"
   about: |
       Lorenzo Peracchio is a PhD student in Bioengineering, Bioinformatics, and Health Technologies at the University of Pavia, Italy, where he also obtained his 
       Bachelor's and Master's degrees in Bioengineering. His research focuses on the development of methods for 
@@ -118,6 +124,7 @@ yuting:
   name: Yuting Yang, PhD
   avatar: "assets/images/yuting-yang.png"
   bio: "Postdoctoral Fellow"
+  home: "members/Yang-Yuting"
   links:
     - label: Google Scholar
       icon: *scholar 
@@ -129,6 +136,7 @@ helena:
   name: Helena Coggan, PhD
   avatar: "assets/images/coggan-helena-small.png"
   bio: "Postdoctoral Fellow"
+  home: "members/Coggan-Helena"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
@@ -143,6 +151,7 @@ blanca:
   name: Blanca Romero Milà, MS
   avatar: "assets/images/RomeroMila-Blanca.png"
   bio: "PhD Intern"
+  home: "members/RomeroMilà-Blanca/"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
