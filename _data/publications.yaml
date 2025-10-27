@@ -280,8 +280,8 @@ references:
       month: 10
       day: 3
   note: >-
-    code=https://github.com/hcoggan/BCH-ED, note=Accepted presentation at the
-    Pacific Symposium on Biocomputing 2026
+    code=https://github.com/hcoggan/BCH-ED, blog=/2025/10/24/ed-admissions.html,
+    note=Accepted to the Pacific Symposium on Biocomputing 2026
   number: arXiv:2510.02841
   publisher: arXiv
   source: arXiv.org
