@@ -1,7 +1,7 @@
 ---
 title: Papers
 permalink: /papers/
--redirect_from: 
+redirect_from: 
     - /publications/
 classes: wide
 layout: archive

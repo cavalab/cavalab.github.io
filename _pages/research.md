@@ -9,7 +9,7 @@ Our research focuses on developing machine learning methods and using them to ex
 We use these methods to learn predictive models from electronic health records (EHRs) that are accurate, robust, <i>interpretable</i> to clinicians, and <i>fair</i> to the population on which they are deployed. 
 Our long-term goals are to positively impact human health by developing methods that are flexible enough to automate entire computational workflows underlying scientific discovery and medicine.
 
-See our <a href="/publications">publications</a> and <a href="/posts">posts</a> about them.
+See our <a href="/papers">papers</a> and <a href="/posts">posts</a> about them.
 
 ## Projects
 
