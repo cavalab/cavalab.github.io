@@ -20,6 +20,7 @@ entries_layout: grid
 
 ## Prior Members and Trainees
 
+- Alexis Musaelyan, MS Data Science, Northeastern University
 - Shakiba Shahbandegan, Visiting PhD Student, Michigan State University
 - Mingxuan Liu, Visiting PhD Student, National University of Singapore / Duke University
 - Elle Lett, PhD, Postdoctoral Fellow &#8594; Clinical Assistant Professor, University of Washington

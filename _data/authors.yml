@@ -1,24 +1,3 @@
-alexis:
-  name: "Alexis Musaelyan, BS/MS"
-  avatar: "assets/images/musaelyan-alexis.png"
-  bio: "MS Candidate"
-  home: "members/Musaelyan-Alexis/"
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope"
-      url: "mailto:alexis.musaelyan-blackmon@childrens.harvard.edu"
-    - label: Website
-      icon: &personal "fas fa-user"
-      url: "http://alexismusaelyan.com"
-    - label: Github
-      icon: &github "fab fa-fw fa-github"
-      url: "https://github.com/alexiszxcv"
-    - label: LinkedIn
-      icon: &linkedin "fab fa-linkedin" 
-      url: "https://www.linkedin.com/in/alexis-musaelyan-blackmon/"
-  about: |
-    Alexis Musaelyan is a BS/MS candidate in Data Science and Biology at Northeastern University. Her research focuses on using machine learning to improve fairness and interpretability in clinical decision support systems. She has worked at Microsoft, the Department of Homeland Security, and the Naval Research Laboratory, applying AI to tackle challenges in cybersecurity, healthcare, and computational biology. After completing her graduate studies, Alexis plans to continue advancing AI for ethical and impactful applications in healthcare. Currently, she is working on AI-driven models to enhance equity in patient admissions and outcomes within emergency room settings. 
-
 neha:
   name: "Neha Dantuluri, BS BS"
   avatar: "assets/images/dantuluri-neha.png"
