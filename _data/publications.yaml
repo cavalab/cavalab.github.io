@@ -256,6 +256,8 @@ references:
     - year: 2025
       month: 10
       day: 6
+  archive: arXiv
+  archive_location: http://arxiv.org/abs/2510.02841
   author:
     - family: Coggan
       given: Helena
@@ -275,21 +277,18 @@ references:
       given: William G. La
   citation-key: cogganDecipheringInfluenceDemographic2025
   DOI: 10.48550/arXiv.2510.02841
+  event-title: Pacific Symposium on Biocomputing
   issued:
     - year: 2025
       month: 10
       day: 3
-  note: >-
-    code=https://github.com/hcoggan/BCH-ED, blog=/2025/10/24/ed-admissions.html,
-    note=Accepted to the Pacific Symposium on Biocomputing 2026
-  number: arXiv:2510.02841
-  publisher: arXiv
-  source: arXiv.org
+  note: code=https://github.com/hcoggan/BCH-ED, blog=/2025/10/24/ed-admissions.html
+  publisher: World Scientific Publishing Company
   title: >-
     Deciphering the influence of demographic factors on the treatment of
     pediatric patients in the emergency department
-  type: article
-  URL: http://arxiv.org/abs/2510.02841
+  type: paper-conference
+  URL: https://psb.stanford.edu/psb-online/proceedings/psb26/
 
 - id: cogganDemographicFactorsAssociated2025
   accessed:
