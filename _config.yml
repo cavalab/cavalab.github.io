@@ -31,7 +31,8 @@ twitter_username: w_la_cava
 github_username:  cavalab
 
 # Build settings
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+# remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+theme: "minimal-mistakes-jekyll"
 show_excerpts: false # set to true to show excerpts on the homepage
 # minimal_mistakes_skin: "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 minimal_mistakes_skin:  "default" #"default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise" "default" 
@@ -42,6 +43,7 @@ plugins:
   # - jekyll-katex
   - jekyll-include-cache
   - jekyll-target-blank
+  # - jekyll-remote_theme
 
 # Analytics
 analytics:

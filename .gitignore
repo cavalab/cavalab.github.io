@@ -8,3 +8,4 @@ vendor
 Gemfile.lock
 .obsidian
 *.xcf
+.DS_Store
