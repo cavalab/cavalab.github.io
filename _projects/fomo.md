@@ -6,13 +6,13 @@ header:
     teaser: "/assets/images/FOMO.png"
     teaser-caption: "How FOMO works. From La Cava GECCO 2023"
 pubids:
-    - lacavaOptimizingFairnessTradeoffs2023
-    - lacavaGeneticProgrammingApproaches2020
+    - lacavaOptimizingFairnessTradeoffs2023a
+    - lacavaGeneticProgrammingApproaches2020a
 code:
     - name:  "FOMO: Fairness-Oriented Multi-objective Optimization"
-      link: cavalab.org/fomo
+      link: https://cavalab.org/fomo
     - name:  "Interfair: Intersectional Fairness using FOMO"
-      link: cavalab.org/interfair
+      link: https://cavalab.org/interfair
 ---
 
 Improving the fairness of machine learning models is a nuanced task that requires decision makers to reason about multiple, conflicting criteria. 
