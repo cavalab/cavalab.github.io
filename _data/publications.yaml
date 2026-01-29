@@ -55,7 +55,6 @@ references:
   citation-key: aldeiaInexactSimplificationSymbolic2024
   container-title: Proceedings of the Genetic and Evolutionary Computation Conference
   DOI: 10.1145/3638529.3654147
-  event-place: Melbourne VIC Australia
   event-title: 'GECCO ''24: Genetic and Evolutionary Computation Conference'
   ISBN: 979-8-4007-0494-9
   issued:
@@ -122,7 +121,6 @@ references:
   citation-key: aldeiaMinimumVarianceThreshold2024
   container-title: Proceedings of the Genetic and Evolutionary Computation Conference
   DOI: 10.1145/3638529.3654149
-  event-place: Melbourne VIC Australia
   event-title: 'GECCO ''24: Genetic and Evolutionary Computation Conference'
   ISBN: 979-8-4007-0494-9
   issued:
@@ -519,7 +517,6 @@ references:
   collection-title: GECCO '21
   container-title: Proceedings of the Genetic and Evolutionary Computation Conference Companion
   DOI: 10.1145/3449726.3461408
-  event-place: New York, NY, USA
   ISBN: 978-1-4503-8351-6
   issued:
     - year: 2021
@@ -588,7 +585,6 @@ references:
   collection-title: GECCO '25 Companion
   container-title: Proceedings of the Genetic and Evolutionary Computation Conference Companion
   DOI: 10.1145/3712255.3734309
-  event-place: New York, NY, USA
   ISBN: 979-8-4007-1464-1
   issued:
     - year: 2025
@@ -617,7 +613,6 @@ references:
   citation-key: lacavaAnalysislexicaseSelection2018
   container-title: Proceedings of the Genetic and Evolutionary Computation Conference Companion
   DOI: 10.1145/3205651.3205656
-  event-place: Kyoto Japan
   event-title: 'GECCO ''18: Genetic and Evolutionary Computation Conference'
   ISBN: 978-1-4503-5764-7
   issued:
@@ -762,7 +757,6 @@ references:
     GECCO '17: Proceedings of the 2017 Genetic and Evolutionary Computation
     Conference
   DOI: 10.1145/3071178.3071215
-  event-place: Berlin, Germany
   event-title: GECCO '17
   issued:
     - year: 2017
@@ -791,7 +785,6 @@ references:
   collection-title: GECCO '16
   container-title: Proceedings of the Genetic and Evolutionary Computation Conference 2016
   DOI: 10.1145/2908812.2908898
-  event-place: New York, NY, USA
   ISBN: 978-1-4503-4206-3
   issued:
     - year: 2016
@@ -1317,7 +1310,6 @@ references:
   collection-title: GECCO '19
   container-title: Proceedings of the Genetic and Evolutionary Computation Conference
   DOI: 10.1145/3321707.3321776
-  event-place: New York, NY, USA
   event-title: GECCO '19
   ISBN: 978-1-4503-6111-8
   issued:
@@ -1396,6 +1388,57 @@ references:
   title: Translating intersectionality to fair machine learning in health sciences
   type: article-journal
   URL: https://www.nature.com/articles/s42256-023-00651-3
+
+- id: lukyanenkoAutomatedEchocardiographicDetection2026
+  accessed:
+    - year: 2026
+      month: 1
+      day: 29
+  author:
+    - family: Lukyanenko
+      given: Platon
+    - family: Ghelani
+      given: Sunil
+    - family: Yang
+      given: Yuting
+    - family: Jiang
+      given: Bohan
+    - family: Miller
+      given: Timothy
+    - family: Harrild
+      given: David
+    - family: Sasaki
+      given: Nao
+    - family: Sperotto
+      given: Francesca
+    - family: Sganga
+      given: Danielle
+    - family: Triedman
+      given: John
+    - family: Powell
+      given: Andrew J.
+    - family: Geva
+      given: Tal
+    - family: La Cava
+      given: William G.
+    - family: Mayourian
+      given: Joshua
+  citation-key: lukyanenkoAutomatedEchocardiographicDetection2026
+  DOI: 10.64898/2026.01.24.26344771
+  ISSN: 3067-2007
+  issued:
+    - year: 2026
+      month: 1
+      day: 26
+  language: en
+  page: 2026.01.24.26344771
+  publisher: medRxiv
+  source: medRxiv
+  title: >-
+    Automated Echocardiographic Detection of Congenital Heart Disease Using
+    Artificial Intelligence
+  type: article
+  URL: https://www.medrxiv.org/content/10.64898/2026.01.24.26344771v1
 
 - id: lukyanenkoCloserLookMortality2025
   accessed:
@@ -1909,7 +1952,6 @@ references:
   citation-key: orzechowskiComparativeStudyGPbased2022
   container-title: Proceedings of the Genetic and Evolutionary Computation Conference Companion
   DOI: 10.1145/3520304.3529056
-  event-place: Boston Massachusetts
   event-title: 'GECCO ''22: Genetic and Evolutionary Computation Conference'
   ISBN: 978-1-4503-9268-6
   issued:
@@ -2089,7 +2131,6 @@ references:
       given: Gisele
     - family: Xue
       given: Bing
-  event-place: Cham
   ISBN: 978-3-031-02055-1 978-3-031-02056-8
   issued:
     - year: 2022
