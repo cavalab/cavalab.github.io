@@ -1425,13 +1425,12 @@ references:
       given: Joshua
   citation-key: lukyanenkoAutomatedEchocardiographicDetection2026
   DOI: 10.64898/2026.01.24.26344771
-  ISSN: 3067-2007
   issued:
     - year: 2026
       month: 1
       day: 26
   language: en
-  page: 2026.01.24.26344771
+  note: code=https://echofocus.org
   publisher: medRxiv
   source: medRxiv
   title: >-
