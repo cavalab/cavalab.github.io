@@ -61,7 +61,9 @@ kramdown:
 atom_feed:
   hide: true
 
-include: ["_pages"]
+include: 
+  - "_pages"
+  - ".well-known"
 
 # logo: "/assets/images/Cava_Lab_background.png"
 # logo: "fas fa-microscope" 
