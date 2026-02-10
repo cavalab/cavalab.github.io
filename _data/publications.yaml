@@ -1453,11 +1453,13 @@ references:
   type: article
   URL: https://www.medrxiv.org/content/10.64898/2026.01.24.26344771v1
 
-- id: lukyanenkoCloserLookMortality2025
+- id: lukyanenkoDeepSurvivalAnalysis2025a
   accessed:
-    - year: 2025
+    - year: 2026
       month: 2
-      day: 19
+      day: 6
+  archive: PubMed
+  archive_location: https://pubmed.ncbi.nlm.nih.gov/41408648/
   author:
     - family: Lukyanenko
       given: Platon
@@ -1469,23 +1471,30 @@ references:
       given: John K.
     - family: Ghelani
       given: Sunil J.
-    - family: Cava
-      given: William G. La
-  citation-key: lukyanenkoCloserLookMortality2025
-  DOI: 10.48550/arXiv.2406.17002
+    - family: La Cava
+      given: William G.
+  citation-key: lukyanenkoDeepSurvivalAnalysis2025a
+  container-title: BioData Mining
+  container-title-short: BioData Mining
+  DOI: 10.1186/s13040-025-00510-4
+  ISSN: 1756-0381
+  issue: '1'
   issued:
     - year: 2025
-      month: 2
-      day: 18
-  note: >-
-    code=https://github.com/cavalab/ecg-survival-benchmark,
-    blog=2025/02/14/ecg-survival.html
-  number: arXiv:2406.17002
-  publisher: arXiv
-  source: arXiv.org
-  title: A Closer Look at Mortality Risk Prediction from Electrocardiograms
-  type: article
-  URL: http://arxiv.org/abs/2406.17002
+      month: 12
+      day: 17
+  language: en
+  page: '6'
+  PMCID: PMC12821881
+  PMID: '41408648'
+  source: Springer Link
+  title: >-
+    Deep survival analysis from adult and pediatric electrocardiograms: a
+    multi-center benchmark study
+  title-short: Deep survival analysis from adult and pediatric electrocardiograms
+  type: article-journal
+  URL: https://doi.org/10.1186/s13040-025-00510-4
+  volume: '19'
 
 - id: mayourianDeepLearningBasedElectrocardiogram2024
   accessed:
@@ -1638,7 +1647,7 @@ references:
       month: 4
       day: 7
   archive: PubMed
-  archive_location: https://pubmed.ncbi.nlm.nih.gov/39297841/
+  archive_location: https://pubmed.ncbi.nlm.nih.gov/39387652/
   author:
     - family: Mayourian
       given: Joshua
@@ -1647,7 +1656,7 @@ references:
     - family: Lukyanenko
       given: Platon
     - family: La Cava
-      given: William G
+      given: William G.
     - family: Geva
       given: Tal
     - family: Valente
@@ -2431,6 +2440,7 @@ references:
     - year: 2025
       month: 9
       day: 23
+  note: note="Accepted to AMIA Informatics Symposium 2026"
   number: arXiv:2509.19564
   publisher: arXiv
   source: arXiv.org
