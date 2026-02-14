@@ -1871,6 +1871,45 @@ references:
   type: article-journal
   URL: https://www.sciencedirect.com/science/article/pii/S0002937824005283
 
+- id: milaBenefitDoubtPhenomenon2026
+  accessed:
+    - year: 2026
+      month: 2
+      day: 14
+  author:
+    - family: Mila
+      given: Blanca Romero
+    - family: Coggan
+      given: Helena
+    - family: Fine
+      given: Andrew M.
+    - family: Barak-Corren
+      given: Yuval
+    - family: Reis
+      given: Ben Y.
+    - family: Aysola
+      given: Jaya
+    - family: Chaudhari
+      given: Pradip
+    - family: Cava
+      given: William G. La
+  citation-key: milaBenefitDoubtPhenomenon2026
+  DOI: 10.64898/2026.02.12.26346184
+  issued:
+    - year: 2026
+      month: 2
+      day: 14
+  language: en
+  note: code=https://github.com/cavalab/esi
+  number: https://www.medrxiv.org/content/10.64898/2026.02.12.26346184v1
+  publisher: medRxiv
+  source: medRxiv
+  title: >-
+    The Benefit of the Doubt Phenomenon in Emergency Triage Assignment
+    Disparities
+  type: article
+  URL: https://www.medrxiv.org/content/10.64898/2026.02.12.26346184v1
+
 - id: olsonDatadrivenAdviceApplying2017
   archive: arXiv
   archive_location: http://arxiv.org/abs/1708.05070
