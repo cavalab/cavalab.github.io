@@ -495,7 +495,7 @@ references:
       day: 16
   language: en
   page: 1–7
-  publisher: Springer US
+  publisher: Springer
   source: link-springer-com.ezp-prod1.hul.harvard.edu
   title: >-
     Artificial Intelligence-Enabled ECG to Detect Congenitally Corrected
@@ -1453,6 +1453,59 @@ references:
   type: article
   URL: https://www.medrxiv.org/content/10.64898/2026.01.24.26344771v1
 
+- id: lukyanenkoDeepLearningBasedAutomated2026
+  accessed:
+    - year: 2026
+      month: 2
+      day: 16
+  author:
+    - family: Lukyanenko
+      given: Platon
+    - family: Ghelani
+      given: Sunil
+    - family: Yang
+      given: Yuting
+    - family: Jiang
+      given: Bohan
+    - family: Miller
+      given: Timothy
+    - family: Higgins
+      given: Peter
+    - family: Kirakosian
+      given: Manouk
+    - family: Tracy
+      given: Kaitlyn
+    - family: Kane
+      given: Janet
+    - family: Harrild
+      given: David
+    - family: Triedman
+      given: John
+    - family: Powell
+      given: Andrew J.
+    - family: Geva
+      given: Tal
+    - family: La Cava
+      given: William
+    - family: Mayourian
+      given: Joshua
+  citation-key: lukyanenkoDeepLearningBasedAutomated2026
+  DOI: 10.64898/2026.02.06.26345782
+  ISSN: 3067-2007
+  issued:
+    - year: 2026
+      month: 2
+      day: 9
+  language: en
+  page: 2026.02.06.26345782
+  publisher: medRxiv
+  source: medRxiv
+  title: >-
+    Deep Learning-Based Automated Echocardiographic Measurements in Pediatric
+    and Congenital Heart Disease
+  type: article
+  URL: https://www.medrxiv.org/content/10.64898/2026.02.06.26345782v1
+
 - id: lukyanenkoDeepSurvivalAnalysis2025a
   accessed:
     - year: 2026
@@ -1891,8 +1944,8 @@ references:
       given: Jaya
     - family: Chaudhari
       given: Pradip
-    - family: Cava
-      given: William G. La
+    - family: La Cava
+      given: William G.
   citation-key: milaBenefitDoubtPhenomenon2026
   DOI: 10.64898/2026.02.12.26346184
   issued:
