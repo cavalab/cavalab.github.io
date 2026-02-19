@@ -1,144 +1,628 @@
 ---
 references:
-- id: aldeiaApplicationArtificialNeural2025
-  accessed:
-    - year: 2025
-      month: 5
-      day: 23
+- accessed:
+    - year: 2018
+      month: 6
+      day: 7
   author:
-    - family: Aldeia
-      given: Guilherme
-    - family: Moon
-      given: Clara
-    - family: Shulman
-      given: Julie
-    - family: Sethna
-      given: Navil
-    - family: Smith
-      given: Allison
-    - family: Lebel
-      given: Alyssa
     - family: La Cava
       given: William
-    - family: Holmes
-      given: Scott
-  citation-key: aldeiaApplicationArtificialNeural2025
-  container-title: The Journal of Pain
+    - family: Silva
+      given: Sara
+    - family: Danai
+      given: Kourosh
+    - family: Spector
+      given: Lee
+    - family: Vanneschi
+      given: Leonardo
+    - family: Moore
+      given: Jason H.
+  container-title: Swarm and Evolutionary Computation
+  container-title-short: Swarm and Evolutionary Computation
+  DOI: 10.1016/j.swevo.2018.03.015
+  ISSN: 2210-6502
   issued:
-    - year: 2025
+    - year: 2018
       month: 4
-      day: 1
+      day: 12
   publisher: Elsevier
+  source: ScienceDirect
+  title: Multidimensional genetic programming for multiclass classification
+  type: article-journal
+  URL: http://www.sciencedirect.com/science/article/pii/S2210650217309136
+
+- accessed:
+    - year: 2016
+      month: 5
+      day: 5
+  author:
+    - family: La Cava
+      given: William G.
+    - family: Danai
+      given: Kourosh
+  container-title: International Journal of Systems Science
+  DOI: 10.1080/00207721.2015.1069905
+  ISSN: 0020-7721, 1464-5319
+  issue: '1'
+  issued:
+    - year: 2016
+      month: 1
+      day: 2
+  language: en
+  page: 249–263
+  source: CrossRef
+  title: Gradient-based adaptation of continuous dynamic model structures
+  type: article-journal
+  URL: http://www.tandfonline.com/doi/full/10.1080/00207721.2015.1069905
+  volume: '47'
+
+- accessed:
+    - year: 2016
+      month: 12
+      day: 1
+  author:
+    - family: La Cava
+      given: William
+    - family: Spector
+      given: Lee
+    - family: Danai
+      given: Kourosh
+  collection-title: GECCO '16
+  container-title: Proceedings of the Genetic and Evolutionary Computation Conference 2016
+  DOI: 10.1145/2908812.2908898
+  ISBN: 978-1-4503-4206-3
+  issued:
+    - year: 2016
+  page: 741–748
+  publisher: ACM
+  publisher-place: New York, NY, USA
+  source: ACM Digital Library
+  title: Epsilon-Lexicase Selection for Regression
+  type: paper-conference
+  URL: http://doi.acm.org/10.1145/2908812.2908898
+
+- accessed:
+    - year: 2016
+      month: 12
+      day: 1
+  author:
+    - family: La Cava
+      given: William
+    - family: Danai
+      given: Kourosh
+    - family: Spector
+      given: Lee
+  container-title: Engineering Applications of Artificial Intelligence
+  container-title-short: Engineering Applications of Artificial Intelligence
+  DOI: 10.1016/j.engappai.2016.07.004
+  ISSN: 0952-1976
+  issued:
+    - year: 2016
+      month: 10
+  page: 292–306
+  publisher: Elsevier
+  source: ScienceDirect
+  title: Inference of compact nonlinear dynamic models by epigenetic local search
+  type: article-journal
+  URL: http://www.sciencedirect.com/science/article/pii/S0952197616301294
+  volume: '55'
+
+- accessed:
+    - year: 2016
+      month: 12
+      day: 6
+  author:
+    - family: La Cava
+      given: William G.
+  issued:
+    - year: 2016
   source: Google Scholar
   title: >-
-    Application of Artificial Neural Networks and Functional Brain Connectivity
-    to Inform Pediatric Headache
+    Automatic Development and Adaptation of Concise Nonlinear Models for System
+    Identification
+  type: thesis
+  URL: http://scholarworks.umass.edu/dissertations_2/731/
+
+- accessed:
+    - year: 2016
+      month: 12
+      day: 13
+  author:
+    - family: La Cava
+      given: William
+    - family: Danai
+      given: Kourosh
+    - family: Spector
+      given: Lee
+    - family: Fleming
+      given: Paul
+    - family: Wright
+      given: Alan
+    - family: Lackner
+      given: Matthew
+  collection-title: Optimization Methods in Renewable Energy Systems Design
+  container-title: Renewable Energy
+  DOI: 10.1016/j.renene.2015.09.068
+  ISSN: 0960-1481
+  issued:
+    - year: 2016
+      month: 3
+  page: 892–902
+  title: >-
+    Automatic identification of wind turbine models using evolutionary
+    multiobjective optimization
   type: article-journal
-  URL: https://www.jpain.org/article/S1526-5900(25)00366-9/abstract
-  volume: '29'
+  URL: http://www.sciencedirect.com/science/article/pii/S0960148115303475
+  volume: 87, Part 2
 
-- id: aldeiaInexactSimplificationSymbolic2024
-  accessed:
-    - year: 2024
-      month: 6
-      day: 25
-  archive: arXiv
-  archive_location: http://arxiv.org/abs/2404.05898
+- archive: arXiv
+  archive_location: https://arxiv.org/abs/1703.06934
   author:
-    - family: Aldeia
-      given: Guilherme Seidyo Imai
-    - family: Franca
-      given: Fabricio Olivetti
-      non-dropping-particle: de
     - family: La Cava
-      given: William G.
-  citation-key: aldeiaInexactSimplificationSymbolic2024
-  container-title: Proceedings of the Genetic and Evolutionary Computation Conference
-  DOI: 10.1145/3638529.3654147
-  event-title: 'GECCO ''24: Genetic and Evolutionary Computation Conference'
-  ISBN: 979-8-4007-0494-9
+      given: William
+    - family: Moore
+      given: Jason H
+  container-title: >-
+    GECCO '17: Proceedings of the 2017 Genetic and Evolutionary Computation
+    Conference
+  DOI: 10.1145/3071178.3071215
+  event-title: GECCO '17
   issued:
-    - year: 2024
-      month: 7
-      day: 14
-  note: >-
-    code= https://github.com/gAldeia/hashing-symbolic-expressions,
-    blog=/2024/04/14/inexact-simplification.html
-  page: 896–904
+    - year: 2017
+  page: 961–968
   publisher: ACM
-  publisher-place: Melbourne VIC Australia
-  source: arXiv.org
+  publisher-place: Berlin, Germany
   title: >-
-    Inexact Simplification of Symbolic Regression Expressions with
-    Locality-sensitive Hashing
+    Ensemble representation learning: an analysis of fitness and survival for
+    wrapper-based genetic programming methods
   type: paper-conference
+  URL: https://dl.acm.org/doi/10.1145/3071178.3071215
 
-- id: aldeiaIterativeLearningComputable2025a
-  accessed:
-    - year: 2025
-      month: 10
+- accessed:
+    - year: 2017
+      month: 3
+      day: 29
+  author:
+    - family: La Cava
+      given: William
+    - family: Moore
+      given: Jason
+  collection-title: Lecture Notes in Computer Science
+  container-title: Genetic Programming
+  DOI: 10.1007/978-3-319-55696-3_6
+  event-title: European Conference on Genetic Programming
+  issued:
+    - year: 2017
+      month: 4
+      day: 19
+  language: en
+  page: 80–95
+  publisher: Springer, Cham
+  source: link.springer.com
+  title: >-
+    A General Feature Engineering Wrapper for Machine Learning Using \epsilon
+    -Lexicase Survival
+  type: paper-conference
+  URL: https://link.springer.com/chapter/10.1007/978-3-319-55696-3_6
+
+- accessed:
+    - year: 2017
+      month: 4
+      day: 13
+  author:
+    - family: La Cava
+      given: William
+    - family: Silva
+      given: Sara
+    - family: Vanneschi
+      given: Leonardo
+    - family: Spector
+      given: Lee
+    - family: Moore
+      given: Jason
+  container-title: Applications of Evolutionary Computation
+  DOI: 10.1007/978-3-319-55849-3_11
+  event-title: European Conference on the Applications of Evolutionary Computation
+  issued:
+    - year: 2017
+      month: 4
+      day: 19
+  language: en
+  page: 158–173
+  publisher: Springer, Cham
+  source: link.springer.com
+  title: >-
+    Genetic Programming Representations for Multi-dimensional Feature Learning
+    in Biomedical Classification
+  type: paper-conference
+  URL: https://link.springer.com/chapter/10.1007/978-3-319-55849-3_11
+
+- archive: arXiv
+  archive_location: http://arxiv.org/abs/1708.05070
+  author:
+    - family: Olson
+      given: Randal S.
+    - family: La Cava
+      given: William
+    - family: Mustahsan
+      given: Zairah
+    - family: Varik
+      given: Akshay
+    - family: Moore
+      given: Jason H.
+  container-title: Pacific Symposium on Biocomputing (PSB)
+  issued:
+    - year: 2017
+      month: 8
       day: 8
-  archive: arXiv
-  archive_location: http://arxiv.org/abs/2508.05581
-  author:
-    - family: Aldeia
-      given: Guilherme Seidyo Imai
-    - family: Herman
-      given: Daniel S.
-    - family: Cava
-      given: William La
-  citation-key: aldeiaIterativeLearningComputable2025a
-  container-title: Proceedings of the 10th Machine Learning for Healthcare Conference
-  event-title: Machine Learning for Healthcare Conference
-  issued:
-    - year: 2025
-      month: 10
-      day: 7
-  language: en
-  note: code=https://github.com/cavalab/htn-phenotyping-with-llms
-  publisher: PMLR
-  source: proceedings.mlr.press
-  title: >-
-    Iterative Learning of Computable Phenotypes for Treatment Resistant
-    Hypertension using Large Language Models
+  note: '*: contributed equally'
+  source: arXiv.org
+  title: Data-driven Advice for Applying Machine Learning to Bioinformatics Problems
   type: paper-conference
-  URL: https://proceedings.mlr.press/v298/aldeia25a.html
+  URL: https://psb.stanford.edu/psb-online/proceedings/psb18/olson.pdf
 
-- id: aldeiaMinimumVarianceThreshold2024
-  accessed:
-    - year: 2024
-      month: 7
-      day: 11
-  archive: arXiv
-  archive_location: https://arxiv.org/abs/2404.05909
+- archive: arXiv
+  archive_location: https://arxiv.org/abs/1703.00512
   author:
-    - family: Aldeia
-      given: Guilherme Seidyo Imai
-    - family: De França
-      given: Fabrício Olivetti
+    - family: Olson
+      given: Randal S.
+    - family: La Cava
+      given: William
+    - family: Orzechowski
+      given: Patryk
+    - family: Urbanowicz
+      given: Ryan J.
+    - family: Moore
+      given: Jason H.
+  container-title: BioData Mining
+  issued:
+    - year: 2017
+  note: arXiv preprint arXiv:1703.00512
+  source: Google Scholar
+  title: 'PMLB: A Large Benchmark Suite for Machine Learning Evaluation and Comparison'
+  title-short: PMLB
+  type: article-journal
+  URL: https://biodatamining.biomedcentral.com/articles/10.1186/s13040-017-0154-4
+
+- accessed:
+    - year: 2018
+      month: 10
+      day: 30
+  archive: arxiv.org
+  archive_location: '1807.00981'
+  author:
+    - family: La Cava
+      given: William
+    - family: Singh
+      given: Tilak Raj
+    - family: Taggart
+      given: James
+    - family: Suri
+      given: Srinivas
+    - family: Moore
+      given: Jason H.
+  container-title: International Conference on Learning Representations
+  container-title-short: ICLR
+  issued:
+    - year: 2019
+  language: en
+  source: arxiv.org
+  title: >-
+    Learning concise representations for regression by evolving networks of
+    trees
+  type: article-journal
+  URL: https://arxiv.org/abs/1807.00981
+
+- archive: arXiv
+  archive_location: https://arxiv.org/abs/1903.12074
+  author:
+    - family: La Cava
+      given: William
+    - family: Bauer
+      given: Christopher R.
+    - family: Moore
+      given: Jason H.
+    - family: Pendergrass
+      given: Sarah A.
+  collection-title: AMIA 2019 Annual Symposium
+  event-title: AMIA Annual Symposium
+  issued:
+    - year: 2019
+  note: 'Backup Publisher: AMIA 2019 Annual Symposium'
+  publisher: AMIA
+  title: >-
+    Interpretation of machine learning predictions for patient outcomes in
+    electronic health records
+  type: paper-conference
+  URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7153071/
+
+- accessed:
+    - year: 2019
+      month: 10
+      day: 9
+  author:
     - family: La Cava
       given: William G.
-  citation-key: aldeiaMinimumVarianceThreshold2024
-  container-title: Proceedings of the Genetic and Evolutionary Computation Conference
-  DOI: 10.1145/3638529.3654149
-  event-title: 'GECCO ''24: Genetic and Evolutionary Computation Conference'
-  ISBN: 979-8-4007-0494-9
+    - family: Sahare
+      given: Kushal
+    - family: Danai
+      given: Kourosh
+  container-title: Journal of Dynamic Systems, Measurement, and Control
+  DOI: 10.1115/1.4035870
+  ISSN: 0022-0434, 1528-9028
+  issue: '8'
   issued:
-    - year: 2024
-      month: 7
-      day: 14
+    - year: 2017
+      month: 8
+      day: 1
   language: en
-  note: code= https://github.com/gAldeia/srbench/tree/feat_split_benchmark
-  page: 905–913
-  publisher: ACM
-  publisher-place: Melbourne VIC Australia
+  page: '081004'
   source: DOI.org (Crossref)
-  title: Minimum variance threshold for epsilon-lexicase selection
-  type: paper-conference
-  URL: https://dl.acm.org/doi/10.1145/3638529.3654149
+  title: Restructuring Controllers to Accommodate Plant Nonlinearities
+  type: article-journal
+  URL: >-
+    https://asmedigitalcollection.asme.org/dynamicsystems/article/doi/10.1115/1.4035870/384813/Restructuring-Controllers-to-Accommodate-Plant
+  volume: '139'
 
-- id: bartz-beielsteinBenchmarkingOptimizationBest2020
-  accessed:
+- accessed:
+    - year: 2020
+      month: 4
+      day: 7
+  author:
+    - family: "La\_Cava"
+      given: William
+    - family: Moore
+      given: Jason H.
+  container-title: Genetic Programming and Evolvable Machines
+  container-title-short: Genet Program Evolvable Mach
+  DOI: 10.1007/s10710-020-09383-4
+  ISSN: 1573-7632
+  issued:
+    - year: 2020
+      month: 3
+      day: 11
+  language: en
+  source: Springer Link
+  title: Learning feature spaces for regression with genetic programming
+  type: article-journal
+  URL: https://link.springer.com/article/10.1007/s10710-020-09383-4
+
+- accessed:
+    - year: 2020
+      month: 12
+      day: 12
+  archive: arXiv
+  archive_location: '1905.09205'
+  author:
+    - family: La Cava
+      given: William
+    - family: Williams
+      given: Heather
+    - family: Fu
+      given: Weixuan
+    - family: Vitale
+      given: Steve
+    - family: Srivatsan
+      given: Durga
+    - family: Moore
+      given: Jason H
+  container-title: Bioinformatics
+  container-title-short: Bioinformatics
+  DOI: 10.1093/bioinformatics/btaa698
+  ISSN: 1367-4803
+  issue: btaa698
+  issued:
+    - year: 2020
+      month: 8
+      day: 7
+  source: Silverchair
+  title: Evaluating recommender systems for AI-driven biomedical informatics
+  type: article-journal
+  URL: https://doi.org/10.1093/bioinformatics/btaa698
+
+- archive: arXiv
+  archive_location: https://arxiv.org/abs/2004.13282
+  author:
+    - family: La Cava
+      given: William
+    - family: Moore
+      given: Jason H.
+  collection-title: GECCO '20
+  container-title: Proceedings of the 2020 Genetic and Evolutionary Computation Conference
+  DOI: 10.1145/3377930.3390157
+  event-title: GECCO '20
+  issued:
+    - year: 2020
+  note: award=Best Paper Award
+  title: Genetic programming approaches to learning fair classifiers
+  type: paper-conference
+  URL: https://dl.acm.org/doi/abs/10.1145/3377930.3390157
+
+- accessed:
+    - year: 2020
+      month: 11
+      day: 12
+  author:
+    - family: Danai
+      given: Kourosh
+    - family: La Cava
+      given: William G.
+  container-title: Mechanical Systems and Signal Processing
+  container-title-short: Mechanical Systems and Signal Processing
+  DOI: 10.1016/j.ymssp.2020.107348
+  ISSN: 0888-3270
+  issued:
+    - year: 2021
+      month: 4
+      day: 1
+  language: en
+  page: '107348'
+  source: ScienceDirect
+  title: Controller design by symbolic regression
+  type: article-journal
+  URL: http://www.sciencedirect.com/science/article/pii/S0888327020307342
+  volume: '151'
+
+- accessed:
+    - year: 2021
+      month: 3
+      day: 24
+  author:
+    - family: La Cava
+      given: William
+    - family: Moore
+      given: Jason H.
+  container-title: Proceedings of the Genetic and Evolutionary Computation Conference Companion
+  DOI: 10.1145/3205651.3205656
+  event-title: 'GECCO ''18: Genetic and Evolutionary Computation Conference'
+  ISBN: 978-1-4503-5764-7
+  issued:
+    - year: 2018
+      month: 7
+      day: 6
+  language: en
+  page: 185–186
+  publisher: ACM
+  publisher-place: Kyoto Japan
+  source: DOI.org (Crossref)
+  title: >-
+    An analysis of ϵ-lexicase selection for large-scale many-objective
+    optimization
+  type: paper-conference
+  URL: https://dl.acm.org/doi/10.1145/3205651.3205656
+
+- author:
+    - family: La Cava
+      given: William
+    - family: Moore
+      given: Jason H.
+  container-title: Artificial Life
+  DOI: 10.1162/isal_a_00044
+  issued:
+    - year: 2018
+      month: 7
+  page: 206–213
+  publisher: MIT Press
+  title: Behavioral search drivers and the role of elitism in soft robotics
+  type: paper-conference
+  URL: https://www.mitpressjournals.org/doi/abs/10.1162/isal_a_00044
+
+- archive: arXiv
+  archive_location: https://arxiv.org/abs/1705.00594
+  author:
+    - family: Olson
+      given: Randal S
+    - family: Sipper
+      given: Moshe
+    - family: La Cava
+      given: William
+    - family: Tartarone
+      given: Sharon
+    - family: Vitale
+      given: Steven
+    - family: Fu
+      given: Weixuan
+    - family: Holmes
+      given: John H
+    - family: Moore
+      given: Jason H.
+  container-title: Genetic Programming Theory and Practice XIV
+  issued:
+    - year: 2017
+  publisher: Springer
+  title: A System for Accessible Artificial Intelligence
+  type: chapter
+  URL: https://link.springer.com/chapter/10.1007/978-3-319-90512-9_8
+
+- author:
+    - family: Spector
+      given: Lee
+    - family: La Cava
+      given: William
+    - family: Shanabrook
+      given: Saul
+    - family: Helmuth
+      given: Thomas
+    - family: Pantridge
+      given: Edward
+  container-title: Genetic Programming Theory and Practice XV
+  issued:
+    - year: 2018
+  page: 105–120
+  publisher: Springer
+  source: Google Scholar
+  title: Relaxations of lexicase parent selection
+  type: chapter
+  URL: https://link.springer.com/chapter/10.1007/978-3-319-90512-9_7
+
+- accessed:
+    - year: 2021
+      month: 7
+      day: 19
+  author:
+    - family: Helmuth
+      given: Thomas
+    - family: La Cava
+      given: William
+  collection-title: GECCO '21
+  container-title: Proceedings of the Genetic and Evolutionary Computation Conference Companion
+  DOI: 10.1145/3449726.3461408
+  ISBN: 978-1-4503-8351-6
+  issued:
+    - year: 2021
+      month: 7
+      day: 7
+  page: 839–855
+  publisher: Association for Computing Machinery
+  publisher-place: New York, NY, USA
+  source: ACM Digital Library
+  title: Lexicase Selection
+  type: paper-conference
+  URL: https://doi.org/10.1145/3449726.3461408
+
+- accessed:
+    - year: 2022
+      month: 2
+      day: 14
+  archive: arXiv
+  archive_location: https://arxiv.org/abs/2107.14351
+  author:
+    - family: La Cava
+      given: William
+    - family: Orzechowski
+      given: Patryk
+    - family: Burlacu
+      given: Bogdan
+    - family: Franca
+      given: Fabricio
+      non-dropping-particle: de
+    - family: Virgolin
+      given: Marco
+    - family: Jin
+      given: Ying
+    - family: Kommenda
+      given: Michael
+    - family: Moore
+      given: Jason
+  collection-title: Proceedings of Machine Learning Research
+  container-title: >-
+    Proceedings of the Neural Information Processing Systems Track on Datasets
+    and Benchmarks
+  container-title-short: NeurIPS
+  issued:
+    - year: 2021
+      month: 12
+      day: 6
+  language: en
+  note: code=https://cavalab.org/srbench
+  source: datasets-benchmarks-proceedings.neurips.cc
+  title: Contemporary Symbolic Regression Methods and their Relative Performance
+  type: article-journal
+  URL: >-
+    https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/c0c7c76d30bd3dcaefc96f40275bdc0a-Abstract-round1.html
+  volume: '1'
+
+- accessed:
     - year: 2022
       month: 7
       day: 1
@@ -178,7 +662,6 @@ references:
       given: Markus
     - family: Weise
       given: Thomas
-  citation-key: bartz-beielsteinBenchmarkingOptimizationBest2020
   DOI: 10.48550/arXiv.2007.03488
   issued:
     - year: 2020
@@ -192,346 +675,7 @@ references:
   type: article
   URL: http://arxiv.org/abs/2007.03488
 
-- id: chenCrossCareAssessingHealthcare2024
-  accessed:
-    - year: 2025
-      month: 8
-      day: 28
-  archive: arXiv
-  archive_location: http://arxiv.org/abs/2405.05506
-  author:
-    - family: Chen
-      given: Shan
-    - family: Gallifant
-      given: Jack
-    - family: Gao
-      given: Mingye
-    - family: Moreira
-      given: Pedro
-    - family: Munch
-      given: Nikolaj
-    - family: Muthukkumar
-      given: Ajay
-    - family: Rajan
-      given: Arvind
-    - family: Kolluri
-      given: Jaya
-    - family: Fiske
-      given: Amelia
-    - family: Hastings
-      given: Janna
-    - family: Aerts
-      given: Hugo
-    - family: Anthony
-      given: Brian
-    - family: Celi
-      given: Leo A.
-    - family: La Cava
-      given: William G.
-    - family: Bitterman
-      given: Danielle S.
-  citation-key: chenCrossCareAssessingHealthcare2024
-  container-title: Advances in Neural Information Processing Systems
-  container-title-short: NeurIPS
-  issued:
-    - year: 2024
-      month: 12
-      day: 16
-  language: en
-  page: 23756–23795
-  source: proceedings.neurips.cc
-  title: >-
-    Cross-Care: Assessing the Healthcare Implications of Pre-training Data on
-    Language Model Bias
-  title-short: Cross-Care
-  type: article-journal
-  URL: >-
-    https://proceedings.neurips.cc/paper_files/paper/2024/hash/2a617efee5815f12b405d40569dea0a5-Abstract-Datasets_and_Benchmarks_Track.html
-  volume: '37'
-
-- id: cogganDecipheringInfluenceDemographic2025
-  accessed:
-    - year: 2025
-      month: 10
-      day: 6
-  archive: arXiv
-  archive_location: http://arxiv.org/abs/2510.02841
-  author:
-    - family: Coggan
-      given: Helena
-    - family: Bischops
-      given: Anne
-    - family: Chaudhari
-      given: Pradip
-    - family: Barak-Corren
-      given: Yuval
-    - family: Fine
-      given: Andrew M.
-    - family: Reis
-      given: Ben Y.
-    - family: Aysola
-      given: Jaya
-    - family: Cava
-      given: William G. La
-  citation-key: cogganDecipheringInfluenceDemographic2025
-  DOI: 10.48550/arXiv.2510.02841
-  event-title: Pacific Symposium on Biocomputing
-  issued:
-    - year: 2025
-      month: 10
-      day: 31
-  note: code=https://github.com/hcoggan/BCH-ED, blog=/2025/10/24/ed-admissions.html
-  publisher: World Scientific Publishing Company
-  title: >-
-    Deciphering the influence of demographic factors on the treatment of
-    pediatric patients in the emergency department
-  type: paper-conference
-  URL: https://psb.stanford.edu/psb-online/proceedings/psb26/
-
-- id: cogganDemographicFactorsAssociated2025
-  accessed:
-    - year: 2025
-      month: 4
-      day: 1
-  author:
-    - family: Coggan
-      given: Helena
-    - family: Chaudhari
-      given: Pradip
-    - family: Barak-Corren
-      given: Yuval
-    - family: Fine
-      given: Andrew M.
-    - family: Reis
-      given: Ben Y.
-    - family: Aysola
-      given: Jaya
-    - family: Cava
-      given: William G. La
-  citation-key: cogganDemographicFactorsAssociated2025
-  DOI: 10.48550/arXiv.2503.22781
-  issued:
-    - year: 2025
-      month: 3
-      day: 28
-  number: arXiv:2503.22781
-  publisher: arXiv
-  source: arXiv.org
-  title: >-
-    Demographic Factors Associated with Triage Acuity, Admission and Length of
-    Stay During Adult Emergency Department Visits
-  type: article
-  URL: http://arxiv.org/abs/2503.22781
-
-- id: danaiControllerDesignSymbolic2021
-  accessed:
-    - year: 2020
-      month: 11
-      day: 12
-  author:
-    - family: Danai
-      given: Kourosh
-    - family: La Cava
-      given: William G.
-  citation-key: danaiControllerDesignSymbolic2021
-  container-title: Mechanical Systems and Signal Processing
-  container-title-short: Mechanical Systems and Signal Processing
-  DOI: 10.1016/j.ymssp.2020.107348
-  ISSN: 0888-3270
-  issued:
-    - year: 2021
-      month: 4
-      day: 1
-  language: en
-  page: '107348'
-  source: ScienceDirect
-  title: Controller design by symbolic regression
-  type: article-journal
-  URL: http://www.sciencedirect.com/science/article/pii/S0888327020307342
-  volume: '151'
-
-- id: defrancaSRBenchPrincipledBenchmarking2024
-  accessed:
-    - year: 2024
-      month: 7
-      day: 6
-  archive: arXiv
-  archive_location: https://arxiv.org/abs/2304.01117
-  author:
-    - family: Franca
-      given: F. O.
-      non-dropping-particle: de
-    - family: Virgolin
-      given: M.
-    - family: Kommenda
-      given: M.
-    - family: Majumder
-      given: M. S.
-    - family: Cranmer
-      given: M.
-    - family: Espada
-      given: G.
-    - family: Ingelse
-      given: L.
-    - family: Fonseca
-      given: A.
-    - family: Landajuela
-      given: M.
-    - family: Petersen
-      given: B.
-    - family: Glatt
-      given: R.
-    - family: Mundhenk
-      given: N.
-    - family: Lee
-      given: C. S.
-    - family: Hochhalter
-      given: J. D.
-    - family: Randall
-      given: D. L.
-    - family: Kamienny
-      given: P.
-    - family: Zhang
-      given: H.
-    - family: Dick
-      given: G.
-    - family: Simon
-      given: A.
-    - family: Burlacu
-      given: B.
-    - family: Kasak
-      given: Jaan
-    - family: Machado
-      given: Meera
-    - family: Wilstrup
-      given: Casper
-    - family: La Cava
-      given: W. G.
-  citation-key: defrancaSRBenchPrincipledBenchmarking2024
-  container-title: IEEE Transactions on Evolutionary Computation
-  DOI: 10.1109/TEVC.2024.3423681
-  ISSN: 1941-0026
-  issued:
-    - year: 2024
-      month: 7
-      day: 4
-  note: code=https://cavalab.org/srbench
-  page: 1–1
-  source: IEEE Xplore
-  title: >-
-    SRBench++: Principled Benchmarking of Symbolic Regression With Domain-Expert
-    Interpretation
-  title-short: SRBench++
-  type: article-journal
-  URL: https://ieeexplore.ieee.org/document/10586218/?arnumber=10586218
-
-- id: gallifantReliabilityLargeLanguage2025
-  accessed:
-    - year: 2025
-      month: 6
-      day: 18
-  archive: PubMed
-  archive_location: https://pubmed.ncbi.nlm.nih.gov/40523223/
-  author:
-    - family: Gallifant
-      given: Jack
-    - family: Chen
-      given: Shan
-    - family: Jain
-      given: Sandeep K.
-    - family: Moreira
-      given: Pedro
-    - family: Topaloglu
-      given: Umit
-    - family: Aerts
-      given: Hugo J.W.L.
-    - family: Warner
-      given: Jeremy L.
-    - family: La Cava
-      given: William G.
-    - family: Bitterman
-      given: Danielle S.
-  citation-key: gallifantReliabilityLargeLanguage2025
-  container-title: JCO Clinical Cancer Informatics
-  container-title-short: JCO Clin Cancer Inform
-  DOI: 10.1200/CCI-24-00257
-  issue: '9'
-  issued:
-    - year: 2025
-      month: 6
-  page: e2400257
-  publisher: Wolters Kluwer
-  source: ascopubs-org.ezp-prod1.hul.harvard.edu (Atypon)
-  title: >-
-    Reliability of Large Language Model Knowledge Across Brand and Generic
-    Cancer Drug Names
-  type: article-journal
-  URL: https://ascopubs.org/doi/10.1200/CCI-24-00257
-
-- id: ghelaniArtificialIntelligenceEnabledECG2025
-  accessed:
-    - year: 2025
-      month: 6
-      day: 24
-  author:
-    - family: Ghelani
-      given: Sunil J.
-    - family: Thatte
-      given: Nikhil
-    - family: La Cava
-      given: William
-    - family: Triedman
-      given: John K.
-    - family: Mayourian
-      given: Joshua
-  citation-key: ghelaniArtificialIntelligenceEnabledECG2025
-  container-title: Pediatric Cardiology
-  container-title-short: Pediatr Cardiol
-  DOI: 10.1007/s00246-025-03916-3
-  ISSN: 1432-1971
-  issued:
-    - year: 2025
-      month: 6
-      day: 16
-  language: en
-  page: 1–7
-  publisher: Springer
-  source: link-springer-com.ezp-prod1.hul.harvard.edu
-  title: >-
-    Artificial Intelligence-Enabled ECG to Detect Congenitally Corrected
-    Transposition of the Great Arteries
-  type: article-journal
-  URL: https://link.springer.com/article/10.1007/s00246-025-03916-3
-
-- id: helmuthLexicaseSelection2021
-  accessed:
-    - year: 2021
-      month: 7
-      day: 19
-  author:
-    - family: Helmuth
-      given: Thomas
-    - family: La Cava
-      given: William
-  citation-key: helmuthLexicaseSelection2021
-  collection-title: GECCO '21
-  container-title: Proceedings of the Genetic and Evolutionary Computation Conference Companion
-  DOI: 10.1145/3449726.3461408
-  ISBN: 978-1-4503-8351-6
-  issued:
-    - year: 2021
-      month: 7
-      day: 7
-  page: 839–855
-  publisher: Association for Computing Machinery
-  publisher-place: New York, NY, USA
-  source: ACM Digital Library
-  title: Lexicase Selection
-  type: paper-conference
-  URL: https://doi.org/10.1145/3449726.3461408
-
-- id: helmuthPopulationDiversityLeads2022
-  accessed:
+- accessed:
     - year: 2022
       month: 8
       day: 22
@@ -544,7 +688,6 @@ references:
       given: Johannes
     - family: La Cava
       given: William
-  citation-key: helmuthPopulationDiversityLeads2022
   DOI: 10.48550/arXiv.2204.06461
   event-title: Parallel Problem Solving from Nature
   issued:
@@ -556,1782 +699,7 @@ references:
   type: paper-conference
   URL: https://link.springer.com/chapter/10.1007/978-3-031-14721-0_34
 
-- id: imaialdeiaCallActionNext2025
-  accessed:
-    - year: 2025
-      month: 8
-      day: 25
-  archive: arXiv
-  archive_location: http://arxiv.org/abs/2505.03977
-  author:
-    - family: Imai Aldeia
-      given: Guilherme Seidyo
-    - family: Zhang
-      given: Hengzhe
-    - family: Bomarito
-      given: Geoffrey
-    - family: Cranmer
-      given: Miles
-    - family: Fonseca
-      given: Alcides
-    - family: Burlacu
-      given: Bogdan
-    - family: La Cava
-      given: William G.
-    - family: França
-      given: Fabrício Olivetti
-      non-dropping-particle: de
-  citation-key: imaialdeiaCallActionNext2025
-  collection-title: GECCO '25 Companion
-  container-title: Proceedings of the Genetic and Evolutionary Computation Conference Companion
-  DOI: 10.1145/3712255.3734309
-  ISBN: 979-8-4007-1464-1
-  issued:
-    - year: 2025
-      month: 8
-  page: 2529–2538
-  publisher: Association for Computing Machinery
-  publisher-place: New York, NY, USA
-  source: ACM Digital Library
-  title: >-
-    Call for Action: towards the next generation of symbolic regression
-    benchmark
-  title-short: Call for Action
-  type: paper-conference
-  URL: https://dl.acm.org/doi/10.1145/3712255.3734309
-
-- id: lacavaAnalysislexicaseSelection2018
-  accessed:
-    - year: 2021
-      month: 3
-      day: 24
-  author:
-    - family: La Cava
-      given: William
-    - family: Moore
-      given: Jason H.
-  citation-key: lacavaAnalysislexicaseSelection2018
-  container-title: Proceedings of the Genetic and Evolutionary Computation Conference Companion
-  DOI: 10.1145/3205651.3205656
-  event-title: 'GECCO ''18: Genetic and Evolutionary Computation Conference'
-  ISBN: 978-1-4503-5764-7
-  issued:
-    - year: 2018
-      month: 7
-      day: 6
-  language: en
-  page: 185–186
-  publisher: ACM
-  publisher-place: Kyoto Japan
-  source: DOI.org (Crossref)
-  title: >-
-    An analysis of ϵ-lexicase selection for large-scale many-objective
-    optimization
-  type: paper-conference
-  URL: https://dl.acm.org/doi/10.1145/3205651.3205656
-
-- id: lacavaAutomaticDevelopmentAdaptation2016
-  accessed:
-    - year: 2016
-      month: 12
-      day: 6
-  author:
-    - family: La Cava
-      given: William G.
-  citation-key: lacavaAutomaticDevelopmentAdaptation2016
-  issued:
-    - year: 2016
-  source: Google Scholar
-  title: >-
-    Automatic Development and Adaptation of Concise Nonlinear Models for System
-    Identification
-  type: thesis
-  URL: http://scholarworks.umass.edu/dissertations_2/731/
-
-- id: lacavaAutomaticIdentificationWind2016
-  accessed:
-    - year: 2016
-      month: 12
-      day: 13
-  author:
-    - family: La Cava
-      given: William
-    - family: Danai
-      given: Kourosh
-    - family: Spector
-      given: Lee
-    - family: Fleming
-      given: Paul
-    - family: Wright
-      given: Alan
-    - family: Lackner
-      given: Matthew
-  citation-key: lacavaAutomaticIdentificationWind2016
-  collection-title: Optimization Methods in Renewable Energy Systems Design
-  container-title: Renewable Energy
-  DOI: 10.1016/j.renene.2015.09.068
-  ISSN: 0960-1481
-  issued:
-    - year: 2016
-      month: 3
-  page: 892–902
-  title: >-
-    Automatic identification of wind turbine models using evolutionary
-    multiobjective optimization
-  type: article-journal
-  URL: http://www.sciencedirect.com/science/article/pii/S0960148115303475
-  volume: 87, Part 2
-
-- id: lacavaBehavioralSearchDrivers2018
-  author:
-    - family: La Cava
-      given: William
-    - family: Moore
-      given: Jason H.
-  citation-key: lacavaBehavioralSearchDrivers2018
-  container-title: Artificial Life
-  DOI: 10.1162/isal_a_00044
-  issued:
-    - year: 2018
-      month: 7
-  page: 206–213
-  publisher: MIT Press
-  title: Behavioral search drivers and the role of elitism in soft robotics
-  type: paper-conference
-  URL: https://www.mitpressjournals.org/doi/abs/10.1162/isal_a_00044
-
-- id: lacavaContemporarySymbolicRegression2021
-  accessed:
-    - year: 2022
-      month: 2
-      day: 14
-  archive: arXiv
-  archive_location: https://arxiv.org/abs/2107.14351
-  author:
-    - family: La Cava
-      given: William
-    - family: Orzechowski
-      given: Patryk
-    - family: Burlacu
-      given: Bogdan
-    - family: Franca
-      given: Fabricio
-      non-dropping-particle: de
-    - family: Virgolin
-      given: Marco
-    - family: Jin
-      given: Ying
-    - family: Kommenda
-      given: Michael
-    - family: Moore
-      given: Jason
-  citation-key: lacavaContemporarySymbolicRegression2021
-  collection-title: Proceedings of Machine Learning Research
-  container-title: >-
-    Proceedings of the Neural Information Processing Systems Track on Datasets
-    and Benchmarks
-  container-title-short: NeurIPS
-  issued:
-    - year: 2021
-      month: 12
-      day: 6
-  language: en
-  note: code=https://cavalab.org/srbench
-  source: datasets-benchmarks-proceedings.neurips.cc
-  title: Contemporary Symbolic Regression Methods and their Relative Performance
-  type: article-journal
-  URL: >-
-    https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/c0c7c76d30bd3dcaefc96f40275bdc0a-Abstract-round1.html
-  volume: '1'
-
-- id: lacavaEnsembleRepresentationLearning2017
-  archive: arXiv
-  archive_location: https://arxiv.org/abs/1703.06934
-  author:
-    - family: La Cava
-      given: William
-    - family: Moore
-      given: Jason H
-  citation-key: lacavaEnsembleRepresentationLearning2017
-  container-title: >-
-    GECCO '17: Proceedings of the 2017 Genetic and Evolutionary Computation
-    Conference
-  DOI: 10.1145/3071178.3071215
-  event-title: GECCO '17
-  issued:
-    - year: 2017
-  page: 961–968
-  publisher: ACM
-  publisher-place: Berlin, Germany
-  title: >-
-    Ensemble representation learning: an analysis of fitness and survival for
-    wrapper-based genetic programming methods
-  type: paper-conference
-  URL: https://dl.acm.org/doi/10.1145/3071178.3071215
-
-- id: lacavaEpsilonLexicaseSelectionRegression2016
-  accessed:
-    - year: 2016
-      month: 12
-      day: 1
-  author:
-    - family: La Cava
-      given: William
-    - family: Spector
-      given: Lee
-    - family: Danai
-      given: Kourosh
-  citation-key: lacavaEpsilonLexicaseSelectionRegression2016
-  collection-title: GECCO '16
-  container-title: Proceedings of the Genetic and Evolutionary Computation Conference 2016
-  DOI: 10.1145/2908812.2908898
-  ISBN: 978-1-4503-4206-3
-  issued:
-    - year: 2016
-  page: 741–748
-  publisher: ACM
-  publisher-place: New York, NY, USA
-  source: ACM Digital Library
-  title: Epsilon-Lexicase Selection for Regression
-  type: paper-conference
-  URL: http://doi.acm.org/10.1145/2908812.2908898
-
-- id: lacavaEvaluatingRecommenderSystems2020
-  accessed:
-    - year: 2020
-      month: 12
-      day: 12
-  archive: arXiv
-  archive_location: '1905.09205'
-  author:
-    - family: La Cava
-      given: William
-    - family: Williams
-      given: Heather
-    - family: Fu
-      given: Weixuan
-    - family: Vitale
-      given: Steve
-    - family: Srivatsan
-      given: Durga
-    - family: Moore
-      given: Jason H
-  citation-key: lacavaEvaluatingRecommenderSystems2020
-  container-title: Bioinformatics
-  container-title-short: Bioinformatics
-  DOI: 10.1093/bioinformatics/btaa698
-  ISSN: 1367-4803
-  issue: btaa698
-  issued:
-    - year: 2020
-      month: 8
-      day: 7
-  source: Silverchair
-  title: Evaluating recommender systems for AI-driven biomedical informatics
-  type: article-journal
-  URL: https://doi.org/10.1093/bioinformatics/btaa698
-
-- id: lacavaFairAdmissionRisk2023
-  accessed:
-    - year: 2023
-      month: 6
-      day: 20
-  author:
-    - family: La Cava
-      given: William G.
-    - family: Lett
-      given: Elle
-    - family: Wan
-      given: Guangya
-  citation-key: lacavaFairAdmissionRisk2023
-  container-title: Proceedings of the Conference on Health, Inference, and Learning
-  event-title: Conference on Health, Inference, and Learning
-  issued:
-    - year: 2023
-      month: 6
-      day: 13
-  language: en
-  note: code=https://github.com/cavalab/pmcboost, award=Best Paper Award
-  page: 350–378
-  publisher: PMLR
-  source: proceedings.mlr.press
-  title: Fair admission risk prediction with proportional multicalibration
-  type: paper-conference
-  URL: https://proceedings.mlr.press/v209/la-cava23a.html
-
-- id: lacavaFlexibleSymbolicRegression2023
-  accessed:
-    - year: 2023
-      month: 7
-      day: 2
-  archive: medRxiv
-  archive_location: https://www.medrxiv.org/content/10.1101/2020.12.12.20248005v2
-  author:
-    - family: La Cava
-      given: William G.
-    - family: Lee
-      given: Paul C.
-    - family: Ajmal
-      given: Imran
-    - family: Ding
-      given: Xiruo
-    - family: Solanki
-      given: Priyanka
-    - family: Cohen
-      given: Jordana B.
-    - family: Moore
-      given: Jason H.
-    - family: Herman
-      given: Daniel S.
-  citation-key: lacavaFlexibleSymbolicRegression2023
-  container-title: npj Digital Medicine
-  container-title-short: npj Digit. Med.
-  DOI: 10.1038/s41746-023-00833-8
-  ISSN: 2398-6352
-  issue: '1'
-  issued:
-    - year: 2023
-      month: 6
-      day: 5
-  language: en
-  note: >-
-    code=https://github.com/cavalab/feat, award=HUMIES Silver Medal,
-    awardlink=https://www.human-competitive.org/awards,
-    blog=2023/09/02/humies.html
-  page: 1–14
-  source: www.nature.com
-  title: >-
-    A flexible symbolic regression method for constructing interpretable
-    clinical prediction models
-  type: article-journal
-  URL: https://www.nature.com/articles/s41746-023-00833-8
-  volume: '6'
-
-- id: lacavaFutureAlgorithmicNondiscrimination2025
-  accessed:
-    - year: 2026
-      month: 2
-      day: 5
-  archive: PubMed
-  archive_location: https://pubmed.ncbi.nlm.nih.gov/41372617/
-  author:
-    - family: La Cava
-      given: William G.
-    - family: Cohen
-      given: I. Glenn
-    - family: Aysola
-      given: Jaya
-  citation-key: lacavaFutureAlgorithmicNondiscrimination2025
-  container-title: npj Digital Medicine
-  container-title-short: npj Digit. Med.
-  DOI: 10.1038/s41746-025-02224-7
-  ISSN: 2398-6352
-  issue: '1'
-  issued:
-    - year: 2025
-      month: 12
-      day: 10
-  language: en
-  note: code=https://github.com/cavalab/aca-example
-  page: '49'
-  PMCID: PMC12804706
-  PMID: '41372617'
-  publisher: Nature Publishing Group
-  source: www.nature.com
-  title: >-
-    The future of algorithmic nondiscrimination compliance in the affordable
-    care act
-  type: article-journal
-  URL: https://www.nature.com/articles/s41746-025-02224-7
-  volume: '9'
-
-- id: lacavaGeneralFeatureEngineering2017
-  accessed:
-    - year: 2017
-      month: 3
-      day: 29
-  author:
-    - family: La Cava
-      given: William
-    - family: Moore
-      given: Jason
-  citation-key: lacavaGeneralFeatureEngineering2017
-  collection-title: Lecture Notes in Computer Science
-  container-title: Genetic Programming
-  DOI: 10.1007/978-3-319-55696-3_6
-  event-title: European Conference on Genetic Programming
-  issued:
-    - year: 2017
-      month: 4
-      day: 19
-  language: en
-  page: 80–95
-  publisher: Springer, Cham
-  source: link.springer.com
-  title: >-
-    A General Feature Engineering Wrapper for Machine Learning Using \epsilon
-    -Lexicase Survival
-  type: paper-conference
-  URL: https://link.springer.com/chapter/10.1007/978-3-319-55696-3_6
-
-- id: lacavaGeneticProgrammingApproaches2020a
-  archive: arXiv
-  archive_location: https://arxiv.org/abs/2004.13282
-  author:
-    - family: La Cava
-      given: William
-    - family: Moore
-      given: Jason H.
-  citation-key: lacavaGeneticProgrammingApproaches2020a
-  collection-title: GECCO '20
-  container-title: Proceedings of the 2020 Genetic and Evolutionary Computation Conference
-  DOI: 10.1145/3377930.3390157
-  event-title: GECCO '20
-  issued:
-    - year: 2020
-  note: award=Best Paper Award
-  title: Genetic programming approaches to learning fair classifiers
-  type: paper-conference
-  URL: https://dl.acm.org/doi/abs/10.1145/3377930.3390157
-
-- id: lacavaGeneticProgrammingRepresentations2017
-  accessed:
-    - year: 2017
-      month: 4
-      day: 13
-  author:
-    - family: La Cava
-      given: William
-    - family: Silva
-      given: Sara
-    - family: Vanneschi
-      given: Leonardo
-    - family: Spector
-      given: Lee
-    - family: Moore
-      given: Jason
-  citation-key: lacavaGeneticProgrammingRepresentations2017
-  container-title: Applications of Evolutionary Computation
-  DOI: 10.1007/978-3-319-55849-3_11
-  event-title: European Conference on the Applications of Evolutionary Computation
-  issued:
-    - year: 2017
-      month: 4
-      day: 19
-  language: en
-  page: 158–173
-  publisher: Springer, Cham
-  source: link.springer.com
-  title: >-
-    Genetic Programming Representations for Multi-dimensional Feature Learning
-    in Biomedical Classification
-  type: paper-conference
-  URL: https://link.springer.com/chapter/10.1007/978-3-319-55849-3_11
-
-- id: lacavaGradientbasedAdaptationContinuous2016
-  accessed:
-    - year: 2016
-      month: 5
-      day: 5
-  author:
-    - family: La Cava
-      given: William G.
-    - family: Danai
-      given: Kourosh
-  citation-key: lacavaGradientbasedAdaptationContinuous2016
-  container-title: International Journal of Systems Science
-  DOI: 10.1080/00207721.2015.1069905
-  ISSN: 0020-7721, 1464-5319
-  issue: '1'
-  issued:
-    - year: 2016
-      month: 1
-      day: 2
-  language: en
-  page: 249–263
-  source: CrossRef
-  title: Gradient-based adaptation of continuous dynamic model structures
-  type: article-journal
-  URL: http://www.tandfonline.com/doi/full/10.1080/00207721.2015.1069905
-  volume: '47'
-
-- id: lacavaInferenceCompactNonlinear2016
-  accessed:
-    - year: 2016
-      month: 12
-      day: 1
-  author:
-    - family: La Cava
-      given: William
-    - family: Danai
-      given: Kourosh
-    - family: Spector
-      given: Lee
-  citation-key: lacavaInferenceCompactNonlinear2016
-  container-title: Engineering Applications of Artificial Intelligence
-  container-title-short: Engineering Applications of Artificial Intelligence
-  DOI: 10.1016/j.engappai.2016.07.004
-  ISSN: 0952-1976
-  issued:
-    - year: 2016
-      month: 10
-  page: 292–306
-  publisher: Elsevier
-  source: ScienceDirect
-  title: Inference of compact nonlinear dynamic models by epigenetic local search
-  type: article-journal
-  URL: http://www.sciencedirect.com/science/article/pii/S0952197616301294
-  volume: '55'
-
-- id: lacavaInterpretationMachineLearning2019a
-  archive: arXiv
-  archive_location: https://arxiv.org/abs/1903.12074
-  author:
-    - family: La Cava
-      given: William
-    - family: Bauer
-      given: Christopher R.
-    - family: Moore
-      given: Jason H.
-    - family: Pendergrass
-      given: Sarah A.
-  citation-key: lacavaInterpretationMachineLearning2019a
-  collection-title: AMIA 2019 Annual Symposium
-  event-title: AMIA Annual Symposium
-  issued:
-    - year: 2019
-  note: 'Backup Publisher: AMIA 2019 Annual Symposium'
-  publisher: AMIA
-  title: >-
-    Interpretation of machine learning predictions for patient outcomes in
-    electronic health records
-  type: paper-conference
-  URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7153071/
-
-- id: lacavaLearningConciseRepresentations2019
-  accessed:
-    - year: 2018
-      month: 10
-      day: 30
-  archive: arxiv.org
-  archive_location: '1807.00981'
-  author:
-    - family: La Cava
-      given: William
-    - family: Singh
-      given: Tilak Raj
-    - family: Taggart
-      given: James
-    - family: Suri
-      given: Srinivas
-    - family: Moore
-      given: Jason H.
-  citation-key: lacavaLearningConciseRepresentations2019
-  container-title: International Conference on Learning Representations
-  container-title-short: ICLR
-  issued:
-    - year: 2019
-  language: en
-  source: arxiv.org
-  title: >-
-    Learning concise representations for regression by evolving networks of
-    trees
-  type: article-journal
-  URL: https://arxiv.org/abs/1807.00981
-
-- id: lacavaLearningFeatureSpaces2020
-  accessed:
-    - year: 2020
-      month: 4
-      day: 7
-  author:
-    - family: "La\_Cava"
-      given: William
-    - family: Moore
-      given: Jason H.
-  citation-key: lacavaLearningFeatureSpaces2020
-  container-title: Genetic Programming and Evolvable Machines
-  container-title-short: Genet Program Evolvable Mach
-  DOI: 10.1007/s10710-020-09383-4
-  ISSN: 1573-7632
-  issued:
-    - year: 2020
-      month: 3
-      day: 11
-  language: en
-  source: Springer Link
-  title: Learning feature spaces for regression with genetic programming
-  type: article-journal
-  URL: https://link.springer.com/article/10.1007/s10710-020-09383-4
-
-- id: lacavaMultidimensionalGeneticProgramming2018
-  accessed:
-    - year: 2018
-      month: 6
-      day: 7
-  author:
-    - family: La Cava
-      given: William
-    - family: Silva
-      given: Sara
-    - family: Danai
-      given: Kourosh
-    - family: Spector
-      given: Lee
-    - family: Vanneschi
-      given: Leonardo
-    - family: Moore
-      given: Jason H.
-  citation-key: lacavaMultidimensionalGeneticProgramming2018
-  container-title: Swarm and Evolutionary Computation
-  container-title-short: Swarm and Evolutionary Computation
-  DOI: 10.1016/j.swevo.2018.03.015
-  ISSN: 2210-6502
-  issued:
-    - year: 2018
-      month: 4
-      day: 12
-  publisher: Elsevier
-  source: ScienceDirect
-  title: Multidimensional genetic programming for multiclass classification
-  type: article-journal
-  URL: http://www.sciencedirect.com/science/article/pii/S2210650217309136
-
-- id: lacavaOptimizingFairnessTradeoffs2023a
-  accessed:
-    - year: 2023
-      month: 4
-      day: 28
-  archive: arXiv
-  archive_location: http://arxiv.org/abs/2304.12190
-  author:
-    - family: La Cava
-      given: William G.
-  citation-key: lacavaOptimizingFairnessTradeoffs2023a
-  container-title: Proceedings of the 2023 Genetic and Evolutionary Computation Conference
-  DOI: 10.1145/3583131.3590487
-  event-title: GECCO '23
-  issued:
-    - year: 2023
-      month: 4
-      day: 21
-  note: code=https://cavalab.org/fomo
-  publisher: ACM
-  source: arXiv.org
-  title: >-
-    Optimizing fairness tradeoffs in machine learning with multiobjective
-    meta-models
-  type: paper-conference
-  URL: https://dl.acm.org/doi/10.1145/3583131.3590487
-
-- id: lacavaProbabilisticMultiobjectiveAnalysis2019
-  archive: arXiv
-  archive_location: https://arxiv.org/abs/1709.05394
-  author:
-    - family: La Cava
-      given: William
-    - family: Helmuth
-      given: Thomas
-    - family: Spector
-      given: Lee
-    - family: Moore
-      given: Jason H.
-  citation-key: lacavaProbabilisticMultiobjectiveAnalysis2019
-  container-title: Evolutionary Computation
-  DOI: 10.1162/evco_a_00224
-  ISSN: 1063-6560
-  issue: '3'
-  issued:
-    - year: 2019
-  page: 377–402
-  title: >-
-    A probabilistic and multi-objective analysis of lexicase selection and
-    epsilon-lexicase selection
-  type: article-journal
-  URL: >-
-    https://direct.mit.edu/evco/article-abstract/27/3/377/94969/A-Probabilistic-and-Multi-Objective-Analysis-of
-  volume: '27'
-
-- id: lacavaRestructuringControllersAccommodate2017
-  accessed:
-    - year: 2019
-      month: 10
-      day: 9
-  author:
-    - family: La Cava
-      given: William G.
-    - family: Sahare
-      given: Kushal
-    - family: Danai
-      given: Kourosh
-  citation-key: lacavaRestructuringControllersAccommodate2017
-  container-title: Journal of Dynamic Systems, Measurement, and Control
-  DOI: 10.1115/1.4035870
-  ISSN: 0022-0434, 1528-9028
-  issue: '8'
-  issued:
-    - year: 2017
-      month: 8
-      day: 1
-  language: en
-  page: '081004'
-  source: DOI.org (Crossref)
-  title: Restructuring Controllers to Accommodate Plant Nonlinearities
-  type: article-journal
-  URL: >-
-    https://asmedigitalcollection.asme.org/dynamicsystems/article/doi/10.1115/1.4035870/384813/Restructuring-Controllers-to-Accommodate-Plant
-  volume: '139'
-
-- id: lacavaReviewSymbolicRegression2025
-  accessed:
-    - year: 2025
-      month: 4
-      day: 1
-  author:
-    - family: La Cava
-      given: William G.
-  citation-key: lacavaReviewSymbolicRegression2025
-  container-title: Genetic Programming and Evolvable Machines
-  container-title-short: Genet Program Evolvable Mach
-  DOI: 10.1007/s10710-025-09513-w
-  ISSN: 1573-7632
-  issue: '1'
-  issued:
-    - year: 2025
-      month: 3
-      day: 29
-  language: en
-  page: '15'
-  source: Springer Link
-  title: "A review of “Symbolic Regression” by Gabriel Kronberger, Bogdan Burlacu, Michael Kommenda, Stephan M. Winkler, and Michael Affenzeller, ISBN\_978-1-138-05481-3, 2024, CRC\_Press."
-  type: article-journal
-  URL: https://doi.org/10.1007/s10710-025-09513-w
-  volume: '26'
-
-- id: lacavaSemanticVariationOperators2019
-  accessed:
-    - year: 2024
-      month: 6
-      day: 25
-  archive: arXiv
-  archive_location: http://arxiv.org/abs/1904.08577
-  author:
-    - family: La Cava
-      given: William
-    - family: Moore
-      given: Jason H.
-  citation-key: lacavaSemanticVariationOperators2019
-  collection-title: GECCO '19
-  container-title: Proceedings of the Genetic and Evolutionary Computation Conference
-  DOI: 10.1145/3321707.3321776
-  event-title: GECCO '19
-  ISBN: 978-1-4503-6111-8
-  issued:
-    - year: 2019
-      month: 7
-      day: 13
-  page: 1056–1064
-  publisher: Association for Computing Machinery
-  publisher-place: New York, NY, USA
-  source: ACM Digital Library
-  title: Semantic variation operators for multidimensional genetic programming
-  type: paper-conference
-  URL: https://doi.org/10.1145/3321707.3321776
-
-- id: lettIntersectionalMarginalDebiasing2025
-  accessed:
-    - year: 2025
-      month: 5
-      day: 29
-  archive: PubMed
-  archive_location: https://pmc.ncbi.nlm.nih.gov/articles/PMC12123471/
-  author:
-    - family: Lett
-      given: Elle
-    - family: Shahbandegan
-      given: Shakiba
-    - family: Barak-Corren
-      given: Yuval
-    - family: Fine
-      given: Andrew M.
-    - family: La Cava
-      given: William G.
-  citation-key: lettIntersectionalMarginalDebiasing2025
-  container-title: JAMA Network Open
-  container-title-short: JAMA Network Open
-  DOI: 10.1001/jamanetworkopen.2025.12947
-  ISSN: 2574-3805
-  issue: '5'
-  issued:
-    - year: 2025
-      month: 5
-      day: 29
-  note: code=https://github.com/cavalab/marginal-intersectional
-  page: e2512947
-  source: Silverchair
-  title: >-
-    Intersectional and Marginal Debiasing in Prediction Models for Emergency
-    Admissions
-  type: article-journal
-  URL: https://doi.org/10.1001/jamanetworkopen.2025.12947
-  volume: '8'
-
-- id: lettTranslatingIntersectionalityFair2023a
-  accessed:
-    - year: 2023
-      month: 4
-      day: 28
-  author:
-    - family: Lett
-      given: Elle
-    - family: La Cava
-      given: William G.
-  citation-key: lettTranslatingIntersectionalityFair2023a
-  container-title: Nature Machine Intelligence
-  container-title-short: Nat Mach Intell
-  DOI: 10.1038/s42256-023-00651-3
-  ISSN: 2522-5839
-  issued:
-    - year: 2023
-      month: 4
-      day: 28
-  language: en
-  note: blog=2023/05/05/intersectionality.html
-  page: 1–4
-  source: www.nature.com
-  title: Translating intersectionality to fair machine learning in health sciences
-  type: article-journal
-  URL: https://www.nature.com/articles/s42256-023-00651-3
-
-- id: lukyanenkoAutomatedEchocardiographicDetection2026
-  accessed:
-    - year: 2026
-      month: 1
-      day: 29
-  author:
-    - family: Lukyanenko
-      given: Platon
-    - family: Ghelani
-      given: Sunil
-    - family: Yang
-      given: Yuting
-    - family: Jiang
-      given: Bohan
-    - family: Miller
-      given: Timothy
-    - family: Harrild
-      given: David
-    - family: Sasaki
-      given: Nao
-    - family: Sperotto
-      given: Francesca
-    - family: Sganga
-      given: Danielle
-    - family: Triedman
-      given: John
-    - family: Powell
-      given: Andrew J.
-    - family: Geva
-      given: Tal
-    - family: La Cava
-      given: William G.
-    - family: Mayourian
-      given: Joshua
-  citation-key: lukyanenkoAutomatedEchocardiographicDetection2026
-  DOI: 10.64898/2026.01.24.26344771
-  issued:
-    - year: 2026
-      month: 1
-      day: 26
-  language: en
-  note: code=https://echofocus.org
-  publisher: medRxiv
-  source: medRxiv
-  title: >-
-    Automated Echocardiographic Detection of Congenital Heart Disease Using
-    Artificial Intelligence
-  type: article
-  URL: https://www.medrxiv.org/content/10.64898/2026.01.24.26344771v1
-
-- id: lukyanenkoDeepLearningBasedAutomated2026
-  accessed:
-    - year: 2026
-      month: 2
-      day: 16
-  author:
-    - family: Lukyanenko
-      given: Platon
-    - family: Ghelani
-      given: Sunil
-    - family: Yang
-      given: Yuting
-    - family: Jiang
-      given: Bohan
-    - family: Miller
-      given: Timothy
-    - family: Higgins
-      given: Peter
-    - family: Kirakosian
-      given: Manouk
-    - family: Tracy
-      given: Kaitlyn
-    - family: Kane
-      given: Janet
-    - family: Harrild
-      given: David
-    - family: Triedman
-      given: John
-    - family: Powell
-      given: Andrew J.
-    - family: Geva
-      given: Tal
-    - family: La Cava
-      given: William
-    - family: Mayourian
-      given: Joshua
-  citation-key: lukyanenkoDeepLearningBasedAutomated2026
-  DOI: 10.64898/2026.02.06.26345782
-  ISSN: 3067-2007
-  issued:
-    - year: 2026
-      month: 2
-      day: 9
-  language: en
-  page: 2026.02.06.26345782
-  publisher: medRxiv
-  source: medRxiv
-  title: >-
-    Deep Learning-Based Automated Echocardiographic Measurements in Pediatric
-    and Congenital Heart Disease
-  type: article
-  URL: https://www.medrxiv.org/content/10.64898/2026.02.06.26345782v1
-
-- id: lukyanenkoDeepSurvivalAnalysis2025a
-  accessed:
-    - year: 2026
-      month: 2
-      day: 6
-  archive: PubMed
-  archive_location: https://pubmed.ncbi.nlm.nih.gov/41408648/
-  author:
-    - family: Lukyanenko
-      given: Platon
-    - family: Mayourian
-      given: Joshua
-    - family: Liu
-      given: Mingxuan
-    - family: Triedman
-      given: John K.
-    - family: Ghelani
-      given: Sunil J.
-    - family: La Cava
-      given: William G.
-  citation-key: lukyanenkoDeepSurvivalAnalysis2025a
-  container-title: BioData Mining
-  container-title-short: BioData Mining
-  DOI: 10.1186/s13040-025-00510-4
-  ISSN: 1756-0381
-  issue: '1'
-  issued:
-    - year: 2025
-      month: 12
-      day: 17
-  language: en
-  page: '6'
-  PMCID: PMC12821881
-  PMID: '41408648'
-  source: Springer Link
-  title: >-
-    Deep survival analysis from adult and pediatric electrocardiograms: a
-    multi-center benchmark study
-  title-short: Deep survival analysis from adult and pediatric electrocardiograms
-  type: article-journal
-  URL: https://doi.org/10.1186/s13040-025-00510-4
-  volume: '19'
-
-- id: mayourianDeepLearningBasedElectrocardiogram2024
-  accessed:
-    - year: 2024
-      month: 10
-      day: 3
-  archive: PubMed
-  archive_location: https://pubmed.ncbi.nlm.nih.gov/39168568/
-  author:
-    - family: Mayourian
-      given: Joshua
-    - family: Gearhart
-      given: Addison
-    - family: La Cava
-      given: William G.
-    - family: Vaid
-      given: Akhil
-    - family: Nadkarni
-      given: Girish N.
-    - family: Triedman
-      given: John K.
-    - family: Powell
-      given: Andrew J.
-    - family: Wald
-      given: Rachel M.
-    - family: Valente
-      given: Anne Marie
-    - family: Geva
-      given: Tal
-    - family: Duong
-      given: Son Q.
-    - family: Ghelani
-      given: Sunil J.
-  citation-key: mayourianDeepLearningBasedElectrocardiogram2024
-  container-title: Journal of the American College of Cardiology
-  container-title-short: Journal of the American College of Cardiology
-  DOI: 10.1016/j.jacc.2024.05.062
-  ISSN: '07351097'
-  issue: '9'
-  issued:
-    - year: 2024
-      month: 8
-  language: en
-  page: 815–828
-  source: DOI.org (Crossref)
-  title: >-
-    Deep Learning-Based Electrocardiogram Analysis Predicts Biventricular
-    Dysfunction and Dilation in Congenital Heart Disease
-  type: article-journal
-  URL: https://linkinghub.elsevier.com/retrieve/pii/S0735109724076769
-  volume: '84'
-
-- id: mayourianDeepLearningbasedElectrocardiogram2024a
-  accessed:
-    - year: 2024
-      month: 6
-      day: 26
-  author:
-    - family: Mayourian
-      given: Joshua
-    - family: Gearhart
-      given: Addison
-    - family: La Cava
-      given: William G
-    - family: Triedman
-      given: John K.
-    - family: Powell
-      given: Andrew J.
-    - family: Valente
-      given: Anne Marie
-    - family: Geva
-      given: Tal
-    - family: Ghelani
-      given: Sunil J.
-  citation-key: mayourianDeepLearningbasedElectrocardiogram2024a
-  container-title: Journal of the American College of Cardiology
-  container-title-short: JACC
-  DOI: 10.1016/S0735-1097(24)03587-3
-  issue: 13_Supplement
-  issued:
-    - year: 2024
-      month: 4
-      day: 2
-  page: 1597–1597
-  publisher: American College of Cardiology Foundation
-  source: jacc.org (Atypon)
-  title: >-
-    Deep learning-based electrocardiogram analysis to predict biventricular
-    dysfunction and dilation in congenital heart disease
-  type: article-journal
-  URL: https://www.jacc.org/doi/full/10.1016/S0735-1097%2824%2903587-3
-  volume: '83'
-
-- id: mayourianElectrocardiogrambasedDeepLearning2025
-  accessed:
-    - year: 2025
-      month: 3
-      day: 28
-  archive: PubMed
-  archive_location: https://pubmed.ncbi.nlm.nih.gov/40148010/
-  author:
-    - family: Mayourian
-      given: Joshua
-    - family: Asztalos
-      given: Ivor B.
-    - family: El-Bokl
-      given: Amr
-    - family: Lukyanenko
-      given: Platon
-    - family: Kobayashi
-      given: Ryan L.
-    - family: Cava
-      given: William G. La
-    - family: Ghelani
-      given: Sunil J.
-    - family: Vetter
-      given: Victoria L.
-    - family: Triedman
-      given: John K.
-  citation-key: mayourianElectrocardiogrambasedDeepLearning2025
-  container-title: The Lancet Digital Health
-  container-title-short: The Lancet Digital Health
-  DOI: 10.1016/j.landig.2025.01.001
-  ISSN: 2589-7500
-  issue: '4'
-  issued:
-    - year: 2025
-      month: 4
-      day: 1
-  language: English
-  page: e264-e274
-  PMID: '40148010'
-  publisher: Elsevier
-  source: www.thelancet.com
-  title: >-
-    Electrocardiogram-based deep learning to predict left ventricular systolic
-    dysfunction in paediatric and adult congenital heart disease in the USA: a
-    multicentre modelling study
-  title-short: >-
-    Electrocardiogram-based deep learning to predict left ventricular systolic
-    dysfunction in paediatric and adult congenital heart disease in the USA
-  type: article-journal
-  URL: >-
-    https://www.thelancet.com/journals/landig/article/PIIS2589-7500(25)00001-9/fulltext
-  volume: '7'
-
-- id: mayourianElectrocardiogrambasedDeepLearning2025a
-  accessed:
-    - year: 2025
-      month: 4
-      day: 7
-  archive: PubMed
-  archive_location: https://pubmed.ncbi.nlm.nih.gov/39387652/
-  author:
-    - family: Mayourian
-      given: Joshua
-    - family: El-Bokl
-      given: Amr
-    - family: Lukyanenko
-      given: Platon
-    - family: La Cava
-      given: William G.
-    - family: Geva
-      given: Tal
-    - family: Valente
-      given: Anne Marie
-    - family: Triedman
-      given: John K
-    - family: Ghelani
-      given: Sunil J
-  citation-key: mayourianElectrocardiogrambasedDeepLearning2025a
-  container-title: European Heart Journal
-  container-title-short: European Heart Journal
-  DOI: 10.1093/eurheartj/ehae651
-  ISSN: 0195-668X
-  issue: '9'
-  issued:
-    - year: 2025
-      month: 3
-      day: 1
-  page: 856–868
-  source: Silverchair
-  title: >-
-    Electrocardiogram-based deep learning to predict mortality in paediatric and
-    adult congenital heart disease
-  type: article-journal
-  URL: https://doi.org/10.1093/eurheartj/ehae651
-  volume: '46'
-
-- id: mayourianExpertLevelAutomatedDiagnosis2025
-  accessed:
-    - year: 2025
-      month: 3
-      day: 17
-  author:
-    - family: Mayourian
-      given: Joshua
-    - family: La Cava
-      given: William G.
-    - family: Ferranti
-      given: Sarah D.
-      non-dropping-particle: de
-    - family: Mah
-      given: Douglas
-    - family: Alexander
-      given: Mark
-    - family: Walsh
-      given: Edward
-    - family: Triedman
-      given: John K.
-  citation-key: mayourianExpertLevelAutomatedDiagnosis2025
-  container-title: 'JACC: Clinical Electrophysiology'
-  container-title-short: 'JACC: Clinical Electrophysiology'
-  DOI: 10.1016/j.jacep.2025.02.003
-  ISSN: 2405-500X
-  issued:
-    - year: 2025
-      month: 3
-      day: 17
-  source: ScienceDirect
-  title: "Expert-Level Automated Diagnosis of the\_Pediatric ECG Using a Deep Neural\_Network"
-  type: article-journal
-  URL: https://www.sciencedirect.com/science/article/pii/S2405500X25000829
-
-- id: mayourianPediatricECGBasedDeep2024
-  accessed:
-    - year: 2024
-      month: 4
-      day: 23
-  author:
-    - family: Mayourian
-      given: Joshua
-    - family: La Cava
-      given: William G.
-    - family: Vaid
-      given: Akhil
-    - family: Nadkarni
-      given: Girish N.
-    - family: Ghelani
-      given: Sunil J.
-    - family: Mannix
-      given: Rebekah
-    - family: Geva
-      given: Tal
-    - family: Dionne
-      given: Audrey
-    - family: Alexander
-      given: Mark E.
-    - family: Duong
-      given: Son Q.
-    - family: Triedman
-      given: John K.
-  citation-key: mayourianPediatricECGBasedDeep2024
-  container-title: Circulation
-  DOI: 10.1161/CIRCULATIONAHA.123.067750
-  issue: '12'
-  issued:
-    - year: 2024
-      month: 3
-      day: 19
-  page: 917–931
-  publisher: American Heart Association
-  source: ahajournals.org (Atypon)
-  title: >-
-    Pediatric ECG-Based Deep Learning to Predict Left Ventricular Dysfunction
-    and Remodeling
-  type: article-journal
-  URL: https://www.ahajournals.org/doi/full/10.1161/CIRCULATIONAHA.123.067750
-  volume: '149'
-
-- id: mayourianPediatricElectrocardiogramBasedDeep2024
-  accessed:
-    - year: 2024
-      month: 7
-      day: 6
-  author:
-    - family: Mayourian
-      given: Joshua
-    - family: Geggel
-      given: Robert
-    - family: La Cava
-      given: William G.
-    - family: Ghelani
-      given: Sunil J.
-    - family: Triedman
-      given: John K.
-  citation-key: mayourianPediatricElectrocardiogramBasedDeep2024
-  container-title: Pediatric Cardiology
-  container-title-short: Pediatr Cardiol
-  DOI: 10.1007/s00246-024-03540-7
-  ISSN: 1432-1971
-  issued:
-    - year: 2024
-      month: 7
-      day: 2
-  language: en
-  source: Springer Link
-  title: >-
-    Pediatric Electrocardiogram-Based Deep Learning to Predict Secundum Atrial
-    Septal Defects
-  type: article-journal
-  URL: https://doi.org/10.1007/s00246-024-03540-7
-
-- id: mccoyAccuracyDeepLearning2024
-  accessed:
-    - year: 2024
-      month: 2
-      day: 9
-  author:
-    - family: McCoy
-      given: Jennifer A.
-    - family: Wan
-      given: Guangya
-    - family: Levine
-      given: Lisa D.
-    - family: Teel
-      given: Joseph
-    - family: Holmes
-      given: John
-    - literal: William G. La Cava
-  citation-key: mccoyAccuracyDeepLearning2024
-  container-title: American Journal of Obstetrics and Gynecology
-  container-title-short: American Journal of Obstetrics and Gynecology
-  DOI: 10.1016/j.ajog.2023.11.267
-  ISSN: '00029378'
-  issue: '1'
-  issued:
-    - year: 2024
-      month: 1
-  language: en
-  page: S144-S145
-  source: DOI.org (Crossref)
-  title: >-
-    Accuracy of deep learning models in interpreting intrapartum fetal
-    monitoring to predict fetal acidemia
-  type: article-journal
-  URL: https://linkinghub.elsevier.com/retrieve/pii/S0002937823010694
-  volume: '230'
-
-- id: mccoyIntrapartumElectronicFetal2024
-  accessed:
-    - year: 2024
-      month: 4
-      day: 30
-  archive: PubMed
-  archive_location: https://pubmed.ncbi.nlm.nih.gov/38663662/
-  author:
-    - family: McCoy
-      given: Jennifer A.
-    - family: Levine
-      given: Lisa D.
-    - family: Wan
-      given: Guangya
-    - family: Chivers
-      given: Corey
-    - family: Teel
-      given: Joseph
-    - family: La Cava
-      given: William G.
-  citation-key: mccoyIntrapartumElectronicFetal2024
-  container-title: American Journal of Obstetrics and Gynecology
-  container-title-short: AJOG
-  DOI: 10.1016/j.ajog.2024.04.022
-  ISSN: 0002-9378
-  issued:
-    - year: 2024
-      month: 4
-      day: 24
-  note: code=https://github.com/cavalab/ai-efm
-  source: ScienceDirect
-  title: >-
-    Intrapartum electronic fetal heart rate monitoring to predict acidemia at
-    birth with the use of deep learning
-  type: article-journal
-  URL: https://www.sciencedirect.com/science/article/pii/S0002937824005283
-
-- id: milaBenefitDoubtPhenomenon2026
-  accessed:
-    - year: 2026
-      month: 2
-      day: 14
-  author:
-    - family: Mila
-      given: Blanca Romero
-    - family: Coggan
-      given: Helena
-    - family: Fine
-      given: Andrew M.
-    - family: Barak-Corren
-      given: Yuval
-    - family: Reis
-      given: Ben Y.
-    - family: Aysola
-      given: Jaya
-    - family: Chaudhari
-      given: Pradip
-    - family: La Cava
-      given: William G.
-  citation-key: milaBenefitDoubtPhenomenon2026
-  DOI: 10.64898/2026.02.12.26346184
-  issued:
-    - year: 2026
-      month: 2
-      day: 14
-  language: en
-  note: code=https://github.com/cavalab/esi
-  number: https://www.medrxiv.org/content/10.64898/2026.02.12.26346184v1
-  publisher: medRxiv
-  source: medRxiv
-  title: >-
-    The Benefit of the Doubt Phenomenon in Emergency Triage Assignment
-    Disparities
-  type: article
-  URL: https://www.medrxiv.org/content/10.64898/2026.02.12.26346184v1
-
-- id: olsonDatadrivenAdviceApplying2017
-  archive: arXiv
-  archive_location: http://arxiv.org/abs/1708.05070
-  author:
-    - family: Olson
-      given: Randal S.
-    - family: La Cava
-      given: William
-    - family: Mustahsan
-      given: Zairah
-    - family: Varik
-      given: Akshay
-    - family: Moore
-      given: Jason H.
-  citation-key: olsonDatadrivenAdviceApplying2017
-  container-title: Pacific Symposium on Biocomputing (PSB)
-  issued:
-    - year: 2017
-      month: 8
-      day: 8
-  note: '*: contributed equally'
-  source: arXiv.org
-  title: Data-driven Advice for Applying Machine Learning to Bioinformatics Problems
-  type: paper-conference
-  URL: https://psb.stanford.edu/psb-online/proceedings/psb18/olson.pdf
-
-- id: olsonPMLBLargeBenchmark2017
-  archive: arXiv
-  archive_location: https://arxiv.org/abs/1703.00512
-  author:
-    - family: Olson
-      given: Randal S.
-    - family: La Cava
-      given: William
-    - family: Orzechowski
-      given: Patryk
-    - family: Urbanowicz
-      given: Ryan J.
-    - family: Moore
-      given: Jason H.
-  citation-key: olsonPMLBLargeBenchmark2017
-  container-title: BioData Mining
-  issued:
-    - year: 2017
-  note: arXiv preprint arXiv:1703.00512
-  source: Google Scholar
-  title: 'PMLB: A Large Benchmark Suite for Machine Learning Evaluation and Comparison'
-  title-short: PMLB
-  type: article-journal
-  URL: https://biodatamining.biomedcentral.com/articles/10.1186/s13040-017-0154-4
-
-- id: olsonSystemAccessibleArtificial2017
-  archive: arXiv
-  archive_location: https://arxiv.org/abs/1705.00594
-  author:
-    - family: Olson
-      given: Randal S
-    - family: Sipper
-      given: Moshe
-    - family: La Cava
-      given: William
-    - family: Tartarone
-      given: Sharon
-    - family: Vitale
-      given: Steven
-    - family: Fu
-      given: Weixuan
-    - family: Holmes
-      given: John H
-    - family: Moore
-      given: Jason H.
-  citation-key: olsonSystemAccessibleArtificial2017
-  container-title: Genetic Programming Theory and Practice XIV
-  issued:
-    - year: 2017
-  publisher: Springer
-  title: A System for Accessible Artificial Intelligence
-  type: chapter
-  URL: https://link.springer.com/chapter/10.1007/978-3-319-90512-9_8
-
-- id: orzechowskiComparativeStudyGPbased2022
-  accessed:
-    - year: 2024
-      month: 7
-      day: 8
-  author:
-    - family: Orzechowski
-      given: Patryk
-    - family: Renc
-      given: Paweł
-    - family: La Cava
-      given: William
-    - family: Moore
-      given: Jason H.
-    - family: Sitek
-      given: Arkadiusz
-    - family: Wąs
-      given: Jaroslaw
-    - family: Wagenaar
-      given: Joost
-  citation-key: orzechowskiComparativeStudyGPbased2022
-  container-title: Proceedings of the Genetic and Evolutionary Computation Conference Companion
-  DOI: 10.1145/3520304.3529056
-  event-title: 'GECCO ''22: Genetic and Evolutionary Computation Conference'
-  ISBN: 978-1-4503-9268-6
-  issued:
-    - year: 2022
-      month: 7
-      day: 9
-  language: en
-  page: 276–279
-  publisher: ACM
-  publisher-place: Boston Massachusetts
-  source: DOI.org (Crossref)
-  title: >-
-    A comparative study of GP-based and state-of-the-art classifiers on a
-    synthetic machine learning benchmark
-  type: paper-conference
-  URL: https://dl.acm.org/doi/10.1145/3520304.3529056
-
-- id: orzechowskiWhereAreWe2018b
-  archive: arXiv
-  archive_location: http://arxiv.org/abs/1804.09331
-  author:
-    - family: Orzechowski
-      given: Patryk
-    - family: La Cava
-      given: William
-    - family: Moore
-      given: Jason H.
-  citation-key: orzechowskiWhereAreWe2018b
-  collection-title: GECCO '18
-  container-title: Proceedings of the 2018 Genetic and Evolutionary Computation Conference
-  DOI: 10.1145/3205455.3205539
-  event-title: GECCO '18
-  issued:
-    - year: 2018
-      month: 4
-  title: >-
-    Where are we now? A large benchmark study of recent symbolic regression
-    methods
-  title-short: Where are we now?
-  type: paper-conference
-  URL: https://dl.acm.org/doi/10.1145/3205455.3205539
-
-- id: poteatEffectsRaceGender2023
-  accessed:
-    - year: 2023
-      month: 12
-      day: 4
-  author:
-    - family: Poteat
-      given: Tonia
-    - family: Lett
-      given: Elle
-    - family: Rich
-      given: Ashleigh J.
-    - family: Jiang
-      given: Huijun
-    - family: Wirtz
-      given: Andrea L.
-    - family: Radix
-      given: Asa
-    - family: Reisner
-      given: Sari L.
-    - family: Harris
-      given: Alexander B.
-    - family: Malone
-      given: Jowanna
-    - family: La Cava
-      given: William G.
-    - family: Lesko
-      given: Catherine R.
-    - family: Mayer
-      given: Kenneth H.
-    - family: Streed
-      given: Carl G.
-  citation-key: poteatEffectsRaceGender2023
-  container-title: Health Equity
-  DOI: 10.1089/heq.2023.0066
-  issue: '1'
-  issued:
-    - year: 2023
-      month: 11
-  page: 803–808
-  publisher: Mary Ann Liebert, Inc., publishers
-  source: liebertpub.com (Atypon)
-  title: >-
-    Effects of Race and Gender Classifications on Atherosclerotic Cardiovascular
-    Disease Risk Estimates for Clinical Decision-Making in a Cohort of Black
-    Transgender Women
-  type: article-journal
-  URL: https://www.liebertpub.com/doi/10.1089/heq.2023.0066
-  volume: '7'
-
-- id: reisIntegratedAlignment2025
-  accessed:
-    - year: 2025
-      month: 8
-      day: 12
-  author:
-    - family: Reis
-      given: Ben Y.
-    - family: La Cava
-      given: William G.
-  citation-key: reisIntegratedAlignment2025
-  DOI: 10.48550/arXiv.2508.06592
-  issued:
-    - year: 2025
-      month: 8
-      day: 8
-  number: arXiv:2508.06592
-  publisher: arXiv
-  source: arXiv.org
-  title: Towards Integrated Alignment
-  type: article
-  URL: http://arxiv.org/abs/2508.06592
-
-- id: rodriguesExploringSLUGFeature2023
-  accessed:
-    - year: 2023
-      month: 12
-      day: 21
-  author:
-    - family: Rodrigues
-      given: Nuno M.
-    - family: Batista
-      given: João E.
-    - family: La Cava
-      given: William G
-    - family: Vanneschi
-      given: Leonardo
-    - family: Silva
-      given: Sara
-  citation-key: rodriguesExploringSLUGFeature2023
-  container-title: SN Computer Science
-  container-title-short: SN COMPUT. SCI.
-  DOI: 10.1007/s42979-023-02106-3
-  ISSN: 2661-8907
-  issue: '1'
-  issued:
-    - year: 2023
-      month: 12
-      day: 12
-  language: en
-  page: '91'
-  source: Springer Link
-  title: >-
-    Exploring SLUG: Feature Selection Using Genetic Algorithms and Genetic
-    Programming
-  title-short: Exploring SLUG
-  type: article-journal
-  URL: https://doi.org/10.1007/s42979-023-02106-3
-  volume: '5'
-
-- id: rodriguesSLUGFeatureSelection2022
-  accessed:
-    - year: 2024
-      month: 7
-      day: 8
-  author:
-    - family: Rodrigues
-      given: Nuno M.
-    - family: Batista
-      given: João E.
-    - family: La Cava
-      given: William
-    - family: Vanneschi
-      given: Leonardo
-    - family: Silva
-      given: Sara
-  citation-key: rodriguesSLUGFeatureSelection2022
-  collection-title: Lecture Notes in Computer Science
-  container-title: European Conference on Genetic Programming (EuroGP)
-  DOI: 10.1007/978-3-031-02056-8_5
-  editor:
-    - family: Medvet
-      given: Eric
-    - family: Pappa
-      given: Gisele
-    - family: Xue
-      given: Bing
-  ISBN: 978-3-031-02055-1 978-3-031-02056-8
-  issued:
-    - year: 2022
-  language: en
-  page: 68–84
-  publisher: Springer International Publishing
-  publisher-place: Cham
-  source: DOI.org (Crossref)
-  title: 'SLUG: Feature Selection Using Genetic Algorithms and Genetic Programming'
-  title-short: SLUG
-  type: chapter
-  URL: https://link.springer.com/10.1007/978-3-031-02056-8_5
-  volume: '13223'
-
-- id: romanoPMLBV10Opensource2022
-  accessed:
-    - year: 2024
-      month: 6
-      day: 25
-  archive: arXiv
-  archive_location: https://arxiv.org/abs/2012.00058
-  author:
-    - family: Romano
-      given: Joseph D
-    - family: Le
-      given: Trang T
-    - family: La Cava
-      given: William
-    - family: Gregg
-      given: John T
-    - family: Goldberg
-      given: Daniel J
-    - family: Chakraborty
-      given: Praneel
-    - family: Ray
-      given: Natasha L
-    - family: Himmelstein
-      given: Daniel
-    - family: Fu
-      given: Weixuan
-    - family: Moore
-      given: Jason H
-  citation-key: romanoPMLBV10Opensource2022
-  container-title: Bioinformatics
-  container-title-short: Bioinformatics
-  DOI: 10.1093/bioinformatics/btab727
-  ISSN: 1367-4803
-  issue: '3'
-  issued:
-    - year: 2022
-      month: 1
-      day: 12
-  page: 878–880
-  source: Silverchair
-  title: >-
-    PMLB v1.0: an open-source dataset collection for benchmarking machine
-    learning methods
-  title-short: PMLB v1.0
-  type: article-journal
-  URL: https://academic.oup.com/bioinformatics/article/38/3/878/6408434
-  volume: '38'
-
-- id: spectorRelaxationsLexicaseParent2018
-  author:
-    - family: Spector
-      given: Lee
-    - family: La Cava
-      given: William
-    - family: Shanabrook
-      given: Saul
-    - family: Helmuth
-      given: Thomas
-    - family: Pantridge
-      given: Edward
-  citation-key: spectorRelaxationsLexicaseParent2018
-  container-title: Genetic Programming Theory and Practice XV
-  issued:
-    - year: 2018
-  page: 105–120
-  publisher: Springer
-  source: Google Scholar
-  title: Relaxations of lexicase parent selection
-  type: chapter
-  URL: https://link.springer.com/chapter/10.1007/978-3-319-90512-9_7
-
-- id: tanInformativeMissingnessWhat2023
-  accessed:
+- accessed:
     - year: 2023
       month: 4
       day: 4
@@ -2414,7 +782,6 @@ references:
       given: Danielle L.
     - family: Holmes
       given: John H.
-  citation-key: tanInformativeMissingnessWhat2023
   container-title: Journal of Biomedical Informatics
   container-title-short: Journal of Biomedical Informatics
   DOI: 10.1016/j.jbi.2023.104306
@@ -2434,8 +801,765 @@ references:
   URL: https://www.sciencedirect.com/science/article/pii/S1532046423000278
   volume: '139'
 
-- id: teeleInvestigationNovelNoninvasive2025
-  accessed:
+- accessed:
+    - year: 2023
+      month: 4
+      day: 28
+  author:
+    - family: Lett
+      given: Elle
+    - family: La Cava
+      given: William G.
+  container-title: Nature Machine Intelligence
+  container-title-short: Nat Mach Intell
+  DOI: 10.1038/s42256-023-00651-3
+  ISSN: 2522-5839
+  issued:
+    - year: 2023
+      month: 4
+      day: 28
+  language: en
+  note: blog=2023/05/05/intersectionality.html
+  page: 1–4
+  source: www.nature.com
+  title: Translating intersectionality to fair machine learning in health sciences
+  type: article-journal
+  URL: https://www.nature.com/articles/s42256-023-00651-3
+
+- accessed:
+    - year: 2023
+      month: 4
+      day: 28
+  archive: arXiv
+  archive_location: http://arxiv.org/abs/2304.12190
+  author:
+    - family: La Cava
+      given: William G.
+  container-title: Proceedings of the 2023 Genetic and Evolutionary Computation Conference
+  DOI: 10.1145/3583131.3590487
+  event-title: GECCO '23
+  issued:
+    - year: 2023
+      month: 4
+      day: 21
+  note: code=https://cavalab.org/fomo
+  publisher: ACM
+  source: arXiv.org
+  title: >-
+    Optimizing fairness tradeoffs in machine learning with multiobjective
+    meta-models
+  type: paper-conference
+  URL: https://dl.acm.org/doi/10.1145/3583131.3590487
+
+- accessed:
+    - year: 2023
+      month: 4
+      day: 28
+  author:
+    - family: Urbanowicz
+      given: Ryan J.
+    - family: Meeker
+      given: Melissa
+    - family: La Cava
+      given: William
+    - family: Olson
+      given: Randal S.
+    - family: Moore
+      given: Jason H.
+  container-title: Journal of Biomedical Informatics
+  container-title-short: Journal of Biomedical Informatics
+  DOI: 10.1016/j.jbi.2018.07.014
+  ISSN: 1532-0464
+  issued:
+    - year: 2018
+      month: 9
+      day: 1
+  language: en
+  page: 189–203
+  source: ScienceDirect
+  title: 'Relief-based feature selection: Introduction and review'
+  title-short: Relief-based feature selection
+  type: article-journal
+  URL: https://www.sciencedirect.com/science/article/pii/S1532046418301400
+  volume: '85'
+
+- accessed:
+    - year: 2023
+      month: 7
+      day: 2
+  archive: medRxiv
+  archive_location: https://www.medrxiv.org/content/10.1101/2020.12.12.20248005v2
+  author:
+    - family: La Cava
+      given: William G.
+    - family: Lee
+      given: Paul C.
+    - family: Ajmal
+      given: Imran
+    - family: Ding
+      given: Xiruo
+    - family: Solanki
+      given: Priyanka
+    - family: Cohen
+      given: Jordana B.
+    - family: Moore
+      given: Jason H.
+    - family: Herman
+      given: Daniel S.
+  container-title: npj Digital Medicine
+  container-title-short: npj Digit. Med.
+  DOI: 10.1038/s41746-023-00833-8
+  ISSN: 2398-6352
+  issue: '1'
+  issued:
+    - year: 2023
+      month: 6
+      day: 5
+  language: en
+  note: >-
+    code=https://github.com/cavalab/feat, award=HUMIES Silver Medal,
+    awardlink=https://www.human-competitive.org/awards,
+    blog=2023/09/02/humies.html
+  page: 1–14
+  source: www.nature.com
+  title: >-
+    A flexible symbolic regression method for constructing interpretable
+    clinical prediction models
+  type: article-journal
+  URL: https://www.nature.com/articles/s41746-023-00833-8
+  volume: '6'
+
+- accessed:
+    - year: 2023
+      month: 6
+      day: 20
+  author:
+    - family: La Cava
+      given: William G.
+    - family: Lett
+      given: Elle
+    - family: Wan
+      given: Guangya
+  container-title: Proceedings of the Conference on Health, Inference, and Learning
+  event-title: Conference on Health, Inference, and Learning
+  issued:
+    - year: 2023
+      month: 6
+      day: 13
+  language: en
+  note: code=https://github.com/cavalab/pmcboost, award=Best Paper Award
+  page: 350–378
+  publisher: PMLR
+  source: proceedings.mlr.press
+  title: Fair admission risk prediction with proportional multicalibration
+  type: paper-conference
+  URL: https://proceedings.mlr.press/v209/la-cava23a.html
+
+- accessed:
+    - year: 2023
+      month: 12
+      day: 4
+  author:
+    - family: Poteat
+      given: Tonia
+    - family: Lett
+      given: Elle
+    - family: Rich
+      given: Ashleigh J.
+    - family: Jiang
+      given: Huijun
+    - family: Wirtz
+      given: Andrea L.
+    - family: Radix
+      given: Asa
+    - family: Reisner
+      given: Sari L.
+    - family: Harris
+      given: Alexander B.
+    - family: Malone
+      given: Jowanna
+    - family: La Cava
+      given: William G.
+    - family: Lesko
+      given: Catherine R.
+    - family: Mayer
+      given: Kenneth H.
+    - family: Streed
+      given: Carl G.
+  container-title: Health Equity
+  DOI: 10.1089/heq.2023.0066
+  issue: '1'
+  issued:
+    - year: 2023
+      month: 11
+  page: 803–808
+  publisher: Mary Ann Liebert, Inc., publishers
+  source: liebertpub.com (Atypon)
+  title: >-
+    Effects of Race and Gender Classifications on Atherosclerotic Cardiovascular
+    Disease Risk Estimates for Clinical Decision-Making in a Cohort of Black
+    Transgender Women
+  type: article-journal
+  URL: https://www.liebertpub.com/doi/10.1089/heq.2023.0066
+  volume: '7'
+
+- accessed:
+    - year: 2023
+      month: 12
+      day: 21
+  author:
+    - family: Rodrigues
+      given: Nuno M.
+    - family: Batista
+      given: João E.
+    - family: La Cava
+      given: William G
+    - family: Vanneschi
+      given: Leonardo
+    - family: Silva
+      given: Sara
+  container-title: SN Computer Science
+  container-title-short: SN COMPUT. SCI.
+  DOI: 10.1007/s42979-023-02106-3
+  ISSN: 2661-8907
+  issue: '1'
+  issued:
+    - year: 2023
+      month: 12
+      day: 12
+  language: en
+  page: '91'
+  source: Springer Link
+  title: >-
+    Exploring SLUG: Feature Selection Using Genetic Algorithms and Genetic
+    Programming
+  title-short: Exploring SLUG
+  type: article-journal
+  URL: https://doi.org/10.1007/s42979-023-02106-3
+  volume: '5'
+
+- accessed:
+    - year: 2024
+      month: 2
+      day: 9
+  author:
+    - family: McCoy
+      given: Jennifer A.
+    - family: Wan
+      given: Guangya
+    - family: Levine
+      given: Lisa D.
+    - family: Teel
+      given: Joseph
+    - family: Holmes
+      given: John
+    - literal: William G. La Cava
+  container-title: American Journal of Obstetrics and Gynecology
+  container-title-short: American Journal of Obstetrics and Gynecology
+  DOI: 10.1016/j.ajog.2023.11.267
+  ISSN: '00029378'
+  issue: '1'
+  issued:
+    - year: 2024
+      month: 1
+  language: en
+  page: S144-S145
+  source: DOI.org (Crossref)
+  title: >-
+    Accuracy of deep learning models in interpreting intrapartum fetal
+    monitoring to predict fetal acidemia
+  type: article-journal
+  URL: https://linkinghub.elsevier.com/retrieve/pii/S0002937823010694
+  volume: '230'
+
+- accessed:
+    - year: 2024
+      month: 7
+      day: 11
+  archive: arXiv
+  archive_location: https://arxiv.org/abs/2404.05909
+  author:
+    - family: Aldeia
+      given: Guilherme Seidyo Imai
+    - family: De França
+      given: Fabrício Olivetti
+    - family: La Cava
+      given: William G.
+  container-title: Proceedings of the Genetic and Evolutionary Computation Conference
+  DOI: 10.1145/3638529.3654149
+  event-title: 'GECCO ''24: Genetic and Evolutionary Computation Conference'
+  ISBN: 979-8-4007-0494-9
+  issued:
+    - year: 2024
+      month: 7
+      day: 14
+  language: en
+  note: code= https://github.com/gAldeia/srbench/tree/feat_split_benchmark
+  page: 905–913
+  publisher: ACM
+  publisher-place: Melbourne VIC Australia
+  source: DOI.org (Crossref)
+  title: Minimum variance threshold for epsilon-lexicase selection
+  type: paper-conference
+  URL: https://dl.acm.org/doi/10.1145/3638529.3654149
+
+- accessed:
+    - year: 2024
+      month: 4
+      day: 23
+  author:
+    - family: Mayourian
+      given: Joshua
+    - family: La Cava
+      given: William G.
+    - family: Vaid
+      given: Akhil
+    - family: Nadkarni
+      given: Girish N.
+    - family: Ghelani
+      given: Sunil J.
+    - family: Mannix
+      given: Rebekah
+    - family: Geva
+      given: Tal
+    - family: Dionne
+      given: Audrey
+    - family: Alexander
+      given: Mark E.
+    - family: Duong
+      given: Son Q.
+    - family: Triedman
+      given: John K.
+  container-title: Circulation
+  DOI: 10.1161/CIRCULATIONAHA.123.067750
+  issue: '12'
+  issued:
+    - year: 2024
+      month: 3
+      day: 19
+  page: 917–931
+  publisher: American Heart Association
+  source: ahajournals.org (Atypon)
+  title: >-
+    Pediatric ECG-Based Deep Learning to Predict Left Ventricular Dysfunction
+    and Remodeling
+  type: article-journal
+  URL: https://www.ahajournals.org/doi/full/10.1161/CIRCULATIONAHA.123.067750
+  volume: '149'
+
+- accessed:
+    - year: 2024
+      month: 4
+      day: 30
+  archive: PubMed
+  archive_location: https://pubmed.ncbi.nlm.nih.gov/38663662/
+  author:
+    - family: McCoy
+      given: Jennifer A.
+    - family: Levine
+      given: Lisa D.
+    - family: Wan
+      given: Guangya
+    - family: Chivers
+      given: Corey
+    - family: Teel
+      given: Joseph
+    - family: La Cava
+      given: William G.
+  container-title: American Journal of Obstetrics and Gynecology
+  container-title-short: AJOG
+  DOI: 10.1016/j.ajog.2024.04.022
+  ISSN: 0002-9378
+  issued:
+    - year: 2024
+      month: 4
+      day: 24
+  note: code=https://github.com/cavalab/ai-efm
+  source: ScienceDirect
+  title: >-
+    Intrapartum electronic fetal heart rate monitoring to predict acidemia at
+    birth with the use of deep learning
+  type: article-journal
+  URL: https://www.sciencedirect.com/science/article/pii/S0002937824005283
+
+- accessed:
+    - year: 2024
+      month: 6
+      day: 25
+  archive: arXiv
+  archive_location: http://arxiv.org/abs/1904.08577
+  author:
+    - family: La Cava
+      given: William
+    - family: Moore
+      given: Jason H.
+  collection-title: GECCO '19
+  container-title: Proceedings of the Genetic and Evolutionary Computation Conference
+  DOI: 10.1145/3321707.3321776
+  event-title: GECCO '19
+  ISBN: 978-1-4503-6111-8
+  issued:
+    - year: 2019
+      month: 7
+      day: 13
+  page: 1056–1064
+  publisher: Association for Computing Machinery
+  publisher-place: New York, NY, USA
+  source: ACM Digital Library
+  title: Semantic variation operators for multidimensional genetic programming
+  type: paper-conference
+  URL: https://doi.org/10.1145/3321707.3321776
+
+- accessed:
+    - year: 2024
+      month: 6
+      day: 25
+  archive: arXiv
+  archive_location: http://arxiv.org/abs/2404.05898
+  author:
+    - family: Aldeia
+      given: Guilherme Seidyo Imai
+    - family: Franca
+      given: Fabricio Olivetti
+      non-dropping-particle: de
+    - family: La Cava
+      given: William G.
+  container-title: Proceedings of the Genetic and Evolutionary Computation Conference
+  DOI: 10.1145/3638529.3654147
+  event-title: 'GECCO ''24: Genetic and Evolutionary Computation Conference'
+  ISBN: 979-8-4007-0494-9
+  issued:
+    - year: 2024
+      month: 7
+      day: 14
+  note: >-
+    code= https://github.com/gAldeia/hashing-symbolic-expressions,
+    blog=/2024/04/14/inexact-simplification.html
+  page: 896–904
+  publisher: ACM
+  publisher-place: Melbourne VIC Australia
+  source: arXiv.org
+  title: >-
+    Inexact Simplification of Symbolic Regression Expressions with
+    Locality-sensitive Hashing
+  type: paper-conference
+
+- accessed:
+    - year: 2024
+      month: 6
+      day: 25
+  archive: arXiv
+  archive_location: https://arxiv.org/abs/2012.00058
+  author:
+    - family: Romano
+      given: Joseph D
+    - family: Le
+      given: Trang T
+    - family: La Cava
+      given: William
+    - family: Gregg
+      given: John T
+    - family: Goldberg
+      given: Daniel J
+    - family: Chakraborty
+      given: Praneel
+    - family: Ray
+      given: Natasha L
+    - family: Himmelstein
+      given: Daniel
+    - family: Fu
+      given: Weixuan
+    - family: Moore
+      given: Jason H
+  container-title: Bioinformatics
+  container-title-short: Bioinformatics
+  DOI: 10.1093/bioinformatics/btab727
+  ISSN: 1367-4803
+  issue: '3'
+  issued:
+    - year: 2022
+      month: 1
+      day: 12
+  page: 878–880
+  source: Silverchair
+  title: >-
+    PMLB v1.0: an open-source dataset collection for benchmarking machine
+    learning methods
+  title-short: PMLB v1.0
+  type: article-journal
+  URL: https://academic.oup.com/bioinformatics/article/38/3/878/6408434
+  volume: '38'
+
+- accessed:
+    - year: 2024
+      month: 6
+      day: 26
+  author:
+    - family: Mayourian
+      given: Joshua
+    - family: Gearhart
+      given: Addison
+    - family: La Cava
+      given: William G
+    - family: Triedman
+      given: John K.
+    - family: Powell
+      given: Andrew J.
+    - family: Valente
+      given: Anne Marie
+    - family: Geva
+      given: Tal
+    - family: Ghelani
+      given: Sunil J.
+  container-title: Journal of the American College of Cardiology
+  container-title-short: JACC
+  DOI: 10.1016/S0735-1097(24)03587-3
+  issue: 13_Supplement
+  issued:
+    - year: 2024
+      month: 4
+      day: 2
+  page: 1597–1597
+  publisher: American College of Cardiology Foundation
+  source: jacc.org (Atypon)
+  title: >-
+    Deep learning-based electrocardiogram analysis to predict biventricular
+    dysfunction and dilation in congenital heart disease
+  type: article-journal
+  URL: https://www.jacc.org/doi/full/10.1016/S0735-1097%2824%2903587-3
+  volume: '83'
+
+- accessed:
+    - year: 2024
+      month: 7
+      day: 6
+  archive: arXiv
+  archive_location: https://arxiv.org/abs/2304.01117
+  author:
+    - family: Franca
+      given: F. O.
+      non-dropping-particle: de
+    - family: Virgolin
+      given: M.
+    - family: Kommenda
+      given: M.
+    - family: Majumder
+      given: M. S.
+    - family: Cranmer
+      given: M.
+    - family: Espada
+      given: G.
+    - family: Ingelse
+      given: L.
+    - family: Fonseca
+      given: A.
+    - family: Landajuela
+      given: M.
+    - family: Petersen
+      given: B.
+    - family: Glatt
+      given: R.
+    - family: Mundhenk
+      given: N.
+    - family: Lee
+      given: C. S.
+    - family: Hochhalter
+      given: J. D.
+    - family: Randall
+      given: D. L.
+    - family: Kamienny
+      given: P.
+    - family: Zhang
+      given: H.
+    - family: Dick
+      given: G.
+    - family: Simon
+      given: A.
+    - family: Burlacu
+      given: B.
+    - family: Kasak
+      given: Jaan
+    - family: Machado
+      given: Meera
+    - family: Wilstrup
+      given: Casper
+    - family: La Cava
+      given: W. G.
+  container-title: IEEE Transactions on Evolutionary Computation
+  DOI: 10.1109/TEVC.2024.3423681
+  ISSN: 1941-0026
+  issued:
+    - year: 2024
+      month: 7
+      day: 4
+  note: code=https://cavalab.org/srbench
+  page: 1–1
+  source: IEEE Xplore
+  title: >-
+    SRBench++: Principled Benchmarking of Symbolic Regression With Domain-Expert
+    Interpretation
+  title-short: SRBench++
+  type: article-journal
+  URL: https://ieeexplore.ieee.org/document/10586218/?arnumber=10586218
+
+- accessed:
+    - year: 2024
+      month: 7
+      day: 6
+  author:
+    - family: Mayourian
+      given: Joshua
+    - family: Geggel
+      given: Robert
+    - family: La Cava
+      given: William G.
+    - family: Ghelani
+      given: Sunil J.
+    - family: Triedman
+      given: John K.
+  container-title: Pediatric Cardiology
+  container-title-short: Pediatr Cardiol
+  DOI: 10.1007/s00246-024-03540-7
+  ISSN: 1432-1971
+  issued:
+    - year: 2024
+      month: 7
+      day: 2
+  language: en
+  source: Springer Link
+  title: >-
+    Pediatric Electrocardiogram-Based Deep Learning to Predict Secundum Atrial
+    Septal Defects
+  type: article-journal
+  URL: https://doi.org/10.1007/s00246-024-03540-7
+
+- accessed:
+    - year: 2024
+      month: 7
+      day: 8
+  author:
+    - family: Rodrigues
+      given: Nuno M.
+    - family: Batista
+      given: João E.
+    - family: La Cava
+      given: William
+    - family: Vanneschi
+      given: Leonardo
+    - family: Silva
+      given: Sara
+  collection-title: Lecture Notes in Computer Science
+  container-title: European Conference on Genetic Programming (EuroGP)
+  DOI: 10.1007/978-3-031-02056-8_5
+  editor:
+    - family: Medvet
+      given: Eric
+    - family: Pappa
+      given: Gisele
+    - family: Xue
+      given: Bing
+  ISBN: 978-3-031-02055-1 978-3-031-02056-8
+  issued:
+    - year: 2022
+  language: en
+  page: 68–84
+  publisher: Springer International Publishing
+  publisher-place: Cham
+  source: DOI.org (Crossref)
+  title: 'SLUG: Feature Selection Using Genetic Algorithms and Genetic Programming'
+  title-short: SLUG
+  type: chapter
+  URL: https://link.springer.com/10.1007/978-3-031-02056-8_5
+  volume: '13223'
+
+- accessed:
+    - year: 2024
+      month: 7
+      day: 8
+  author:
+    - family: Orzechowski
+      given: Patryk
+    - family: Renc
+      given: Paweł
+    - family: La Cava
+      given: William
+    - family: Moore
+      given: Jason H.
+    - family: Sitek
+      given: Arkadiusz
+    - family: Wąs
+      given: Jaroslaw
+    - family: Wagenaar
+      given: Joost
+  container-title: Proceedings of the Genetic and Evolutionary Computation Conference Companion
+  DOI: 10.1145/3520304.3529056
+  event-title: 'GECCO ''22: Genetic and Evolutionary Computation Conference'
+  ISBN: 978-1-4503-9268-6
+  issued:
+    - year: 2022
+      month: 7
+      day: 9
+  language: en
+  page: 276–279
+  publisher: ACM
+  publisher-place: Boston Massachusetts
+  source: DOI.org (Crossref)
+  title: >-
+    A comparative study of GP-based and state-of-the-art classifiers on a
+    synthetic machine learning benchmark
+  type: paper-conference
+  URL: https://dl.acm.org/doi/10.1145/3520304.3529056
+
+- accessed:
+    - year: 2024
+      month: 10
+      day: 3
+  archive: PubMed
+  archive_location: https://pubmed.ncbi.nlm.nih.gov/39168568/
+  author:
+    - family: Mayourian
+      given: Joshua
+    - family: Gearhart
+      given: Addison
+    - family: La Cava
+      given: William G.
+    - family: Vaid
+      given: Akhil
+    - family: Nadkarni
+      given: Girish N.
+    - family: Triedman
+      given: John K.
+    - family: Powell
+      given: Andrew J.
+    - family: Wald
+      given: Rachel M.
+    - family: Valente
+      given: Anne Marie
+    - family: Geva
+      given: Tal
+    - family: Duong
+      given: Son Q.
+    - family: Ghelani
+      given: Sunil J.
+  container-title: Journal of the American College of Cardiology
+  container-title-short: Journal of the American College of Cardiology
+  DOI: 10.1016/j.jacc.2024.05.062
+  ISSN: '07351097'
+  issue: '9'
+  issued:
+    - year: 2024
+      month: 8
+  language: en
+  page: 815–828
+  source: DOI.org (Crossref)
+  title: >-
+    Deep Learning-Based Electrocardiogram Analysis Predicts Biventricular
+    Dysfunction and Dilation in Congenital Heart Disease
+  type: article-journal
+  URL: https://linkinghub.elsevier.com/retrieve/pii/S0735109724076769
+  volume: '84'
+
+- accessed:
     - year: 2025
       month: 1
       day: 24
@@ -2454,7 +1578,6 @@ references:
       given: Steven M.
     - family: Salvin
       given: Joshua W.
-  citation-key: teeleInvestigationNovelNoninvasive2025
   container-title: Critical Care Explorations
   DOI: 10.1097/CCE.0000000000001204
   ISSN: 2639-8028
@@ -2474,42 +1597,452 @@ references:
   URL: https://journals.lww.com/10.1097/CCE.0000000000001204
   volume: '7'
 
-- id: urbanowiczReliefbasedFeatureSelection2018
-  accessed:
-    - year: 2023
-      month: 4
-      day: 28
+- accessed:
+    - year: 2025
+      month: 3
+      day: 17
   author:
-    - family: Urbanowicz
-      given: Ryan J.
-    - family: Meeker
-      given: Melissa
+    - family: Mayourian
+      given: Joshua
+    - family: La Cava
+      given: William G.
+    - family: Ferranti
+      given: Sarah D.
+      non-dropping-particle: de
+    - family: Mah
+      given: Douglas
+    - family: Alexander
+      given: Mark
+    - family: Walsh
+      given: Edward
+    - family: Triedman
+      given: John K.
+  container-title: 'JACC: Clinical Electrophysiology'
+  container-title-short: 'JACC: Clinical Electrophysiology'
+  DOI: 10.1016/j.jacep.2025.02.003
+  ISSN: 2405-500X
+  issued:
+    - year: 2025
+      month: 3
+      day: 17
+  source: ScienceDirect
+  title: "Expert-Level Automated Diagnosis of the\_Pediatric ECG Using a Deep Neural\_Network"
+  type: article-journal
+  URL: https://www.sciencedirect.com/science/article/pii/S2405500X25000829
+
+- accessed:
+    - year: 2025
+      month: 3
+      day: 28
+  archive: PubMed
+  archive_location: https://pubmed.ncbi.nlm.nih.gov/40148010/
+  author:
+    - family: Mayourian
+      given: Joshua
+    - family: Asztalos
+      given: Ivor B.
+    - family: El-Bokl
+      given: Amr
+    - family: Lukyanenko
+      given: Platon
+    - family: Kobayashi
+      given: Ryan L.
+    - family: Cava
+      given: William G. La
+    - family: Ghelani
+      given: Sunil J.
+    - family: Vetter
+      given: Victoria L.
+    - family: Triedman
+      given: John K.
+  container-title: The Lancet Digital Health
+  container-title-short: The Lancet Digital Health
+  DOI: 10.1016/j.landig.2025.01.001
+  ISSN: 2589-7500
+  issue: '4'
+  issued:
+    - year: 2025
+      month: 4
+      day: 1
+  language: English
+  page: e264-e274
+  PMID: '40148010'
+  publisher: Elsevier
+  source: www.thelancet.com
+  title: >-
+    Electrocardiogram-based deep learning to predict left ventricular systolic
+    dysfunction in paediatric and adult congenital heart disease in the USA: a
+    multicentre modelling study
+  title-short: >-
+    Electrocardiogram-based deep learning to predict left ventricular systolic
+    dysfunction in paediatric and adult congenital heart disease in the USA
+  type: article-journal
+  URL: >-
+    https://www.thelancet.com/journals/landig/article/PIIS2589-7500(25)00001-9/fulltext
+  volume: '7'
+
+- accessed:
+    - year: 2025
+      month: 4
+      day: 1
+  author:
+    - family: Coggan
+      given: Helena
+    - family: Chaudhari
+      given: Pradip
+    - family: Barak-Corren
+      given: Yuval
+    - family: Fine
+      given: Andrew M.
+    - family: Reis
+      given: Ben Y.
+    - family: Aysola
+      given: Jaya
+    - family: Cava
+      given: William G. La
+  DOI: 10.48550/arXiv.2503.22781
+  issued:
+    - year: 2025
+      month: 3
+      day: 28
+  number: arXiv:2503.22781
+  publisher: arXiv
+  source: arXiv.org
+  title: >-
+    Demographic Factors Associated with Triage Acuity, Admission and Length of
+    Stay During Adult Emergency Department Visits
+  type: article
+  URL: http://arxiv.org/abs/2503.22781
+
+- accessed:
+    - year: 2025
+      month: 4
+      day: 1
+  author:
+    - family: La Cava
+      given: William G.
+  container-title: Genetic Programming and Evolvable Machines
+  container-title-short: Genet Program Evolvable Mach
+  DOI: 10.1007/s10710-025-09513-w
+  ISSN: 1573-7632
+  issue: '1'
+  issued:
+    - year: 2025
+      month: 3
+      day: 29
+  language: en
+  page: '15'
+  source: Springer Link
+  title: "A review of “Symbolic Regression” by Gabriel Kronberger, Bogdan Burlacu, Michael Kommenda, Stephan M. Winkler, and Michael Affenzeller, ISBN\_978-1-138-05481-3, 2024, CRC\_Press."
+  type: article-journal
+  URL: https://doi.org/10.1007/s10710-025-09513-w
+  volume: '26'
+
+- accessed:
+    - year: 2025
+      month: 4
+      day: 7
+  archive: PubMed
+  archive_location: https://pubmed.ncbi.nlm.nih.gov/39387652/
+  author:
+    - family: Mayourian
+      given: Joshua
+    - family: El-Bokl
+      given: Amr
+    - family: Lukyanenko
+      given: Platon
+    - family: La Cava
+      given: William G.
+    - family: Geva
+      given: Tal
+    - family: Valente
+      given: Anne Marie
+    - family: Triedman
+      given: John K
+    - family: Ghelani
+      given: Sunil J
+  container-title: European Heart Journal
+  container-title-short: European Heart Journal
+  DOI: 10.1093/eurheartj/ehae651
+  ISSN: 0195-668X
+  issue: '9'
+  issued:
+    - year: 2025
+      month: 3
+      day: 1
+  page: 856–868
+  source: Silverchair
+  title: >-
+    Electrocardiogram-based deep learning to predict mortality in paediatric and
+    adult congenital heart disease
+  type: article-journal
+  URL: https://doi.org/10.1093/eurheartj/ehae651
+  volume: '46'
+
+- accessed:
+    - year: 2025
+      month: 5
+      day: 23
+  author:
+    - family: Aldeia
+      given: Guilherme
+    - family: Moon
+      given: Clara
+    - family: Shulman
+      given: Julie
+    - family: Sethna
+      given: Navil
+    - family: Smith
+      given: Allison
+    - family: Lebel
+      given: Alyssa
     - family: La Cava
       given: William
-    - family: Olson
-      given: Randal S.
-    - family: Moore
-      given: Jason H.
-  citation-key: urbanowiczReliefbasedFeatureSelection2018
-  container-title: Journal of Biomedical Informatics
-  container-title-short: Journal of Biomedical Informatics
-  DOI: 10.1016/j.jbi.2018.07.014
-  ISSN: 1532-0464
+    - family: Holmes
+      given: Scott
+  container-title: The Journal of Pain
   issued:
-    - year: 2018
-      month: 9
+    - year: 2025
+      month: 4
       day: 1
-  language: en
-  page: 189–203
-  source: ScienceDirect
-  title: 'Relief-based feature selection: Introduction and review'
-  title-short: Relief-based feature selection
+  publisher: Elsevier
+  source: Google Scholar
+  title: >-
+    Application of Artificial Neural Networks and Functional Brain Connectivity
+    to Inform Pediatric Headache
   type: article-journal
-  URL: https://www.sciencedirect.com/science/article/pii/S1532046418301400
-  volume: '85'
+  URL: https://www.jpain.org/article/S1526-5900(25)00366-9/abstract
+  volume: '29'
 
-- id: yangRobustAIECGPredicting2025
-  accessed:
+- accessed:
+    - year: 2025
+      month: 5
+      day: 29
+  archive: PubMed
+  archive_location: https://pmc.ncbi.nlm.nih.gov/articles/PMC12123471/
+  author:
+    - family: Lett
+      given: Elle
+    - family: Shahbandegan
+      given: Shakiba
+    - family: Barak-Corren
+      given: Yuval
+    - family: Fine
+      given: Andrew M.
+    - family: La Cava
+      given: William G.
+  container-title: JAMA Network Open
+  container-title-short: JAMA Network Open
+  DOI: 10.1001/jamanetworkopen.2025.12947
+  ISSN: 2574-3805
+  issue: '5'
+  issued:
+    - year: 2025
+      month: 5
+      day: 29
+  note: code=https://github.com/cavalab/marginal-intersectional
+  page: e2512947
+  source: Silverchair
+  title: >-
+    Intersectional and Marginal Debiasing in Prediction Models for Emergency
+    Admissions
+  type: article-journal
+  URL: https://doi.org/10.1001/jamanetworkopen.2025.12947
+  volume: '8'
+
+- accessed:
+    - year: 2025
+      month: 6
+      day: 18
+  archive: PubMed
+  archive_location: https://pubmed.ncbi.nlm.nih.gov/40523223/
+  author:
+    - family: Gallifant
+      given: Jack
+    - family: Chen
+      given: Shan
+    - family: Jain
+      given: Sandeep K.
+    - family: Moreira
+      given: Pedro
+    - family: Topaloglu
+      given: Umit
+    - family: Aerts
+      given: Hugo J.W.L.
+    - family: Warner
+      given: Jeremy L.
+    - family: La Cava
+      given: William G.
+    - family: Bitterman
+      given: Danielle S.
+  container-title: JCO Clinical Cancer Informatics
+  container-title-short: JCO Clin Cancer Inform
+  DOI: 10.1200/CCI-24-00257
+  issue: '9'
+  issued:
+    - year: 2025
+      month: 6
+  page: e2400257
+  publisher: Wolters Kluwer
+  source: ascopubs-org.ezp-prod1.hul.harvard.edu (Atypon)
+  title: >-
+    Reliability of Large Language Model Knowledge Across Brand and Generic
+    Cancer Drug Names
+  type: article-journal
+  URL: https://ascopubs.org/doi/10.1200/CCI-24-00257
+
+- accessed:
+    - year: 2025
+      month: 6
+      day: 24
+  author:
+    - family: Ghelani
+      given: Sunil J.
+    - family: Thatte
+      given: Nikhil
+    - family: La Cava
+      given: William
+    - family: Triedman
+      given: John K.
+    - family: Mayourian
+      given: Joshua
+  container-title: Pediatric Cardiology
+  container-title-short: Pediatr Cardiol
+  DOI: 10.1007/s00246-025-03916-3
+  ISSN: 1432-1971
+  issued:
+    - year: 2025
+      month: 6
+      day: 16
+  language: en
+  page: 1–7
+  publisher: Springer
+  source: link-springer-com.ezp-prod1.hul.harvard.edu
+  title: >-
+    Artificial Intelligence-Enabled ECG to Detect Congenitally Corrected
+    Transposition of the Great Arteries
+  type: article-journal
+  URL: https://link.springer.com/article/10.1007/s00246-025-03916-3
+
+- accessed:
+    - year: 2025
+      month: 8
+      day: 12
+  author:
+    - family: Reis
+      given: Ben Y.
+    - family: La Cava
+      given: William G.
+  DOI: 10.48550/arXiv.2508.06592
+  issued:
+    - year: 2025
+      month: 8
+      day: 8
+  number: arXiv:2508.06592
+  publisher: arXiv
+  source: arXiv.org
+  title: Towards Integrated Alignment
+  type: article
+  URL: http://arxiv.org/abs/2508.06592
+
+- accessed:
+    - year: 2025
+      month: 8
+      day: 25
+  archive: arXiv
+  archive_location: http://arxiv.org/abs/2505.03977
+  author:
+    - family: Imai Aldeia
+      given: Guilherme Seidyo
+    - family: Zhang
+      given: Hengzhe
+    - family: Bomarito
+      given: Geoffrey
+    - family: Cranmer
+      given: Miles
+    - family: Fonseca
+      given: Alcides
+    - family: Burlacu
+      given: Bogdan
+    - family: La Cava
+      given: William G.
+    - family: França
+      given: Fabrício Olivetti
+      non-dropping-particle: de
+  collection-title: GECCO '25 Companion
+  container-title: Proceedings of the Genetic and Evolutionary Computation Conference Companion
+  DOI: 10.1145/3712255.3734309
+  ISBN: 979-8-4007-1464-1
+  issued:
+    - year: 2025
+      month: 8
+  page: 2529–2538
+  publisher: Association for Computing Machinery
+  publisher-place: New York, NY, USA
+  source: ACM Digital Library
+  title: >-
+    Call for Action: towards the next generation of symbolic regression
+    benchmark
+  title-short: Call for Action
+  type: paper-conference
+  URL: https://dl.acm.org/doi/10.1145/3712255.3734309
+
+- accessed:
+    - year: 2025
+      month: 8
+      day: 28
+  archive: arXiv
+  archive_location: http://arxiv.org/abs/2405.05506
+  author:
+    - family: Chen
+      given: Shan
+    - family: Gallifant
+      given: Jack
+    - family: Gao
+      given: Mingye
+    - family: Moreira
+      given: Pedro
+    - family: Munch
+      given: Nikolaj
+    - family: Muthukkumar
+      given: Ajay
+    - family: Rajan
+      given: Arvind
+    - family: Kolluri
+      given: Jaya
+    - family: Fiske
+      given: Amelia
+    - family: Hastings
+      given: Janna
+    - family: Aerts
+      given: Hugo
+    - family: Anthony
+      given: Brian
+    - family: Celi
+      given: Leo A.
+    - family: La Cava
+      given: William G.
+    - family: Bitterman
+      given: Danielle S.
+  container-title: Advances in Neural Information Processing Systems
+  container-title-short: NeurIPS
+  issued:
+    - year: 2024
+      month: 12
+      day: 16
+  language: en
+  page: 23756–23795
+  source: proceedings.neurips.cc
+  title: >-
+    Cross-Care: Assessing the Healthcare Implications of Pre-training Data on
+    Language Model Bias
+  title-short: Cross-Care
+  type: article-journal
+  URL: >-
+    https://proceedings.neurips.cc/paper_files/paper/2024/hash/2a617efee5815f12b405d40569dea0a5-Abstract-Datasets_and_Benchmarks_Track.html
+  volume: '37'
+
+- accessed:
     - year: 2025
       month: 9
       day: 27
@@ -2526,7 +2059,6 @@ references:
       given: Timothy
     - family: Cava
       given: William G. La
-  citation-key: yangRobustAIECGPredicting2025
   DOI: 10.48550/arXiv.2509.19564
   issued:
     - year: 2025
@@ -2541,4 +2073,339 @@ references:
     Pediatric Congenital Heart Disease
   type: article
   URL: http://arxiv.org/abs/2509.19564
+
+- accessed:
+    - year: 2025
+      month: 10
+      day: 6
+  archive: arXiv
+  archive_location: http://arxiv.org/abs/2510.02841
+  author:
+    - family: Coggan
+      given: Helena
+    - family: Bischops
+      given: Anne
+    - family: Chaudhari
+      given: Pradip
+    - family: Barak-Corren
+      given: Yuval
+    - family: Fine
+      given: Andrew M.
+    - family: Reis
+      given: Ben Y.
+    - family: Aysola
+      given: Jaya
+    - family: Cava
+      given: William G. La
+  DOI: 10.48550/arXiv.2510.02841
+  event-title: Pacific Symposium on Biocomputing
+  issued:
+    - year: 2025
+      month: 10
+      day: 31
+  note: code=https://github.com/hcoggan/BCH-ED, blog=/2025/10/24/ed-admissions.html
+  publisher: World Scientific Publishing Company
+  title: >-
+    Deciphering the influence of demographic factors on the treatment of
+    pediatric patients in the emergency department
+  type: paper-conference
+  URL: https://psb.stanford.edu/psb-online/proceedings/psb26/
+
+- accessed:
+    - year: 2025
+      month: 10
+      day: 8
+  archive: arXiv
+  archive_location: http://arxiv.org/abs/2508.05581
+  author:
+    - family: Aldeia
+      given: Guilherme Seidyo Imai
+    - family: Herman
+      given: Daniel S.
+    - family: Cava
+      given: William La
+  container-title: Proceedings of the 10th Machine Learning for Healthcare Conference
+  event-title: Machine Learning for Healthcare Conference
+  issued:
+    - year: 2025
+      month: 10
+      day: 7
+  language: en
+  note: code=https://github.com/cavalab/htn-phenotyping-with-llms
+  publisher: PMLR
+  source: proceedings.mlr.press
+  title: >-
+    Iterative Learning of Computable Phenotypes for Treatment Resistant
+    Hypertension using Large Language Models
+  type: paper-conference
+  URL: https://proceedings.mlr.press/v298/aldeia25a.html
+
+- accessed:
+    - year: 2026
+      month: 1
+      day: 29
+  author:
+    - family: Lukyanenko
+      given: Platon
+    - family: Ghelani
+      given: Sunil
+    - family: Yang
+      given: Yuting
+    - family: Jiang
+      given: Bohan
+    - family: Miller
+      given: Timothy
+    - family: Harrild
+      given: David
+    - family: Sasaki
+      given: Nao
+    - family: Sperotto
+      given: Francesca
+    - family: Sganga
+      given: Danielle
+    - family: Triedman
+      given: John
+    - family: Powell
+      given: Andrew J.
+    - family: Geva
+      given: Tal
+    - family: La Cava
+      given: William G.
+    - family: Mayourian
+      given: Joshua
+  DOI: 10.64898/2026.01.24.26344771
+  issued:
+    - year: 2026
+      month: 1
+      day: 26
+  language: en
+  note: code=https://echofocus.org
+  publisher: medRxiv
+  source: medRxiv
+  title: >-
+    Automated Echocardiographic Detection of Congenital Heart Disease Using
+    Artificial Intelligence
+  type: article
+  URL: https://www.medrxiv.org/content/10.64898/2026.01.24.26344771v1
+
+- accessed:
+    - year: 2026
+      month: 2
+      day: 5
+  archive: PubMed
+  archive_location: https://pubmed.ncbi.nlm.nih.gov/41372617/
+  author:
+    - family: La Cava
+      given: William G.
+    - family: Cohen
+      given: I. Glenn
+    - family: Aysola
+      given: Jaya
+  container-title: npj Digital Medicine
+  container-title-short: npj Digit. Med.
+  DOI: 10.1038/s41746-025-02224-7
+  ISSN: 2398-6352
+  issue: '1'
+  issued:
+    - year: 2025
+      month: 12
+      day: 10
+  language: en
+  note: code=https://github.com/cavalab/aca-example
+  page: '49'
+  PMCID: PMC12804706
+  PMID: '41372617'
+  publisher: Nature Publishing Group
+  source: www.nature.com
+  title: >-
+    The future of algorithmic nondiscrimination compliance in the affordable
+    care act
+  type: article-journal
+  URL: https://www.nature.com/articles/s41746-025-02224-7
+  volume: '9'
+
+- accessed:
+    - year: 2026
+      month: 2
+      day: 6
+  archive: PubMed
+  archive_location: https://pubmed.ncbi.nlm.nih.gov/41408648/
+  author:
+    - family: Lukyanenko
+      given: Platon
+    - family: Mayourian
+      given: Joshua
+    - family: Liu
+      given: Mingxuan
+    - family: Triedman
+      given: John K.
+    - family: Ghelani
+      given: Sunil J.
+    - family: La Cava
+      given: William G.
+  container-title: BioData Mining
+  container-title-short: BioData Mining
+  DOI: 10.1186/s13040-025-00510-4
+  ISSN: 1756-0381
+  issue: '1'
+  issued:
+    - year: 2025
+      month: 12
+      day: 17
+  language: en
+  page: '6'
+  PMCID: PMC12821881
+  PMID: '41408648'
+  source: Springer Link
+  title: >-
+    Deep survival analysis from adult and pediatric electrocardiograms: a
+    multi-center benchmark study
+  title-short: Deep survival analysis from adult and pediatric electrocardiograms
+  type: article-journal
+  URL: https://doi.org/10.1186/s13040-025-00510-4
+  volume: '19'
+
+- id: lacavaProbabilisticMultiobjectiveAnalysis2019
+  archive: arXiv
+  archive_location: https://arxiv.org/abs/1709.05394
+  author:
+    - family: La Cava
+      given: William
+    - family: Helmuth
+      given: Thomas
+    - family: Spector
+      given: Lee
+    - family: Moore
+      given: Jason H.
+  citation-key: lacavaProbabilisticMultiobjectiveAnalysis2019
+  container-title: Evolutionary Computation
+  DOI: 10.1162/evco_a_00224
+  ISSN: 1063-6560
+  issue: '3'
+  issued:
+    - year: 2019
+  page: 377–402
+  title: >-
+    A probabilistic and multi-objective analysis of lexicase selection and
+    epsilon-lexicase selection
+  type: article-journal
+  URL: >-
+    https://direct.mit.edu/evco/article-abstract/27/3/377/94969/A-Probabilistic-and-Multi-Objective-Analysis-of
+  volume: '27'
+
+- id: lukyanenkoDeepLearningBasedAutomated2026
+  accessed:
+    - year: 2026
+      month: 2
+      day: 16
+  author:
+    - family: Lukyanenko
+      given: Platon
+    - family: Ghelani
+      given: Sunil
+    - family: Yang
+      given: Yuting
+    - family: Jiang
+      given: Bohan
+    - family: Miller
+      given: Timothy
+    - family: Higgins
+      given: Peter
+    - family: Kirakosian
+      given: Manouk
+    - family: Tracy
+      given: Kaitlyn
+    - family: Kane
+      given: Janet
+    - family: Harrild
+      given: David
+    - family: Triedman
+      given: John
+    - family: Powell
+      given: Andrew J.
+    - family: Geva
+      given: Tal
+    - family: La Cava
+      given: William
+    - family: Mayourian
+      given: Joshua
+  citation-key: lukyanenkoDeepLearningBasedAutomated2026
+  DOI: 10.64898/2026.02.06.26345782
+  issued:
+    - year: 2026
+      month: 2
+      day: 9
+  language: en
+  note: code=https://echofocus.org
+  publisher: medRxiv
+  source: medRxiv
+  title: >-
+    Deep Learning-Based Automated Echocardiographic Measurements in Pediatric
+    and Congenital Heart Disease
+  type: article
+  URL: https://www.medrxiv.org/content/10.64898/2026.02.06.26345782v1
+
+- id: milaBenefitDoubtPhenomenon2026
+  accessed:
+    - year: 2026
+      month: 2
+      day: 14
+  author:
+    - family: Mila
+      given: Blanca Romero
+    - family: Coggan
+      given: Helena
+    - family: Fine
+      given: Andrew M.
+    - family: Barak-Corren
+      given: Yuval
+    - family: Reis
+      given: Ben Y.
+    - family: Aysola
+      given: Jaya
+    - family: Chaudhari
+      given: Pradip
+    - family: La Cava
+      given: William G.
+  citation-key: milaBenefitDoubtPhenomenon2026
+  DOI: 10.64898/2026.02.12.26346184
+  issued:
+    - year: 2026
+      month: 2
+      day: 14
+  language: en
+  note: code=https://github.com/cavalab/esi
+  number: https://www.medrxiv.org/content/10.64898/2026.02.12.26346184v1
+  publisher: medRxiv
+  source: medRxiv
+  title: >-
+    The Benefit of the Doubt Phenomenon in Emergency Triage Assignment
+    Disparities
+  type: article
+  URL: https://www.medrxiv.org/content/10.64898/2026.02.12.26346184v1
+
+- id: orzechowskiWhereAreWe2018b
+  archive: arXiv
+  archive_location: http://arxiv.org/abs/1804.09331
+  author:
+    - family: Orzechowski
+      given: Patryk
+    - family: La Cava
+      given: William
+    - family: Moore
+      given: Jason H.
+  citation-key: orzechowskiWhereAreWe2018b
+  collection-title: GECCO '18
+  container-title: Proceedings of the 2018 Genetic and Evolutionary Computation Conference
+  DOI: 10.1145/3205455.3205539
+  event-title: GECCO '18
+  issued:
+    - year: 2018
+      month: 4
+  title: >-
+    Where are we now? A large benchmark study of recent symbolic regression
+    methods
+  title-short: Where are we now?
+  type: paper-conference
+  URL: https://dl.acm.org/doi/10.1145/3205455.3205539
 ...
