@@ -18,8 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Cava Lab
-subtitle: &subtitle Advancing trustworthy digital health
+title: CAVA Lab
+subtitle: &subtitle Clinical AI Value Alignment 
 email: william.lacava@childrens.harvard.edu
 # email: {% william.lacava@childrens.harvard.edu
 description: *subtitle

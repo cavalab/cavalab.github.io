@@ -1893,39 +1893,6 @@ references:
 
 - accessed:
     - year: 2025
-      month: 6
-      day: 24
-  author:
-    - family: Ghelani
-      given: Sunil J.
-    - family: Thatte
-      given: Nikhil
-    - family: La Cava
-      given: William
-    - family: Triedman
-      given: John K.
-    - family: Mayourian
-      given: Joshua
-  container-title: Pediatric Cardiology
-  container-title-short: Pediatr Cardiol
-  DOI: 10.1007/s00246-025-03916-3
-  ISSN: 1432-1971
-  issued:
-    - year: 2025
-      month: 6
-      day: 16
-  language: en
-  page: 1–7
-  publisher: Springer
-  source: link-springer-com.ezp-prod1.hul.harvard.edu
-  title: >-
-    Artificial Intelligence-Enabled ECG to Detect Congenitally Corrected
-    Transposition of the Great Arteries
-  type: article-journal
-  URL: https://link.springer.com/article/10.1007/s00246-025-03916-3
-
-- accessed:
-    - year: 2025
       month: 8
       day: 12
   author:
@@ -2077,43 +2044,6 @@ references:
 - accessed:
     - year: 2025
       month: 10
-      day: 6
-  archive: arXiv
-  archive_location: http://arxiv.org/abs/2510.02841
-  author:
-    - family: Coggan
-      given: Helena
-    - family: Bischops
-      given: Anne
-    - family: Chaudhari
-      given: Pradip
-    - family: Barak-Corren
-      given: Yuval
-    - family: Fine
-      given: Andrew M.
-    - family: Reis
-      given: Ben Y.
-    - family: Aysola
-      given: Jaya
-    - family: Cava
-      given: William G. La
-  DOI: 10.48550/arXiv.2510.02841
-  event-title: Pacific Symposium on Biocomputing
-  issued:
-    - year: 2025
-      month: 10
-      day: 31
-  note: code=https://github.com/hcoggan/BCH-ED, blog=/2025/10/24/ed-admissions.html
-  publisher: World Scientific Publishing Company
-  title: >-
-    Deciphering the influence of demographic factors on the treatment of
-    pediatric patients in the emergency department
-  type: paper-conference
-  URL: https://psb.stanford.edu/psb-online/proceedings/psb26/
-
-- accessed:
-    - year: 2025
-      month: 10
       day: 8
   archive: arXiv
   archive_location: http://arxiv.org/abs/2508.05581
@@ -2139,54 +2069,6 @@ references:
     Hypertension using Large Language Models
   type: paper-conference
   URL: https://proceedings.mlr.press/v298/aldeia25a.html
-
-- accessed:
-    - year: 2026
-      month: 1
-      day: 29
-  author:
-    - family: Lukyanenko
-      given: Platon
-    - family: Ghelani
-      given: Sunil
-    - family: Yang
-      given: Yuting
-    - family: Jiang
-      given: Bohan
-    - family: Miller
-      given: Timothy
-    - family: Harrild
-      given: David
-    - family: Sasaki
-      given: Nao
-    - family: Sperotto
-      given: Francesca
-    - family: Sganga
-      given: Danielle
-    - family: Triedman
-      given: John
-    - family: Powell
-      given: Andrew J.
-    - family: Geva
-      given: Tal
-    - family: La Cava
-      given: William G.
-    - family: Mayourian
-      given: Joshua
-  DOI: 10.64898/2026.01.24.26344771
-  issued:
-    - year: 2026
-      month: 1
-      day: 26
-  language: en
-  note: code=https://echofocus.org
-  publisher: medRxiv
-  source: medRxiv
-  title: >-
-    Automated Echocardiographic Detection of Congenital Heart Disease Using
-    Artificial Intelligence
-  type: article
-  URL: https://www.medrxiv.org/content/10.64898/2026.01.24.26344771v1
 
 - accessed:
     - year: 2026
@@ -2265,6 +2147,80 @@ references:
   URL: https://doi.org/10.1186/s13040-025-00510-4
   volume: '19'
 
+- id: cogganDecipheringInfluenceDemographic2025
+  accessed:
+    - year: 2025
+      month: 10
+      day: 6
+  archive: arXiv
+  archive_location: http://arxiv.org/abs/2510.02841
+  author:
+    - family: Coggan
+      given: Helena
+    - family: Bischops
+      given: Anne
+    - family: Chaudhari
+      given: Pradip
+    - family: Barak-Corren
+      given: Yuval
+    - family: Fine
+      given: Andrew M.
+    - family: Reis
+      given: Ben Y.
+    - family: Aysola
+      given: Jaya
+    - family: Cava
+      given: William G. La
+  citation-key: cogganDecipheringInfluenceDemographic2025
+  DOI: 10.48550/arXiv.2510.02841
+  event-title: Pacific Symposium on Biocomputing
+  issued:
+    - year: 2025
+      month: 10
+      day: 31
+  note: code=https://github.com/hcoggan/BCH-ED, blog=/2025/10/24/ed-admissions.html
+  publisher: World Scientific Publishing Company
+  title: >-
+    Deciphering the influence of demographic factors on the treatment of
+    pediatric patients in the emergency department
+  type: paper-conference
+  URL: https://psb.stanford.edu/psb-online/proceedings/psb26/
+
+- id: ghelaniArtificialIntelligenceEnabledECG2025
+  accessed:
+    - year: 2025
+      month: 6
+      day: 24
+  author:
+    - family: Ghelani
+      given: Sunil J.
+    - family: Thatte
+      given: Nikhil
+    - family: La Cava
+      given: William
+    - family: Triedman
+      given: John K.
+    - family: Mayourian
+      given: Joshua
+  citation-key: ghelaniArtificialIntelligenceEnabledECG2025
+  container-title: Pediatric Cardiology
+  container-title-short: Pediatr Cardiol
+  DOI: 10.1007/s00246-025-03916-3
+  ISSN: 1432-1971
+  issued:
+    - year: 2025
+      month: 6
+      day: 16
+  language: en
+  page: 1–7
+  publisher: Springer
+  source: link-springer-com.ezp-prod1.hul.harvard.edu
+  title: >-
+    Artificial Intelligence-Enabled ECG to Detect Congenitally Corrected
+    Transposition of the Great Arteries
+  type: article-journal
+  URL: https://link.springer.com/article/10.1007/s00246-025-03916-3
+
 - id: lacavaProbabilisticMultiobjectiveAnalysis2019
   archive: arXiv
   archive_location: https://arxiv.org/abs/1709.05394
@@ -2292,6 +2248,61 @@ references:
   URL: >-
     https://direct.mit.edu/evco/article-abstract/27/3/377/94969/A-Probabilistic-and-Multi-Objective-Analysis-of
   volume: '27'
+
+- id: lukyanenkoAutomatedEchocardiographicDetection
+  accessed:
+    - year: 2026
+      month: 3
+      day: 31
+  archive: medRxiv
+  archive_location: https://www.medrxiv.org/content/10.64898/2026.01.24.26344771v1
+  author:
+    - family: Lukyanenko
+      given: Platon
+    - family: Ghelani
+      given: Sunil
+    - family: Yang
+      given: Yuting
+    - family: Jiang
+      given: Bohan
+    - family: Miller
+      given: Timothy
+    - family: Harrild
+      given: David
+    - family: Sasaki
+      given: Nao
+    - family: Sperotto
+      given: Francesca
+    - family: Sganga
+      given: Danielle
+    - family: Triedman
+      given: John
+    - family: Powell
+      given: Andrew
+    - family: Geva
+      given: Tal
+    - family: La Cava
+      given: William G.
+    - family: Mayourian
+      given: Joshua
+  citation-key: lukyanenkoAutomatedEchocardiographicDetection
+  container-title: Circulation
+  DOI: 10.1161/CIRCULATIONAHA.126.079781
+  issue: '0'
+  issued:
+    - year: 2026
+      month: 3
+      day: 28
+  note: code=https://echofocus.org
+  PMID: '41902792'
+  publisher: American Heart Association
+  source: ahajournals.org (Atypon)
+  title: >-
+    Automated Echocardiographic Detection of Congenital Heart Disease Using
+    Artificial Intelligence
+  type: article-journal
+  URL: https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.126.079781
+  volume: '0'
 
 - id: lukyanenkoDeepLearningBasedAutomated2026
   accessed:
