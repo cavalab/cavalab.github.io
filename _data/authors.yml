@@ -46,7 +46,7 @@ bill:
       url: "https://www.linkedin.com/in/williamlacava/"
 
 guilherme:
-  name: Guilherme Imai Aldeia, PhD
+  name: Guilherme Aldeia, PhD
   bio: Postdoctoral Fellow
   avatar: "../assets/images/aldeia.jpeg" 
   home: "members/Aldeia-Guilherme"
@@ -58,7 +58,9 @@ guilherme:
       icon: *linkedin
       url: "https://www.linkedin.com/in/guilherme-aldeia-0a8a0b21b/"
   about: | 
-    Guilherme Aldeia is a Ph.D. student in the field of Computer Science at the Universidade Federal do ABC. He graduated in Computer Science and Neuroscience, obtained a Master's degree in Computer Science, and is interested in symbolic regression, interpretability, heuristics, and computational models. His past works focused on interpretability in symbolic regression, the usage of fMRI data in machine learning, and computational neural models. In 2017, he decided to pursue an academic career, aiming to become a researcher and professor. 
+    Guilherme earned his PhD in Computer Science in December 2025, focusing on the computational study and algorithmic improvement of symbolic regression methods and benchmarks. He also holds B.S. degrees in Computer Science and Neuroscience, all from the Federal University of ABC in Brazil.
+
+    He is currently a postdoctoral researcher in the Cava Lab, which he joined in February 2026. His current work includes developing methods and applications of symbolic regression and large language models for healthcare, with an emphasis on interpretable decision-making and predictive modeling. He also works on machine learning models using fMRI data and neural network applications for temporal data.
 
 platon:
   name: Platon Lukyanenko, PhD

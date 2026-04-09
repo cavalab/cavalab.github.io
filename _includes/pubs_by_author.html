@@ -10,7 +10,7 @@
   {% for author in paper.author %}
     {% assign paper_given = author.given | split: " " | first %}
     {% assign paper_family = author.family | split: " " | last  %}
-    {% if paper_given == given and paper_family == family %}
+    {% if paper_given contains given and paper_family contains family %}
       {% assign include_paper = true %}
     {% endif %}
   {% endfor %}
