@@ -633,7 +633,8 @@ references:
   source: Silverchair
   title: Towards symbolic regression for interpretable clinical decision scores
   type: article-journal
-  URL: https://doi.org/10.1098/rsta.2024.0588
+  URL: >-
+    https://royalsocietypublishing.org/rsta/article/384/2317/20240588/481208/Towards-symbolic-regression-for-interpretable
   volume: '384'
 
 - id: lacavaAnalysislexicaseSelection2018
