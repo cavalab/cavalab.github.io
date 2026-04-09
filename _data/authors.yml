@@ -46,8 +46,8 @@ bill:
       url: "https://www.linkedin.com/in/williamlacava/"
 
 guilherme:
-  name: Guilherme Aldeia
-  bio: PhD Student
+  name: Guilherme Imai Aldeia, PhD
+  bio: Postdoctoral Fellow
   avatar: "../assets/images/aldeia.jpeg" 
   home: "members/Aldeia-Guilherme"
   links:

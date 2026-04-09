@@ -2221,6 +2221,42 @@ references:
   type: article-journal
   URL: https://link.springer.com/article/10.1007/s00246-025-03916-3
 
+- id: imaialdeiaSymbolicRegressionInterpretable2026
+  accessed:
+    - year: 2026
+      month: 4
+      day: 9
+  author:
+    - family: Imai Aldeia
+      given: Guilherme Seidyo
+    - family: Romano
+      given: Joseph D.
+    - family: Olivetti de França
+      given: Fabricio
+    - family: Herman
+      given: Daniel S.
+    - family: La Cava
+      given: William G.
+  citation-key: imaialdeiaSymbolicRegressionInterpretable2026
+  container-title: >-
+    Philosophical Transactions of the Royal Society A: Mathematical, Physical
+    and Engineering Sciences
+  container-title-short: Philos Trans A Math Phys Eng Sci
+  DOI: 10.1098/rsta.2024.0588
+  ISSN: 1364-503X
+  issue: '2317'
+  issued:
+    - year: 2026
+      month: 4
+      day: 9
+  note: code=https://github.com/cavalab/brush_paper_experiments
+  page: '20240588'
+  source: Silverchair
+  title: Towards symbolic regression for interpretable clinical decision scores
+  type: article-journal
+  URL: https://doi.org/10.1098/rsta.2024.0588
+  volume: '384'
+
 - id: lacavaProbabilisticMultiobjectiveAnalysis2019
   archive: arXiv
   archive_location: https://arxiv.org/abs/1709.05394

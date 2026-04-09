@@ -2,10 +2,15 @@
 
 {% assign pubs_by_author = '' %}
 
+{% assign given = include.given | split: " " | first %}
+{% assign family = include.family | split: " " | last %}
+
 {% for paper in pubs_by_date %}
   {% assign include_paper = false %}
   {% for author in paper.author %}
-    {% if author.given[0] == include.given[0] and author.family == include.family %}
+    {% assign paper_given = author.given | split: " " | first %}
+    {% assign paper_family = author.family | split: " " | last  %}
+    {% if paper_given == given and paper_family == family %}
       {% assign include_paper = true %}
     {% endif %}
   {% endfor %}
