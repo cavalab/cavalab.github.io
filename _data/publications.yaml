@@ -274,6 +274,7 @@ references:
     - family: Cava
       given: William G. La
   citation-key: cogganDecipheringInfluenceDemographic2025
+  container-title: Pacific Symposium on Biocomputing
   DOI: 10.48550/arXiv.2510.02841
   event-title: Pacific Symposium on Biocomputing
   issued:
@@ -1440,24 +1441,24 @@ references:
   type: article-journal
   URL: https://www.nature.com/articles/s42256-023-00651-3
 
-- id: lukyanenkoAutomatedEchocardiographicDetection
+- id: lukyanenkoAutomatedEchocardiographicDetection2026a
   accessed:
     - year: 2026
-      month: 3
-      day: 31
-  archive: medRxiv
-  archive_location: https://www.medrxiv.org/content/10.64898/2026.01.24.26344771v1
+      month: 6
+      day: 2
+  archive: PubMed
+  archive_location: https://pubmed.ncbi.nlm.nih.gov/41902792/
   author:
     - family: Lukyanenko
       given: Platon
     - family: Ghelani
-      given: Sunil
+      given: Sunil J.
     - family: Yang
       given: Yuting
     - family: Jiang
       given: Bohan
     - family: Miller
-      given: Timothy
+      given: Timothy A.
     - family: Harrild
       given: David
     - family: Sasaki
@@ -1467,24 +1468,24 @@ references:
     - family: Sganga
       given: Danielle
     - family: Triedman
-      given: John
+      given: John K.
     - family: Powell
-      given: Andrew
+      given: Andrew J.
     - family: Geva
       given: Tal
     - family: La Cava
       given: William G.
     - family: Mayourian
       given: Joshua
-  citation-key: lukyanenkoAutomatedEchocardiographicDetection
+  citation-key: lukyanenkoAutomatedEchocardiographicDetection2026a
   container-title: Circulation
   DOI: 10.1161/CIRCULATIONAHA.126.079781
-  issue: '0'
+  issue: '21'
   issued:
     - year: 2026
-      month: 3
-      day: 28
-  note: code=https://echofocus.org
+      month: 5
+      day: 26
+  page: 1623–1636
   PMID: '41902792'
   publisher: American Heart Association
   source: ahajournals.org (Atypon)
@@ -1492,8 +1493,8 @@ references:
     Automated Echocardiographic Detection of Congenital Heart Disease Using
     Artificial Intelligence
   type: article-journal
-  URL: https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.126.079781
-  volume: '0'
+  URL: https://www.ahajournals.org/doi/full/10.1161/CIRCULATIONAHA.126.079781
+  volume: '153'
 
 - id: lukyanenkoDeepLearningBasedAutomated2026
   accessed:
@@ -1718,7 +1719,7 @@ references:
     - year: 2025
       month: 4
       day: 1
-  language: English
+  language: en
   page: e264-e274
   PMID: '40148010'
   publisher: Elsevier
