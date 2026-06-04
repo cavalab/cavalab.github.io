@@ -146,3 +146,21 @@ blanca:
 
   about: | 
     Blanca Romero Milà is a PhD Intern in the CHIP Summer Internship in Computational Health Informatics and AI. This summer, she is investigating how implicit bias may influence emergency department admissions and Emergency Severity Index triage scores. Blanca is also a PhD candidate in Biomedical Engineering at the University of California, Irvine. She holds a Bachelor's degree in Biomedical Engineering from the University of Barcelona and a Master's Degree from UC Irvine. 
+
+Alaa:
+  name: "Alaa Melek, MS"
+  avatar: "assets/images/melek-alaa.png"
+  bio: "PhD Intern"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:Alaa.Mohamed@childrens.harvard.edu"
+    - label: Google Scholar
+      icon: &scholar "fas fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=qNjfbGUAAAAJ&hl=en&oi=ao"
+    - label: LinkedIn
+      icon: &linkedin "fab fa-linkedin" 
+      url: "https://www.linkedin.com/in/alaamelek/"
+  about: |
+    Alaa Melek is a PhD student in Biomedical Engineering at The University of Texas at Austin. Her research focuses on developing trustworthy AI for healthcare, with an emphasis on medical imaging, multimodal data integration, and interpretability. She is interested in building AI systems that are both clinically useful and responsibly deployed.
+    This summer, she is joining the Computational Health Informatics Program (CHIP) at Boston Children’s Hospital, where she is working on explainable AI approaches for echocardiography to help make deep learning models more transparent and clinically interpretable. 
