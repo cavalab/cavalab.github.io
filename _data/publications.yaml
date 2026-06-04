@@ -192,6 +192,63 @@ references:
   type: article
   URL: http://arxiv.org/abs/2007.03488
 
+- id: chenCongenitalHeartDisease2024
+  accessed:
+    - year: 2026
+      month: 6
+      day: 3
+  author:
+    - family: Chen
+      given: Jintai
+    - family: Huang
+      given: Shuai
+    - family: Zhang
+      given: Ying
+    - family: Chang
+      given: Qing
+    - family: Zhang
+      given: Yixiao
+    - family: Li
+      given: Dantong
+    - family: Qiu
+      given: Jia
+    - family: Hu
+      given: Lianting
+    - family: Peng
+      given: Xiaoting
+    - family: Du
+      given: Yunmei
+    - family: Gao
+      given: Yunfei
+    - family: Chen
+      given: Danny Z.
+    - family: Bellou
+      given: Abdelouahab
+    - family: Wu
+      given: Jian
+    - family: Liang
+      given: Huiying
+  citation-key: chenCongenitalHeartDisease2024
+  container-title: Nature Communications
+  container-title-short: Nat Commun
+  DOI: 10.1038/s41467-024-44930-y
+  ISSN: 2041-1723
+  issue: '1'
+  issued:
+    - year: 2024
+      month: 2
+      day: 1
+  language: en
+  page: '976'
+  publisher: Nature Publishing Group
+  source: www.nature.com
+  title: >-
+    Congenital heart disease detection by pediatric electrocardiogram based deep
+    learning integrated with human concepts
+  type: article-journal
+  URL: https://www.nature.com/articles/s41467-024-44930-y
+  volume: '15'
+
 - id: chenCrossCareAssessingHealthcare2024
   accessed:
     - year: 2025
