@@ -64,7 +64,7 @@ guilherme:
 
 platon:
   name: Platon Lukyanenko, PhD
-  bio: Research Fellow
+  bio: Postdoctoral Fellow
   avatar: "../assets/images/lukyanenko_profile.png" 
   home: "members/Lukyanenko-Platon"
   links:
@@ -72,7 +72,7 @@ platon:
       icon: *github
       url: "https://github.com/pxl282"
   about: | 
-    Platon Lukyanenko is a research fellow investigating transformer architectures for interpreting continuous-time signals. 
+    Platon Lukyanenko is a postdoctoral fellow investigating transformer architectures for interpreting continuous-time signals. 
     He is a member of the [Congenital Heart Artificial Intelligence Lab](https://research.childrenshospital.org/research-units/congenital-heart-artificial-intelligence-lab) run by Joshua Mayourian in the Department of Cardiology at Boston Children's Hospital.
     Before joining CHIP, he worked on computer vision with the Air Force Research Laboratory. 
     His PhD focused on human motor control decoding for prosthetic hands at Case Western Reserve University. 
