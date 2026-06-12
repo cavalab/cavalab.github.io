@@ -2633,6 +2633,67 @@ references:
   URL: https://www.sciencedirect.com/science/article/pii/S1532046418301400
   volume: '85'
 
+- id: yangECGFoundationModel2026a
+  accessed:
+    - year: 2026
+      month: 6
+      day: 12
+  author:
+    - family: Yang
+      given: Yuting
+    - family: Peracchio
+      given: Lorenzo
+    - family: Mayourian
+      given: Joshua
+    - family: Miller
+      given: Timothy
+    - family: La Cava
+      given: William G.
+  citation-key: yangECGFoundationModel2026a
+  container-title: medRxiv
+  issued:
+    - year: 2026
+  source: Google Scholar
+  title: >-
+    An ECG foundation model for generalizable cardiac function prediction across
+    the lifespan
+  type: article-journal
+  URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC13232360/
+
+- id: yangECGFoundationModel2026b
+  accessed:
+    - year: 2026
+      month: 6
+      day: 12
+  author:
+    - family: Yang
+      given: Yuting
+    - family: Peracchio
+      given: Lorenzo
+    - family: Mayourian
+      given: Joshua
+    - family: Miller
+      given: Timothy
+    - family: La Cava
+      given: William G.
+  citation-key: yangECGFoundationModel2026b
+  container-title: medRxiv
+  container-title-short: medRxiv
+  DOI: 10.64898/2026.05.26.26354128
+  issued:
+    - year: 2026
+      month: 5
+      day: 27
+  page: 2026.05.26.26354128
+  PMCID: PMC13232360
+  PMID: '42245005'
+  source: PubMed Central
+  title: >-
+    An ECG foundation model for generalizable cardiac function prediction across
+    the lifespan
+  type: article-journal
+  URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC13232360/
+
 - id: yangRobustAIECGPredicting
   archive: arXiv
   archive_location: http://arxiv.org/abs/2509.19564
