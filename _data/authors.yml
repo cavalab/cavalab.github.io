@@ -165,3 +165,23 @@ Alaa:
   about: |
     Alaa Melek is a PhD student in Biomedical Engineering at The University of Texas at Austin. Her research focuses on developing trustworthy AI for healthcare, with an emphasis on medical imaging, multimodal data integration, and interpretability. She is interested in building AI systems that are both clinically useful and responsibly deployed.
     In the Cava Lab, she is working on explainable AI approaches for echocardiography to help make deep learning models more transparent and clinically interpretable. 
+
+Ava:
+  name: "Ava Fascetti, MS"
+  avatar: "assets/images/fascetti-ava.jpg"
+  bio: "PhD Intern"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:afascetti@ucsd.edu"
+    - label: Google Scholar
+      icon: &scholar "fas fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=1ao8frwAAAAJ&hl=en"
+    - label: LinkedIn
+      icon: &linkedin "fab fa-linkedin" 
+      url: "https://www.linkedin.com/in/avafascetti/"
+    - label: Github
+      icon: &github "fab fa-fw fa-github"
+      url: "https://github.com/afascetti"
+  about: |
+    Ava Fascetti is a PhD student in Electrical and Computer Engineering at UC San Diego, where she is also affiliated with the Design Lab. She received her MS in Electrical and Computer Engineering from UCSD and her BS in General Engineering from Harvey Mudd College. Her research spans engineering, medicine, and design, with a focus on developing accessible health-monitoring tools (including machine-learning biomarkers and low-cost sensing systems) to close gaps in who can receive timely, high-quality care. In the CAVA Lab, she is working on predictive modeling for emergency medicine.
