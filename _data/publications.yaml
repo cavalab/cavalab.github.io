@@ -1648,31 +1648,42 @@ references:
   URL: https://doi.org/10.1186/s13040-025-00510-4
   volume: '19'
 
-- id: lukyanenkoEstimationLeftVentricular
+- id: lukyanenkoEstimationLeftVentricular2026
+  accessed:
+    - year: 2026
+      month: 6
+      day: 28
+  archive: PubMed
+  archive_location: https://pmc.ncbi.nlm.nih.gov/articles/PMC13274358/
   author:
     - family: Lukyanenko
       given: Platon
     - family: Ghelani
-      given: Sunil J
+      given: Sunil J.
     - family: Triedman
-      given: John K
+      given: John K.
     - family: Mayourian
       given: Joshua
-    - family: La Cava
-      given: William G.
-  citation-key: lukyanenkoEstimationLeftVentricular
-  container-title: AMIA Amplify Informatics Conference
+    - family: Cava
+      given: William G. La
+  citation-key: lukyanenkoEstimationLeftVentricular2026
+  container-title: AMIA Summits on Translational Science Proceedings
+  container-title-short: AMIA Jt Summits Transl Sci Proc
+  ISSN: 2153-4063
   issued:
     - year: 2026
-      month: 5
-      day: 18
-  language: en
-  publisher: AMIA
-  source: Zotero
+      month: 6
+      day: 1
+  page: 293–302
+  PMCID: PMC13274358
+  PMID: '42317850'
+  source: PubMed Central
   title: >-
     Estimation of Left Ventricular Systolic Function in Pediatric and Congenital
     Heart Disease from Serial Electrocardiograms
   type: article-journal
+  URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC13274358/
+  volume: '2026'
 
 - id: mayourianDeepLearningbasedElectrocardiogram2024
   accessed:
@@ -2667,9 +2678,13 @@ references:
   type: article-journal
   URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC13232360/
 
-- id: yangRobustAIECGPredicting
-  archive: arXiv
-  archive_location: http://arxiv.org/abs/2509.19564
+- id: yangRobustAIECGPredicting2026
+  accessed:
+    - year: 2026
+      month: 6
+      day: 28
+  archive: PubMed
+  archive_location: https://pmc.ncbi.nlm.nih.gov/articles/PMC13274275/
   author:
     - family: Yang
       given: Yuting
@@ -2677,21 +2692,28 @@ references:
       given: Lorenzo
     - family: Mayourian
       given: Joshua
+    - family: Triedman
+      given: John K.
     - family: Miller
       given: Timothy
     - family: La Cava
       given: William G.
-  citation-key: yangRobustAIECGPredicting
-  container-title: AMIA Amplify Informatics Conference
+  citation-key: yangRobustAIECGPredicting2026
+  container-title: AMIA Summits on Translational Science Proceedings
+  container-title-short: AMIA Jt Summits Transl Sci Proc
+  ISSN: 2153-4063
   issued:
     - year: 2026
-      month: 5
-      day: 18
-  language: en
-  publisher: AMIA
-  source: Zotero
+      month: 6
+      day: 1
+  page: 536–545
+  PMCID: PMC13274275
+  PMID: '42317838'
+  source: PubMed Central
   title: >-
     Robust AI-ECG for Predicting Left Ventricular Systolic Dysfunction in
     Pediatric Congenital Heart Disease
   type: article-journal
+  URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC13274275/
+  volume: '2026'
 ...
