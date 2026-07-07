@@ -2324,29 +2324,6 @@ references:
   URL: https://www.cell.com/patterns/abstract/S2666-3899(26)00096-6
   volume: '0'
 
-- id: reisIntegratedAlignment2025
-  accessed:
-    - year: 2025
-      month: 8
-      day: 12
-  author:
-    - family: Reis
-      given: Ben Y.
-    - family: La Cava
-      given: William G.
-  citation-key: reisIntegratedAlignment2025
-  DOI: 10.48550/arXiv.2508.06592
-  issued:
-    - year: 2025
-      month: 8
-      day: 8
-  number: arXiv:2508.06592
-  publisher: arXiv
-  source: arXiv.org
-  title: Towards Integrated Alignment
-  type: article
-  URL: http://arxiv.org/abs/2508.06592
-
 - id: rodriguesExploringSLUGFeature2023
   accessed:
     - year: 2023
