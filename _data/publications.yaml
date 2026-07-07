@@ -2294,6 +2294,36 @@ references:
   URL: https://www.liebertpub.com/doi/10.1089/heq.2023.0066
   volume: '7'
 
+- id: reisDesignPrinciplesIntegrated2026
+  accessed:
+    - year: 2026
+      month: 7
+      day: 7
+  archive: arXiv
+  archive_location: http://arxiv.org/abs/2508.06592
+  author:
+    - family: Reis
+      given: Ben Y.
+    - family: Cava
+      given: William G. La
+  citation-key: reisDesignPrinciplesIntegrated2026
+  container-title: Patterns
+  container-title-short: Patterns
+  DOI: 10.1016/j.patter.2026.101587
+  ISSN: 2666-3899
+  issue: '0'
+  issued:
+    - year: 2026
+      month: 6
+      day: 29
+  language: en
+  publisher: Elsevier
+  source: www.cell.com
+  title: Design principles for integrated AI alignment
+  type: article-journal
+  URL: https://www.cell.com/patterns/abstract/S2666-3899(26)00096-6
+  volume: '0'
+
 - id: reisIntegratedAlignment2025
   accessed:
     - year: 2025
