@@ -8,7 +8,7 @@ header:
     teaser-caption: "Symbolic regression algorithms (marked with asterisk) benchmarked against black-box ML on hundreds of regression problems. La Cava et al. NeurIPS 2021"
 pubids:
     - defrancaSRBenchPrincipledBenchmarking2024
-    - lacavaContemporarySymbolicRegression2021
+    - lacavaContemporarySymbolicRegression2021a
     - orzechowskiComparativeStudyGPbased2022
     - orzechowskiWhereAreWe2018b
     - bartz-beielsteinBenchmarkingOptimizationBest2020

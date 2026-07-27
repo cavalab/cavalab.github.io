@@ -37,6 +37,36 @@ references:
   URL: https://www.jpain.org/article/S1526-5900(25)00366-9/abstract
   volume: '29'
 
+- id: aldeiaFoundationmodelApproachPediatric
+  author:
+    - family: Aldeia
+      given: Guilherme S Imai
+    - family: Moon
+      given: Clara
+    - family: Shulman
+      given: Julie
+    - family: Sethna
+      given: Navil
+    - family: Smith
+      given: Allison
+    - family: Lebel
+      given: Alyssa
+    - family: La Cava
+      given: William G.
+    - family: Holmes
+      given: Scott
+  citation-key: aldeiaFoundationmodelApproachPediatric
+  container-title: Proceedings of Machine Learning Research
+  event-title: Machine Learning for Health Care
+  issued:
+    - year: 2026
+  language: en
+  source: Zotero
+  title: >-
+    A foundation-model approach to pediatric headache classification from
+    resting-state fMRI
+  type: paper-conference
+
 - id: aldeiaInexactSimplificationSymbolic2024
   accessed:
     - year: 2024
@@ -1498,6 +1528,44 @@ references:
   type: article-journal
   URL: https://www.nature.com/articles/s42256-023-00651-3
 
+- id: liuEquitableSurvivalPrediction2025
+  accessed:
+    - year: 2026
+      month: 7
+      day: 10
+  author:
+    - family: Liu
+      given: Mingxuan
+    - family: Ning
+      given: Yilin
+    - family: Wang
+      given: Haoyuan
+    - family: Hong
+      given: Chuan
+    - family: Engelhard
+      given: Matthew
+    - family: Bitterman
+      given: Danielle S.
+    - family: Cava
+      given: William G. La
+    - family: Liu
+      given: Nan
+  citation-key: liuEquitableSurvivalPrediction2025
+  DOI: 10.48550/arXiv.2510.20629
+  issued:
+    - year: 2025
+      month: 10
+      day: 23
+  number: arXiv:2510.20629
+  publisher: arXiv
+  source: arXiv.org
+  title: >-
+    Equitable Survival Prediction: A Fairness-Aware Survival Modeling (FASM)
+    Approach
+  title-short: Equitable Survival Prediction
+  type: article
+  URL: http://arxiv.org/abs/2510.20629
+
 - id: lukyanenkoAutomatedEchocardiographicDetection2026a
   accessed:
     - year: 2026
@@ -1987,6 +2055,51 @@ references:
   type: article-journal
   URL: https://doi.org/10.1007/s00246-024-03540-7
 
+- id: mayourianSingleLeadElectrocardiographic2026
+  accessed:
+    - year: 2026
+      month: 7
+      day: 20
+  author:
+    - family: Mayourian
+      given: Joshua
+    - family: Asztalos
+      given: Ivor B.
+    - family: La Cava
+      given: William
+    - family: Kobayashi
+      given: Ryan L.
+    - family: Ghelani
+      given: Sunil J.
+    - family: Vetter
+      given: Victoria L.
+    - family: Wald
+      given: Rachel M.
+    - family: Valente
+      given: Anne Marie
+    - family: Geva
+      given: Tal
+    - family: Triedman
+      given: John K.
+  citation-key: mayourianSingleLeadElectrocardiographic2026
+  container-title: npj Digital Medicine
+  container-title-short: npj Digit. Med.
+  DOI: 10.1038/s41746-026-02646-x
+  ISSN: 2398-6352
+  issued:
+    - year: 2026
+      month: 7
+      day: 11
+  language: en
+  PMID: '42436248'
+  publisher: Nature Publishing Group
+  source: www.nature.com
+  title: >-
+    Single lead electrocardiographic detection of left ventricular systolic
+    dysfunction in pediatric and congenital heart disease
+  type: article-journal
+  URL: https://www.nature.com/articles/s41746-026-02646-x
+
 - id: mccoyAccuracyDeepLearning2024a
   accessed:
     - year: 2024
@@ -2244,6 +2357,32 @@ references:
   type: paper-conference
   URL: https://dl.acm.org/doi/10.1145/3205455.3205539
 
+- id: peracchioWhenElectrocardiogramFoundation
+  author:
+    - family: Peracchio
+      given: Lorenzo
+    - family: Yang
+      given: Yuting
+    - family: Miller
+      given: Timothy
+    - family: Nicora
+      given: Giovanna
+    - family: Bellazzi
+      given: Riccardo
+    - family: Mayourian
+      given: Joshua
+    - family: La Cava
+      given: William G.
+  citation-key: peracchioWhenElectrocardiogramFoundation
+  issued:
+    - year: 2026
+  language: en
+  source: Zotero
+  title: >-
+    When do electrocardiogram foundation models outperform task-specific AI
+    models?
+  type: article-journal
+
 - id: poteatEffectsRaceGender2023
   accessed:
     - year: 2023
@@ -2304,8 +2443,8 @@ references:
   author:
     - family: Reis
       given: Ben Y.
-    - family: Cava
-      given: William G. La
+    - family: La Cava
+      given: William G.
   citation-key: reisDesignPrinciplesIntegrated2026
   container-title: Patterns
   container-title-short: Patterns

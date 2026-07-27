@@ -7,11 +7,12 @@ header:
 tag: ai
 layout: project
 pubids:
-    - mayourianPediatricECGBasedDeep2024
-    - mayourianElectrocardiogrambasedDeepLearning2025
-    - mayourianExpertLevelAutomatedDiagnosis2025
-    - lukyanenkoCloserLookMortality2025
-    - mayourianDeepLearningBasedElectrocardiogram2024
+    - mayourianPediatricECGBasedDeep2024a
+    - mayourianElectrocardiogrambasedDeepLearning2025b
+    - mayourianElectrocardiogrambasedDeepLearning2025c
+    - mayourianExpertLevelAutomatedDiagnosis2025a
+    - lukyanenkoDeepSurvivalAnalysis2025
+    - mayourianDeepLearningBasedElectrocardiogram2024a
 posts:
     - title: "Benchmarking mortality risk prediction from electrocardiograms"
 ---

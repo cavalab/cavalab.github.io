@@ -7,7 +7,7 @@ header:
     teaser-caption: ""
 pubids:
     - lettIntersectionalMarginalDebiasing2025a
-    - lacavaFairAdmissionRisk2023
+    - lacavaFairAdmissionRisk2023b
     - lettTranslatingIntersectionalityFair2023a
 code:
     - name: "PMCBoost: Proportional Multicalibration Boosting"

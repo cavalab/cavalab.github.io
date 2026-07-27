@@ -8,10 +8,10 @@ header:
     teaser-caption: "An interpretable model of treatment resistant hypertension from La Cava et al. *npj Digital Medicine* 2023"
 tags: Fairness
 pubids:
-    - lacavaFlexibleSymbolicRegression2023
+    - lacavaFlexibleSymbolicRegression2023a
     - aldeiaInexactSimplificationSymbolic2024
-    - lacavaLearningConciseRepresentations2019
-    - lacavaInterpretationMachineLearning2019a
+    - lacavaLearningConciseRepresentations2019a
+    - lacavaInterpretationMachineLearning2019
     - lacavaEpsilonLexicaseSelectionRegression2016
 code:
     - name: Feature Engineering Automation Tool

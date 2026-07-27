@@ -8,7 +8,7 @@ header:
     teaser-caption: ""
 pubids:
     - mccoyIntrapartumElectronicFetal2024
-    - mccoyAccuracyDeepLearning2024
+    - mccoyAccuracyDeepLearning2024a
 ---
 
 Electronic fetal monitoring (EFM) is currently used in the vast majority of all hospital births in the United States to monitor the fetal heart rate. 
