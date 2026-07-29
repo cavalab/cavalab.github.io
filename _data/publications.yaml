@@ -37,36 +37,6 @@ references:
   URL: https://www.jpain.org/article/S1526-5900(25)00366-9/abstract
   volume: '29'
 
-- id: aldeiaFoundationmodelApproachPediatric
-  author:
-    - family: Aldeia
-      given: Guilherme S Imai
-    - family: Moon
-      given: Clara
-    - family: Shulman
-      given: Julie
-    - family: Sethna
-      given: Navil
-    - family: Smith
-      given: Allison
-    - family: Lebel
-      given: Alyssa
-    - family: La Cava
-      given: William G.
-    - family: Holmes
-      given: Scott
-  citation-key: aldeiaFoundationmodelApproachPediatric
-  container-title: Proceedings of Machine Learning Research
-  event-title: Machine Learning for Health Care
-  issued:
-    - year: 2026
-  language: en
-  source: Zotero
-  title: >-
-    A foundation-model approach to pediatric headache classification from
-    resting-state fMRI
-  type: paper-conference
-
 - id: aldeiaInexactSimplificationSymbolic2024
   accessed:
     - year: 2024
@@ -2356,32 +2326,6 @@ references:
   title-short: Where are we now?
   type: paper-conference
   URL: https://dl.acm.org/doi/10.1145/3205455.3205539
-
-- id: peracchioWhenElectrocardiogramFoundation
-  author:
-    - family: Peracchio
-      given: Lorenzo
-    - family: Yang
-      given: Yuting
-    - family: Miller
-      given: Timothy
-    - family: Nicora
-      given: Giovanna
-    - family: Bellazzi
-      given: Riccardo
-    - family: Mayourian
-      given: Joshua
-    - family: La Cava
-      given: William G.
-  citation-key: peracchioWhenElectrocardiogramFoundation
-  issued:
-    - year: 2026
-  language: en
-  source: Zotero
-  title: >-
-    When do electrocardiogram foundation models outperform task-specific AI
-    models?
-  type: article-journal
 
 - id: poteatEffectsRaceGender2023
   accessed:
