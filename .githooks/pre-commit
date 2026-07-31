@@ -4,12 +4,17 @@
 # Installed via: git config core.hooksPath .githooks
 
 if git diff --cached --name-only | grep -q '^_data/publications\.yaml$'; then
-  ruby "$(git rev-parse --show-toplevel)/scripts/check_publication_pdfs.rb"
+  root="$(git rev-parse --show-toplevel)"
+  ruby "$root/scripts/check_publication_pdfs.rb"
   status=$?
   if [ $status -ne 0 ]; then
     echo ""
-    echo "Commit blocked: copy the missing PDF(s) into assets/papers/ (filename must"
-    echo "match exactly, per Zotero's 'Rename Associated File' convention), then re-stage."
+    echo "Attempting to fill gaps from Zotero storage..."
+    ruby "$root/scripts/find_missing_pdfs.rb" --copy
+    echo ""
+    echo "Commit blocked. Review any file(s) just copied into assets/papers/ above"
+    echo "(delete them if they're the wrong match), resolve anything left missing,"
+    echo "then 'git add' the correct PDF(s) and commit again."
     echo "To bypass once (not recommended): git commit --no-verify"
     exit 1
   fi
