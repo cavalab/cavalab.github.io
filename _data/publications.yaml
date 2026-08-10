@@ -37,6 +37,44 @@ references:
   URL: https://www.jpain.org/article/S1526-5900(25)00366-9/abstract
   volume: '29'
 
+- id: aldeiaFoundationmodelApproachPediatric2026
+  accessed:
+    - year: 2026
+      month: 8
+      day: 10
+  author:
+    - family: Aldeia
+      given: Guilherme S. Imai
+    - family: Moon
+      given: Clara
+    - family: Shulman
+      given: Julie
+    - family: Sethna
+      given: Navil
+    - family: Smith
+      given: Allison
+    - family: Lebel
+      given: Alyssa
+    - family: La Cava
+      given: William G.
+    - family: Holmes
+      given: Scott
+  citation-key: aldeiaFoundationmodelApproachPediatric2026
+  container-title: Machine Learning for Healthcare Conference
+  DOI: 10.48550/arXiv.2608.07287
+  issued:
+    - year: 2026
+      month: 8
+      day: 7
+  note: note=In press
+  publisher: PMLR
+  source: arXiv.org
+  title: >-
+    A foundation-model approach to pediatric headache classification from
+    rs-fMRI
+  type: article-journal
+  URL: http://arxiv.org/abs/2608.07287
+
 - id: aldeiaInexactSimplificationSymbolic2024
   accessed:
     - year: 2024
