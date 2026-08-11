@@ -5,12 +5,12 @@
 
 if git diff --cached --name-only | grep -q '^_data/publications\.yaml$'; then
   root="$(git rev-parse --show-toplevel)"
-  ruby "$root/scripts/check_publication_pdfs.rb"
+  python3 "$root/scripts/check_publication_pdfs.py"
   status=$?
   if [ $status -ne 0 ]; then
     echo ""
     echo "Attempting to fill gaps from Zotero storage..."
-    ruby "$root/scripts/find_missing_pdfs.rb" --copy
+    python3 "$root/scripts/find_missing_pdfs.py" --copy
     echo ""
     echo "Commit blocked. Review any file(s) just copied into assets/papers/ above"
     echo "(delete them if they're the wrong match), resolve anything left missing,"

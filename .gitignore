@@ -9,3 +9,4 @@ Gemfile.lock
 .obsidian
 *.xcf
 .DS_Store
+__pycache__

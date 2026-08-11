@@ -41,3 +41,24 @@ myname:
 
 
 5. Commit your changes, push to your fork, and [open a PR on this repo](https://github.com/cavalab/cavalab.github.io/compare).
+
+# Publication PDF check (one-time setup)
+
+A pre-commit hook verifies that every publication in `_data/publications.yaml`
+has a matching PDF in `assets/papers/`, so a new paper never gets added to
+the bibliography without its PDF. To activate it locally:
+
+```bash
+pip install -r scripts/requirements.txt
+git config core.hooksPath .githooks
+```
+
+If a PDF is missing, the hook automatically searches your local Zotero
+storage (`~/Zotero/storage`) for a matching file and copies over any
+unambiguous match — review what it copied, then `git add` it and commit
+again. Run it manually any time with:
+
+```bash
+python3 scripts/check_publication_pdfs.py    # list what's missing
+python3 scripts/find_missing_pdfs.py --copy  # try to fill gaps from Zotero
+```
