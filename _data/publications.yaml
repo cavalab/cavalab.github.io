@@ -95,6 +95,38 @@ references:
   URL: http://arxiv.org/abs/2608.07287
 
 -
+  id: aldeiaguilhermeDeepTimetoEventModels
+  author:
+    -
+      family: Aldeia
+      given: Guilherme S. Imai
+    -
+      family: Coggan
+      given: Helena
+    -
+      family: Yang
+      given: Yuting
+    -
+      family: Levine
+      given: Lisa
+    -
+      family: McCoy
+      given: Jennifer A.
+    -
+      family: La Cava
+      given: William G.
+  citation-key: aldeiaguilhermeDeepTimetoEventModels
+  issued:
+    -
+      year: 2026
+      month: 9
+      day: 18
+  language: en
+  source: Zotero
+  title: Deep Time-to-Event Models for Intrapartum Fetal Monitoring
+  type: article
+
+-
   id: aldeiaInexactSimplificationSymbolic2024
   accessed:
     -
