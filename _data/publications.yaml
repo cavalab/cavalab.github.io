@@ -47,59 +47,16 @@ references:
   volume: '29'
 
 -
-  id: aldeiaFoundationmodelApproachPediatric2026
+  id: aldeiaDeepTimetoEventModels2026
   accessed:
     -
       year: 2026
-      month: 8
-      day: 10
+      month: 9
+      day: 29
   author:
     -
       family: Aldeia
-      given: Guilherme S. Imai
-    -
-      family: Moon
-      given: Clara
-    -
-      family: Shulman
-      given: Julie
-    -
-      family: Sethna
-      given: Navil
-    -
-      family: Smith
-      given: Allison
-    -
-      family: Lebel
-      given: Alyssa
-    -
-      family: La Cava
-      given: William G.
-    -
-      family: Holmes
-      given: Scott
-  citation-key: aldeiaFoundationmodelApproachPediatric2026
-  container-title: Proceedings of Machine Learning Research
-  DOI: 10.48550/arXiv.2608.07287
-  event-title: Machine Learning for Healthcare Conference
-  issued:
-    -
-      year: 2026
-      month: 8
-      day: 7
-  note: note=In press
-  publisher: PMLR
-  source: arXiv.org
-  title: A foundation-model approach to pediatric headache classification from rs-fMRI
-  type: paper-conference
-  URL: http://arxiv.org/abs/2608.07287
-
--
-  id: aldeiaguilhermeDeepTimetoEventModels
-  author:
-    -
-      family: Aldeia
-      given: Guilherme S. Imai
+      given: Guilherme Seidyo Imai
     -
       family: Coggan
       given: Helena
@@ -113,18 +70,74 @@ references:
       family: McCoy
       given: Jennifer A.
     -
-      family: La Cava
-      given: William G.
-  citation-key: aldeiaguilhermeDeepTimetoEventModels
+      family: Cava
+      given: William La
+  citation-key: aldeiaDeepTimetoEventModels2026
+  DOI: 10.64898/2026.09.21.26363416
   issued:
     -
       year: 2026
       month: 9
-      day: 18
+      day: 26
   language: en
-  source: Zotero
+  note: code=https://github.com/cavalab/deep-tte-intrapartum-fetal-monitoring
+  publisher: medRxiv
+  source: medRxiv
   title: Deep Time-to-Event Models for Intrapartum Fetal Monitoring
   type: article
+  URL: https://www.medrxiv.org/content/10.64898/2026.09.21.26363416v1
+
+-
+  id: aldeiaFoundationmodelApproachPediatric2026a
+  accessed:
+    -
+      year: 2026
+      month: 9
+      day: 29
+  archive: arXiv
+  archive_location: http://arxiv.org/abs/2608.07287
+  author:
+    -
+      family: Aldeia
+      given: Guilherme Seidyo Imai
+    -
+      family: Moon
+      given: Clara
+    -
+      family: Shulman
+      given: Julie M.
+    -
+      family: Sethna
+      given: Navil
+    -
+      family: Smith
+      given: Allison M.
+    -
+      family: LeBel
+      given: Alyssa
+    -
+      family: Cava
+      given: William La
+    -
+      family: Holmes
+      given: Scott
+  citation-key: aldeiaFoundationmodelApproachPediatric2026a
+  container-title: Proceedings of the 11th Machine Learning for Healthcare Conference
+  event-title: Machine Learning for Healthcare Conference
+  ISSN: 2640-3498
+  issued:
+    -
+      year: 2026
+      month: 9
+      day: 8
+  language: en
+  note: code=https://github.com/cavalab/pediatric-headache-foundation-models
+  page: 55–76
+  publisher: PMLR
+  source: proceedings.mlr.press
+  title: A foundation-model approach to pediatric headache classification from resting-state fMRI
+  type: paper-conference
+  URL: https://proceedings.mlr.press/v340/aldeia26a.html
 
 -
   id: aldeiaInexactSimplificationSymbolic2024

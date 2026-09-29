@@ -23,7 +23,7 @@ See our <a href="/papers">papers</a> and <a href="/posts">posts</a> about them.
 </div>
 <div class="back-to-top"></div>
 
-### Fair Machine Learning for Health
+### Algorithmic Fairness
 
 <div class="entries-grid">
   {% assign posts = site.projects | where:"tag","fairness" %}
@@ -33,7 +33,7 @@ See our <a href="/papers">papers</a> and <a href="/posts">posts</a> about them.
 </div>
 <div class="back-to-top"></div>
 
-### Interpretable Machine Learning for Health
+### Interpretable Machine Learning
 
 <div class="entries-grid">
   {% assign posts = site.projects | where:"tag","interpretability" %}
