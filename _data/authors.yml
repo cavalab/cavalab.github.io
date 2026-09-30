@@ -112,7 +112,9 @@ yuting:
       icon: *scholar 
       url: "https://scholar.google.com/citations?user=8DHqW_wAAAAJ"
   about: | 
-    Yuting's research interests primarily focus on AI health and natural language processing.
+    Yuting Yang is a postdoctoral research fellow in the Computational Health Informatics Program at Boston Children's Hospital and Harvard Medical School. Working with Timothy Miller and William La Cava, Yuting develops multimodal foundation models for cardiology medical records. Yuting is also affiliated with the Congenital Heart Artificial Intelligence Lab, collaborating with Joshua Mayourian to develop AI tools for pediatric and congenital heart care.
+
+    Yuting received a PhD from the University of Chinese Academy of Sciences, supervised by Jintao Li and Juan Cao. Doctoral research focused on robust AI, with additional experience in dialogue systems from a research visit at the National University of Singapore with Tat-Seng Chua.
 
 helena:
   name: Helena Coggan, PhD
