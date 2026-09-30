@@ -78,9 +78,9 @@ For more details and open-source code for benchmarking AI-ECG models, see below:
 
 ## References
 
-{% include citation.html pubid="mayourianElectrocardiogrambasedDeepLearning2025a" prefix="[^mayourian]:" %}
+{% include citation.html pubid="mayourianElectrocardiogrambasedDeepLearning2025c" prefix="[^mayourian]:" %}
 
-{% include citation.html pubid="mccoyAccuracyDeepLearning2024" prefix="[^mfm]:" %}
+{% include citation.html pubid="mccoyAccuracyDeepLearning2024a" prefix="[^mfm]:" %}
 
 [^ribeiro]: Antônio H. Ribeiro, Manoel Horta Ribeiro, Gabriela M. M. Paixão, Derick M. Oliveira, Paulo R. Gomes, Jéssica A. Canazart, Milton P. S. Ferreira, Carl R. Andersson, Peter W. Macfarlane, Wagner Meira, Thomas B. Schön, and Antonio Luiz P. Ribeiro. [Automatic diagnosis of the 12-lead ECG using a deep neural network.](https://www.nature.com/articles/s41467-020-15432-4) Nature Communications, 11(1):1760, April 2020
 
