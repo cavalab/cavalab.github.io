@@ -32,26 +32,19 @@
     </div>
 
     {% assign venueclass = "pubjournal" %}
-    {% if pub.event-title %}
-        {% assign venue = pub.event-title %}
-    {% elsif pub.container-title %}
-        {% assign venue = pub.container-title %}
-    {% elsif pub.type == "thesis" %}
-        {% assign venue = "Thesis" %}
+    {% assign is_pmlr = false %}
+    {% if pub.publisher == "PMLR" or pub.URL contains "proceedings.mlr.press" %}
+        {% assign is_pmlr = true %}
+    {% endif %}
+    {% if pub.event-title or pub.container-title or pub.type == "thesis" or is_pmlr %}
+        {% assign venue = "venue" %}
     {% else %}
         {% assign venue = "Preprint" %}
         {% assign venueclass = "pubinfo" %}
     {% endif %}
-    {% if pub.container-title-short %}
-        {% unless pub.container-title-short contains ' ' %}
-        {% unless pub.container-title-short == pub.container-title %}
-            {% assign venue = venue | append : " ("  | append: pub.container-title-short | append: ")" %}
-        {% endunless %}
-        {% endunless %}
-    {% endif %}
 
     <div class={{ venueclass}}>
-        {{venue}}
+        {% include publication-venue.html pub=pub %}
     </div>
 
     <div class="publinks">

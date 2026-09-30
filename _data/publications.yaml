@@ -122,8 +122,9 @@ references:
       family: Holmes
       given: Scott
   citation-key: aldeiaFoundationmodelApproachPediatric2026a
-  container-title: Proceedings of the 11th Machine Learning for Healthcare Conference
-  event-title: Machine Learning for Healthcare Conference
+  container-title: Proceedings of Machine Learning Research
+  DOI: https://doi.org/10.48550/arXiv.2608.07287
+  event-title: Machine Learning for Healthcare
   ISSN: 2640-3498
   issued:
     -
@@ -138,6 +139,7 @@ references:
   title: A foundation-model approach to pediatric headache classification from resting-state fMRI
   type: paper-conference
   URL: https://proceedings.mlr.press/v340/aldeia26a.html
+  volume: '340'
 
 -
   id: aldeiaInexactSimplificationSymbolic2024
@@ -194,11 +196,11 @@ references:
       family: Herman
       given: Daniel S.
     -
-      family: Cava
-      given: William La
+      family: La Cava
+      given: William
   citation-key: aldeiaIterativeLearningComputable2025
   container-title: Proceedings of the 10th Machine Learning for Healthcare Conference
-  event-title: Machine Learning for Healthcare Conference
+  event-title: Machine Learning for Healthcare
   issued:
     -
       year: 2025
@@ -206,11 +208,13 @@ references:
       day: 7
   language: en
   note: code=https://github.com/cavalab/htn-phenotyping-with-llms
+  page: 1–21
   publisher: PMLR
   source: proceedings.mlr.press
   title: Iterative Learning of Computable Phenotypes for Treatment Resistant Hypertension using Large Language Models
   type: paper-conference
   URL: https://proceedings.mlr.press/v298/aldeia25a.html
+  volume: '298'
 
 -
   id: aldeiaMinimumVarianceThreshold2024
@@ -1332,6 +1336,7 @@ references:
   title: Fair admission risk prediction with proportional multicalibration
   type: paper-conference
   URL: https://proceedings.mlr.press/v209/la-cava23a.html
+  volume: '209'
 
 -
   id: lacavaFlexibleSymbolicRegression2023a

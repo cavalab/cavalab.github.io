@@ -7,8 +7,10 @@ header:
     teaser-caption: ""
 pubids:
     - lettIntersectionalMarginalDebiasing2025a
+    - cogganDecipheringInfluenceDemographic2025
+    - milaBenefitDoubtPhenomenon2026
+    - liuEquitableSurvivalPrediction2025
     - lacavaFairAdmissionRisk2023b
-    - lettTranslatingIntersectionalityFair2023a
 code:
     - name: "PMCBoost: Proportional Multicalibration Boosting"
       link: github.com/cavalab/pmcboost
@@ -21,4 +23,4 @@ posts:
 ---
 
 We are developing algorithms that can adapt to changing hospital environments in real time and make predictions that are equally accurate among patient subpopulations. 
-We investigate these algorithms for clinical decision support in emergency medicine and other fields. 
+We investigate these algorithms for clinical decision support in emergency medicine and other fields.

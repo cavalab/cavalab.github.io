@@ -1,0 +1,43 @@
+{% comment %}
+Renders a compact venue label from Zotero-exported CSL fields. PMLR is shown as
+the archival proceedings venue, followed by the conference where the work appeared.
+GECCO proceedings use one consistent full-name-plus-acronym label.
+{% endcomment %}
+{% assign pub = include.pub %}
+{% assign venue_fields = pub.event-title | append: " " | append: pub.container-title %}
+{% assign is_pmlr = false %}
+{% if pub.publisher == "PMLR" or pub.URL contains "proceedings.mlr.press" %}
+  {% assign is_pmlr = true %}
+{% endif %}
+{% assign is_gecco = false %}
+{% if venue_fields contains "Genetic and Evolutionary Computation Conference" %}
+  {% assign is_gecco = true %}
+{% endif %}
+
+{% if is_pmlr %}
+  <span class="pubvenue">Proceedings of Machine Learning Research (PMLR)</span>{% if pub.event-title %}{% assign event_label = site.data.conference_labels[pub.event-title] | default: pub.event-title %}<span class="pubconference"> · {{ event_label }}</span>{% endif %}
+{% elsif is_gecco %}
+  <span class="pubvenue">Genetic and Evolutionary Computation Conference{% if pub.container-title contains "Companion" %} Companion{% endif %}</span><span class="pubconference"> (GECCO)</span>
+{% elsif venue_fields contains "Neural Information Processing Systems" %}
+  <span class="pubvenue">{% if pub.container-title contains "Track on Datasets and Benchmarks" %}Neural Information Processing Systems Track on Datasets and Benchmarks{% else %}Advances in Neural Information Processing Systems{% endif %}</span><span class="pubconference"> (NeurIPS)</span>
+{% elsif venue_fields contains "Pacific Symposium on Biocomputing" %}
+  <span class="pubvenue">Pacific Symposium on Biocomputing</span><span class="pubconference"> (PSB)</span>
+{% elsif venue_fields contains "European Conference on Genetic Programming" %}
+  <span class="pubvenue">European Conference on Genetic Programming</span><span class="pubconference"> (EuroGP)</span>
+{% elsif venue_fields contains "European Conference on the Applications of Evolutionary Computation" %}
+  <span class="pubvenue">European Conference on the Applications of Evolutionary Computation</span><span class="pubconference"> (EvoApplications)</span>
+{% elsif venue_fields contains "Parallel Problem Solving from Nature" %}
+  <span class="pubvenue">Parallel Problem Solving from Nature</span><span class="pubconference"> (PPSN)</span>
+{% elsif pub.container-title == "Journal of the American College of Cardiology" %}
+  <span class="pubvenue">Journal of the American College of Cardiology</span><span class="pubconference"> (JACC)</span>
+{% elsif pub.container-title == "American Journal of Obstetrics and Gynecology" %}
+  <span class="pubvenue">American Journal of Obstetrics and Gynecology</span><span class="pubconference"> (AJOG)</span>
+{% elsif pub.event-title %}
+  {{ pub.event-title }}
+{% elsif pub.container-title %}
+  {{ pub.container-title }}
+{% elsif pub.type == "thesis" %}
+  Thesis
+{% else %}
+  Preprint
+{% endif %}

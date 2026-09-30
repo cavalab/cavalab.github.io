@@ -7,16 +7,15 @@ header:
 tag: ai
 layout: project
 pubids:
-    - mayourianPediatricECGBasedDeep2024a
     - mayourianElectrocardiogrambasedDeepLearning2025b
     - mayourianElectrocardiogrambasedDeepLearning2025c
-    - mayourianExpertLevelAutomatedDiagnosis2025a
     - lukyanenkoDeepSurvivalAnalysis2025
     - mayourianDeepLearningBasedElectrocardiogram2024a
+    - yangECGFoundationModel2026b
 posts:
     - title: "Benchmarking mortality risk prediction from electrocardiograms"
 ---
 
 Electrocardiograms (ECGs) are a cheap and ubiquitous measure of the electrical activity of the heart. 
 Advances in AI have demonstrated enormous prognostic value in these tests, above and beyond what clinicians and traditional computerized approaches have yielded. 
-Our work researches AI-ECG technology for predicting future outcomes for patients to assist clinical decision-making.
+Our work develops and evaluates AI-ECG technology that turns routine electrocardiograms into clinically useful predictions. We study cardiac dysfunction, mortality, and longitudinal risk across pediatric and adult congenital heart disease, with an emphasis on robust, multicenter evaluation and practical clinical decision support.
