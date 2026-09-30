@@ -17,6 +17,7 @@
             {% assign separator = "," %}
         {% endif %}
 
+        {% capture author_list %}
         {% for author in pub.author %}
             {% assign member_url = nil %}
             {% if author.literal %}
@@ -53,15 +54,17 @@
             {% else %}
                 {% capture author_out %}{{ author.given }}{% if author.non-dropping-particle %} {{ author.non-dropping-particle }}{% endif %} {{ author.family }}{% endcapture %}
             {% endif %}
-            {% if member_url %}
+            {%- if member_url -%}
                 <a class="pubmember" href="{{ member_url | relative_url }}">{{ author_out }}</a>
-            {% else %}
+            {%- else -%}
                 {{ author_out }}
-            {% endif %}
-            {% if forloop.index < pub.author.size - 1 %}
+            {%- endif -%}
+            {%- if forloop.index < pub.author.size - 1 -%}
                 {{ separator }}
-            {% endif %}
+            {%- endif -%}
         {% endfor %}
+        {% endcapture %}
+        {{ author_list | normalize_whitespace | replace: ", ", "," }}
         ({{ year }})
     </div>
 
