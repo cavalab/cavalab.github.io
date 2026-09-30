@@ -20,6 +20,8 @@ entries_layout: grid
 
 ## Prior Members and Trainees
 
+- Alaa Melek, Visiting PhD Student, UT Austin
+- Neha Dantuluri, MMSc, Department of Biomedical Informatics, Harvard Medical School
 - Alexis Musaelyan, MS Data Science, Northeastern University
 - Shakiba Shahbandegan, Visiting PhD Student, Michigan State University
 - Mingxuan Liu, Visiting PhD Student, National University of Singapore / Duke University

@@ -1,21 +1,3 @@
-neha:
-  name: "Neha Dantuluri, BS BS"
-  avatar: "assets/images/dantuluri-neha.png"
-  bio: "MMSc-BMI Candidate"
-  home: "members/Dantuluri-Neha"
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope"
-      url: "mailto:neha_dantuluri@hms.harvard.edu"
-    - label: "Github"
-      icon: &github "fab fa-fw fa-github"
-      url: "https://github.com/ndantuluri429"
-    - label: "LinkedIn"
-      icon: &linkedin "fab fa-linkedin" 
-      url: "https://www.linkedin.com/in/nehadantuluri/"
-  about: |
-    Neha is an MMSc candidate in Biomedical Informatics at Harvard Medical School. Her research focuses on using computational tools to improve maternal-fetal health outcomes. She graduated from the University of South Florida in 2024 with a B.S. in Biomedical Sciences and a B.S. in Information Sciences. After completing her graduate studies in Biomedical Informatics, she plans to attend medical school. Currently, Neha is working on an AI project involving electronic fetal monitoring, aiming to apply machine learning techniques for equitable and effective clinical deployment.
-
 bill:
   name: "William La Cava, PhD"
   avatar: "assets/images/lacava_profile.JPG"
@@ -154,24 +136,6 @@ blanca:
 
   about: | 
     Blanca Romero Milà is a PhD Intern in the CHIP Summer Internship in Computational Health Informatics and AI. This summer, she is investigating how implicit bias may influence emergency department admissions and Emergency Severity Index triage scores. Blanca is also a PhD candidate in Biomedical Engineering at the University of California, Irvine. She holds a Bachelor's degree in Biomedical Engineering from the University of Barcelona and a Master's Degree from UC Irvine. 
-
-Alaa:
-  name: "Alaa Melek, MS"
-  avatar: "assets/images/melek-alaa.png"
-  bio: "PhD Intern"
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope"
-      url: "mailto:Alaa.Mohamed@childrens.harvard.edu"
-    - label: Google Scholar
-      icon: &scholar "fas fa-graduation-cap"
-      url: "https://scholar.google.com/citations?user=qNjfbGUAAAAJ&hl=en&oi=ao"
-    - label: LinkedIn
-      icon: &linkedin "fab fa-linkedin" 
-      url: "https://www.linkedin.com/in/alaamelek/"
-  about: |
-    Alaa Melek is a PhD student in Biomedical Engineering at The University of Texas at Austin. Her research focuses on developing trustworthy AI for healthcare, with an emphasis on medical imaging, multimodal data integration, and interpretability. She is interested in building AI systems that are both clinically useful and responsibly deployed.
-    In the Cava Lab, she is working on explainable AI approaches for echocardiography to help make deep learning models more transparent and clinically interpretable. 
 
 Ava:
   name: "Ava Fascetti, MS"
