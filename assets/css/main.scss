@@ -146,7 +146,8 @@ https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa4773
 
 .pubauthors .pubmember:hover {
   color: #6b7280;
-  font-style: italic;
+  // font-style: italic;
+  text-decoration: none;
 }
 
 .pubauthors .pubmember:focus {

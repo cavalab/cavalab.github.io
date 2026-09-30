@@ -84,10 +84,8 @@ lorenzo:
   bio: "PhD Student"
   home: "members/Peracchio-Lorenzo"
   about: |
-      Lorenzo Peracchio is a PhD student in Bioengineering, Bioinformatics, and Health Technologies at the University of Pavia, Italy, where he also obtained his 
-      Bachelor's and Master's degrees in Bioengineering. His research focuses on the development of methods for 
-      evaluating, ensuring, and maintaining the trustworthiness of AI systems, in alignment with the requirements outlined by the EU AI Act 
-      and other regulatory bodies. 
+      Lorenzo Peracchio is a PhD student in Bioengineering, Bioinformatics, and Health Technologies at the University of Pavia, Italy, where he also obtained his Bachelor's and Master's degrees in Bioengineering. 
+      His research focuses on the development of methods for evaluating, ensuring, and maintaining the trustworthiness of AI systems, in alignment with the requirements outlined by the EU AI Act and other regulatory bodies. 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
@@ -108,13 +106,20 @@ yuting:
   bio: "Postdoctoral Fellow"
   home: "members/Yang-Yuting"
   links:
+    - label: Website
+      icon: &personal "fas fa-user"
+      url: "https://yang-yuting.github.io/"
     - label: Google Scholar
       icon: *scholar 
       url: "https://scholar.google.com/citations?user=8DHqW_wAAAAJ"
   about: | 
-    Yuting Yang is a postdoctoral research fellow in the [Computational Health Informatics Program](https://www.chip.org/) at Boston Children's Hospital and Harvard Medical School. Working with Timothy Miller and William La Cava, Yuting develops multimodal foundation models for cardiology medical records. Yuting is also affiliated with the [Congenital Heart Artificial Intelligence Lab](https://research.childrenshospital.org/research-units/congenital-heart-artificial-intelligence-lab), collaborating with Joshua Mayourian to develop AI tools for pediatric and congenital heart care.
+    Yuting Yang is a postdoctoral research fellow working with [Timothy Miller](https://tmills.github.io/) and William La Cava.
+    Yuting develops multimodal foundation models for cardiology medical records. 
+    Her current research focuses on multi-modal foundation models for cardiology medical records.
+    Yuting is also affiliated with the [Congenital Heart Artificial Intelligence Lab](https://research.childrenshospital.org/research-units/congenital-heart-artificial-intelligence-lab), collaborating with Joshua Mayourian to develop AI tools for pediatric and congenital heart care.
 
-    Yuting received a PhD from the University of Chinese Academy of Sciences, supervised by Jintao Li and Juan Cao. Doctoral research focused on robust AI, with additional experience in dialogue systems from a research visit at the National University of Singapore with Tat-Seng Chua.
+    Yuting received a PhD from the University of Chinese Academy of Sciences, supervised by Jintao Li and Juan Cao. 
+    Her doctoral research focused on robust AI, with additional experience in dialogue systems from a research visit at the National University of Singapore with Tat-Seng Chua.
 
 helena:
   name: Helena Coggan, PhD
