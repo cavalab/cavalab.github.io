@@ -139,6 +139,21 @@ https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa4773
   font-style:italic;
 }
 
+.pubauthors .pubmember {
+  color: inherit;
+  text-decoration: none;
+}
+
+.pubauthors .pubmember:hover {
+  color: #6b7280;
+  font-style: italic;
+}
+
+.pubauthors .pubmember:focus {
+  color: #6b7280;
+  text-decoration: underline;
+}
+
 .pubvenue {
   font-style: italic;
 }

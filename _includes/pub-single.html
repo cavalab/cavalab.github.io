@@ -18,15 +18,49 @@
         {% endif %}
 
         {% for author in pub.author %}
+            {% assign member_url = nil %}
+            {% if author.literal %}
+                {% assign author_name = author.literal %}
+                {% assign author_literal = author.literal | slugify %}
+            {% else %}
+                {% assign author_given = author.given | split: " " | first | downcase %}
+                {% assign author_given_full = author.given | downcase %}
+                {% assign author_family = author.family | slugify %}
+            {% endif %}
+
+            {% for member in site.members %}
+                {% assign member_given = member.given_name | split: " " | first | downcase %}
+                {% assign member_family = member.family_name | slugify %}
+                {% assign member_family_first = member.family_name | split: " " | first | downcase %}
+                {% assign is_member_author = false %}
+                {% if author.literal %}
+                    {% if author_literal contains member_given and author_literal contains member_family %}
+                        {% assign is_member_author = true %}
+                    {% endif %}
+                {% elsif author_given == member_given %}
+                    {% if author_family == member_family or member_family contains author_family or author_given_full contains member_family_first %}
+                        {% assign is_member_author = true %}
+                    {% endif %}
+                {% endif %}
+                {% if is_member_author %}
+                    {% assign member_url = member.url %}
+                    {% break %}
+                {% endif %}
+            {% endfor %}
+
             {% if author.literal %}
                 {% assign author_out = author.literal %}
             {% else %}
-                {% capture author_out %}{{ author.given }} {{ author.non-dropping-particle }} {{ author.family }}{% endcapture %}
+                {% capture author_out %}{{ author.given }}{% if author.non-dropping-particle %} {{ author.non-dropping-particle }}{% endif %} {{ author.family }}{% endcapture %}
+            {% endif %}
+            {% if member_url %}
+                <a class="pubmember" href="{{ member_url | relative_url }}">{{ author_out }}</a>
+            {% else %}
+                {{ author_out }}
             {% endif %}
             {% if forloop.index < pub.author.size - 1 %}
-                {% assign author_out = author_out | append: separator %}
+                {{ separator }}
             {% endif %}
-            {{ author_out }}
         {% endfor %}
         ({{ year }})
     </div>
