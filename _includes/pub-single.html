@@ -64,7 +64,7 @@
             {%- endif -%}
         {% endfor %}
         {% endcapture %}
-        {{ author_list | normalize_whitespace | replace: ", ", "," }}
+        {{ author_list | normalize_whitespace }}
         ({{ year }})
     </div>
 
