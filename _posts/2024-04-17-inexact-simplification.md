@@ -103,7 +103,7 @@ It is possible to eliminate the task of defining ways to simplify expressions at
 
 {% include citation.html pubid="aldeiaInexactSimplificationSymbolic2024" prefix = "[^inexactsimp]:" %}
 
-{% include citation.html pubid="lacavaContemporarySymbolicRegression2021" prefix = "[^srbench]:" %}
+{% include citation.html pubid="lacavaContemporarySymbolicRegression2021a" prefix = "[^srbench]:" %}
 
 [^lsh]:  Aristides Gionis, Piotr Indyk, and Rajeev Motwani. [n. d.]. Similarity Search in High Dimensions via Hashing. ([n. d.]).
 

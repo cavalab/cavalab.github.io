@@ -20,4 +20,16 @@ if git diff --cached --name-only | grep -q '^_data/publications\.yaml$'; then
   fi
 fi
 
+# Blocks commits that leave a page citing a publication id that isn't in
+# _data/publications.yaml (renders as an empty citation otherwise).
+if git diff --cached --name-only | grep -qE '(^_data/publications\.yaml$|\.(md|html)$)'; then
+  root="$(git rev-parse --show-toplevel)"
+  if ! python3 "$root/scripts/check_pubids.py"; then
+    echo ""
+    echo "Commit blocked. Update the pubid(s) above to match _data/publications.yaml."
+    echo "To bypass once (not recommended): git commit --no-verify"
+    exit 1
+  fi
+fi
+
 exit 0

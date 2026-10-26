@@ -7,11 +7,11 @@ tags: Fairness
 layout: overview
 references:
     - note: inter
-      pubid: lettTranslatingIntersectionalityFair2023
+      pubid: lettTranslatingIntersectionalityFair2023a
     - note: fomo
-      pubid: lacavaOptimizingFairnessTradeoffs2023
+      pubid: lacavaOptimizingFairnessTradeoffs2023a
     - note: pmc
-      pubid: lacavaFairAdmissionRisk2023
+      pubid: lacavaFairAdmissionRisk2023b
     - note: kleinberg
       text: "Kleinberg, J., Mullainathan, S., & Raghavan, M. (2016). Inherent Trade-Offs in the Fair Determination of Risk Scores [Innovations in Theoretical Computer Science (ITCS)](https://doi.org/10.48550/arXiv.1609.05807)"
     - note: gerryfair

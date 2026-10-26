@@ -9,11 +9,11 @@ tags:
     - Interpretability
 references:
     - note: interp
-      pubid: lacavaInterpretationMachineLearning2019a
+      pubid: lacavaInterpretationMachineLearning2019
     - note: srbench
-      pubid: lacavaContemporarySymbolicRegression2021
+      pubid: lacavaContemporarySymbolicRegression2021a
     - note: npj
-      pubid: lacavaFlexibleSymbolicRegression2023
+      pubid: lacavaFlexibleSymbolicRegression2023a
 ---
 
 We study both black-box and glass-box ML methods to improve the intelligibility and/or explainability of models that are trained for clinical prediction tasks using electronic health record (EHR) data.
