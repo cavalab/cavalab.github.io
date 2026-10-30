@@ -51,20 +51,22 @@ references:
       given: Lisa
     - family: McCoy
       given: Jennifer A.
-    - family: Cava
-      given: William La
+    - family: La Cava
+      given: William G.
   citation-key: aldeiaDeepTimetoEventModels2026
+  container-title: Proceedings of Machine Learning Research
   DOI: 10.64898/2026.09.21.26363416
+  event-title: Machine Learning for Health (ML4H)
   issued:
     - year: 2026
       month: 9
       day: 26
   language: en
-  note: code=https://github.com/cavalab/deep-tte-intrapartum-fetal-monitoring
-  publisher: medRxiv
+  note: note=In Press,code=https://github.com/cavalab/deep-tte-intrapartum-fetal-monitoring
+  publisher: PMLR
   source: medRxiv
   title: Deep Time-to-Event Models for Intrapartum Fetal Monitoring
-  type: article
+  type: paper-conference
   URL: https://www.medrxiv.org/content/10.64898/2026.09.21.26363416v1
 
 - id: aldeiaFoundationmodelApproachPediatric2026a
@@ -440,6 +442,31 @@ references:
   title: Demographic Factors Associated with Triage Acuity, Admission and Length of Stay During Adult Emergency Department Visits
   type: article
   URL: http://arxiv.org/abs/2503.22781
+
+- id: cogganModellingSystemicEffects2026
+  author:
+    - family: Coggan
+      given: Helena
+    - family: Georgette
+      given: Nathan
+    - family: Bischops
+      given: Anne Christine
+    - family: Aldeia
+      given: Guilherme Seidyo Imai
+    - family: La Cava
+      given: William
+  citation-key: cogganModellingSystemicEffects2026
+  container-title: Proceedings of Machine Learning Research
+  event-title: Machine Learning for Health (ML4H)
+  issued:
+    - year: 2026
+      month: 9
+      day: 10
+  language: en
+  note: note=In Press
+  publisher: PMLR
+  title: Modelling Systemic Effects of Detecting and Reclassifying Under-Triaged Patients in a Pediatric Emergency Department
+  type: paper-conference
 
 - id: danaiControllerDesignSymbolic2021
   accessed:
