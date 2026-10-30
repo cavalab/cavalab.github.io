@@ -122,11 +122,12 @@
         <a href="{{pdfpath}}/{{pdflink}}">pdf</a>
         
         {% if pub.note %}
-            {% assign items = pub.note | split: ", " %}
+            {% assign pubnote = nil %}
+            {% assign items = pub.note | split: "," %}
             {% for item in items %}
                 {% assign keyval = item | split: "=" %}
-                {% assign key = keyval[0] %}
-                {% assign val = keyval[1] %}
+                {% assign key = keyval[0] | strip %}
+                {% assign val = item | remove_first: keyval[0] | remove_first: "=" | strip %}
                 {% case key %}
                     {% when "code", "post" %}
                         {% unless first %}&nbsp;|&nbsp;{% endunless %} {% assign first = false %}
@@ -138,13 +139,16 @@
                     {% when "awardlink" %}
                         &nbsp;<a href="{{ val }}"><i class="fas fa-external-link-alt"></i> </a>
                     {% when "note" %}
-                        &nbsp;|&nbsp;{{ val }}
+                        {% assign pubnote = val %}
                     {% when "blog" %}
                         {% unless first %}&nbsp;|&nbsp;{% endunless %} {% assign first = false %}
                         <a href="{{site.url}}/{{ val }}">{{ key }}</a>
                     {% else %}
                 {% endcase %}
             {% endfor %}
+            {% if pubnote %}
+                &nbsp;|&nbsp;{{ pubnote }}
+            {% endif %}
         {% endif %}
     </div>
 </div>
