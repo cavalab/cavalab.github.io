@@ -14,6 +14,8 @@
   });
 </script>
 
+<script src="{{ '/assets/js/cava-nav.js' | relative_url }}"></script>
+
 <!-- Dark theme toggle (button lives in _includes/masthead.html) -->
 <script>
   (function () {
@@ -28,21 +30,43 @@
       btn.setAttribute('aria-label', label);
       btn.title = label;
     }
-    syncIcon();
-    btn.addEventListener('click', function () {
-      var dark = !isDark();
+    function setTheme(dark) {
+      if (dark === isDark()) return;
       var old = document.querySelector('link[rel="stylesheet"][href*="/assets/css/main"]');
       var next = document.createElement('link');
       next.rel = 'stylesheet';
       next.href = old.href.replace(/main(-dark)?\.css$/, dark ? 'main-dark.css' : 'main.css');
       // swap only once the new sheet has loaded, to avoid a flash of unstyled page
-      next.onload = function () { old.parentNode.removeChild(old); };
+      next.onload = function () {
+        old.parentNode.removeChild(old);
+        document.dispatchEvent(new Event('cava:themechange'));
+      };
       old.parentNode.insertBefore(next, old.nextSibling);
       if (dark) root.setAttribute('data-theme', 'dark'); else root.removeAttribute('data-theme');
       var meta = document.querySelector('meta[name="theme-color"]');
       if (meta) meta.content = dark ? '#1e222a' : '#ffffff';
-      try { localStorage.setItem('theme', dark ? 'dark' : 'light'); } catch (e) {}
       syncIcon();
+    }
+    var systemDark = window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : null;
+    syncIcon();
+    btn.addEventListener('click', function () {
+      var dark = !isDark();
+      setTheme(dark);
+      // Remember an explicit choice; if it matches the system setting, forget it so we keep following the system
+      try {
+        if (systemDark && dark === systemDark.matches) localStorage.removeItem('theme');
+        else localStorage.setItem('theme', dark ? 'dark' : 'light');
+      } catch (e) {}
     });
+    // Follow live system changes unless the visitor has picked a theme
+    if (systemDark) {
+      var onSystemChange = function (e) {
+        var saved;
+        try { saved = localStorage.getItem('theme'); } catch (err) {}
+        if (saved !== 'dark' && saved !== 'light') setTheme(e.matches);
+      };
+      if (systemDark.addEventListener) systemDark.addEventListener('change', onSystemChange);
+      else if (systemDark.addListener) systemDark.addListener(onSystemChange);
+    }
   })();
 </script>

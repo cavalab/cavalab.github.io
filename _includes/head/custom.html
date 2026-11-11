@@ -20,11 +20,15 @@
 <meta name="msapplication-config" content="/assets/images/browserconfig.xml">
 <meta name="theme-color" content="#ffffff">
 
-<!-- Optional dark theme: swap in main-dark.css before first paint if the visitor chose it -->
+<!-- Dark theme: follow the visitor's saved choice, else their system/browser setting.
+     Swaps in main-dark.css before first paint. -->
 <script>
   (function () {
     var theme;
     try { theme = localStorage.getItem('theme'); } catch (e) {}
+    if (theme !== 'dark' && theme !== 'light') {
+      theme = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
     if (theme !== 'dark') return;
     document.documentElement.setAttribute('data-theme', 'dark');
     var link = document.querySelector('link[rel="stylesheet"][href$="/assets/css/main.css"]');

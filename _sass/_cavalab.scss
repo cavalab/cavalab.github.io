@@ -204,3 +204,25 @@ https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa4773
     color: mix(#888, $primary-color, 25%);
   }
 }
+
+// Home page intro: text with the lab logo vertically centered beside it
+.home-intro {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  margin-bottom: 1em;
+
+  &__text {
+    flex: 1;
+    > :last-child { margin-bottom: 0; }
+  }
+
+  &__logo {
+    flex: none;
+    width: 150px;
+  }
+
+  @media (max-width: 500px) {
+    flex-direction: column;
+  }
+}
