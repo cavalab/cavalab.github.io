@@ -13,3 +13,36 @@
       return katex.renderToString(tex.replace(/%.*/g, ''), {displayMode: true});
   });
 </script>
+
+<!-- Dark theme toggle (button lives in _includes/masthead.html) -->
+<script>
+  (function () {
+    var btn = document.querySelector('.theme__toggle');
+    if (!btn) return;
+    var root = document.documentElement;
+    function isDark() { return root.getAttribute('data-theme') === 'dark'; }
+    function syncIcon() {
+      var icon = btn.querySelector('i');
+      icon.className = isDark() ? 'fas fa-sun' : 'fas fa-moon';
+      var label = isDark() ? 'Switch to light theme' : 'Switch to dark theme';
+      btn.setAttribute('aria-label', label);
+      btn.title = label;
+    }
+    syncIcon();
+    btn.addEventListener('click', function () {
+      var dark = !isDark();
+      var old = document.querySelector('link[rel="stylesheet"][href*="/assets/css/main"]');
+      var next = document.createElement('link');
+      next.rel = 'stylesheet';
+      next.href = old.href.replace(/main(-dark)?\.css$/, dark ? 'main-dark.css' : 'main.css');
+      // swap only once the new sheet has loaded, to avoid a flash of unstyled page
+      next.onload = function () { old.parentNode.removeChild(old); };
+      old.parentNode.insertBefore(next, old.nextSibling);
+      if (dark) root.setAttribute('data-theme', 'dark'); else root.removeAttribute('data-theme');
+      var meta = document.querySelector('meta[name="theme-color"]');
+      if (meta) meta.content = dark ? '#1e222a' : '#ffffff';
+      try { localStorage.setItem('theme', dark ? 'dark' : 'light'); } catch (e) {}
+      syncIcon();
+    });
+  })();
+</script>

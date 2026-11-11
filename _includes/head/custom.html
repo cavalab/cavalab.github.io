@@ -19,3 +19,17 @@
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="msapplication-config" content="/assets/images/browserconfig.xml">
 <meta name="theme-color" content="#ffffff">
+
+<!-- Optional dark theme: swap in main-dark.css before first paint if the visitor chose it -->
+<script>
+  (function () {
+    var theme;
+    try { theme = localStorage.getItem('theme'); } catch (e) {}
+    if (theme !== 'dark') return;
+    document.documentElement.setAttribute('data-theme', 'dark');
+    var link = document.querySelector('link[rel="stylesheet"][href$="/assets/css/main.css"]');
+    if (link) link.href = link.href.replace(/main\.css$/, 'main-dark.css');
+    var meta = document.querySelector('meta[name="theme-color"]');
+    if (meta) meta.content = '#1e222a';
+  })();
+</script>

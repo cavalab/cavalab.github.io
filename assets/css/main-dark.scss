@@ -1,0 +1,30 @@
+---
+# Dark variant of main.scss, swapped in by the theme toggle in the masthead.
+search: false
+---
+
+@charset "utf-8";
+
+// Lighter tint of the lab blue ($info-color in main.scss) so links read on a dark background
+$primary-color: #7fa6ee;
+$background-color: #1e222a;
+$text-color: #e3e5e8;
+$info-color: #7fa6ee;
+
+@import "minimal-mistakes/skins/dark";
+
+$monospace: Monaco, Consolas, "Lucida Console", monospace !default;
+$caption-font-family: $monospace !default;
+
+@import "minimal-mistakes";
+@import "cavalab";
+
+// Dark-only tweaks
+.listpic__item .archive__item-teaser {
+  border-color: $border-color;
+}
+
+// Soften bright images slightly so they don't glare
+.page__content img:not(.author__avatar img) {
+  filter: brightness(0.92);
+}
