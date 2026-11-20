@@ -6,6 +6,7 @@ header:
     teaser: "/assets/images/real-time-fairness-monitoring.png"
     teaser-caption: ""
 pubids:
+    - romeromilaEthnoracialDisparitiesEmergency2026a
     - lettIntersectionalMarginalDebiasing2025a
     - cogganDecipheringInfluenceDemographic2025
     - milaBenefitDoubtPhenomenon2026

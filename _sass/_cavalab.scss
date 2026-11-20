@@ -199,6 +199,16 @@ https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa4773
   background-color: transparent;
   cursor: pointer;
   transition: 0.2s;
+  // Lay the icon out like the masthead links (top of the row, same line height)
+  // so it lines up with their text rather than the row's center
+  display: flex;
+  align-items: flex-start;
+  padding-block: 0;
+  line-height: inherit;
+
+  i {
+    line-height: inherit;
+  }
 
   &:hover {
     color: mix(#888, $primary-color, 25%);

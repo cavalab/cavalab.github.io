@@ -21,7 +21,9 @@
 <meta name="theme-color" content="#ffffff">
 
 <!-- Dark theme: follow the visitor's saved choice, else their system/browser setting.
-     Swaps in main-dark.css before first paint. -->
+     Writes main-dark.css in place of main.css before first paint. document.write keeps
+     it a parser-inserted stylesheet, so later scripts (e.g. cava-nav.js) wait for it;
+     changing the existing link's href instead let them run before the CSS applied. -->
 <script>
   (function () {
     var theme;
@@ -32,7 +34,10 @@
     if (theme !== 'dark') return;
     document.documentElement.setAttribute('data-theme', 'dark');
     var link = document.querySelector('link[rel="stylesheet"][href$="/assets/css/main.css"]');
-    if (link) link.href = link.href.replace(/main\.css$/, 'main-dark.css');
+    if (link) {
+      document.write('<link rel="stylesheet" href="' + link.getAttribute('href').replace(/main\.css$/, 'main-dark.css') + '">');
+      link.parentNode.removeChild(link);
+    }
     var meta = document.querySelector('meta[name="theme-color"]');
     if (meta) meta.content = '#1e222a';
   })();
