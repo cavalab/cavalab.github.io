@@ -2549,11 +2549,11 @@ references:
   URL: https://academic.oup.com/bioinformatics/article/38/3/878/6408434
   volume: '38'
 
-- id: romeromilaEthnoracialDisparitiesEmergency2026
+- id: romeromilaEthnoracialDisparitiesEmergency2026a
   accessed:
     - year: 2026
-      month: 10
-      day: 24
+      month: 11
+      day: 20
   author:
     - family: Romero Milà
       given: Blanca
@@ -2571,22 +2571,25 @@ references:
       given: Pradip P.
     - family: La Cava
       given: William G.
-  citation-key: romeromilaEthnoracialDisparitiesEmergency2026
+  citation-key: romeromilaEthnoracialDisparitiesEmergency2026a
   container-title: Nature Communications
   container-title-short: Nat Commun
   DOI: 10.1038/s41467-026-78526-5
   ISSN: 2041-1723
+  issue: '1'
   issued:
     - year: 2026
       month: 10
       day: 21
   language: en
+  page: '11816'
   publisher: Nature Publishing Group
   source: www.nature.com
   title: 'Ethnoracial disparities in emergency department triage are more pronounced in lower-risk visits: a multicenter study'
   title-short: Ethnoracial disparities in emergency department triage are more pronounced in lower-risk visits
   type: article-journal
   URL: https://www.nature.com/articles/s41467-026-78526-5
+  volume: '17'
 
 - id: spectorRelaxationsLexicaseParent2018
   author:
